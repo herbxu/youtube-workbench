@@ -1,0 +1,267 @@
+{
+  "as_of": "2026-11-06",
+  "sources": [
+    {
+      "id": "old-note",
+      "title": "作者2026-09-24公司基本面复盘",
+      "date": "2026-09-24",
+      "path": "../../../trade/02-复盘/02-决策系统及记录.md",
+      "excerpt": "历史记录认为游戏当时未受影响；仅证明作者旧判断。",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f"
+    },
+    {
+      "id": "app",
+      "title": "红果短剧 App Store 开发者产品介绍",
+      "date": null,
+      "accessed_at": "2026-11-06",
+      "url": "https://apps.apple.com/cn/app/id6451407032",
+      "excerpt": "开发者将产品归于抖音集团，介绍免费短剧及个性化推荐。",
+      "type": "产品自述"
+    },
+    {
+      "id": "qm",
+      "title": "QuestMobile 2026短剧行业洞察报告（作者澎湃号）",
+      "date": "2026-04-13",
+      "period": "2026-02",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32923779",
+      "excerpt": "报告估计红果App月活3.04亿、微信短剧小程序渠道月活4.27亿。两者口径不同且有重合，不能相加。",
+      "type": "第三方测量"
+    },
+    {
+      "id": "business-model",
+      "title": "中国经济周刊：免费微短剧，猛攻长视频",
+      "date": "2024-12-15",
+      "url": "https://paper.people.com.cn/zgjjzk/pc/content/202412/15/content_30051899.html",
+      "excerpt": "采访红果相关负责人介绍广告变现及向内容创作者分账；用于历史商业模式说明，不采用旧预算和用户目标。",
+      "type": "采访中的公司说法"
+    },
+    {
+      "id": "migration",
+      "title": "高梦帆：2025年红果新增视听时长溯源（流媒体网转载收视中国）",
+      "date": "2026-03-20",
+      "url": "https://vv.lmtw.com/mzw/content/detail/id/252297",
+      "excerpt": "基于CSM NewTAM比较2024与2025；减少游戏使用的用户群体中红果时长增加。无原始样本及识别模型，不证明腾讯游戏因果损失。",
+      "type": "数据分析转载，有限采用"
+    },
+    {
+      "id": "tencent-q2",
+      "title": "腾讯截至2026-06-30止三个月及六个月业绩公告",
+      "date": "2026-08-12",
+      "period": "2026Q2",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/C700_IRA.pdf",
+      "path": "../../../raw/公司资料/01-腾讯控股/财报/2026/2026-Q2.pdf",
+      "sha256": "892cfe981b31e2c945b7b11d237ec2d98c97f4253867bb4fd11f6587c8896353",
+      "excerpt": "第6页披露本土游戏收入同比增长17%；第4页称视频号总时长同比增长超过20%，并介绍短剧广告主投放能力。",
+      "locators": [
+        {
+          "physical_page": 6,
+          "row": "管理层讨论及分析／增值服务／本土市场游戏收入",
+          "metric": "收入同比增长",
+          "value": 17,
+          "unit": "%",
+          "scope": "本土市场游戏",
+          "period": "2026-04-01/2026-06-30",
+          "currency": "CNY（增长率无币种）",
+          "status": "原PDF逐页核对"
+        },
+        {
+          "physical_page": 4,
+          "row": "业务回顾及展望／视频号",
+          "metric": "总用户使用时长同比增长",
+          "value": 20,
+          "operator": ">",
+          "unit": "%",
+          "scope": "视频号，不是微信整体人均时长",
+          "period": "2026Q2",
+          "status": "公司披露，原PDF逐页核对"
+        }
+      ]
+    }
+  ],
+  "canonical": "script.json",
+  "claim_mapping": [
+    {
+      "unit": "u-old-view",
+      "sources": [
+        "old-note"
+      ],
+      "kind": "opinion",
+      "claim": "从作者旧判断提出新问题"
+    },
+    {
+      "unit": "u-thesis",
+      "sources": [],
+      "kind": "opinion",
+      "claim": "明确竞争压力与已实现损失的区别"
+    },
+    {
+      "unit": "u-evening",
+      "sources": [],
+      "kind": "hypothetical",
+      "claim": "建立同一个人的娱乐选择"
+    },
+    {
+      "unit": "u-entry",
+      "sources": [
+        "app"
+      ],
+      "kind": "interpretation",
+      "claim": "解释低参与门槛"
+    },
+    {
+      "unit": "u-scale",
+      "sources": [
+        "qm"
+      ],
+      "kind": "fact",
+      "claim": "用有日期的规模证据说明议题重要性"
+    },
+    {
+      "unit": "u-free",
+      "sources": [
+        "app",
+        "business-model"
+      ],
+      "kind": "interpretation",
+      "claim": "解释广告支持的免费模式"
+    },
+    {
+      "unit": "u-loop",
+      "sources": [
+        "app",
+        "business-model"
+      ],
+      "kind": "interpretation",
+      "claim": "从单剧竞争推导供给分发机制"
+    },
+    {
+      "unit": "u-game-demand",
+      "sources": [],
+      "kind": "interpretation",
+      "claim": "区分游戏需求而非只分产品名称"
+    },
+    {
+      "unit": "u-game-social",
+      "sources": [],
+      "kind": "hypothetical",
+      "claim": "解释社交壁垒及其边界"
+    },
+    {
+      "unit": "u-migration",
+      "sources": [
+        "migration"
+      ],
+      "kind": "interpretation",
+      "claim": "有限观测支持跨品类竞争"
+    },
+    {
+      "unit": "u-causality",
+      "sources": [
+        "migration"
+      ],
+      "kind": "interpretation",
+      "claim": "防止把相关性写成腾讯损失"
+    },
+    {
+      "unit": "u-pay",
+      "sources": [],
+      "kind": "hypothetical",
+      "claim": "拆解游戏收入的传导条件"
+    },
+    {
+      "unit": "u-nonpayer",
+      "sources": [],
+      "kind": "interpretation",
+      "claim": "解释非付费用户的间接价值"
+    },
+    {
+      "unit": "u-game-counter",
+      "sources": [
+        "tencent-q2"
+      ],
+      "kind": "fact",
+      "claim": "正面呈现腾讯财报反证"
+    },
+    {
+      "unit": "u-counter-test",
+      "sources": [
+        "tencent-q2"
+      ],
+      "kind": "interpretation",
+      "claim": "避免无法证伪的隐性损失说法"
+    },
+    {
+      "unit": "u-wechat",
+      "sources": [],
+      "kind": "hypothetical",
+      "claim": "拆开微信通讯与内容消费"
+    },
+    {
+      "unit": "u-wechat-boundary",
+      "sources": [],
+      "kind": "interpretation",
+      "claim": "区分关系稳定与内容时间的竞争"
+    },
+    {
+      "unit": "u-ads",
+      "sources": [],
+      "kind": "interpretation",
+      "claim": "解释时长到广告的条件链"
+    },
+    {
+      "unit": "u-video-counter",
+      "sources": [
+        "tencent-q2"
+      ],
+      "kind": "fact",
+      "claim": "保留视频号时长增长的反证及指标边界"
+    },
+    {
+      "unit": "u-inside",
+      "sources": [
+        "qm"
+      ],
+      "kind": "fact",
+      "claim": "区分短剧行业与字节收益"
+    },
+    {
+      "unit": "u-both-sides",
+      "sources": [
+        "tencent-q2",
+        "qm"
+      ],
+      "kind": "interpretation",
+      "claim": "腾讯可能同时受竞争并获益"
+    },
+    {
+      "unit": "u-tradeoff",
+      "sources": [],
+      "kind": "interpretation",
+      "claim": "区分守住用户与守住利润"
+    },
+    {
+      "unit": "u-monitor",
+      "sources": [],
+      "kind": "opinion",
+      "claim": "给出能验证主张的三项观察"
+    },
+    {
+      "unit": "u-falsify",
+      "sources": [],
+      "kind": "opinion",
+      "claim": "明确哪些结果会削弱作者判断"
+    },
+    {
+      "unit": "u-conclusion",
+      "sources": [],
+      "kind": "opinion",
+      "claim": "回收作者主张与判断尺度"
+    },
+    {
+      "unit": "u-ending",
+      "sources": [],
+      "kind": "opinion",
+      "claim": "用开篇同一选择收束"
+    }
+  ]
+}

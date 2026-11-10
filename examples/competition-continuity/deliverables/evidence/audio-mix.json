@@ -1,0 +1,53 @@
+{
+  "voice": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/build/voice.master.wav",
+  "output": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/build/audio.mixed.wav",
+  "tracks": [
+    {
+      "id": "a-u-entry",
+      "type": "sfx",
+      "asset": "media/sfx/click-soft.mp3",
+      "cue": "开一家",
+      "duration": 0.37,
+      "gain_db": -24,
+      "fade": 0.025,
+      "duck": true,
+      "provenance": {
+        "kind": "bundled-sfx",
+        "provider": "media-use / bundled.sfx",
+        "source": "bundled click-soft, see media/sfx/CREDITS.md",
+        "upstream_library": "Pixabay",
+        "license": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "author": "not specified in bundled credits",
+        "usage": "two quiet object landing accents, no music"
+      },
+      "at": 8.0165,
+      "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/media/sfx/click-soft.mp3"
+    },
+    {
+      "id": "a-u-copy",
+      "type": "sfx",
+      "asset": "media/sfx/click-soft.mp3",
+      "cue": "对手挖一挖",
+      "duration": 0.37,
+      "gain_db": -24,
+      "fade": 0.025,
+      "duck": true,
+      "provenance": {
+        "kind": "bundled-sfx",
+        "provider": "media-use / bundled.sfx",
+        "source": "bundled click-soft, see media/sfx/CREDITS.md",
+        "upstream_library": "Pixabay",
+        "license": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "author": "not specified in bundled credits",
+        "usage": "two quiet object landing accents, no music"
+      },
+      "at": 32.71999999999999,
+      "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/media/sfx/click-soft.mp3"
+    }
+  ],
+  "duration": 35.76,
+  "ducking": "voice sidechain, threshold .025, ratio 8, attack 15ms, release 250ms",
+  "listening_review": "pending"
+}

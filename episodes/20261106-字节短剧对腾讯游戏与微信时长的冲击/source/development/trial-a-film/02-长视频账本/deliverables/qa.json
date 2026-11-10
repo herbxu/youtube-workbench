@@ -1,0 +1,19 @@
+{
+  "machine_checks": "passed",
+  "mode": "final",
+  "duration": 39.81075,
+  "drift_seconds": 0.02258300000000446,
+  "coverage_basis": "reference-constrained timings; independent ASR differences in build/voice-review.json",
+  "minimum_text_coverage": 1.0,
+  "editorial_review": "not_automatically_certified",
+  "visual_review": "inspect frames and movie",
+  "audio_lufs": -20.01,
+  "true_peak_dbfs": -2.06,
+  "black_intervals": [],
+  "visual_qa_reused": false,
+  "exported_paper_edges": [],
+  "frames": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/trial-a-film/02-长视频账本/build/frames",
+  "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/trial-a-film/02-长视频账本/deliverables/output.mp4",
+  "movie_sha256": "63974760bcfbef37c85e243ae4cce31f14c0b5e36f8905e2352e552eb2df9088",
+  "input_signature": "394d9f3dfea7454041a89bc07a4bae763de0dc425a024cb946045f051c48cf9d"
+}

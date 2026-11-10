@@ -1,0 +1,486 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "01-八月笔记",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "units": [
+    {
+      "id": "opening",
+      "text": "红果火了，我八月买腾讯的理由还站得住吗？如果三年不涨估值，光靠经营和分红回报够吗？七八月，红果的月人均单日使用时长达到一百五十一分钟。这些时间里，哪一部分原本能替腾讯赚钱？先看长视频。",
+      "shots": [
+        {
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "variant": "record",
+          "surface": "notepaper",
+          "id": "ink-notebook",
+          "cue": "",
+          "transition": "cut",
+          "headline": "八月笔记",
+          "note": "原文与图表",
+          "hypothetical": false,
+          "drawing": [
+            {
+              "shape": "g",
+              "id": "quote",
+              "attrs": {},
+              "children": [
+                {
+                  "shape": "text",
+                  "id": "date",
+                  "attrs": {
+                    "x": 235,
+                    "y": 215,
+                    "font-size": 42,
+                    "fill": "#545e5b",
+                    "opacity": 1,
+                    "text-anchor": "start"
+                  },
+                  "text": "2026.08.24   /   买入腾讯"
+                },
+                {
+                  "shape": "path",
+                  "id": "top-rule",
+                  "attrs": {
+                    "d": "M235 245 H1500",
+                    "fill": "none",
+                    "stroke": "#a8aca7",
+                    "stroke-width": 2,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": false
+                },
+                {
+                  "shape": "text",
+                  "id": "quote-a",
+                  "attrs": {
+                    "x": 235,
+                    "y": 402,
+                    "font-size": 83,
+                    "fill": "#293635",
+                    "opacity": 1,
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "如果三年不发生估值提升，"
+                },
+                {
+                  "shape": "text",
+                  "id": "quote-b",
+                  "attrs": {
+                    "x": 235,
+                    "y": 535,
+                    "font-size": 83,
+                    "fill": "#293635",
+                    "opacity": 1,
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "经营增长和分红"
+                },
+                {
+                  "shape": "text",
+                  "id": "quote-c",
+                  "attrs": {
+                    "x": 235,
+                    "y": 656,
+                    "font-size": 83,
+                    "fill": "#293635",
+                    "opacity": 1,
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "是否仍足以支持持有？"
+                },
+                {
+                  "shape": "path",
+                  "id": "under-a",
+                  "attrs": {
+                    "d": "M824 421 Q960 414 1147 419",
+                    "fill": "none",
+                    "stroke": "#a04432",
+                    "stroke-width": 7,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": true
+                },
+                {
+                  "shape": "path",
+                  "id": "under-b",
+                  "attrs": {
+                    "d": "M238 559 Q525 547 810 556",
+                    "fill": "none",
+                    "stroke": "#a04432",
+                    "stroke-width": 8,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": true
+                },
+                {
+                  "shape": "text",
+                  "id": "today",
+                  "attrs": {
+                    "x": 1060,
+                    "y": 215,
+                    "font-size": 38,
+                    "fill": "#a04432",
+                    "opacity": 1,
+                    "text-anchor": "start"
+                  },
+                  "text": "这次重读   /   红果短剧"
+                },
+                {
+                  "shape": "path",
+                  "id": "red-mark",
+                  "attrs": {
+                    "d": "M1281 228 Q1370 217 1498 225",
+                    "fill": "none",
+                    "stroke": "#a04432",
+                    "stroke-width": 5,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": true
+                }
+              ]
+            },
+            {
+              "shape": "g",
+              "id": "evidence",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "shape": "rect",
+                  "id": "mat",
+                  "attrs": {
+                    "x": 915,
+                    "y": 254,
+                    "width": 753,
+                    "height": 394,
+                    "fill": "#d2d6d0"
+                  }
+                },
+                {
+                  "shape": "image",
+                  "id": "clipping",
+                  "attrs": {
+                    "x": 925,
+                    "y": 262,
+                    "width": 733,
+                    "height": 373,
+                    "preserveAspectRatio": "none"
+                  }
+                },
+                {
+                  "shape": "text",
+                  "id": "src",
+                  "attrs": {
+                    "x": 925,
+                    "y": 224,
+                    "fill": "#293635",
+                    "opacity": 1,
+                    "font-size": 42
+                  },
+                  "text": "《财经》  /  红果短剧"
+                },
+                {
+                  "shape": "text",
+                  "id": "num",
+                  "attrs": {
+                    "x": 924,
+                    "y": 749,
+                    "fill": "#a04432",
+                    "opacity": 0,
+                    "font-size": 74
+                  },
+                  "text": "151 分钟"
+                },
+                {
+                  "shape": "text",
+                  "id": "scope",
+                  "attrs": {
+                    "x": 1287,
+                    "y": 737,
+                    "fill": "#293635",
+                    "opacity": 1,
+                    "font-size": 42
+                  },
+                  "text": "月人均单日时长"
+                },
+                {
+                  "shape": "text",
+                  "id": "credit",
+                  "attrs": {
+                    "x": 929,
+                    "y": 807,
+                    "fill": "#535c59",
+                    "opacity": 1,
+                    "font-size": 32
+                  },
+                  "text": "QuestMobile   ·   2026 年 7—8 月平均"
+                },
+                {
+                  "shape": "path",
+                  "id": "circle",
+                  "attrs": {
+                    "d": "M1447 327 C1510 302 1656 310 1633 343 C1608 382 1447 381 1433 351 Q1429 333 1459 323",
+                    "stroke": "#a04432",
+                    "fill": "none",
+                    "stroke-width": 5,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": true
+                }
+              ]
+            },
+            {
+              "shape": "g",
+              "id": "ask",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "shape": "path",
+                  "id": "arrow",
+                  "attrs": {
+                    "d": "M215 614 q2 45 60 45 m-14 -11 14 11 -18 8",
+                    "stroke": "#a04432",
+                    "fill": "none",
+                    "stroke-width": 4,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "shape": "text",
+                  "id": "query",
+                  "attrs": {
+                    "x": 215,
+                    "y": 760,
+                    "fill": "#943f31",
+                    "opacity": 1,
+                    "font-size": 49
+                  },
+                  "text": "哪些时间能替腾讯赚钱？"
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "target": "red-mark",
+              "cue": "红果火了",
+              "action": "animate",
+              "duration": 0.7,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "target": "under-a",
+              "cue": "三年不涨估值",
+              "action": "animate",
+              "duration": 0.7,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "target": "under-b",
+              "cue": "经营和分红",
+              "action": "animate",
+              "duration": 0.7,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "target": "today",
+              "cue": "回报够吗",
+              "action": "animate",
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              },
+              "duration": 0.4
+            },
+            {
+              "target": "red-mark",
+              "cue": "回报够吗",
+              "action": "animate",
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              },
+              "duration": 0.4
+            },
+            {
+              "target": "quote",
+              "cue": "七八月",
+              "action": "animate",
+              "from": {
+                "scaleX": 1,
+                "scaleY": 1,
+                "x": 0,
+                "y": 0
+              },
+              "to": {
+                "scaleX": 0.61,
+                "scaleY": 0.61,
+                "x": -66,
+                "y": -22
+              },
+              "duration": 1.15
+            },
+            {
+              "target": "evidence",
+              "cue": "七八月",
+              "action": "animate",
+              "from": {
+                "opacity": 0,
+                "x": 112,
+                "y": 16,
+                "rotation": 2
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0,
+                "rotation": 0
+              },
+              "duration": 1.05
+            },
+            {
+              "target": "num",
+              "cue": "一百五十一分钟",
+              "action": "animate",
+              "from": {
+                "opacity": 0,
+                "y": 10
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              },
+              "duration": 0.4
+            },
+            {
+              "target": "circle",
+              "cue": "一百五十一分钟",
+              "action": "animate",
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              },
+              "duration": 0.9
+            },
+            {
+              "target": "ask",
+              "cue": "哪一部分",
+              "action": "animate",
+              "from": {
+                "opacity": 0,
+                "y": 14
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              },
+              "duration": 0.65
+            }
+          ],
+          "purpose": "沿同一纸面用笔迹及图形状态推进推理",
+          "source_id": "personal-decision",
+          "quote": "如果三年不发生估值提升，经营增长和分红是否仍足以支持持有？",
+          "record_date": "2026-08-24",
+          "asset": "media/hongguo-end.png",
+          "provenance": {
+            "source": "《财经》2026年10月20日，研究用图",
+            "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+            "crop_from": "media/hongguo.png"
+          },
+          "source_sha256": "2d50cd1b8fb6523f3857aab9f109e1a277ea1e1b1a6d374feefe934b616660e5",
+          "chart_source_id": "caijing-oct",
+          "paper_tone": "neutral"
+        }
+      ],
+      "audio": "media/opening-edit.wav"
+    }
+  ],
+  "overlays": [
+    {
+      "unit": "opening",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "offset": 0.15,
+      "duration": 3.2,
+      "fade_in": 1.2,
+      "hold": 1,
+      "fade_out": 1,
+      "clear_before_cut": 0.2
+    }
+  ]
+}

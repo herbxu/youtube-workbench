@@ -1,0 +1,30 @@
+{
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/voice-1.wav",
+      "duration_s": 17.345351,
+      "source": "local-macos-say"
+    },
+    {
+      "frame": 2,
+      "path": "assets/voice-2.wav",
+      "duration_s": 18.25093,
+      "source": "local-macos-say"
+    },
+    {
+      "frame": 3,
+      "path": "assets/voice-3.wav",
+      "duration_s": 16.834512,
+      "source": "local-macos-say"
+    },
+    {
+      "frame": 4,
+      "path": "assets/voice-4.wav",
+      "duration_s": 17.113152,
+      "source": "local-macos-say"
+    }
+  ],
+  "bgm": null,
+  "sfx": []
+}

@@ -1,0 +1,219 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "01-八月笔记",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "units": [
+    {
+      "id": "opening",
+      "text": "今年八月买入腾讯时，我有一个期待，耐心等待估值回归。但我也问过自己，如果三年不发生估值提升，经营增长和分红，是否仍足以支持持有？现在，红果抢走的这些时间，究竟会让腾讯少赚多少钱？",
+      "shots": [
+        {
+          "id": "s-note",
+          "kind": "essay_scene",
+          "layout": "motion",
+          "variant": "record",
+          "purpose": "在口播锚点展示笔记或账目变化",
+          "note": "作者原文节选",
+          "headline": "投资笔记",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "date",
+              "type": "text",
+              "text": "2026.08.24　／　买入腾讯",
+              "x": 220,
+              "y": 154,
+              "w": 880,
+              "h": 75,
+              "font": 37,
+              "color": "#865a48",
+              "initial": true
+            },
+            {
+              "id": "expect",
+              "type": "text",
+              "text": "耐心等待估值回归",
+              "x": 220,
+              "y": 268,
+              "w": 1050,
+              "h": 90,
+              "font": 63,
+              "color": "#667669",
+              "initial": true
+            },
+            {
+              "id": "line-a",
+              "type": "text",
+              "text": "如果三年不发生估值提升，",
+              "x": 220,
+              "y": 439,
+              "w": 1470,
+              "h": 112,
+              "font": 80,
+              "color": "#233d38",
+              "initial": false
+            },
+            {
+              "id": "line-b",
+              "type": "text",
+              "text": "经营增长和分红",
+              "x": 220,
+              "y": 553,
+              "w": 1450,
+              "h": 108,
+              "font": 80,
+              "color": "#233d38",
+              "initial": false
+            },
+            {
+              "id": "line-c",
+              "type": "text",
+              "text": "是否仍足以支持持有？",
+              "x": 220,
+              "y": 664,
+              "w": 1450,
+              "h": 108,
+              "font": 80,
+              "color": "#233d38",
+              "initial": false
+            },
+            {
+              "id": "underline",
+              "type": "bar",
+              "x": 780,
+              "y": 535,
+              "w": 320,
+              "h": 6,
+              "font": 24,
+              "color": "#a44834"
+            }
+          ],
+          "events": [
+            {
+              "action": "dim",
+              "target": "expect",
+              "cue": "但我也问过自己",
+              "duration": 0.55
+            },
+            {
+              "target": "line-a",
+              "cue": "如果三年",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "underline",
+              "cue": "估值提升",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "line-b",
+              "cue": "经营增长",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "line-c",
+              "cue": "是否仍足以",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            }
+          ],
+          "surface": "notepaper",
+          "source_id": "personal-decision",
+          "record_date": "2026-08-24",
+          "quote": "如果三年不发生估值提升，经营增长和分红是否仍足以支持持有？"
+        },
+        {
+          "id": "s-time",
+          "kind": "evidence",
+          "cue": "红果",
+          "transition": "cut",
+          "headline": "红果的使用时长",
+          "note": "2026年　App端监测",
+          "source_id": "caijing-oct",
+          "credit": "《财经》据 QuestMobile 数据制图",
+          "page": "月人均单日使用时长",
+          "asset": "media/hongguo.png",
+          "source_sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "provenance": {
+            "source": "《财经》2026年10月20日，研究用图",
+            "url": "https://finance.ifeng.com/c/8xN79QUY80P"
+          },
+          "events": [
+            {
+              "action": "highlight",
+              "cue": "",
+              "rect": [
+                0.805,
+                0.234,
+                0.108,
+                0.048
+              ],
+              "label": "151 分钟\n7—8 月平均",
+              "duration": 0.6
+            }
+          ],
+          "purpose": "标出红果曲线终点及七八月观测期，承接利润问题",
+          "layout": "beside"
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "unit": "opening",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "offset": 0.15,
+      "duration": 3.2,
+      "fade_in": 1.2,
+      "hold": 1,
+      "fade_out": 1,
+      "clear_before_cut": 0.2
+    }
+  ]
+}

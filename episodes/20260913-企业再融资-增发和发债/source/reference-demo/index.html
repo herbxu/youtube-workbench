@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #fdfae7;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    @font-face{font-family:DemoSans;src:url(assets/fonts/noto-sans-sc.ttf) format("truetype");font-weight:100 900} .chrome{position:absolute;inset:0;font-family:DemoSans,sans-serif;pointer-events:none;z-index:30}.brand{position:absolute;left:120px;top:62px;font-size:32px;font-weight:700;color:#111111}.series{position:absolute;left:120px;top:111px;font-size:22px;color:#6b6b6b;letter-spacing:2px}.top-rule{position:absolute;left:120px;right:120px;top:174px;height:1px;background:rgba(30,43,250,.2)}.nav{position:absolute;right:120px;top:76px;font-size:25px;color:#6b6b6b}.chapter{position:absolute;right:120px;top:111px;font-size:22px;color:#1e2bfa}.caption{position:absolute;left:160px;right:160px;top:918px;height:70px;display:flex;align-items:center;justify-content:center;font-family:DemoSans,sans-serif;font-size:39px;font-weight:500;color:#111111;z-index:40}.fineprint{position:absolute;left:120px;bottom:38px;font-size:18px;color:#6b6b6b}.progress-track{position:absolute;left:0;bottom:0;width:1920px;height:5px;background:rgba(30,43,250,.08)}.progress{height:5px;width:1920px;transform-origin:left;background:#1e2bfa}</style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="74.744"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div
+        id="el-01-scene"
+        class="clip scene"
+        data-composition-id="01-scene"
+        data-composition-src="compositions/frames/01-scene.html"
+        data-start="0"
+        data-duration="18.645"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-01-scene-voice"
+        src="assets/voice-1.wav"
+        data-start="0"
+        data-duration="18.645"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-02-scene"
+        class="clip scene"
+        data-composition-id="02-scene"
+        data-composition-src="compositions/frames/02-scene.html"
+        data-start="18.645"
+        data-duration="19.551"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-02-scene-voice"
+        src="assets/voice-2.wav"
+        data-start="18.645"
+        data-duration="19.551"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-03-scene"
+        class="clip scene"
+        data-composition-id="03-scene"
+        data-composition-src="compositions/frames/03-scene.html"
+        data-start="38.196"
+        data-duration="18.135"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-03-scene-voice"
+        src="assets/voice-3.wav"
+        data-start="38.196"
+        data-duration="18.135"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-04-scene"
+        class="clip scene"
+        data-composition-id="04-scene"
+        data-composition-src="compositions/frames/04-scene.html"
+        data-start="56.331"
+        data-duration="18.413"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-04-scene-voice"
+        src="assets/voice-4.wav"
+        data-start="56.331"
+        data-duration="18.413"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+<div id="index-clip-1" class="clip chrome" data-start="0" data-duration="74.744" data-track-index="30"><div class="brand">面朝北北</div><div class="series">企业再融资 / 增发与发债</div><div class="nav">观点 · 判断 · 框架</div><div class="top-rule"></div><div class="fineprint">仅代表个人观点，不构成投资建议</div><div class="progress-track"><div id="film-progress" class="progress"></div></div></div><div id="index-clip-2" class="clip chrome" data-start="0" data-duration="18.645" data-track-index="31"><div class="chapter">01 / 先看判断</div></div><div id="index-clip-3" class="clip chrome" data-start="18.645" data-duration="19.551" data-track-index="31"><div class="chapter">02 / 看清代价</div></div><div id="index-clip-4" class="clip chrome" data-start="38.196" data-duration="18.135" data-track-index="31"><div class="chapter">03 / 问三个问题</div></div><div id="index-clip-5" class="clip chrome" data-start="56.331" data-duration="18.413" data-track-index="31"><div class="chapter">04 / 留下一把尺子</div></div><div id="caption-0" class="clip caption" data-start="0.25" data-duration="1.539" data-track-index="40">看到公司增发</div><div id="caption-1" class="clip caption" data-start="1.792" data-duration="2.382" data-track-index="40">你的第一反应是什么</div><div id="caption-2" class="clip caption" data-start="4.177" data-duration="1.539" data-track-index="40">股权被摊薄了</div><div id="caption-3" class="clip caption" data-start="5.719" data-duration="1.418" data-track-index="40">肯定是坏事</div><div id="caption-4" class="clip caption" data-start="7.14" data-duration="1.298" data-track-index="40">我的看法是</div><div id="caption-5" class="clip caption" data-start="8.441" data-duration="1.900" data-track-index="40">先别急着下结论</div><div id="caption-6" class="clip caption" data-start="10.344" data-duration="1.539" data-track-index="40">融资只是工具</div><div id="caption-7" class="clip caption" data-start="11.886" data-duration="1.539" data-track-index="40">真正要看的是</div><div id="caption-8" class="clip caption" data-start="13.428" data-duration="1.780" data-track-index="40">公司拿到这笔钱</div><div id="caption-9" class="clip caption" data-start="15.21" data-duration="2.382" data-track-index="40">究竟能创造什么价值</div><div id="caption-10" class="clip caption" data-start="18.895" data-duration="0.581" data-track-index="40">增发</div><div id="caption-11" class="clip caption" data-start="19.479" data-duration="2.041" data-track-index="40">是发行新股换现金</div><div id="caption-12" class="clip caption" data-start="21.523" data-duration="3.380" data-track-index="40">原有股东的持股比例可能下降</div><div id="caption-13" class="clip caption" data-start="24.906" data-duration="0.824" data-track-index="40">普通债</div><div id="caption-14" class="clip caption" data-start="25.733" data-duration="0.824" data-track-index="40">是借钱</div><div id="caption-15" class="clip caption" data-start="26.56" data-duration="2.893" data-track-index="40">公司承担还本付息的义务</div><div id="caption-16" class="clip caption" data-start="29.456" data-duration="1.554" data-track-index="40">一个涉及股权</div><div id="caption-17" class="clip caption" data-start="31.014" data-duration="1.676" data-track-index="40">一个增加债务</div><div id="caption-18" class="clip caption" data-start="32.693" data-duration="1.068" data-track-index="40">代价不同</div><div id="caption-19" class="clip caption" data-start="33.763" data-duration="3.380" data-track-index="40">不能只凭工具的名字判断好坏</div><div id="caption-20" class="clip caption" data-start="38.446" data-duration="0.589" data-track-index="40">所以</div><div id="caption-21" class="clip caption" data-start="39.038" data-duration="1.821" data-track-index="40">再看到融资公告</div><div id="caption-22" class="clip caption" data-start="40.861" data-duration="2.191" data-track-index="40">我会先问三个问题</div><div id="caption-23" class="clip caption" data-start="43.055" data-duration="0.589" data-track-index="40">第一</div><div id="caption-24" class="clip caption" data-start="43.647" data-duration="1.451" data-track-index="40">这钱哪来的</div><div id="caption-25" class="clip caption" data-start="45.101" data-duration="0.589" data-track-index="40">第二</div><div id="caption-26" class="clip caption" data-start="45.692" data-duration="1.451" data-track-index="40">拿去干什么</div><div id="caption-27" class="clip caption" data-start="47.147" data-duration="0.589" data-track-index="40">第三</div><div id="caption-28" class="clip caption" data-start="47.738" data-duration="1.205" data-track-index="40">摊薄了谁</div><div id="caption-29" class="clip caption" data-start="48.946" data-duration="1.082" data-track-index="40">这些问题</div><div id="caption-30" class="clip caption" data-start="50.031" data-duration="2.067" data-track-index="40">能把注意力从消息</div><div id="caption-31" class="clip caption" data-start="52.101" data-duration="3.177" data-track-index="40">拉回公司的经营和资本配置</div><div id="caption-32" class="clip caption" data-start="56.581" data-duration="0.583" data-track-index="40">最后</div><div id="caption-33" class="clip caption" data-start="57.167" data-duration="1.804" data-track-index="40">再加上一把尺子</div><div id="caption-34" class="clip caption" data-start="58.973" data-duration="2.414" data-track-index="40">新钱能不能赚回成本</div><div id="caption-35" class="clip caption" data-start="61.39" data-duration="2.048" data-track-index="40">如果只是不断融资</div><div id="caption-36" class="clip caption" data-start="63.441" data-duration="2.536" data-track-index="40">却没有创造相应的价值</div><div id="caption-37" class="clip caption" data-start="65.98" data-duration="1.437" data-track-index="40">才值得警惕</div><div id="caption-38" class="clip caption" data-start="67.42" data-duration="1.071" data-track-index="40">看懂融资</div><div id="caption-39" class="clip caption" data-start="68.494" data-duration="2.292" data-track-index="40">是看懂公司怎样用钱</div><div id="caption-40" class="clip caption" data-start="70.789" data-duration="2.902" data-track-index="40">以及股东为此付出了什么</div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const mainTl=gsap.timeline({paused:true});mainTl.fromTo("#film-progress",{scaleX:0},{scaleX:1,duration:74.744,ease:"none"},0);window.__timelines["main"]=mainTl;
+    </script>
+  </body>
+</html>

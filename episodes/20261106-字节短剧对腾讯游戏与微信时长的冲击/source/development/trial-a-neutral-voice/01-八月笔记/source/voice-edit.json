@@ -1,0 +1,25 @@
+{
+  "source": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-\u5b57\u8282\u77ed\u5267\u5bf9\u817e\u8baf\u6e38\u620f\u4e0e\u5fae\u4fe1\u65f6\u957f\u7684\u51b2\u51fb/source/development/trial-a-r2/01-\u516b\u6708\u7b14\u8bb0/.cache/speech/fa998f2958847d03ed610b89540c1a85eb17afb85248f272a084a2efbde3f1b8/result.wav",
+  "sha256": "28c98e9bee1fed278eb8099d1f0237185ced96c8d6f9f5c9b29733793a12bdb4",
+  "raw_sample_rate": 24000,
+  "ranges_in_samples": [
+    [
+      0,
+      88954
+    ],
+    [
+      126313,
+      224972
+    ],
+    [
+      233022,
+      448090
+    ],
+    [
+      456140,
+      491520
+    ]
+  ],
+  "edge_fade_ms": 4,
+  "tempo": 1.0
+}

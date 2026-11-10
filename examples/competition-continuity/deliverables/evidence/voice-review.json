@@ -1,0 +1,34 @@
+{
+  "units": [
+    {
+      "id": "u-entry",
+      "start": 0.0,
+      "end": 11.13,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "excerpt of existing recording-aligned words; time offset only",
+      "differences": []
+    },
+    {
+      "id": "u-profits",
+      "start": 11.13,
+      "end": 23.68,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "excerpt of existing recording-aligned words; time offset only",
+      "differences": []
+    },
+    {
+      "id": "u-copy",
+      "start": 23.68,
+      "end": 35.76,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "existing measured words, unchanged through 10.46s; removed final phrase in actual audio; no new ASR",
+      "differences": []
+    }
+  ],
+  "difference_times": "relative to each unit audio",
+  "listening_review": "pending",
+  "note": "识别差异用于人工核对，不反向覆盖原稿。"
+}

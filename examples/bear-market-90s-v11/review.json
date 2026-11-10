@@ -1,0 +1,38 @@
+{
+  "movie_sha256": "9ed0d997b28bfd355bc522308dfe77bd8a4512c386c69e5c29fc102083e90d22",
+  "input_signature": "e12b3cb06b5d79d53766b20a6aaf0b1b4d85808cc06618489d1efba0e3510cd1",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "与v10比较仅删除封面副标题，叙事、口播、数值及来源均未变。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": [
+        "原始配音母带与v10逐字节一致，配乐设置未变；未新增主观听审。"
+      ]
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": [
+        "实际MP4 4.3秒抽帧核对：副标题与装饰线已删除；主标题、原图及logo保留。",
+        "浏览器检查无副标题节点、无导航条节点；其他画面沿用v10。整体观感仍待用户验收。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "74项单元测试、脚本校验、编排和最终MP4自动验证通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "复用已有图片及人声，无新图片/TTS请求。",
+        "youtube-visuals沉淀封面不默认加“我的复盘”等说明性标题；youtube-produce运行契约同步可省略副标题。技能格式与文档链接检查通过。"
+      ]
+    }
+  }
+}

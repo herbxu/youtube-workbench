@@ -1,0 +1,584 @@
+{
+  "as_of": "2026-11-06",
+  "revision": "v4",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-distribution",
+      "title": "绿泡泡VS红果果：腾讯的短剧反攻",
+      "date": "2026-10-23",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34311018",
+      "type": "镜象娱乐发表于澎湃号的行业报道，非澎湃记者独立调查或公司原公告",
+      "observation_period": "2026年10月政策与产品报道",
+      "excerpt": "短剧发行载体包括绿泡泡短剧小程序、视频号端原生短剧。",
+      "limitations": "仅采用双端分发路径；未采用其未核验的视频号日活、早期小程序用户数、最高激励比例及未校正季度时长。不是净新增时长或盈利证据。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-fy2025",
+      "title": "腾讯2025年度业绩公告：分部毛利与高毛利收入来源",
+      "url": "https://static.www.tencent.com/uploads/2026/03/18/ea02037a5691a52cf6c908e985953963.pdf",
+      "date": "2026-03-18",
+      "observation_period": "2025-01-01至2025-12-31，历史完整年度结构基准",
+      "type": "发行人原始PDF；经raw当前manifest定位，重新核对原PDF第7—9、32—33页",
+      "path": "source/planning/evidence/tencent-fy2025-announcement.pdf",
+      "sha256": "12c41f47639cf2981d4b009ad468dc639ee342a8c0bf6d262660d1a353114a95",
+      "excerpt": "分部披露毛利，非产品净利；自研游戏、视频号及微信搜一搜为公司指明的高毛利率收入来源。",
+      "limitations": "不证明2026年竞争后仍同等增长；不单列腾讯视频或视频号净利润，不推定未披露为零；分部平均毛利率不等于边际利润率。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "video-profit-history",
+      "title": "孙忠怀在2023年6月发布会披露腾讯视频连续四季度盈利",
+      "url": "https://www.nbd.com.cn/rss/toutiao/articles/2879762.html",
+      "date": "2023-06-19",
+      "observation_period": "2023年6月管理层回顾连续四季度",
+      "type": "每日经济新闻对管理层现场发言的报道",
+      "excerpt": "腾讯视频负责人称连续四个季度盈利。",
+      "limitations": "历史管理层表述，无独立财务表或统一利润口径；不能证明2026年盈利，只用于检验长期一直亏损的前提。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-calendar",
+      "title": "腾讯投资者日历与业绩发布页",
+      "url": "https://www.tencent.com/investors/investor-kit-calendar/",
+      "date": null,
+      "observation_period": "截至2026-11-06",
+      "type": "公司官方当前披露日历",
+      "excerpt": "2026年第三季度业绩列为即将公布；不能取得尚未披露的新季度财务结果。",
+      "limitations": "只核对披露时序；本稿不以Q2增长推断当前竞争结论。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "claims": [
+    {
+      "unit": "u-investment-open",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "看现有利润和增量回报而非只按流量排序"
+        }
+      ],
+      "argument": {
+        "role": "hook",
+        "point": "看现有利润和增量回报而非只按流量排序",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-scale",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "用近期原图确认使用深度",
+          "source_ids": [
+            "caijing-oct"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "用近期原图确认使用深度",
+        "basis": "caijing-oct",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-recent-size",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "规模与深度支持研究竞争但不证明因果损失",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "规模与深度支持研究竞争但不证明因果损失",
+        "basis": "qm-autumn",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-profit-map",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "历史完整年度明确已有毛利结构",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "历史完整年度明确已有毛利结构",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-profit-scope",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "产品与分部毛利和净利不可混淆",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "产品与分部毛利和净利不可混淆",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-video-profit-fact",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "核实亏盈前提不沿用长期亏损标签",
+          "source_ids": [
+            "video-profit-history"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "核实亏盈前提不沿用长期亏损标签",
+        "basis": "video-profit-history",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-longvideo",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "观看替代强不直接等于集团利润损失大"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "观看替代强不直接等于集团利润损失大",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-loss-example",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "亏损业务被动萎缩与主动降本结果相反"
+        }
+      ],
+      "argument": {
+        "role": "example",
+        "point": "亏损业务被动萎缩与主动降本结果相反",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-longvideo-money",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "内容承诺现金支出和会计摊销区分"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "内容承诺现金支出和会计摊销区分",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-longvideo-judgment",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "长视频净影响取决于退出成本与再投资纪律"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "长视频净影响取决于退出成本与再投资纪律",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-channels-existing",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "视频号已有高毛利收入而非仅未来选项",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "视频号已有高毛利收入而非仅未来选项",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-channels-money",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "高贡献收入流失与平均净利率不同"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "高贡献收入流失与平均净利率不同",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-quality",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "广告变现改善可能抵消注意力竞争"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "广告变现改善可能抵消注意力竞争",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-response",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "短剧防守是经营投入而非自动获利",
+          "source_ids": [
+            "wechat-q4",
+            "wechat-distribution"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "短剧防守是经营投入而非自动获利",
+        "basis": "wechat-q4；wechat-distribution",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-ecosystem-net",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "内部转移即便守住时长仍可能稀释利润结构"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "内部转移即便守住时长仍可能稀释利润结构",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-defense-decision",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "防守预算必须由增量现金回报约束"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "防守预算必须由增量现金回报约束",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-game-demand",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "游戏按变现和需求分层"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "游戏按变现和需求分层",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-game-profit",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "核心游戏较弱替代不代表低集团重要性",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "核心游戏较弱替代不代表低集团重要性",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-game-counter",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "同期行业反证约束全面衰退判断",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "同期行业反证约束全面衰退判断",
+        "basis": "qm-autumn",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-game-geography",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "本土与海外敞口分开不能推及全球游戏",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "本土与海外敞口分开不能推及全球游戏",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-wechat-layers",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "通讯低直接变现但维系其他盈利入口"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "通讯低直接变现但维系其他盈利入口",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-commerce",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "交易相关已有利润底座与内容获客风险分开",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "交易相关已有利润底座与内容获客风险分开",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-paid-drama",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "免费迁移导致广告客户和平台收入结构改变"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "免费迁移导致广告客户和平台收入结构改变",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-valuation",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "从笼统下调娱乐增长改为分利润路径评估"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "从笼统下调娱乐增长改为分利润路径评估",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-falsify",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "高毛利收入健康与防守纪律共同检验"
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "高毛利收入健康与防守纪律共同检验",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    },
+    {
+      "unit": "u-ending",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "竞争影响由利润结构和资本配置决定"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "竞争影响由利润结构和资本配置决定",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      }
+    }
+  ],
+  "character_count": 2932,
+  "financial_baseline": "2025完整年度，只说明已有经济结构；非当前竞争结果",
+  "hypothetical_example": {
+    "unit": "u-loss-example",
+    "basis": "任意同一货币单位，简化经营利润，不含税等；不代表腾讯",
+    "before": {
+      "revenue": 100,
+      "cost": 110,
+      "profit": -10
+    },
+    "passive_decline": {
+      "revenue": 80,
+      "cost": 100,
+      "profit": -20
+    },
+    "effective_restructuring": {
+      "revenue": 80,
+      "cost": 70,
+      "profit": 10
+    }
+  },
+  "script_sha256": "9f8dc71a1caaafe5ad005ee1962070266bf0e4f5c37e6a336e755bb09d64f887",
+  "financial_baseline_record": "profit-baseline.json"
+}

@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural.\nCreate one wide 16:9 editorial photograph for a Chinese personal investing video cover. Close overhead photograph of an adult hand holding a simple dark green pen, thoughtfully circling a real excerpt from an investor's review printed on ivory paper. This is an illustrative reconstruction of a real written opinion, not a photograph of an original handwritten journal.\nComposition: LEFT 48 percent is quiet matte warm cream tabletop, EMPTY for a large two-line Chinese headline added later. On the RIGHT 52 percent a large single sheet of paper fills most of the height; very slight clockwise rotation only, nearly straight top-down for readable writing. Hand enters from right edge, pen tip near an understated reddish pencil oval around the first key sentence; hand and pen must not cover any characters. Only paper, hand, and pen; absolutely no coffee, coins, calculator, buildings, plants, screens, other props, scribbles, extra text, graphs, or fake trading data.\nPaper contains ONLY the following exact clean dark printed Chinese text, large and sharp. Date small at top: \"2026.10.23\". Next small heading: \"复盘节选\". Then four clear lines, generously spaced:\n\"坚信的理念：\"\n\"一定要在恐慌的时候买入，\"\n\"在贪婪时卖出。\"\nUse a thin imperfect red oval to emphasize \"恐慌的时候买入\" on the second line without crossing through the letters. Do not invent additional words. No main cover title anywhere, no logo or watermark; original logo will be independently added at bottom right later. Leave bottom-right corner clear.\nWarm soft daylight, believable paper texture, realistic natural hand anatomy, relaxed and thoughtful mood, clean Chinese financial magazine editorial photography, not stock advertising or glossy CGI. The paper and meaningful act of circling the investment judgment are the focal point. Large, close, legible paper, very restrained shadows and a light background behind the future left title.",
+  "source": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+  "lines": "40–42",
+  "quote": "坚信的理念：一定要在恐慌的时候买入，在贪婪时卖出",
+  "asset": "media/cover/journal-review.png",
+  "review": "逐字核对日期和引文，断行并增补句末句号；无账户信息。手与纸是生成情境，不是原稿实拍；标题和原版SVG logo由编排器独立叠加。",
+  "source_sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+  "asset_sha256": "adfc68cf42ee876c4e3a92ecc3e1a829164ee3f3c5659c77a85374016b26e42c",
+  "script_sha256": "e384dae2ed30522928595ad6eb088e7ed9308fa89a4b60631722a7d28ede61fa",
+  "cover_sha256": "039c25cad971800e15e4921027fb801cb2f1446f37ff83f1bfb39c99b86169f3",
+  "status": "v11已移除副标题并完成视频导出；原生成照片未修改。",
+  "movie_sha256": "9ed0d997b28bfd355bc522308dfe77bd8a4512c386c69e5c29fc102083e90d22"
+}

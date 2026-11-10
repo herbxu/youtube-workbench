@@ -1,0 +1,20 @@
+[
+  {
+    "id": "c-question",
+    "label": "红果规模",
+    "start": 0.0,
+    "end": 34.836
+  },
+  {
+    "id": "c-longvideo",
+    "label": "长视频",
+    "start": 34.836,
+    "end": 78.436
+  },
+  {
+    "id": "c-channels",
+    "label": "视频号",
+    "start": 78.436,
+    "end": 90.80000000000001
+  }
+]

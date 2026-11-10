@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "script_basis": "同一门好生意，买价重要；用长期资金在熊市分批买入研究过且价格合适的股权。",
+  "prompt": "Generate a wide 16:9 photorealistic financial magazine cover PHOTO, not a designed poster. Script thesis: in a bear market a long-term investor can buy the SAME sound business at a lower price; Hong Kong investing; calm, thoughtful, optimistic personal growth, not panic. A restrained studio still-life visual metaphor: on the RIGHT half of a warm ivory tabletop stands ONE beautifully realistic small architectural model of a sturdy Hong Kong commercial company building, with two plain paper price tags near its base, one older terracotta tag lying flat and a fresh cream tag standing beside it, suggesting repricing of the same company. No extra props, no charts, no coins, no plants, no people, no unrelated lifestyle decoration. Premium actual photographed miniature materials, soft natural morning window light, fine shadows, warm cream and deep muted green, gentle tactile editorial photography. LEFT 55 percent is very quiet warm pale background for a large Chinese headline to be overlaid later. Keep bottom right corner clear for an original logo to be added separately. No text, numbers, logos, watermarks, fake news, graphs or lettering in the image. Restrained, sophisticated, very clear focal point, believable photographic optics. This is conceptual editorial photography, not evidence of a real company.",
+  "asset": "media/cover/bear-market-business.png",
+  "interpretation": "公司建筑模型与价签的摄影式概念图，不代表购买房产或真实企业新闻；封面标题限定为股票。",
+  "logo": "独立叠加用户原版SVG，不包含在生成照片中",
+  "asset_sha256": "dff5b13fea319e416634e6015c401dc5d47e0061316fbffcc8965d103b9e48b7",
+  "script_sha256": "bbd85fdeeaa18245644534ed7cf6ffae868dadb1e303ac439ea15c8c13f38d8d"
+}

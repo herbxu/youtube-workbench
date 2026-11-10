@@ -1,0 +1,46 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "pending",
+      "evidence": []
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "qa.json"
+      ]
+    },
+    "efficiency": {
+      "status": "pending",
+      "evidence": []
+    }
+  },
+  "warnings": [
+    "book-start：动作后停留较短，检查可读性",
+    "book-start：动作后停留较短，检查可读性",
+    "book-start：动作后停留较短，检查可读性",
+    "contract-stays：动作后停留较短，检查可读性",
+    "s-game-profit：动作后停留较短，检查可读性",
+    "s-game-geography：动作后停留较短，检查可读性",
+    "s-game-geography：动作后停留较短，检查可读性",
+    "s-wechat-layers：动作后停留较短，检查可读性",
+    "s-wechat-layers：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性"
+  ],
+  "review_bound": false,
+  "movie_sha256": "822864bbceafae5ea1a119c74926da566a024c57fed16e6704caae154c9154c3",
+  "input_signature": "bb5c764269d01e0662a1413f85e9dc3fd3fe22097bd0337f322b332ab5c6bbf9",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

@@ -1,0 +1,61 @@
+{
+  "01-八月笔记": {
+    "duration": 20.16,
+    "lufs": -21.01,
+    "voice_speed": 1,
+    "instruction": "",
+    "movie_sha256": "d3717275e3226791ba9655f78bafb7885011e533d9a40a8fd84e42791f58c40a",
+    "machine_checks": "passed",
+    "voice_similarity_full_movie": "pending",
+    "paper_events": 10,
+    "continuous_check": "0–4s disclaimer fade and disappearance",
+    "number_asr_compare": [
+      "七八月 红锅的越人均单日使用时长达到151分钟",
+      "7、8月,宏果的越人均单日使用时长达到151分钟"
+    ]
+  },
+  "02-长视频账本": {
+    "duration": 37.040000000000006,
+    "lufs": -21.01,
+    "voice_speed": 1,
+    "instruction": "",
+    "movie_sha256": "ff63d8552f68129af419255d9b18e78e288e34d1d0a1d22892d764a20811d348",
+    "machine_checks": "passed",
+    "voice_similarity_full_movie": "pending",
+    "paper_events": 35,
+    "account_checks": {
+      "原本亏十": {
+        "seconds": 4.38,
+        "length_pixels": [
+          1000,
+          1100
+        ]
+      },
+      "得看哪些钱": {
+        "seconds": 9.8,
+        "length_pixels": [
+          800,
+          1100
+        ]
+      },
+      "亏二十": {
+        "seconds": 19.28,
+        "length_pixels": [
+          800,
+          1000
+        ]
+      },
+      "赚十": {
+        "seconds": 30.15,
+        "length_pixels": [
+          800,
+          697
+        ]
+      }
+    },
+    "continuous_income_review_s": [
+      9.8,
+      36.99000000000001
+    ]
+  }
+}

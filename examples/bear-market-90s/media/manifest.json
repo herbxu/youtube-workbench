@@ -1,0 +1,26 @@
+{
+  "schema": "opinion-media-manifest/v1",
+  "assets": [
+    {
+      "id": "sample-company",
+      "type": "image",
+      "path": "media/covers/company.png",
+      "sha256": "77ee9aac271d9666ff0349890a31ea13bb6acc41a77320e9d288d71f57afd137",
+      "author": "built-in imagegen",
+      "license_name": "AI-generated for this project",
+      "usage": "illustrative",
+      "provenance": {
+        "kind": "generated",
+        "source": "episodes/20260913-企业再融资-增发和发债/source/cover-simple-warm.json",
+        "reuse": "企业场景概念图，不是实际上市公司照片；本次已查看，保留原色，不需调色。"
+      },
+      "bindings": [
+        "s-sample-1"
+      ],
+      "inspection": {
+        "frames_reviewed": "passed",
+        "technical_probe": "passed"
+      }
+    }
+  ]
+}

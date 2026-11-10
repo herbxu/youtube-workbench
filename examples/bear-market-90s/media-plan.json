@@ -1,0 +1,15 @@
+{
+  "schema": "opinion-media-plan/v1",
+  "requests": [
+    {
+      "id": "m-cover",
+      "shot_id": "s-sample-1",
+      "type": "image",
+      "purpose": "用企业建筑建立长期经营的情境，不充当新闻证据",
+      "status": "selected",
+      "selected_asset_id": "sample-company",
+      "render_status": "bound",
+      "planned_path": "media/covers/company.png"
+    }
+  ]
+}

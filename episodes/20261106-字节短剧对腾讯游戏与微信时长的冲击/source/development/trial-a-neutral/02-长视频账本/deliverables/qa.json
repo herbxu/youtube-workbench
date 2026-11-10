@@ -1,0 +1,59 @@
+{
+  "machine_checks": "passed",
+  "mode": "final",
+  "duration": 39.81075,
+  "drift_seconds": 0.02258300000000446,
+  "coverage_basis": "reference-constrained timings; independent ASR differences in build/voice-review.json",
+  "minimum_text_coverage": 1.0,
+  "editorial_review": "not_automatically_certified",
+  "visual_review": "inspect frames and movie",
+  "audio_lufs": -20.01,
+  "true_peak_dbfs": -2.06,
+  "black_intervals": [],
+  "visual_qa_reused": false,
+  "exported_paper_edges": [
+    {
+      "time": 6.0204585,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 17.2054585,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 31.090375,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    }
+  ],
+  "frames": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/trial-a-neutral/02-长视频账本/build/frames",
+  "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/trial-a-neutral/02-长视频账本/deliverables/output.mp4",
+  "movie_sha256": "eec3e48243166f7ad0a13347caaf02bfe692437a25b9a8a7344cefbb4eda5fd2",
+  "input_signature": "50fd75f0f01e9d572cc30210916ece35684cbbbef1aa451dd6e8719169e024cd"
+}

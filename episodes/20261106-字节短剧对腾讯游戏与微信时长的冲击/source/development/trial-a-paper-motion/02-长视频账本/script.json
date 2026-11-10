@@ -1,0 +1,2257 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "02-长视频账本",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "units": [
+    {
+      "id": "ledger-0",
+      "text": "假设腾讯视频一期收入一百，成本一百一十，原本亏十。现在观众少了，下期收入只有八十。得看哪些钱还要付。",
+      "shots": [
+        {
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "variant": "business",
+          "surface": "accountbook",
+          "id": "book-origin",
+          "cue": "",
+          "transition": "cut",
+          "headline": "利润的差额",
+          "note": "假设算例",
+          "hypothetical": true,
+          "drawing": [
+            {
+              "shape": "path",
+              "id": "margin",
+              "attrs": {
+                "d": "M120 82 V874",
+                "stroke": "#c8bdb1",
+                "fill": "none",
+                "stroke-width": 2,
+                "stroke-linecap": "round"
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "margin-2",
+              "attrs": {
+                "d": "M130 82 V874",
+                "stroke": "#e0d6ca",
+                "fill": "none",
+                "stroke-width": 1,
+                "stroke-linecap": "round"
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "heading",
+              "attrs": {
+                "x": 165,
+                "y": 166,
+                "font-size": 59,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start",
+                "font-family": "StudioNoteSerif,StudioMotion,serif"
+              },
+              "text": "长视频  /  收入与内容成本"
+            },
+            {
+              "shape": "text",
+              "id": "hyp",
+              "attrs": {
+                "x": 1512,
+                "y": 160,
+                "font-size": 37,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "假设算例"
+            },
+            {
+              "shape": "path",
+              "id": "rule",
+              "attrs": {
+                "d": "M165 202 H1755",
+                "fill": "none",
+                "stroke": "#bbb8a5",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "inc",
+              "attrs": {
+                "x": 168,
+                "y": 414,
+                "font-size": 52,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "收入"
+            },
+            {
+              "shape": "text",
+              "id": "cost",
+              "attrs": {
+                "x": 168,
+                "y": 574,
+                "font-size": 52,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "成本"
+            },
+            {
+              "shape": "rect",
+              "id": "itrack",
+              "attrs": {
+                "x": 355,
+                "y": 370,
+                "width": 1200,
+                "height": 54,
+                "fill": "#e7e5d7",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "ctrack",
+              "attrs": {
+                "x": 355,
+                "y": 531,
+                "width": 1200,
+                "height": 54,
+                "fill": "#e7e5d7",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "ibar",
+              "attrs": {
+                "x": 355,
+                "y": 370,
+                "width": 1000.0,
+                "height": 54,
+                "fill": "#256753",
+                "opacity": 0
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "cbar",
+              "attrs": {
+                "x": 355,
+                "y": 531,
+                "width": 1100.0,
+                "height": 54,
+                "fill": "#8b7c68",
+                "opacity": 0
+              }
+            },
+            {
+              "shape": "text",
+              "id": "ival",
+              "attrs": {
+                "x": 1610,
+                "y": 418,
+                "font-size": 66,
+                "fill": "#256753",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "100"
+            },
+            {
+              "shape": "text",
+              "id": "cval",
+              "attrs": {
+                "x": 1610,
+                "y": 578,
+                "font-size": 66,
+                "fill": "#263f39",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "110"
+            },
+            {
+              "shape": "path",
+              "id": "tick0",
+              "attrs": {
+                "d": "M355.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis0",
+              "attrs": {
+                "x": 355.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "0"
+            },
+            {
+              "shape": "path",
+              "id": "tick10",
+              "attrs": {
+                "d": "M455.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick20",
+              "attrs": {
+                "d": "M555.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis20",
+              "attrs": {
+                "x": 555.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "20"
+            },
+            {
+              "shape": "path",
+              "id": "tick30",
+              "attrs": {
+                "d": "M655.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick40",
+              "attrs": {
+                "d": "M755.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis40",
+              "attrs": {
+                "x": 755.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "40"
+            },
+            {
+              "shape": "path",
+              "id": "tick50",
+              "attrs": {
+                "d": "M855.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick60",
+              "attrs": {
+                "d": "M955.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis60",
+              "attrs": {
+                "x": 955.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "60"
+            },
+            {
+              "shape": "path",
+              "id": "tick70",
+              "attrs": {
+                "d": "M1055.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick80",
+              "attrs": {
+                "d": "M1155.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis80",
+              "attrs": {
+                "x": 1155.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "80"
+            },
+            {
+              "shape": "path",
+              "id": "tick90",
+              "attrs": {
+                "d": "M1255.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick100",
+              "attrs": {
+                "d": "M1355.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis100",
+              "attrs": {
+                "x": 1355.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "100"
+            },
+            {
+              "shape": "path",
+              "id": "tick110",
+              "attrs": {
+                "d": "M1455.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick120",
+              "attrs": {
+                "d": "M1555.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis120",
+              "attrs": {
+                "x": 1555.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "120"
+            },
+            {
+              "shape": "path",
+              "id": "axis",
+              "attrs": {
+                "d": "M355 329 H1555",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "g",
+              "id": "gap-first",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "shape": "path",
+                  "id": "gap-first-ink",
+                  "attrs": {
+                    "d": "M1355.0 634 v18 q0 10 10 10 h80.0 q10 0 10 -10 v-18",
+                    "fill": "none",
+                    "stroke": "#a04432",
+                    "stroke-width": 5,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": false
+                },
+                {
+                  "shape": "text",
+                  "id": "gap-first-label",
+                  "attrs": {
+                    "x": 1405.0,
+                    "y": 740,
+                    "font-size": 65,
+                    "fill": "#a04432",
+                    "opacity": 1,
+                    "text-anchor": "middle"
+                  },
+                  "text": "亏 10"
+                }
+              ]
+            },
+            {
+              "shape": "text",
+              "id": "i80",
+              "attrs": {
+                "x": 1610,
+                "y": 418,
+                "font-size": 66,
+                "fill": "#256753",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "80"
+            },
+            {
+              "shape": "text",
+              "id": "past",
+              "attrs": {
+                "x": 355,
+                "y": 844,
+                "font-size": 40,
+                "fill": "#646c60",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "原来的投入，要看多少已经承诺。"
+            },
+            {
+              "shape": "text",
+              "id": "prior",
+              "attrs": {
+                "x": 1607,
+                "y": 501,
+                "fill": "#786e64",
+                "font-size": 30,
+                "opacity": 0
+              },
+              "text": "上期"
+            }
+          ],
+          "events": [
+            {
+              "target": "ibar",
+              "cue": "收入一百",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "target": "ibar",
+              "cue": "收入一百",
+              "action": "animate",
+              "duration": 0.77,
+              "from": {
+                "scaleX": 0.0
+              },
+              "to": {
+                "scaleX": 1.0
+              }
+            },
+            {
+              "target": "ival",
+              "cue": "收入一百",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "target": "cbar",
+              "cue": "成本一百一十",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "target": "cbar",
+              "cue": "成本一百一十",
+              "action": "animate",
+              "duration": 0.77,
+              "from": {
+                "scaleX": 0.0
+              },
+              "to": {
+                "scaleX": 1.0
+              }
+            },
+            {
+              "target": "cval",
+              "cue": "成本一百一十",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "target": "gap-first",
+              "cue": "原本亏十",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "gap-first",
+              "cue": "现在观众少了",
+              "action": "animate",
+              "duration": 0.27,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "ibar",
+              "cue": "下期收入",
+              "action": "animate",
+              "duration": 0.77,
+              "from": {
+                "scaleX": 1.0
+              },
+              "to": {
+                "scaleX": 0.8
+              }
+            },
+            {
+              "target": "ival",
+              "cue": "下期收入",
+              "action": "animate",
+              "duration": 0.27,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "action": "animate",
+              "target": "prior",
+              "cue": "下期收入",
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              },
+              "duration": 0.5
+            },
+            {
+              "target": "i80",
+              "cue": "只有八十",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "target": "past",
+              "cue": "得看哪些钱",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            }
+          ],
+          "purpose": "沿同一纸面用笔迹及图形状态推进推理"
+        }
+      ],
+      "audio": "media/ledger-0-edit.wav"
+    },
+    {
+      "id": "ledger-1",
+      "text": "先看已经签好的版权合同。就算少了人看，这笔钱也得照付。假设成本只能降到一百，就是亏二十。",
+      "shots": [
+        {
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "variant": "business",
+          "surface": "accountbook",
+          "id": "book-locked",
+          "cue": "",
+          "transition": "cut",
+          "headline": "利润的差额",
+          "note": "假设算例",
+          "hypothetical": true,
+          "drawing": [
+            {
+              "shape": "path",
+              "id": "margin",
+              "attrs": {
+                "d": "M120 82 V874",
+                "stroke": "#c8bdb1",
+                "fill": "none",
+                "stroke-width": 2,
+                "stroke-linecap": "round"
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "margin-2",
+              "attrs": {
+                "d": "M130 82 V874",
+                "stroke": "#e0d6ca",
+                "fill": "none",
+                "stroke-width": 1,
+                "stroke-linecap": "round"
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "heading",
+              "attrs": {
+                "x": 165,
+                "y": 166,
+                "font-size": 59,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start",
+                "font-family": "StudioNoteSerif,StudioMotion,serif"
+              },
+              "text": "长视频  /  收入与内容成本"
+            },
+            {
+              "shape": "text",
+              "id": "hyp",
+              "attrs": {
+                "x": 1512,
+                "y": 160,
+                "font-size": 37,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "假设算例"
+            },
+            {
+              "shape": "path",
+              "id": "rule",
+              "attrs": {
+                "d": "M165 202 H1755",
+                "fill": "none",
+                "stroke": "#bbb8a5",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "inc",
+              "attrs": {
+                "x": 168,
+                "y": 414,
+                "font-size": 52,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "收入"
+            },
+            {
+              "shape": "text",
+              "id": "cost",
+              "attrs": {
+                "x": 168,
+                "y": 574,
+                "font-size": 52,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "成本"
+            },
+            {
+              "shape": "rect",
+              "id": "itrack",
+              "attrs": {
+                "x": 355,
+                "y": 370,
+                "width": 1200,
+                "height": 54,
+                "fill": "#e7e5d7",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "ctrack",
+              "attrs": {
+                "x": 355,
+                "y": 531,
+                "width": 1200,
+                "height": 54,
+                "fill": "#e7e5d7",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "ibar",
+              "attrs": {
+                "x": 355,
+                "y": 370,
+                "width": 800.0,
+                "height": 54,
+                "fill": "#256753",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "cbar",
+              "attrs": {
+                "x": 355,
+                "y": 531,
+                "width": 1100.0,
+                "height": 54,
+                "fill": "#8b7c68",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "text",
+              "id": "ival",
+              "attrs": {
+                "x": 1610,
+                "y": 418,
+                "font-size": 66,
+                "fill": "#256753",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "80"
+            },
+            {
+              "shape": "text",
+              "id": "cval",
+              "attrs": {
+                "x": 1610,
+                "y": 578,
+                "font-size": 66,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "110"
+            },
+            {
+              "shape": "path",
+              "id": "tick0",
+              "attrs": {
+                "d": "M355.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis0",
+              "attrs": {
+                "x": 355.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "0"
+            },
+            {
+              "shape": "path",
+              "id": "tick10",
+              "attrs": {
+                "d": "M455.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick20",
+              "attrs": {
+                "d": "M555.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis20",
+              "attrs": {
+                "x": 555.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "20"
+            },
+            {
+              "shape": "path",
+              "id": "tick30",
+              "attrs": {
+                "d": "M655.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick40",
+              "attrs": {
+                "d": "M755.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis40",
+              "attrs": {
+                "x": 755.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "40"
+            },
+            {
+              "shape": "path",
+              "id": "tick50",
+              "attrs": {
+                "d": "M855.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick60",
+              "attrs": {
+                "d": "M955.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis60",
+              "attrs": {
+                "x": 955.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "60"
+            },
+            {
+              "shape": "path",
+              "id": "tick70",
+              "attrs": {
+                "d": "M1055.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick80",
+              "attrs": {
+                "d": "M1155.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis80",
+              "attrs": {
+                "x": 1155.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "80"
+            },
+            {
+              "shape": "path",
+              "id": "tick90",
+              "attrs": {
+                "d": "M1255.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick100",
+              "attrs": {
+                "d": "M1355.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis100",
+              "attrs": {
+                "x": 1355.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "100"
+            },
+            {
+              "shape": "path",
+              "id": "tick110",
+              "attrs": {
+                "d": "M1455.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick120",
+              "attrs": {
+                "d": "M1555.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis120",
+              "attrs": {
+                "x": 1555.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "120"
+            },
+            {
+              "shape": "path",
+              "id": "axis",
+              "attrs": {
+                "d": "M355 329 H1555",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "contract",
+              "attrs": {
+                "x": 355,
+                "y": 844,
+                "font-size": 40,
+                "fill": "#646c60",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "已签的版权合同，仍须付款。"
+            },
+            {
+              "shape": "path",
+              "id": "contract-ink",
+              "attrs": {
+                "d": "M355 855 q225 -8 451 0",
+                "fill": "none",
+                "stroke": "#a04432",
+                "stroke-width": 4,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": true
+            },
+            {
+              "shape": "text",
+              "id": "c100",
+              "attrs": {
+                "x": 1610,
+                "y": 578,
+                "font-size": 66,
+                "fill": "#263f39",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "100"
+            },
+            {
+              "shape": "g",
+              "id": "loss",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "shape": "path",
+                  "id": "loss-ink",
+                  "attrs": {
+                    "d": "M1155.0 634 v18 q0 10 10 10 h180.0 q10 0 10 -10 v-18",
+                    "fill": "none",
+                    "stroke": "#a04432",
+                    "stroke-width": 5,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": false
+                },
+                {
+                  "shape": "text",
+                  "id": "loss-label",
+                  "attrs": {
+                    "x": 1255.0,
+                    "y": 740,
+                    "font-size": 65,
+                    "fill": "#a04432",
+                    "opacity": 1,
+                    "text-anchor": "middle"
+                  },
+                  "text": "亏 20"
+                }
+              ]
+            },
+            {
+              "shape": "text",
+              "id": "prior",
+              "attrs": {
+                "x": 1607,
+                "y": 501,
+                "fill": "#786e64",
+                "font-size": 30,
+                "opacity": 1
+              },
+              "text": "上期"
+            }
+          ],
+          "events": [
+            {
+              "target": "contract",
+              "cue": "先看已经签好",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "contract-ink",
+              "cue": "照付",
+              "action": "animate",
+              "duration": 0.7,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "target": "cbar",
+              "cue": "降到一百",
+              "action": "animate",
+              "duration": 0.77,
+              "from": {
+                "scaleX": 1.0
+              },
+              "to": {
+                "scaleX": 0.9090909090909091
+              }
+            },
+            {
+              "target": "cval",
+              "cue": "降到一百",
+              "action": "animate",
+              "duration": 0.27,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "c100",
+              "cue": "降到一百",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "action": "animate",
+              "target": "prior",
+              "cue": "降到一百",
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              },
+              "duration": 0.24
+            },
+            {
+              "target": "loss",
+              "cue": "亏二十",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            }
+          ],
+          "purpose": "沿同一纸面用笔迹及图形状态推进推理"
+        }
+      ],
+      "audio": "media/ledger-1-edit.wav"
+    },
+    {
+      "id": "ledger-2",
+      "text": "再看另一种情况，同样收八十。明年几部回报差的剧还没签，可以取消。假设成本能降到七十，这样就能赚十。今年签过的合同还要付多少？明年少拍一部剧，究竟能省多少？",
+      "shots": [
+        {
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "variant": "business",
+          "surface": "accountbook",
+          "id": "book-choice",
+          "cue": "",
+          "transition": "cut",
+          "headline": "利润的差额",
+          "note": "假设算例",
+          "hypothetical": true,
+          "drawing": [
+            {
+              "shape": "path",
+              "id": "margin",
+              "attrs": {
+                "d": "M120 82 V874",
+                "stroke": "#c8bdb1",
+                "fill": "none",
+                "stroke-width": 2,
+                "stroke-linecap": "round"
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "margin-2",
+              "attrs": {
+                "d": "M130 82 V874",
+                "stroke": "#e0d6ca",
+                "fill": "none",
+                "stroke-width": 1,
+                "stroke-linecap": "round"
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "heading",
+              "attrs": {
+                "x": 165,
+                "y": 166,
+                "font-size": 59,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start",
+                "font-family": "StudioNoteSerif,StudioMotion,serif"
+              },
+              "text": "长视频  /  收入与内容成本"
+            },
+            {
+              "shape": "text",
+              "id": "hyp",
+              "attrs": {
+                "x": 1512,
+                "y": 160,
+                "font-size": 37,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "假设算例"
+            },
+            {
+              "shape": "path",
+              "id": "rule",
+              "attrs": {
+                "d": "M165 202 H1755",
+                "fill": "none",
+                "stroke": "#bbb8a5",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "inc",
+              "attrs": {
+                "x": 168,
+                "y": 414,
+                "font-size": 52,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "收入"
+            },
+            {
+              "shape": "text",
+              "id": "cost",
+              "attrs": {
+                "x": 168,
+                "y": 574,
+                "font-size": 52,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "成本"
+            },
+            {
+              "shape": "rect",
+              "id": "itrack",
+              "attrs": {
+                "x": 355,
+                "y": 370,
+                "width": 1200,
+                "height": 54,
+                "fill": "#e7e5d7",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "ctrack",
+              "attrs": {
+                "x": 355,
+                "y": 531,
+                "width": 1200,
+                "height": 54,
+                "fill": "#e7e5d7",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "ibar",
+              "attrs": {
+                "x": 355,
+                "y": 370,
+                "width": 800.0,
+                "height": 54,
+                "fill": "#256753",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "rect",
+              "id": "cbar",
+              "attrs": {
+                "x": 355,
+                "y": 531,
+                "width": 1000.0,
+                "height": 54,
+                "fill": "#8b7c68",
+                "opacity": 1
+              }
+            },
+            {
+              "shape": "text",
+              "id": "ival",
+              "attrs": {
+                "x": 1610,
+                "y": 418,
+                "font-size": 66,
+                "fill": "#256753",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "80"
+            },
+            {
+              "shape": "text",
+              "id": "cval",
+              "attrs": {
+                "x": 1610,
+                "y": 578,
+                "font-size": 66,
+                "fill": "#263f39",
+                "opacity": 1,
+                "text-anchor": "start"
+              },
+              "text": "100"
+            },
+            {
+              "shape": "path",
+              "id": "tick0",
+              "attrs": {
+                "d": "M355.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis0",
+              "attrs": {
+                "x": 355.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "0"
+            },
+            {
+              "shape": "path",
+              "id": "tick10",
+              "attrs": {
+                "d": "M455.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick20",
+              "attrs": {
+                "d": "M555.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis20",
+              "attrs": {
+                "x": 555.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "20"
+            },
+            {
+              "shape": "path",
+              "id": "tick30",
+              "attrs": {
+                "d": "M655.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick40",
+              "attrs": {
+                "d": "M755.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis40",
+              "attrs": {
+                "x": 755.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "40"
+            },
+            {
+              "shape": "path",
+              "id": "tick50",
+              "attrs": {
+                "d": "M855.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick60",
+              "attrs": {
+                "d": "M955.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis60",
+              "attrs": {
+                "x": 955.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "60"
+            },
+            {
+              "shape": "path",
+              "id": "tick70",
+              "attrs": {
+                "d": "M1055.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick80",
+              "attrs": {
+                "d": "M1155.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis80",
+              "attrs": {
+                "x": 1155.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "80"
+            },
+            {
+              "shape": "path",
+              "id": "tick90",
+              "attrs": {
+                "d": "M1255.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick100",
+              "attrs": {
+                "d": "M1355.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis100",
+              "attrs": {
+                "x": 1355.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "100"
+            },
+            {
+              "shape": "path",
+              "id": "tick110",
+              "attrs": {
+                "d": "M1455.0 310 v9",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "path",
+              "id": "tick120",
+              "attrs": {
+                "d": "M1555.0 310 v20",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "text",
+              "id": "axis120",
+              "attrs": {
+                "x": 1555.0,
+                "y": 298,
+                "font-size": 30,
+                "fill": "#646c60",
+                "opacity": 1,
+                "text-anchor": "middle"
+              },
+              "text": "120"
+            },
+            {
+              "shape": "path",
+              "id": "axis",
+              "attrs": {
+                "d": "M355 329 H1555",
+                "fill": "none",
+                "stroke": "#646c60",
+                "stroke-width": 2,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": false
+            },
+            {
+              "shape": "g",
+              "id": "loss",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "shape": "path",
+                  "id": "loss-ink",
+                  "attrs": {
+                    "d": "M1155.0 634 v18 q0 10 10 10 h180.0 q10 0 10 -10 v-18",
+                    "fill": "none",
+                    "stroke": "#a04432",
+                    "stroke-width": 5,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": false
+                },
+                {
+                  "shape": "text",
+                  "id": "loss-label",
+                  "attrs": {
+                    "x": 1255.0,
+                    "y": 740,
+                    "font-size": 65,
+                    "fill": "#a04432",
+                    "opacity": 1,
+                    "text-anchor": "middle"
+                  },
+                  "text": "亏 20"
+                }
+              ]
+            },
+            {
+              "shape": "text",
+              "id": "option",
+              "attrs": {
+                "x": 355,
+                "y": 844,
+                "font-size": 40,
+                "fill": "#646c60",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "未签的项目，可以取消。"
+            },
+            {
+              "shape": "path",
+              "id": "cancel-ink",
+              "attrs": {
+                "d": "M355 855 q194 -7 410 -1",
+                "fill": "none",
+                "stroke": "#256753",
+                "stroke-width": 4,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 1
+              },
+              "trace": true
+            },
+            {
+              "shape": "text",
+              "id": "c70",
+              "attrs": {
+                "x": 1610,
+                "y": 578,
+                "font-size": 66,
+                "fill": "#263f39",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "70"
+            },
+            {
+              "shape": "g",
+              "id": "gain",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "shape": "path",
+                  "id": "gain-ink",
+                  "attrs": {
+                    "d": "M1055.0 634 v18 q0 10 10 10 h80.0 q10 0 10 -10 v-18",
+                    "fill": "none",
+                    "stroke": "#256753",
+                    "stroke-width": 5,
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "opacity": 1
+                  },
+                  "trace": false
+                },
+                {
+                  "shape": "text",
+                  "id": "gain-label",
+                  "attrs": {
+                    "x": 1105.0,
+                    "y": 740,
+                    "font-size": 65,
+                    "fill": "#256753",
+                    "opacity": 1,
+                    "text-anchor": "middle"
+                  },
+                  "text": "赚 10"
+                }
+              ]
+            },
+            {
+              "shape": "text",
+              "id": "trace-label",
+              "attrs": {
+                "x": 1310,
+                "y": 744,
+                "font-size": 37,
+                "fill": "#a04432",
+                "opacity": 0,
+                "text-anchor": "start"
+              },
+              "text": "已签时  /  亏 20"
+            },
+            {
+              "shape": "path",
+              "id": "ref-line",
+              "attrs": {
+                "d": "M1355.0 526 V630",
+                "fill": "none",
+                "stroke": "#a04432",
+                "stroke-width": 3,
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": 0
+              },
+              "trace": false
+            },
+            {
+              "shape": "g",
+              "id": "cutoff",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "shape": "path",
+                  "id": "tear-fill",
+                  "attrs": {
+                    "d": "M1055 531 h300 v54 h-297 l-7 -8 7 -8 -7 -8 7 -8 -7 -8 z",
+                    "fill": "#c8a877"
+                  }
+                },
+                {
+                  "shape": "text",
+                  "id": "tear-name",
+                  "attrs": {
+                    "x": 1112,
+                    "y": 570,
+                    "fill": "#3a3027",
+                    "font-size": 35,
+                    "opacity": 1
+                  },
+                  "text": "可取消项目"
+                }
+              ]
+            },
+            {
+              "shape": "path",
+              "id": "perforation",
+              "attrs": {
+                "d": "M1055 513 v88",
+                "stroke": "#9c4935",
+                "fill": "none",
+                "stroke-width": 4,
+                "stroke-linecap": "round"
+              },
+              "trace": true
+            }
+          ],
+          "events": [
+            {
+              "target": "trace-label",
+              "cue": "再看另一种情况",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "loss",
+              "cue": "同样收八十",
+              "action": "animate",
+              "duration": 0.27,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "option",
+              "cue": "还没签",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "cancel-ink",
+              "cue": "可以取消",
+              "action": "animate",
+              "duration": 0.7,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "action": "animate",
+              "target": "cutoff",
+              "cue": "可以取消",
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              },
+              "duration": 0.45
+            },
+            {
+              "target": "ref-line",
+              "cue": "降到七十",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "target": "cbar",
+              "cue": "降到七十",
+              "action": "animate",
+              "duration": 0.9,
+              "from": {
+                "scaleX": 1.0
+              },
+              "to": {
+                "scaleX": 0.7
+              }
+            },
+            {
+              "target": "cval",
+              "cue": "降到七十",
+              "action": "animate",
+              "duration": 0.27,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "c70",
+              "cue": "降到七十",
+              "action": "animate",
+              "duration": 0.35,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            {
+              "action": "animate",
+              "target": "perforation",
+              "cue": "降到七十",
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              },
+              "duration": 0.32
+            },
+            {
+              "action": "animate",
+              "target": "cutoff",
+              "cue": "降到七十",
+              "from": {
+                "x": 0,
+                "y": 0,
+                "rotation": 0
+              },
+              "to": {
+                "x": 83,
+                "y": 100,
+                "rotation": -4
+              },
+              "duration": 0.95
+            },
+            {
+              "target": "gain",
+              "cue": "赚十",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "opacity": 0,
+                "y": 7
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "action": "animate",
+              "target": "cutoff",
+              "cue": "赚十",
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              },
+              "duration": 0.4
+            },
+            {
+              "action": "animate",
+              "target": "trace-label",
+              "cue": "今年签过",
+              "from": {
+                "scaleX": 1,
+                "scaleY": 1
+              },
+              "to": {
+                "scaleX": 1.09,
+                "scaleY": 1.09
+              },
+              "duration": 0.6
+            },
+            {
+              "action": "animate",
+              "target": "gain",
+              "cue": "明年少拍",
+              "from": {
+                "scaleX": 1,
+                "scaleY": 1
+              },
+              "to": {
+                "scaleX": 1.08,
+                "scaleY": 1.08
+              },
+              "duration": 0.5
+            }
+          ],
+          "purpose": "沿同一纸面用笔迹及图形状态推进推理"
+        }
+      ],
+      "audio": "media/ledger-2-edit.wav"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "origin": "/Users/herbxu/Desktop/github/youtube/examples/bear-market-90s-v4",
+  "records": [
+    "pacing-revision.json",
+    "music-level.json",
+    "music-pause-check.json",
+    "voice-profile.json",
+    "planning/"
+  ],
+  "meaning": "从v4保留的历史输入和研究证据。v5只沿用人声与个人经历；v5音乐以music-cue-plan.json为准，实际验证以v5 deliverables与review.json为准。"
+}

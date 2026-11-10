@@ -1,0 +1,33 @@
+{
+  "machine_checks": "passed",
+  "mode": "final",
+  "duration": 21.195792,
+  "drift_seconds": 0.004207999999998435,
+  "coverage_basis": "reference-constrained timings; independent ASR differences in build/voice-review.json",
+  "minimum_text_coverage": 1.0,
+  "editorial_review": "not_automatically_certified",
+  "visual_review": "inspect frames and movie",
+  "audio_lufs": -20.02,
+  "true_peak_dbfs": -3.64,
+  "black_intervals": [],
+  "visual_qa_reused": false,
+  "exported_paper_edges": [
+    {
+      "time": 10.597896,
+      "rgb": [
+        54,
+        63,
+        62
+      ],
+      "expected_rgb": [
+        52,
+        60,
+        61
+      ]
+    }
+  ],
+  "frames": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/trial-a-neutral/01-八月笔记/build/frames",
+  "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/trial-a-neutral/01-八月笔记/deliverables/output.mp4",
+  "movie_sha256": "a330c0ed592a7d8fb094bf284f45d7cebe6a6f9fb174a6fc8fa72a0a00b8c4e2",
+  "input_signature": "624ca1d12b8feb504167651d54f91c8120a966985834f801bb35268b6a442354"
+}

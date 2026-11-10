@@ -1,0 +1,49 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "Agent核对：标题、主张、同一公司200/100元推演、经营前提与结论一致；6个单元没有引入新的市场事实。"
+      ]
+    },
+    "audio": {
+      "status": "failed",
+      "evidence": [
+        "机器综合响度-18.01 LUFS、真峰值-1.81 dBFS；已核对独立ASR的数字格式差异，另有熊/雄与入/路同音识别差异；完整主观听审未完成。",
+        "2026-10-30 用户对当前样片的反馈：转场、语音停顿、画面和活人感完全不行。",
+        "补充信号测量：-40 dBFS／≥0.12秒检出60个低能量间隔，中位0.448秒；非完整主观听审。Aliyun当前未传递unit.delivery，本版局部声音处理为空。详见docs/research/yikouxinfan-bear-sample-comparison.md。"
+      ]
+    },
+    "visual": {
+      "status": "failed",
+      "evidence": [
+        "已查看实际渲染的开场、主张、200元及100元图解帧；并查看最终MP4的买价切换前后、反例和尾帧。未见对象丢失或字幕遮挡；未完成全片连续观看。",
+        "直接file页面的手动seek不含框架clip生命周期，产生重叠字幕，已排除该预览作为导出依据，以实际MP4解码帧为准。",
+        "2026-10-30 用户对当前样片的反馈：转场、语音停顿、画面和活人感完全不行。",
+        "实际MP4抽帧与切口对照：14.48秒默认淡入；约33秒主要为两图标与数字行；作者经历、人物和真实港股处境缺席。可读与无黑场不代表表达和风格通过。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "正式流水线导出与verify通过；时长89.947秒；末端漂移0.0195秒；无持续黑场。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "语速0.9调整至0.96时复用6段TTS原始缓存，无重复合成请求；按新音频重新对齐。"
+      ]
+    }
+  },
+  "warnings": [
+    "s-sample-4：动作后停留较短，检查可读性"
+  ],
+  "review_bound": true,
+  "movie_sha256": "8001d5bacf17ff2c7acf22b1f959b8eac4c6f125d0cc100c49aebbda38fd4c17",
+  "input_signature": "94e2f3494148abf1b5b61745a9f4629b0401e24f81741fd68d1d35da06b28b4f",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

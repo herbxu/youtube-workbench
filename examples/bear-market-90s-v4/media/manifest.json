@@ -1,0 +1,25 @@
+{
+  "schema": "opinion-media-manifest/v1",
+  "assets": [
+    {
+      "id": "first-light-particles",
+      "type": "audio",
+      "path": "media/bgm/first-light-particles.wav",
+      "title": "First Light Particles",
+      "author": "Yoiyami",
+      "source_url": "https://opengameart.org/content/first-light-particles-%E2%80%93-cc0-atmospheric-pianoambient-track",
+      "download_url": "https://opengameart.org/sites/default/files/first_light_particles_0.wav",
+      "license_name": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "checked_on": "2026-10-25",
+      "duration": 131.719979,
+      "inspection": {
+        "technical_probe": "passed",
+        "listened": "pending"
+      },
+      "sha256": "f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5",
+      "license_verification": "2026-10-31 官网搜索索引再次确认CC0；来源页直接抓取403；既有文件哈希与来源台账核对"
+    }
+  ]
+}

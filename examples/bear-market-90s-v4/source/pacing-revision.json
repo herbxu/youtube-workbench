@@ -1,0 +1,92 @@
+{
+  "duration": 89.48637499999998,
+  "hanzi": 328,
+  "shots": 6,
+  "voice_speed": 0.86,
+  "speech_mode": "已认可B音色基础设置，无新增TTS表演指令；改稿并保音高放慢，保留句群自然间隙，只补不足的停顿",
+  "music": "单条连续钢琴氛围曲，-11dB增益，duck恢复750ms，首尾2.2s淡化；不能据参数声称最终听感通过",
+  "pacing": [
+    {
+      "shot": "s-sample-1",
+      "duration": 20.158083,
+      "events": [
+        {
+          "target": "marker",
+          "at": 4.68,
+          "settled_hold_s": 15.078083000000001
+        }
+      ]
+    },
+    {
+      "shot": "s-sample-2",
+      "duration": 10.605124999999997,
+      "events": [
+        {
+          "target": "marker",
+          "at": 23.798083000000002,
+          "settled_hold_s": 6.5651249999999965
+        }
+      ]
+    },
+    {
+      "shot": "s-sample-3",
+      "duration": 14.204791999999998,
+      "events": [
+        {
+          "target": "income",
+          "at": 33.163208,
+          "settled_hold_s": 11.204792
+        },
+        {
+          "target": "price",
+          "at": 40.043208,
+          "settled_hold_s": 4.224791999999996
+        },
+        {
+          "target": "rate",
+          "at": 40.043208,
+          "settled_hold_s": 4.224791999999996
+        }
+      ]
+    },
+    {
+      "shot": "s-sample-4",
+      "duration": 15.009332999999998,
+      "events": [
+        {
+          "target": "price",
+          "at": 49.147999999999996,
+          "settled_hold_s": 10.029332999999998
+        },
+        {
+          "target": "rate",
+          "at": 49.147999999999996,
+          "settled_hold_s": 10.029332999999998
+        }
+      ]
+    },
+    {
+      "shot": "s-sample-5",
+      "duration": 10.975874999999995,
+      "events": [
+        {
+          "target": "income",
+          "at": 63.137333,
+          "settled_hold_s": 7.015874999999991
+        },
+        {
+          "target": "rate",
+          "at": 65.59733299999999,
+          "settled_hold_s": 4.755874999999998
+        }
+      ]
+    },
+    {
+      "shot": "s-closing-action",
+      "duration": 18.53316699999999,
+      "events": []
+    }
+  ],
+  "before_evidence": "../../../docs/research/evidence/bear-v3-pacing/contact-sheet.jpg",
+  "full_listening": "pending"
+}

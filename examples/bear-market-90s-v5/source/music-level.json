@@ -1,0 +1,18 @@
+{
+  "source_measurement": {
+    "input_i": "-20.75",
+    "input_tp": "-6.73",
+    "input_lra": "4.70",
+    "input_thresh": "-30.79",
+    "output_i": "-20.08",
+    "output_tp": "-5.95",
+    "output_lra": "4.80",
+    "output_thresh": "-30.13",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "gain_db": -11,
+  "duck_release_ms": 750,
+  "listening": "pending",
+  "source_url": "https://opengameart.org/node/182244"
+}

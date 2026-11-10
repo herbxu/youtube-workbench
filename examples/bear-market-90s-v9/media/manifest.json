@@ -1,0 +1,68 @@
+{
+  "schema": "opinion-media-manifest/v1",
+  "assets": [
+    {
+      "id": "happy-moments-1.3",
+      "type": "audio",
+      "path": "media/bgm/happy-moments-1.3.ogg",
+      "title": "Happy moments 1.3",
+      "author": "Centurion_of_war",
+      "source_url": "https://opengameart.org/content/happy-moments",
+      "download_url": "https://opengameart.org/sites/default/files/piano1.3_0.ogg",
+      "license_name": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "sha256": "427a4a557b29695263da90c42e6f41a43e9078b7eafa9926163f5e2515547fcf",
+      "duration": 51.2,
+      "inspection": {
+        "technical_probe": "passed",
+        "listened": "pending"
+      }
+    },
+    {
+      "id": "happy-moments-1.4",
+      "type": "audio",
+      "path": "media/bgm/happy-moments-1.4.ogg",
+      "title": "Happy moments 1.4",
+      "author": "Centurion_of_war",
+      "source_url": "https://opengameart.org/content/happy-moments",
+      "download_url": "https://opengameart.org/sites/default/files/piano1.4_0.ogg",
+      "license_name": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "sha256": "c8a94e9bc928e6701784c6533a467392f7fee7490c53c65766401a71e5d5b496",
+      "duration": 76.8,
+      "inspection": {
+        "technical_probe": "passed",
+        "listened": "pending"
+      }
+    },
+    {
+      "id": "cover-bear-business",
+      "type": "image",
+      "path": "media/cover/bear-market-business.png",
+      "sha256": "dff5b13fea319e416634e6015c401dc5d47e0061316fbffcc8965d103b9e48b7",
+      "provenance": {
+        "kind": "generated",
+        "tool": "image_gen",
+        "prompt_record": "source/cover-generation.json",
+        "meaning": "以同一家公司模型及两枚价签表现同一门生意可以有不同买价；非真实公司或新闻照片"
+      }
+    },
+    {
+      "id": "channel-logo",
+      "type": "logo",
+      "path": "media/branding/channel.svg",
+      "sha256": "147d07ddada9176d749ec53859148acbb43257a29e3c9350820353b8b8ce3c60",
+      "provenance": {
+        "name": "面朝北北",
+        "asset": "resources/branding/mianchao-beibei.svg",
+        "source": "用户2026-10-25提供面朝北北.svg",
+        "original_asset": "episodes/20260913-企业再融资-增发和发债/media/branding/channel.svg",
+        "source_record": "episodes/20260913-企业再融资-增发和发债/source/branding.json",
+        "sha256": "147d07ddada9176d749ec53859148acbb43257a29e3c9350820353b8b8ce3c60",
+        "usage": "封面右下角独立叠加原始SVG，保持比例与路径图形，不重新生成或用文字替代。"
+      }
+    }
+  ]
+}

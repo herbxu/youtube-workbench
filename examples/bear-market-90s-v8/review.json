@@ -1,0 +1,39 @@
+{
+  "movie_sha256": "7a37a40aa800ac34d7a604f71814eeca836afdfec06f93c7eeede3fb538e06c4",
+  "input_signature": "9577c92bbbc77ca42012e7cd1803e748d3e876c9230365a0869f3df16835d753",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "沿用v7口播、数值与trade来源；封面新增“同一生意、不同买价”的生成照片情境，不充当真实公司或新闻证据。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": [
+        "混音母带与v7逐字节相同；未重新TTS。主观听感仍待用户试听。"
+      ]
+    },
+    "visual": {
+      "status": "failed",
+      "evidence": [
+        "实际MP4在4.3秒与80.8秒抽帧核对封面、原版logo与收窄资金卡；制作说明已移除。",
+        "9个文字对齐状态误差小于0.25px；34个动画事件可重复定位检查通过。整段连续观看与主观风格评价尚未完成。",
+        "用户本轮反馈“布局还是不好”：恐慌/的时候/买入分散，长期持有大框与下方关系式争夺焦点；截图保存在../bear-market-90s-v9/source/feedback/。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "脚本validate、环境doctor、编排与实际MP4自动验证通过；未改生产代码。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "复用人声与混音；封面通过内置image_gen生成1次。logo独立使用原版SVG。",
+        "youtube-visuals、youtube-media、youtube-produce相关规则与文档链接检查通过；封面制作说明检查已补强。"
+      ]
+    }
+  }
+}

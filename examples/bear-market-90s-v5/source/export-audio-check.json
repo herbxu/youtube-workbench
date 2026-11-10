@@ -1,0 +1,27 @@
+{
+  "movie_sha256": "2cfda3b0470d906f643fcd99c77f8863784cc3b8d355ffa5d0469465d8bdf794",
+  "passed": true,
+  "checks": [
+    {
+      "section": "intro",
+      "correlation_with_mixed_master": 0.9999823,
+      "aac_error_dbfs": -67.48
+    },
+    {
+      "section": "math",
+      "correlation_with_mixed_master": 0.9999841,
+      "aac_error_dbfs": -68.16
+    },
+    {
+      "section": "risk_dry_voice",
+      "correlation_with_mixed_master": 0.9999948,
+      "aac_error_dbfs": -72.33
+    },
+    {
+      "section": "ending",
+      "correlation_with_mixed_master": 0.9999697,
+      "aac_error_dbfs": -64.79
+    }
+  ],
+  "scope": "实际MP4解码与已验证的混音母带对照，覆盖三段音乐及无配乐区间。不是主观听审。"
+}

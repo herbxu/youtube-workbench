@@ -1,0 +1,8 @@
+{
+  "reference": "media/voice-reference/author.mp3",
+  "voice_id": "qwen-audio-3.0-tts-plus-naturalv2-1f7ec7f819964c1f815606a0d47fe1bc",
+  "user_feedback_on_v3": "声音还行，停顿需配合背景音乐；速度太快，缺聊天感",
+  "voice_identity": "保留既有作者授权B音色",
+  "current_listening": "pending",
+  "processing": "改写口播，0.86倍保音高放慢；只补不足句群间隙，持续BGM侧链混音；真实输出重新对齐"
+}

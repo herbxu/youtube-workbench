@@ -1,0 +1,42 @@
+{
+  "movie_sha256": "2213dedad12e5c5e45a38322125acc047f0ba5e7342cd22e6ef8316b31e157cf",
+  "input_signature": "7f0b5cc144ef42b12bb47213605863fd4f62bec0dbf686b7d6517f561c5a4a41",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "正文与上一版相同；原文节选仅缩短至有关部分，未改写；价格与收入算例及假设标注一致。"
+      ]
+    },
+    "audio": {
+      "status": "failed",
+      "evidence": [
+        "恢复历史B候选实际基础设置；6段回执均无instruction、无unit.delivery，voice_speed=1，无局部强调；原速86.32秒。最终混音-20.01LUFS，峰值-3.19dBFS。",
+        "独立ASR核对到正确金额和百分比；保留数字书写、同音字及买入/买路的差异，未完成主观听审。音色相似度与自然度待用户试听。",
+        "用户最新反馈：声音还行，但速度太快、缺聊天感；需要停顿配合背景音乐。音色单项认可，表达与音乐未通过。"
+      ]
+    },
+    "visual": {
+      "status": "failed",
+      "evidence": [
+        "实际MP4九镜头中点及价格/收入变化前、中、后抽帧已审阅；无计算器、咖啡照片和金币，复盘按意思换行。",
+        "两组浏览器正向与倒序定位通过；价格200→100时收入保持10，讲经营变差后收入10→5。",
+        "build/final-contact-sheet.jpg；build/transitions-contact-sheet.jpg；build/seek-check.json。未完成全片连续观看与用户风格验收。",
+        "用户反馈画面太快；实际切口截图确认第一算式完成后仅停1.38秒，末段复盘强调后仅停0.82秒。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "67项单元测试通过，末次排版调整后3项相关测试通过；HyperFrames检查无运行时/布局/运动/对比度错误，9条既有单层结构警告保留。",
+        "实际MP4 1920×1080、30fps，86.333333秒；音画差0.013333秒，无持续黑场，verify通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "仅6次新配音请求，随后对齐、排版修正及渲染复用音频；旧版文件保留，未上传发布。"
+      ]
+    }
+  }
+}

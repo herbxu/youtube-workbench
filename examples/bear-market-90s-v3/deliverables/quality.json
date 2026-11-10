@@ -1,0 +1,41 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "正文与上一版相同；原文节选仅缩短至有关部分，未改写；价格与收入算例及假设标注一致。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "67项单元测试通过，末次排版调整后3项相关测试通过；HyperFrames检查无运行时/布局/运动/对比度错误，9条既有单层结构警告保留。",
+        "实际MP4 1920×1080、30fps，86.333333秒；音画差0.013333秒，无持续黑场，verify通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "仅6次新配音请求，随后对齐、排版修正及渲染复用音频；旧版文件保留，未上传发布。"
+      ]
+    }
+  },
+  "warnings": [
+    "s-sample-6：动作后停留较短，检查可读性"
+  ],
+  "review_bound": true,
+  "movie_sha256": "2213dedad12e5c5e45a38322125acc047f0ba5e7342cd22e6ef8316b31e157cf",
+  "input_signature": "7f0b5cc144ef42b12bb47213605863fd4f62bec0dbf686b7d6517f561c5a4a41",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

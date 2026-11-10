@@ -1,0 +1,60 @@
+{
+  "machine_checks": "passed",
+  "mode": "final",
+  "duration": 89.48637499999998,
+  "drift_seconds": 0.013625000000018872,
+  "coverage_basis": "reference-constrained timings; independent ASR differences in build/voice-review.json",
+  "minimum_text_coverage": 1.0,
+  "editorial_review": "not_automatically_certified",
+  "visual_review": "inspect frames and movie",
+  "audio_lufs": -20.03,
+  "true_peak_dbfs": -2.61,
+  "black_intervals": [],
+  "visual_qa_reused": false,
+  "exported_paper_edges": [
+    {
+      "time": 12.4190415,
+      "rgb": [
+        243,
+        241,
+        228
+      ]
+    },
+    {
+      "time": 25.4606455,
+      "rgb": [
+        243,
+        241,
+        228
+      ]
+    },
+    {
+      "time": 37.865604,
+      "rgb": [
+        243,
+        241,
+        228
+      ]
+    },
+    {
+      "time": 52.472666499999995,
+      "rgb": [
+        243,
+        241,
+        228
+      ]
+    },
+    {
+      "time": 65.46527049999999,
+      "rgb": [
+        243,
+        241,
+        228
+      ]
+    }
+  ],
+  "frames": "/Users/herbxu/Desktop/github/youtube/examples/bear-market-90s-v11/build/frames",
+  "movie": "/Users/herbxu/Desktop/github/youtube/examples/bear-market-90s-v11/deliverables/output.mp4",
+  "movie_sha256": "9ed0d997b28bfd355bc522308dfe77bd8a4512c386c69e5c29fc102083e90d22",
+  "input_signature": "e12b3cb06b5d79d53766b20a6aaf0b1b4d85808cc06618489d1efba0e3510cd1"
+}

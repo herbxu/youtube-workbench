@@ -1,0 +1,100 @@
+[
+  {
+    "shot": "ink-notebook",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/hongguo-end.png",
+    "sha256": "2d50cd1b8fb6523f3857aab9f109e1a277ea1e1b1a6d374feefe934b616660e5",
+    "provenance": {
+      "source": "《财经》2026年10月20日，研究用图",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "crop_from": "media/hongguo.png"
+    }
+  },
+  {
+    "shot": "s-scale",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/scale-detail.png",
+    "sha256": "6b66838241ec08f89cd92953ab662d598f958bcdb5dd79a68dfa187664def99c",
+    "provenance": {
+      "original": "source/planning/evidence/caijing-daily-time.png",
+      "original_sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+      "crop": "1000:518:36:150",
+      "credit": "《财经》制图 · QuestMobile 数据"
+    }
+  },
+  {
+    "shot": "s-scale-b",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/scale-detail.png",
+    "sha256": "6b66838241ec08f89cd92953ab662d598f958bcdb5dd79a68dfa187664def99c",
+    "provenance": {
+      "original": "source/planning/evidence/caijing-daily-time.png",
+      "original_sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+      "crop": "1000:518:36:150",
+      "credit": "《财经》制图 · QuestMobile 数据"
+    }
+  },
+  {
+    "shot": "s-recent-size",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/recent-size-detail.png",
+    "sha256": "8eb5ab552cb21e06fa21ba7fcfed993fa357ee23f2ff0da2375fba2dbbaa15f9",
+    "provenance": {
+      "original": "source/planning/evidence/qm-growth-september.jpg",
+      "original_sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+      "crop": "788:303:6:264",
+      "credit": "QuestMobile · 2026 秋季报告"
+    }
+  },
+  {
+    "shot": "s-recent-size-b",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/recent-size-detail.png",
+    "sha256": "8eb5ab552cb21e06fa21ba7fcfed993fa357ee23f2ff0da2375fba2dbbaa15f9",
+    "provenance": {
+      "original": "source/planning/evidence/qm-growth-september.jpg",
+      "original_sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+      "crop": "788:303:6:264",
+      "credit": "QuestMobile · 2026 秋季报告"
+    }
+  },
+  {
+    "shot": "s-channels-existing",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/channels-existing-detail.png",
+    "sha256": "8e0dcaa1eb5766be268687b23d2c1ee096d752433fdad5b19f08e87f74be3bd6",
+    "provenance": {
+      "original": "source/planning/evidence/tencent-fy2025-gross-profit-p8.png",
+      "original_sha256": "0816f29f3a752e664d7f0d08540a75da004493108d4a0e2c013febf833ef704d",
+      "crop": "884:202:116:301",
+      "credit": "腾讯 2025 年全年业绩公告 · 第 8 页"
+    }
+  },
+  {
+    "shot": "s-channels-existing-b",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/channels-existing-detail.png",
+    "sha256": "8e0dcaa1eb5766be268687b23d2c1ee096d752433fdad5b19f08e87f74be3bd6",
+    "provenance": {
+      "original": "source/planning/evidence/tencent-fy2025-gross-profit-p8.png",
+      "original_sha256": "0816f29f3a752e664d7f0d08540a75da004493108d4a0e2c013febf833ef704d",
+      "crop": "884:202:116:301",
+      "credit": "腾讯 2025 年全年业绩公告 · 第 8 页"
+    }
+  },
+  {
+    "shot": "s-game-counter",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/game-counter-detail.png",
+    "sha256": "bec3ca29e3d44bceab9224f271abfaaa6aceedc04d4f9bbebc7a2b2aba164e74",
+    "provenance": {
+      "original": "source/planning/evidence/qm-games-september.jpg",
+      "original_sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+      "crop": "942:525:8:36",
+      "credit": "QuestMobile · 2026 年 9 月"
+    }
+  },
+  {
+    "shot": "s-game-counter-b",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/game-counter-detail.png",
+    "sha256": "bec3ca29e3d44bceab9224f271abfaaa6aceedc04d4f9bbebc7a2b2aba164e74",
+    "provenance": {
+      "original": "source/planning/evidence/qm-games-september.jpg",
+      "original_sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+      "crop": "942:525:8:36",
+      "credit": "QuestMobile · 2026 年 9 月"
+    }
+  }
+]

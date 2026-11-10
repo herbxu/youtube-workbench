@@ -1,0 +1,220 @@
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Intel)" renderer="ANGLE (Intel, ANGLE Metal Renderer: Intel(R) UHD Graphics 630, Unspecified Version)")
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"footage-credit\" data-start=\"0.0\" data-track-index=\"31\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/build/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"street\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#street",
+        "dataAttributes": {},
+        "sourceFile": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/build/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"street\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 25.827,
+        "selector": "#street-world",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -60,
+          "top": -30,
+          "right": 2090.4,
+          "bottom": 1179.6,
+          "width": 2150.4,
+          "height": 1209.6
+        },
+        "containerSelector": "div.canvas",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 60,
+          "right": 170.4,
+          "top": 30,
+          "bottom": 99.6
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -60,
+          "y": -30,
+          "width": 2150.4,
+          "height": 1209.6
+        },
+        "firstSeen": 25.827,
+        "lastSeen": 33.773,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          25.827,
+          29.8,
+          33.773
+        ]
+      },
+      {
+        "code": "panel_out_of_canvas",
+        "severity": "info",
+        "time": 25.827,
+        "selector": "div.street-ground",
+        "message": "Painted panel extends outside the composition canvas.",
+        "rect": {
+          "left": 74.4,
+          "top": 664.4,
+          "right": 1956,
+          "bottom": 667.76,
+          "width": 1881.6,
+          "height": 3.36
+        },
+        "containerSelector": "#root",
+        "text": "",
+        "fixHint": "Move the panel inward, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 36
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 74.4,
+          "y": 664.4,
+          "width": 1881.6,
+          "height": 3.36
+        },
+        "firstSeen": 25.827,
+        "lastSeen": 33.773,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          25.827,
+          29.8,
+          33.773
+        ]
+      }
+    ],
+    "duration": 35.76,
+    "samples": [
+      1.987,
+      5.96,
+      9.933,
+      13.907,
+      17.88,
+      21.853,
+      25.827,
+      29.8,
+      33.773
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.987,
+      9.933,
+      17.88,
+      25.827,
+      33.773
+    ],
+    "checked": 35,
+    "passed": 35
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "567cfe78-a13b-4ee1-9d52-92a6ddef2aa4",
+    "revision": "1de34276-380d-4dfe-aced-e93a60cd2391",
+    "report": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/build/composition/.hyperframes/artifacts/checks/567cfe78-a13b-4ee1-9d52-92a6ddef2aa4.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.171",
+    "latestVersion": "0.8.191",
+    "updateAvailable": true
+  }
+}

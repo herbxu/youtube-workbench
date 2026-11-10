@@ -1,0 +1,146 @@
+{
+  "01-八月笔记": {
+    "sha256": "152da7cd4d9ce2716917354ec0155be5113290061bc6e565772c9482283a69a7",
+    "duration": 21.195792,
+    "lufs": -20.02,
+    "black_intervals": [],
+    "audio_pcm_identical_to_r2": true,
+    "motion_samples": [
+      {
+        "shot": "op-viewer",
+        "interval": [
+          0.2,
+          4.24
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 29.61
+      },
+      {
+        "shot": "op-note",
+        "interval": [
+          4.64,
+          10.56
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 26.78
+      },
+      {
+        "shot": "op-crew",
+        "interval": [
+          15.42,
+          21.0
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 64.9
+      }
+    ],
+    "frame_review_points": [
+      0.2,
+      1.55,
+      3.65,
+      4.75,
+      7.5,
+      10.95,
+      14.0,
+      15.5,
+      19.9
+    ],
+    "shots": [
+      "footage",
+      "footage",
+      "evidence",
+      "footage"
+    ]
+  },
+  "02-长视频账本": {
+    "sha256": "63974760bcfbef37c85e243ae4cce31f14c0b5e36f8905e2352e552eb2df9088",
+    "duration": 39.81075,
+    "lufs": -20.01,
+    "black_intervals": [],
+    "audio_pcm_identical_to_r2": true,
+    "motion_samples": [
+      {
+        "shot": "lg-set",
+        "interval": [
+          0.2,
+          5.98
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 66.04
+      },
+      {
+        "shot": "lg-viewer",
+        "interval": [
+          6.38,
+          9.8
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 24.65
+      },
+      {
+        "shot": "lg-contract",
+        "interval": [
+          10.2,
+          11.84
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 28.08
+      },
+      {
+        "shot": "lg-sign",
+        "interval": [
+          12.24,
+          22.17
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 50.21
+      },
+      {
+        "shot": "lg-planning",
+        "interval": [
+          22.57,
+          33.39
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 99.44
+      },
+      {
+        "shot": "lg-comparison",
+        "interval": [
+          33.79,
+          39.61
+        ],
+        "sample_fps": 5,
+        "max_mean_change": 41.18
+      }
+    ],
+    "frame_review_points": [
+      1.2,
+      4.9,
+      8.1,
+      10.4,
+      13,
+      17.6,
+      21.4,
+      24.2,
+      28.6,
+      32.6,
+      34.1,
+      38.8
+    ],
+    "shots": [
+      "footage",
+      "footage",
+      "footage",
+      "footage",
+      "footage",
+      "footage"
+    ]
+  },
+  "画面复看": {
+    "开头": "0—4.4秒以每秒5帧顺序检查声明入退场。另查开头9个代表时点和独立封面。",
+    "长视频段": "按镜头查看签名、讨论片单和结尾分屏，另核对10个时点；运动区域抽样逐镜列在导出记录。",
+    "声音": "与上一版解码后的音轨逐样本一致。",
+    "素材": "署名及Pexels授权页面见素材来源.json"
+  }
+}

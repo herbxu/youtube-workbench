@@ -1,0 +1,48 @@
+{
+  "revision": "v4",
+  "as_of": "2026-11-06",
+  "script_sha256": "9f8dc71a1caaafe5ad005ee1962070266bf0e4f5c37e6a336e755bb09d64f887",
+  "checks": {
+    "validate": {
+      "ok": true,
+      "units": 26
+    },
+    "review_warnings": [],
+    "reading_copy_exact": true,
+    "chapter_order": true,
+    "source_ids_and_hashes": true,
+    "financial_original_pdf_and_table": true,
+    "gross_profit_shares_and_hypothetical_math": true,
+    "local_links": 15,
+    "critical_terms_unique": true,
+    "previous_version_preserved": true
+  },
+  "character_count": 2932,
+  "estimated_minutes": [
+    10.3,
+    11.0
+  ],
+  "timing_method": "280—300有效字符/分钟另加30秒停顿，未录音实测",
+  "content_review": [
+    "核实已有盈利结构；当前腾讯视频独立亏盈缺口不作零值或确定亏损",
+    "2025全年只用于已有毛利结构，2023管理层陈述只用于核对历史前提，不反驳当前竞争",
+    "视频号作为已有高毛利收入来源处理，未分配未披露净利",
+    "亏损业务被动萎缩与有效减少投入分开，假设亏10/亏20/赚10计算正确",
+    "考虑现金付款与摊销减值差异，以及内部转移后的利润结构和防守机会成本",
+    "本土海外游戏、第三方流水与腾讯收入、分部毛利与净利分别处理",
+    "不以高时长单独推导全集团盈利下修，保留可能改善与可能恶化的路径"
+  ],
+  "workflow_update": {
+    "files": [
+      "skills/youtube-write/SKILL.md",
+      "skills/youtube-write/references/investment-thesis.md"
+    ],
+    "checks": "已读回并核对现有利润基准、亏盈时点、边际贡献、可撤成本、现金与会计时序、内部变现质量；相关链接有效"
+  },
+  "not_done": [
+    "当前产品独立利润和因果损失量化",
+    "配音录音及实际时长验收",
+    "成片制作与连续观看验收",
+    "完整估值及交易决策"
+  ]
+}

@@ -1,0 +1,1838 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "红果的高时长，为什么让我重估腾讯的增长",
+  "editorial": {
+    "question": "红果当前高时长如何改变对腾讯游戏、微信及其投资价值的判断？",
+    "thesis": "红果强化了娱乐流量和广告预算竞争，应下调腾讯娱乐增长的乐观预期及相应估值溢价；广告增量回报比通讯存续更值得担心，游戏按变现模式和留存结构分层，不等同全面看空当前现金流。",
+    "takeaway": "把已有现金基础、未来增长、竞争投入与买入价格分开，检验每一份新增利润需要付出的代价。"
+  },
+  "narrative": {
+    "audience_belief": "微信关系和腾讯游戏优势可以自然延伸成持续高质量增长。",
+    "intended_shift": "当前入口稳固不保证增长成本稳定，估值应反映未来盈利分布而非仅看现有地位。",
+    "author_position": "这是应用户要求形成的本次独立研究建议，供作者审稿，不冒充用户既有投资记录或已执行交易。",
+    "chapters": [
+      {
+        "id": "c-investment",
+        "question": "红果改变了哪项投资判断？",
+        "changes": "由流量现象转向增长定价",
+        "bridge": "先解释广告利润。",
+        "units": [
+          "u-investment-open",
+          "u-scale",
+          "u-recent-size",
+          "u-thesis"
+        ]
+      },
+      {
+        "id": "c-ads",
+        "question": "为什么先担心广告利润？",
+        "changes": "内容入口影响流量价值与广告竞争",
+        "bridge": "腾讯怎样抵抗？",
+        "units": [
+          "u-entry",
+          "u-loop",
+          "u-wechat",
+          "u-ads",
+          "u-ad-pricing",
+          "u-both-sides"
+        ]
+      },
+      {
+        "id": "c-defense",
+        "question": "守住用户要付出多少代价？",
+        "changes": "增长与股东回报分开",
+        "bridge": "游戏需要另做判断。",
+        "units": [
+          "u-response",
+          "u-tradeoff",
+          "u-quality"
+        ]
+      },
+      {
+        "id": "c-games",
+        "question": "哪些游戏增长更脆弱？",
+        "changes": "区分变现方式和用户关系",
+        "bridge": "把区别放入估值。",
+        "units": [
+          "u-game-demand",
+          "u-pay",
+          "u-game-counter",
+          "u-game-judgment"
+        ]
+      },
+      {
+        "id": "c-value",
+        "question": "为未来增长付多少钱？",
+        "changes": "现金基础与增长价值分开",
+        "bridge": "用近期事件检验判断。",
+        "units": [
+          "u-valuation",
+          "u-sensitivity",
+          "u-price"
+        ]
+      },
+      {
+        "id": "c-check",
+        "question": "什么会改变这次判断？",
+        "changes": "检验无奖励留存与净回报",
+        "bridge": "回到增长的代价。",
+        "units": [
+          "u-coins",
+          "u-coins-quality",
+          "u-no-false-revenue",
+          "u-falsify",
+          "u-conclusion",
+          "u-ending"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "units": [
+    {
+      "id": "u-investment-open",
+      "text": "红果短剧对腾讯的威胁，我认为已经大到需要调整投资判断了。最先需要调整的，是我们愿意为腾讯未来的增长付多少钱。微信依然是重要的通讯工具，腾讯也依然可以做出好游戏。但把这些优势直接延伸成未来娱乐流量和广告利润都会稳步增长，我现在会打一个折扣。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "hook",
+        "point": "下调增长溢价而非以流量热度断言利润崩溃",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "下调增长溢价而非以流量热度断言利润崩溃"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-investment-open",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "下调增长溢价而非以流量热度断言利润崩溃；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "利润回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-scale",
+      "text": "先看发生了什么。《财经》十月二十日引用QuestMobile提供的数据，红果的月人均单日使用时长达到约一百五十一分钟。我核对了原图脚注，这个数是今年七月和八月的平均值，不是完整三季度，更不是所有中国人每天都看这么久。即便如此，这个使用深度也已经很值得重视。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "用近期原图确认使用深度",
+        "basis": "caijing-oct",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "用近期原图确认使用深度",
+          "source_ids": [
+            "caijing-oct"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-scale",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "用近期原图确认使用深度；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "利润回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "一百五十一分钟",
+        "七月和八月"
+      ]
+    },
+    {
+      "id": "u-recent-size",
+      "text": "再看十一月发布的秋季报告，红果九月份的月活已经接近四亿三千万。一个是使用深度，一个是用户覆盖。把这两个信号放在一起，我认为，短剧已经有能力参与大规模的娱乐时间分配。讨论腾讯时，如果还只把它当作长视频行业里面的小变化，就低估了它的影响范围。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "当前规模使竞争成为投资议题",
+        "basis": "qm-autumn",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "当前规模使竞争成为投资议题",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-recent-size",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "当前规模使竞争成为投资议题；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "利润回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "九月份",
+        "月活"
+      ]
+    },
+    {
+      "id": "u-thesis",
+      "text": "不过，我的判断有一个先后顺序：内容广告的竞争压力更直接，游戏受到的冲击更分化，通讯关系受到的直接替代最弱。对投资者而言，关键是腾讯未来每增加一块利润，需要付出多少成本，以及过去预期的增长还能持续多久。这比争论谁的用户数更多，更接近股票的价值。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "注意力变化到投资判断的传导顺序",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "注意力变化到投资判断的传导顺序"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-thesis",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "注意力变化到投资判断的传导顺序；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "利润回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-entry",
+      "text": "为什么短剧能影响游戏？因为用户选择娱乐时，不是按行业分类来选的。一个人工作累了，可能只想轻松获得一点满足。打游戏需要操作、承担输赢，有时还要配合别人。短剧把获得情绪反馈的门槛降得很低。它不需要比游戏更有深度，只需要在你不想动脑的那个晚上，更容易被选择。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "情绪消费替代的边际选择",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "情绪消费替代的边际选择"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-entry",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "情绪消费替代的边际选择；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为什么先担心广告利润？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-ads",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "观看习惯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容入口",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告预算",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "投放效果",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-loop",
+      "text": "更关键的是，短剧平台可以把一部作品带来的用户，交给下一部作品。假如用户形成了直接打开平台追剧的习惯，每看一部新剧就重新投广告找一次人的必要性，就会下降。我的判断是，这种集中发现内容的能力，会改变流量的价值分配：掌握持续观看入口的平台，议价地位会更强。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "平台级留存降低重复获客需求",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "平台级留存降低重复获客需求"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-loop",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "平台级留存降低重复获客需求；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为什么先担心广告利润？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-ads",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "观看习惯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容入口",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告预算",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "投放效果",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-wechat",
+      "text": "这正好触及微信的一个边界。假设你在红果看剧，家人发来消息，你切回微信回复，然后继续追剧。你的社交关系仍然在微信，微信的活跃用户也没有少，但那段可以展示内容、建立消费兴趣的时间，发生在另一边。所以通讯入口稳固，不能单独成为看好内容广告增长的理由。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "通讯稳定不能保护全部内容价值",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "通讯稳定不能保护全部内容价值"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-wechat",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "通讯稳定不能保护全部内容价值；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为什么先担心广告利润？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-ads",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "观看习惯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容入口",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告预算",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "投放效果",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ads",
+      "text": "我更在意广告这笔账。QuestMobile估计，今年三季度互联网广告市场同比增长百分之三点一。这个行业口径不能直接当作腾讯的增速，但它提示了一个约束：广告预算不会跟着每个平台的观看时长同步增加。当红果增加大量可售曝光，平台之间就要更用力地争取同一批广告主。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "新增广告供给争夺有限增量预算",
+        "basis": "qm-autumn",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "新增广告供给争夺有限增量预算",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        },
+        {
+          "kind": "fact",
+          "text": "QuestMobile估计2026Q3中国互联网广告市场同比增长3.1%，不是腾讯收入增速",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ads",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "新增广告供给争夺有限增量预算；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为什么先担心广告利润？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-ads",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "观看习惯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容入口",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告预算",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "投放效果",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ad-pricing",
+      "text": "想象一个商家，原本主要在腾讯投广告。现在红果也能触达他的客户，只要测试下来获客成本更低，他就有理由分走一部分预算。腾讯即使守住了用户时间，也可能需要提供更好的投放效果，才能维持同样的收入。这是我认为比“微信少了多少分钟”更值得研究的竞争路径。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "时长未流失也可能面临价格与效果压力",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "时长未流失也可能面临价格与效果压力"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ad-pricing",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "时长未流失也可能面临价格与效果压力；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为什么先担心广告利润？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-ads",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "观看习惯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容入口",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告预算",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "投放效果",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-both-sides",
+      "text": "还有一层：如果内容方以前靠付费短剧回收投入，就愿意花钱买流量；后来消费者更多选择免费平台，内容方就可能更依赖平台的推荐和分账。腾讯能从短剧广告里受益，并不意味着这部分收益不会变化。我们要判断的，是短剧继续增长时，腾讯还能不能以同样的方式、同样的利润率赚钱。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "短剧从广告客户到平台竞争者的条件",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "短剧从广告客户到平台竞争者的条件"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-both-sides",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "短剧从广告客户到平台竞争者的条件；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为什么先担心广告利润？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-ads",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "观看习惯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容入口",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告预算",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "投放效果",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-response",
+      "text": "腾讯也在行动。十月公布的第四季度短剧激励材料显示，微信通过绿泡泡联合发行、流量扶持和收入激励争取内容。这说明腾讯有反击的入口，也愿意投入资源。但对股东来说，有用户、有作品，只是第一步。下一步要问，这些新增流量在扣掉激励和运营投入后，还能留下多少利润。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "当前反击是投入信号而非胜利证明",
+        "basis": "wechat-q4",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "当前反击是投入信号而非胜利证明",
+          "source_ids": [
+            "wechat-q4"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-response",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "当前反击是投入信号而非胜利证明；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "守住用户要付出多少代价？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-defense",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "内容激励",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "留住用户",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "新增利润",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-tradeoff",
+      "text": "这就是我最担心的情形：腾讯把流量守住了，却需要分给内容方更多收入，或者增加推荐和运营投入。表面上，用户仍在，收入仍增长，股东得到的增量回报却可能变少。如果只看业务有没有消失，就会漏掉这种变化。竞争对股东的影响，可以先体现为增长变贵。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "防守投入压低增量回报",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "防守投入压低增量回报"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-tradeoff",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "防守投入压低增量回报；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "守住用户要付出多少代价？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-defense",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "内容激励",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "留住用户",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "新增利润",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-quality",
+      "text": "当然，广告主买的是效果，不是分钟。微信里的交易、客户联系和复购，如果能让商家获得更好的回报，腾讯就有理由保住预算。我会因此保留对腾讯商业化能力的认可。但我不会再把流量增长、单价提高和利润率提升同时当作顺理成章。每一项，都需要更强的经营结果来支持。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "效果与交易能力是有效抵抗路径",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "效果与交易能力是有效抵抗路径"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-quality",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "效果与交易能力是有效抵抗路径；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "守住用户要付出多少代价？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-defense",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "内容激励",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "留住用户",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "新增利润",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-demand",
+      "text": "游戏这边，我反而不赞成一刀切看空。我会先区分两类需求：一种是随手消遣，尤其是靠广告变现的轻度游戏；另一种是围绕技术、进度、竞技和朋友关系形成的长期投入。前者既要和短剧争时间，也可能和短剧争广告预算；后者有额外的留存理由，替代难度更高。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "游戏按变现和需求分层",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "游戏按变现和需求分层"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-demand",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "游戏按变现和需求分层；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "哪些游戏增长更脆弱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "获客留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "现金回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-pay",
+      "text": "一个已经和朋友玩了很多年的用户，少玩半小时，不一定马上少买一件道具。但一个新用户，如果每次空下来都先点开短剧，就可能根本没有建立起玩某款游戏的习惯。所以我更担心的，是新游戏获取和留住用户的成本，以及老游戏召回用户的难度，而不只是本月流水少了多少。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "新习惯形成比成熟付费更易受影响",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "新习惯形成比成熟付费更易受影响"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-pay",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "新习惯形成比成熟付费更易受影响；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "哪些游戏增长更脆弱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "获客留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "现金回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-counter",
+      "text": "而且，九月的同期数据并不支持游戏时间全面衰退。QuestMobile的图表里，手机游戏行业月人均使用时长同比仍增长百分之三点五，细分品类明显分化。这不能证明腾讯每款游戏都安全，却足以提醒我：红果的高时长，与部分游戏保持吸引力，可以同时存在。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "同期行业反证约束全面衰退判断",
+        "basis": "qm-autumn",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "同期行业反证约束全面衰退判断",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-counter",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "同期行业反证约束全面衰退判断；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "哪些游戏增长更脆弱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "获客留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "现金回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "月人均使用时长",
+        "百分之三点五"
+      ]
+    },
+    {
+      "id": "u-game-judgment",
+      "text": "因此，我对游戏的调整是：保留对成熟产品现金创造能力的重视，提高对新增增长的要求。一款游戏能否反复吸引玩家回来，比“腾讯有游戏护城河”这句话更有用。如果未来需要更高的营销和内容投入才能实现同样增长，那就应该给新增利润更保守的估计。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "conclusion",
+        "point": "保留现金基础下调新增利润确定性",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "保留现金基础下调新增利润确定性"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-judgment",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "保留现金基础下调新增利润确定性；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "哪些游戏增长更脆弱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "获客留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "现金回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-valuation",
+      "text": "这些判断怎样落到估值上？我的做法，是把已有生意可以持续创造的现金，和未来增长带来的额外价值分开。红果的崛起还不足以让我直接否定腾讯整个现金基础，却足以让我不再轻易给娱乐业务的长期增长高确定性。尤其不能因为过去赚得多，就默认未来的新增利润也一样容易获得。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "经营变化转成估值依据变化",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "经营变化转成估值依据变化"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-valuation",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "经营变化转成估值依据变化；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为未来增长付多少钱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "现金基础",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "未来增长",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "估值",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-sensitivity",
+      "text": "举一个纯假设的算例，不是对腾讯的预测。同样从一百元利润起步，每年增长百分之十，十年后大约是二百五十九元；如果每年增长百分之五，十年后大约是一百六十三元。两种情形下，企业都没有衰退，但第十年的利润已经相差接近四成。长期估值对这种差别很敏感。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "example",
+        "point": "假设算例解释长期增长差异",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "假设算例解释长期增长差异"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sensitivity",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "假设算例解释长期增长差异；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为未来增长付多少钱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "现金基础",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "未来增长",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "估值",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-price",
+      "text": "所以，竞争加剧不一定要等到利润下降，才值得调整估值。如果买入理由依赖未来多年较快增长，就应该重审这份预期愿意付多少钱。相反，如果一个价格已经充分反映增长放缓，而持续现金回报仍有吸引力，竞争也不自动意味着必须回避。这里需要重算价值，不能用红果的热度直接替代价格判断。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "conclusion",
+        "point": "价格隐含预期决定投资含义",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "价格隐含预期决定投资含义"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-price",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "价格隐含预期决定投资含义；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "为未来增长付多少钱？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "现金基础",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "未来增长",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "估值",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-coins",
+      "text": "我的看法也有一个近期检验。红果十月二十一日公告，计划从十一月起不再给新用户提供金币功能，并在年底前全面下线。高时长中有多少来自内容习惯，有多少依赖奖励，接下来会更容易观察。如果奖励退出后使用深度仍然稳健，我对这场竞争会更重视。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "最新补贴退出构成持续性检验",
+        "basis": "coin-notice",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "最新补贴退出构成持续性检验",
+          "source_ids": [
+            "coin-notice"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-coins",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "最新补贴退出构成持续性检验；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "什么会改变这次判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "留存质量",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "投放回报",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-coins-quality",
+      "text": "反过来，时长下降也要看是谁离开。如果离开的主要是冲奖励来的低价值用户，平台可能用更少补贴留下更有价值的观众。因此，真正影响判断的，是去掉奖励之后，用户是否主动回来，广告是否有效，以及内容供给能不能维持。单独一条时长曲线，还不够代表经营质量。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "辨别时长质量而非只看总量",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "辨别时长质量而非只看总量"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-coins-quality",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "辨别时长质量而非只看总量；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "什么会改变这次判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "留存质量",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "投放回报",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-no-false-revenue",
+      "text": "我也不会拿网上流传的红果收入规模来推算腾讯损失。红果十月底已经否认了相关的数百亿元收入传闻。我的担心并不依赖那个数字：只要它持续提供一个有吸引力的内容入口，就能提高腾讯争取用户和广告预算的难度。至于利润最终流向谁，还要看双方的商业化和成本。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "不以未核实财务填充强观点",
+        "basis": "revenue-denial",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "不以未核实财务填充强观点",
+          "source_ids": [
+            "revenue-denial"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-no-false-revenue",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "不以未核实财务填充强观点；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "什么会改变这次判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "留存质量",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "投放回报",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-falsify",
+      "text": "什么会让我改变这次判断？如果腾讯能在更激烈的竞争下，让内容消费、广告效果和扣除激励后的回报一起改善，游戏又能持续以合理成本留住新老玩家，那我会提高对增长的信心。这种经营证据，比一句“微信不会被替代”更有说服力，也比单看红果的排行榜更有意义。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "可改变独立结论的经营结果",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "可改变独立结论的经营结果"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-falsify",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "可改变独立结论的经营结果；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "什么会改变这次判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "留存质量",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "投放回报",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-conclusion",
+      "text": "所以我的结论是：红果已经值得我们下调对腾讯娱乐增长的乐观预期，尤其要重审广告增长能转成多少股东利润。核心游戏仍应逐款、逐类判断，不能一概视为受损。真正需要打折的，是把腾讯现有优势无限延长到未来的那份确定性。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "conclusion",
+        "point": "明确投资分歧与结论",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "明确投资分歧与结论"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-conclusion",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "明确投资分歧与结论；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "什么会改变这次判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "留存质量",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "投放回报",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ending",
+      "text": "接下来研究腾讯，我会少问一句“微信还在不在”，多问一句“腾讯为了留住下一个小时，要付出什么代价”。如果代价提高，而我们还用原来的增长预期付钱，就可能高估了这门生意。把这个问题算清楚，才是红果的高时长，对投资腾讯真正提出的挑战。",
+      "delivery": "直接、自然地解释投资判断；数据读清，算例与结论处停顿，不快读赶时长。",
+      "argument": {
+        "role": "conclusion",
+        "point": "以股东回报收束",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "以股东回报收束"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ending",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "以股东回报收束；仅语义草案，制作时以实拍及证据局部承接。",
+          "headline": "什么会改变这次判断？",
+          "note": "机制示意；非实测数据图",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "留存质量",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "投放回报",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "unit": "u-investment-open",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "duration": 5,
+      "fade_in": 2,
+      "hold": 1,
+      "fade_out": 2,
+      "clear_before_cut": 0.2
+    }
+  ],
+  "production_status": {
+    "voice": "未录制；约10分钟为字数估算",
+    "visuals": "仅语义草案；未制作或验收视频",
+    "research_as_of": "2026-11-06",
+    "revision": "v2，独立研究与投资论点重写；不以Q2支撑当前竞争判断"
+  }
+}

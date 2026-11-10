@@ -1,0 +1,44 @@
+{
+  "version": "v5",
+  "voice": "保留v4母带与真实停顿，不为了踩音乐节拍改变语速",
+  "segments": [
+    {
+      "role": "回忆误区",
+      "start": 0,
+      "end": 30.358083,
+      "asset": "moil.mp3",
+      "source_in": 0,
+      "gain_db": -15,
+      "fade_seconds": 1.4
+    },
+    {
+      "role": "开始算账，增加律动",
+      "cue": "咱们算一笔简单的账",
+      "start": 28.958083,
+      "end": 59.958083,
+      "asset": "empty-stretch.mp3",
+      "source_in": 8,
+      "gain_db": -17.5,
+      "fade_seconds": 1.4
+    },
+    {
+      "role": "风险条件与个人回忆，突出人声",
+      "start": 59.958083,
+      "end": 78.033208,
+      "asset": null
+    },
+    {
+      "role": "形成个人行动选择",
+      "cue": "所以我的选择是",
+      "start": 78.033208,
+      "end": 89.486375,
+      "asset": "first-light-particles.wav",
+      "source_in": 64,
+      "gain_db": -11,
+      "fade_seconds": 1.3
+    }
+  ],
+  "duck_release_ms": 750,
+  "subjective_listening": "pending",
+  "candidate_comparison": "沿用全片的ambient被改为短收尾；Moil官方标签慢速暗色爵士用于回忆；Empty Stretch官方标签爵士放克用于算账。根据来源及片段电平选配，音乐品味与乐句衔接尚未完成听审。"
+}

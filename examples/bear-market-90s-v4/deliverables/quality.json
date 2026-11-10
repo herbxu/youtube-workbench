@@ -1,0 +1,39 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "328汉字口播保留熊市买入主旨、既有三组个人记录和假设前提；将重复比例解释压缩为同一收入买价少一半，没有新增市场数据。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "69项单元测试通过；HyperFrames检查运行时、布局、运动与对比度错误为0。既有单层结构提示保留。",
+        "实际MP4为1920×1080、30fps、89.5秒；机器verify通过，音画差0.013625秒，无持续黑场。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "6次新TTS请求；0.90到0.86调整、句群停顿、对齐、配乐与渲染均复用原始TTS缓存；旧版与原音频保留。"
+      ]
+    }
+  },
+  "warnings": [],
+  "review_bound": true,
+  "movie_sha256": "f544185abcc4b80ba93c34482cdd95480dc20a1b32db0bf71e2cc2bce9984d3b",
+  "input_signature": "9193a84c6991e9ea355404d493ad6370fa6adfb7ba283072895d285b81197aa8",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

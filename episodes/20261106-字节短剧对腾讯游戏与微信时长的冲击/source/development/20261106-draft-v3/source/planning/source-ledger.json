@@ -1,0 +1,511 @@
+{
+  "as_of": "2026-11-06",
+  "revision": "v3",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-distribution",
+      "title": "绿泡泡VS红果果：腾讯的短剧反攻",
+      "date": "2026-10-23",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34311018",
+      "type": "镜象娱乐发表于澎湃号的行业报道，非澎湃记者独立调查或公司原公告",
+      "observation_period": "2026年10月政策与产品报道",
+      "excerpt": "短剧发行载体包括绿泡泡短剧小程序、视频号端原生短剧。",
+      "limitations": "仅采用双端分发路径；未采用其未核验的视频号日活、早期小程序用户数、最高激励比例及未校正季度时长。不是净新增时长或盈利证据。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "claims": [
+    {
+      "unit": "u-investment-open",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "直接替代强弱与估值影响分开"
+        }
+      ],
+      "argument": {
+        "role": "hook",
+        "point": "直接替代强弱与估值影响分开",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-scale",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "用近期原图确认使用深度",
+          "source_ids": [
+            "caijing-oct"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "用近期原图确认使用深度",
+        "basis": "caijing-oct",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-recent-size",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "规模与深度支持研究竞争但不证明因果损失",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "规模与深度支持研究竞争但不证明因果损失",
+        "basis": "qm-autumn",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-longvideo",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "普通长剧的被动娱乐需求替代较强"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "普通长剧的被动娱乐需求替代较强",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-longvideo-money",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "续费和广告减少可能放大内容成本压力"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "续费和广告减少可能放大内容成本压力",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-longvideo-boundary",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "独家内容及成本调整限制长视频替代"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "独家内容及成本调整限制长视频替代",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-channels",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "视频号娱乐浏览中高冲击而非整个产品同质"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "视频号娱乐浏览中高冲击而非整个产品同质",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-channels-money",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "广告竞争不仅通过自身时长下降传导"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "广告竞争不仅通过自身时长下降传导",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-valuation-focus",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "视频号增长价值可能比长视频直接损失更值得重估"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "视频号增长价值可能比长视频直接损失更值得重估",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-commerce",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "内容发现和交易基础设施承受不同影响"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "内容发现和交易基础设施承受不同影响",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-quality",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "效果与交易能力是有效抵抗路径"
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "效果与交易能力是有效抵抗路径",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-paid-drama",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "微信付费短剧受免费替代但商户损失非腾讯等额损失"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "微信付费短剧受免费替代但商户损失非腾讯等额损失",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-response",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "腾讯用微信内聚合和双端分发防守",
+          "source_ids": [
+            "wechat-q4",
+            "wechat-distribution"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "腾讯用微信内聚合和双端分发防守",
+        "basis": "wechat-q4；wechat-distribution",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-ecosystem-net",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "绿泡泡增长需扣除内部转移和激励投入"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "绿泡泡增长需扣除内部转移和激励投入",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-wechat",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "通讯稳定不能保护全部内容价值"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "通讯稳定不能保护全部内容价值",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-wechat-layers",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "社交交易工具低直接冲击内容消费更强"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "社交交易工具低直接冲击内容消费更强",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-ecosystem-judgment",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "微信防守门槛较低不等于股东回报无成本"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "微信防守门槛较低不等于股东回报无成本",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-game-demand",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "游戏按变现和需求分层"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "游戏按变现和需求分层",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-pay",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "新习惯形成比成熟付费更易受影响"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "新习惯形成比成熟付费更易受影响",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-game-counter",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "同期行业反证约束全面衰退判断",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "同期行业反证约束全面衰退判断",
+        "basis": "qm-autumn",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-game-judgment",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "成熟核心游戏较低直接冲击轻度游戏中高"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "成熟核心游戏较低直接冲击轻度游戏中高",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-valuation",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "按业务调整增长和回报而非集团统一折价"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "按业务调整增长和回报而非集团统一折价",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-price",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "价格隐含预期决定投资含义"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "价格隐含预期决定投资含义",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-coins",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "去奖励后的主动留存检验竞争持续性",
+          "source_ids": [
+            "coin-notice"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "去奖励后的主动留存检验竞争持续性",
+        "basis": "coin-notice",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-falsify",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "分别检验受压业务和生态防守净回报"
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "分别检验受压业务和生态防守净回报",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    },
+    {
+      "unit": "u-ending",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "最强替代与最大估值敏感点不同"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "最强替代与最大估值敏感点不同",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      }
+    }
+  ],
+  "character_count": 2943,
+  "classification": "业务冲击强弱为本次分析，非观测到的收入损失或完整估值模型。",
+  "script_sha256": "4da254dfea958df7f7f95735d941e63a38791d7a6ad29de4c6fa67d96e563a01"
+}

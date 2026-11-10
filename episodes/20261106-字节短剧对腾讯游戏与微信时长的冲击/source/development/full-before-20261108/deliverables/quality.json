@@ -1,0 +1,56 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "pending",
+      "evidence": []
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "qa.json"
+      ]
+    },
+    "efficiency": {
+      "status": "pending",
+      "evidence": []
+    }
+  },
+  "warnings": [
+    "book-start：动作后停留较短，检查可读性",
+    "book-start：动作后停留较短，检查可读性",
+    "book-start：动作后停留较短，检查可读性",
+    "contract-stays：动作后停留较短，检查可读性",
+    "s-profit-scope-b：动作后停留较短，检查可读性",
+    "s-profit-scope-b：动作后停留较短，检查可读性",
+    "s-profit-scope-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-game-profit：动作后停留较短，检查可读性",
+    "s-game-counter-b：动作后停留较短，检查可读性",
+    "s-game-counter-b：动作后停留较短，检查可读性",
+    "s-game-geography：动作后停留较短，检查可读性",
+    "s-game-geography：动作后停留较短，检查可读性",
+    "s-wechat-layers：动作后停留较短，检查可读性",
+    "s-wechat-layers：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性",
+    "s-wechat-demo：动作后停留较短，检查可读性"
+  ],
+  "review_bound": false,
+  "movie_sha256": "080d143875d04954ab58866936d3bdaddee79a04595aaa7ebb921f3718a1b505",
+  "input_signature": "336d97fa2e80d7bed915fae8b93b8b14a50d0ce69f3013956df014ccd44f782b",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

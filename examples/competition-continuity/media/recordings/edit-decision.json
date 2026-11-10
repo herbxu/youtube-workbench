@@ -1,0 +1,23 @@
+{
+  "source": "u-copy.wav",
+  "output": "u-copy-edited.wav",
+  "retained_s": [
+    0,
+    10.72
+  ],
+  "fade_out_s": [
+    10.55,
+    10.72
+  ],
+  "removed_text": "迟早也追上来",
+  "removed_phrase_s": [
+    10.94,
+    11.78
+  ],
+  "tail": "silence to original 12.08s for the visual question",
+  "original_preserved": true,
+  "transcription": "unchanged retained word timestamps",
+  "source_sha256": "c408856e486d8b220b35108c3ca40aa642ebe115c60a150c4ff04a7c5286b7a2",
+  "output_sha256": "79ac58b0dabc0a607498dca5cb4219d3b01ed02c91764091a205e1a361f77707",
+  "retained_pcm_before_fade_identical": true
+}

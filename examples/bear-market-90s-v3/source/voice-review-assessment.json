@@ -1,0 +1,152 @@
+{
+  "method": "读取独立Whisper转写及差异；未进行主观音色听审",
+  "units": [
+    {
+      "unit": "u-sample-1",
+      "recognized": "我以前犯过一个错误把长期持有当成价值投资结果被套完整经历了一轮牛熊那为什么我现在还说熊市应该买股票因为买的便宜和拿的够久是两回事",
+      "differences": [
+        {
+          "operation": "replace",
+          "expected": "得",
+          "recognized": "的"
+        },
+        {
+          "operation": "replace",
+          "expected": "得",
+          "recognized": "的"
+        }
+      ],
+      "assessment": "数字格式差异与同音字需区别；买入识别为买路等读音疑点仍待实际试听，不能依据强制对齐1.0判定正确"
+    },
+    {
+      "unit": "u-sample-2",
+      "recognized": "10月23日,我在港股的副盘里写下一定要在恐慌的时候买路我的理由很简单同一门好生意如果未来收入没变买价越低,买得越划算",
+      "differences": [
+        {
+          "operation": "replace",
+          "expected": "十",
+          "recognized": "10"
+        },
+        {
+          "operation": "replace",
+          "expected": "二十三",
+          "recognized": "23"
+        },
+        {
+          "operation": "replace",
+          "expected": "复",
+          "recognized": "副"
+        },
+        {
+          "operation": "replace",
+          "expected": "入",
+          "recognized": "路"
+        }
+      ],
+      "assessment": "数字格式差异与同音字需区别；买入识别为买路等读音疑点仍待实际试听，不能依据强制对齐1.0判定正确"
+    },
+    {
+      "unit": "u-sample-3",
+      "recognized": "一家公司,你买下其中一份股权每年可以分配10块钱假设这笔收入能够持续先不考虑增长和税费这份股权卖200块你花200,每年拿10块相当于买价的5%",
+      "differences": [
+        {
+          "operation": "replace",
+          "expected": "十",
+          "recognized": "10"
+        },
+        {
+          "operation": "replace",
+          "expected": "两百",
+          "recognized": "200"
+        },
+        {
+          "operation": "replace",
+          "expected": "两百",
+          "recognized": "200"
+        },
+        {
+          "operation": "replace",
+          "expected": "十",
+          "recognized": "10"
+        },
+        {
+          "operation": "replace",
+          "expected": "百分之五",
+          "recognized": "5"
+        }
+      ],
+      "assessment": "数字格式差异与同音字需区别；买入识别为买路等读音疑点仍待实际试听，不能依据强制对齐1.0判定正确"
+    },
+    {
+      "unit": "u-sample-4",
+      "recognized": "后来市场下跌这份股权只要100块公司还是那家公司每年分给你的仍然是10块钱你花100,每年拿10块相当于买价的10%取得同一份收入你付的钱少了一半",
+      "differences": [
+        {
+          "operation": "replace",
+          "expected": "一百",
+          "recognized": "100"
+        },
+        {
+          "operation": "replace",
+          "expected": "十",
+          "recognized": "10"
+        },
+        {
+          "operation": "replace",
+          "expected": "一百",
+          "recognized": "100"
+        },
+        {
+          "operation": "replace",
+          "expected": "十",
+          "recognized": "10"
+        },
+        {
+          "operation": "replace",
+          "expected": "百分之十",
+          "recognized": "10"
+        }
+      ],
+      "assessment": "数字格式差异与同音字需区别；买入识别为买路等读音疑点仍待实际试听，不能依据强制对齐1.0判定正确"
+    },
+    {
+      "unit": "u-sample-5",
+      "recognized": "当然,如果公司的生意变差,以后只能分5块钱,降价也未必划算。所以我说的是,研究过的好生意,到了足够便宜的价格,就应该开始买。",
+      "differences": [
+        {
+          "operation": "replace",
+          "expected": "五",
+          "recognized": "5"
+        }
+      ],
+      "assessment": "数字格式差异与同音字需区别；买入识别为买路等读音疑点仍待实际试听，不能依据强制对齐1.0判定正确"
+    },
+    {
+      "unit": "u-sample-6",
+      "recognized": "6月那次下跌,我也记过当天做的好的一件事,是手里还留着钱所以我给自己的要求是用预留的长期资金,分批买路研究过价格合适的好生意买路的理由是价格合适不必等所有人都放心",
+      "differences": [
+        {
+          "operation": "replace",
+          "expected": "六",
+          "recognized": "6"
+        },
+        {
+          "operation": "replace",
+          "expected": "得",
+          "recognized": "的"
+        },
+        {
+          "operation": "replace",
+          "expected": "入",
+          "recognized": "路"
+        },
+        {
+          "operation": "replace",
+          "expected": "入",
+          "recognized": "路"
+        }
+      ],
+      "assessment": "数字格式差异与同音字需区别；买入识别为买路等读音疑点仍待实际试听，不能依据强制对齐1.0判定正确"
+    }
+  ]
+}

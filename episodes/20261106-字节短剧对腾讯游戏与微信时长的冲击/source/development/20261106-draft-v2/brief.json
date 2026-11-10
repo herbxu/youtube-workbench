@@ -1,0 +1,141 @@
+{
+  "title": "红果的高时长，为什么让我重估腾讯的增长",
+  "thesis": "红果强化了娱乐流量和广告预算竞争，应下调腾讯娱乐增长的乐观预期及相应估值溢价；广告增量回报比通讯存续更值得担心，游戏按变现模式和留存结构分层，不等同全面看空当前现金流。",
+  "audience": "普通投资者",
+  "created_at": "2026-11-06",
+  "status": "v2独立分析及投资观点口播稿，待作者审阅",
+  "original_request": "创建新的主题，主题内容是 字节短剧会打击腾讯的游戏，微信的时长",
+  "question": "红果当前高时长如何改变对腾讯游戏、微信及其投资价值的判断？",
+  "argument_outline": [
+    {
+      "section": "红果改变了哪项投资判断？",
+      "point": "由流量现象转向增长定价"
+    },
+    {
+      "section": "为什么先担心广告利润？",
+      "point": "内容入口影响流量价值与广告竞争"
+    },
+    {
+      "section": "守住用户要付出多少代价？",
+      "point": "增长与股东回报分开"
+    },
+    {
+      "section": "哪些游戏增长更脆弱？",
+      "point": "区分变现方式和用户关系"
+    },
+    {
+      "section": "为未来增长付多少钱？",
+      "point": "现金基础与增长价值分开"
+    },
+    {
+      "section": "什么会改变这次判断？",
+      "point": "检验无奖励留存与净回报"
+    }
+  ],
+  "research_questions": [
+    "具体研究哪些字节短剧产品或分发渠道？核实红果、抖音短剧等候选对象的当前归属、模式与统计边界。",
+    "短剧观众与腾讯游戏玩家、微信内容用户的重合程度如何？是否有跨期、同口径的替代证据？",
+    "新增观看时间来自游戏、微信、长视频、其他娱乐还是新增屏幕时间？相关性是否足以支持因果归因？",
+    "腾讯哪些游戏品类受影响更大？如何排除新品上线、版本周期、季节性与行业变化？",
+    "微信哪些场景时长受到影响？是否有可信的功能级数据，还是只能用替代指标？",
+    "时长变化是否已传导到付费、广告或利润？若没有可识别证据，应明确止步于机制假设。"
+  ],
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "constraints": [
+    "正文不用二季度财报判断当前竞争；事实使用7—9月观测及10—11月发布材料。",
+    "独立结论是研究建议，不写成用户已经采取的投资行动。",
+    "不宣称腾讯整体时长已下降，不编造当前估值或目标价。",
+    "口播唯一编辑源为script.json；语义分镜未做成片验收。"
+  ],
+  "target_seconds": 600,
+  "canonical": "script.json",
+  "reading_copy": "build/script.md",
+  "research_handoff": "source/planning/research-handoff.md",
+  "research_as_of": "2026-11-06",
+  "original_thesis": "字节短剧会打击腾讯的游戏，微信的时长",
+  "revision_reason": "用户指出流水账、缺投资观点、旧数据不足；重查近期材料，不从个人投资记录生成结论。"
+}

@@ -1,0 +1,847 @@
+{
+  "schema": "incremental-render/v1",
+  "mode": "final",
+  "fps": 30,
+  "width": 1920,
+  "start": 0.0,
+  "end": 625.0399999999998,
+  "segments": [
+    {
+      "id": "segment-000",
+      "first_frame": 0,
+      "frames": 605,
+      "start": 0.0,
+      "end": 20.166666666666668,
+      "visual_key": "80249bd45c8ca313021344cf5323324e75faa5e20fcd8831d705e2314671b5e4",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.622,
+      "shots": [
+        "ink-notebook"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/c387b944865665daa4ed579ec630a012b1a7126b54f0800e40525647f0d1e4d2/result.mp4"
+    },
+    {
+      "id": "segment-001",
+      "first_frame": 605,
+      "frames": 351,
+      "start": 20.166666666666668,
+      "end": 31.866666666666667,
+      "visual_key": "bbb66b99e187a7ff212d5f3845bec3609cf756d1fe79216d426fd70750e49e30",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 35.445,
+      "shots": [
+        "ink-notebook",
+        "s-video-profit-fact"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/079eccf75ea6717a26cc13ed7436fb06eb5da02aecbd004df8c13bc562d3a3c4/result.mp4"
+    },
+    {
+      "id": "segment-002",
+      "first_frame": 956,
+      "frames": 261,
+      "start": 31.866666666666667,
+      "end": 40.56666666666667,
+      "visual_key": "c9c6ffbd01c4668b5241a6f702e8ad4d95cf67ede9b4dac0a40ad6d17a6d084d",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 40.505,
+      "shots": [
+        "s-video-profit-fact",
+        "s-video-profit-fact-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/36b2b35bc47885b45a1206a3aeb7c891bc191537c007650c6aa25bb0c5b087fa/result.mp4"
+    },
+    {
+      "id": "segment-003",
+      "first_frame": 1217,
+      "frames": 247,
+      "start": 40.56666666666667,
+      "end": 48.8,
+      "visual_key": "e382ed86e52eba5a0d881db38cb8f871db489a823d0fc926bd20dc32b8ae295d",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 36.183,
+      "shots": [
+        "s-video-profit-fact-b",
+        "s-longvideo"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/4965e4e3f8af8cf8b9b30c5421ad0b333d82feb32c6858562e21ce79c485867a/result.mp4"
+    },
+    {
+      "id": "segment-004",
+      "first_frame": 1464,
+      "frames": 336,
+      "start": 48.8,
+      "end": 60.0,
+      "visual_key": "78ab489762fd697a366fe77f5e285d9df52fbaced16cb93b072a14903fbca923",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 41.256,
+      "shots": [
+        "s-longvideo",
+        "s-longvideo-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/adfe1a928e170f195429d66ad6d91abbb286adcf7ad23ae4d5242f5886745ffd/result.mp4"
+    },
+    {
+      "id": "segment-005",
+      "first_frame": 1800,
+      "frames": 335,
+      "start": 60.0,
+      "end": 71.16666666666667,
+      "visual_key": "21d1f569c2e03e83883e4890b00d465f365fdfd5cc6807df20f28457d0effce3",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 37.092,
+      "shots": [
+        "s-longvideo-b",
+        "book-origin"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/afb52f5162d35cfb7a21607037380a8c0fa32fc77691a4d904031acd35eb8954/result.mp4"
+    },
+    {
+      "id": "segment-006",
+      "first_frame": 2135,
+      "frames": 251,
+      "start": 71.16666666666667,
+      "end": 79.53333333333333,
+      "visual_key": "21dfe27985fcc9f04db375be8e26e012b515bf33414801401c104eac532ebcc8",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 30.399,
+      "shots": [
+        "book-origin",
+        "book-locked"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/7aac8c65b73c259cacefb714adec380bf0f4c9f69ac1a3c0cb8a6cd0b1a26501/result.mp4"
+    },
+    {
+      "id": "segment-007",
+      "first_frame": 2386,
+      "frames": 526,
+      "start": 79.53333333333333,
+      "end": 97.06666666666666,
+      "visual_key": "cfba32902871e2173bcf9592874b376e08cbc2215afa36434f90dc780818c277",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 45.904,
+      "shots": [
+        "book-locked",
+        "book-choice"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/b60ea25d57427057871ec415513bd46be0d4d90969411716d2fce62434c5ef11/result.mp4"
+    },
+    {
+      "id": "segment-008",
+      "first_frame": 2912,
+      "frames": 525,
+      "start": 97.06666666666666,
+      "end": 114.56666666666666,
+      "visual_key": "87218229781c66295f4cbfd23dd2c8c6d45bfd0e4d780ea3f2412ebb97ca5f99",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 47.896,
+      "shots": [
+        "book-choice",
+        "s-longvideo-money"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/ec6edaea67b2bb75d7e7a65f1d49474332d3c130212aeb3a8a02a8c29fbd8051/result.mp4"
+    },
+    {
+      "id": "segment-009",
+      "first_frame": 3437,
+      "frames": 327,
+      "start": 114.56666666666666,
+      "end": 125.46666666666667,
+      "visual_key": "732020c713136ad704ced9bb49d21a0dc9760f5b402e768e398ca538b9dedae5",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 38.609,
+      "shots": [
+        "s-longvideo-money",
+        "s-longvideo-money-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/3cdba659aed5d8be9c1b4e6110cb2509b6864b7dc72fb558014b03cf4e0ddfc7/result.mp4"
+    },
+    {
+      "id": "segment-010",
+      "first_frame": 3764,
+      "frames": 360,
+      "start": 125.46666666666667,
+      "end": 137.46666666666667,
+      "visual_key": "b5c5a0605fd27e9f321cabee629fa45b223912851f9de58710be73fc06781c82",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 39.968,
+      "shots": [
+        "s-longvideo-money-b",
+        "s-longvideo-judgment"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/186deda362c01130322070df8896b96a18e59e03d96017deb277ac26ca34575e/result.mp4"
+    },
+    {
+      "id": "segment-011",
+      "first_frame": 4124,
+      "frames": 384,
+      "start": 137.46666666666667,
+      "end": 150.26666666666668,
+      "visual_key": "a0a2af96e9b3e0e6864bd71a23e00f53d3f8d86b3db6a0485a196547cee25d55",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 44.163,
+      "shots": [
+        "s-longvideo-judgment",
+        "s-longvideo-judgment-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/fd4426fb9aeb1932ed30695d84f8d4ff69a61f1db7facaf8a2ab4182a33b1764/result.mp4"
+    },
+    {
+      "id": "segment-012",
+      "first_frame": 4508,
+      "frames": 352,
+      "start": 150.26666666666668,
+      "end": 162.0,
+      "visual_key": "529f1ad20abc318773a20f43bce9d22986d45906f02a4d09c3c3b869221e0b71",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 46.585,
+      "shots": [
+        "s-longvideo-judgment-b",
+        "s-scale"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/f21d9dcd52189a24b68db978c2ef78f0a98a07ff41f829dcfab2d25b7171cb03/result.mp4"
+    },
+    {
+      "id": "segment-013",
+      "first_frame": 4860,
+      "frames": 279,
+      "start": 162.0,
+      "end": 171.3,
+      "visual_key": "62343e0ae08122bb2fa9d3c9c8a0a01f0020f0aeaef5378d545624224d9fbcd1",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 42.227,
+      "shots": [
+        "s-scale",
+        "s-scale-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/f7adc14ce8c0f876a4f475297a7e2507f2a492328b94f36386e07fa00d61683e/result.mp4"
+    },
+    {
+      "id": "segment-014",
+      "first_frame": 5139,
+      "frames": 398,
+      "start": 171.3,
+      "end": 184.56666666666666,
+      "visual_key": "4ad0be1375b88aa2fc9b5830c7f8a2c9e89038304d94709eb513c9f2f91a721e",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 48.23,
+      "shots": [
+        "s-scale-b",
+        "s-recent-size"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/3a5dc55d7972ea4390e86d959d2bc2cdd0dd4f5ae181e52dd014c932bb6c3d21/result.mp4"
+    },
+    {
+      "id": "segment-015",
+      "first_frame": 5537,
+      "frames": 255,
+      "start": 184.56666666666666,
+      "end": 193.06666666666666,
+      "visual_key": "d47076287740b2dd37fb8961d9081244437f762563dd31598597d762f1d88a8f",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 42.124,
+      "shots": [
+        "s-recent-size",
+        "s-recent-size-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/a87a5282a91f30ca163e2210b097a491135706e997227b80f6a9ab6f4dfd045c/result.mp4"
+    },
+    {
+      "id": "segment-016",
+      "first_frame": 5792,
+      "frames": 271,
+      "start": 193.06666666666666,
+      "end": 202.1,
+      "visual_key": "55d559c44f2220d989604fb1cd462f13161f666dea0b05a720a54856a21af92d",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 37.088,
+      "shots": [
+        "s-recent-size-b",
+        "s-profit-map"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/c1ab30e288444a44bd886cbc4ca1c93b740067859eadff3f91d81ac12143eea6/result.mp4"
+    },
+    {
+      "id": "segment-017",
+      "first_frame": 6063,
+      "frames": 425,
+      "start": 202.1,
+      "end": 216.26666666666668,
+      "visual_key": "0d31bb2e5fccd389828d30bedb32f353017051243849fff3f8583ec5e0b3ce4a",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 43.497,
+      "shots": [
+        "s-profit-map",
+        "s-profit-map-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/32ded71cb679a9411f936039053d4bfd4009e42140a222270a0a8d483599b7db/result.mp4"
+    },
+    {
+      "id": "segment-018",
+      "first_frame": 6488,
+      "frames": 292,
+      "start": 216.26666666666668,
+      "end": 226.0,
+      "visual_key": "207a35da27753e984ee83ad73724eedb15e5111b0fae226bcde1e2051b9c596b",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 36.665,
+      "shots": [
+        "s-profit-map-b",
+        "s-profit-scope"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/ffb06d384533c1779b680b770b85d95d411b01a5bdd71b520a53657fccbd6256/result.mp4"
+    },
+    {
+      "id": "segment-019",
+      "first_frame": 6780,
+      "frames": 324,
+      "start": 226.0,
+      "end": 236.8,
+      "visual_key": "3eb1ec2f4682f2b23ae5c77b5a2102547484fcd501953839bd0826e24e88f6c0",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 38.485,
+      "shots": [
+        "s-profit-scope",
+        "s-profit-scope-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/80c30bf13afb3d6b01bcc70fc39fd88a370a5729a70127af574462dbbbac8ba1/result.mp4"
+    },
+    {
+      "id": "segment-020",
+      "first_frame": 7104,
+      "frames": 293,
+      "start": 236.8,
+      "end": 246.56666666666666,
+      "visual_key": "a96f78b1f8aaffac3733858a79237c283c56c62e67ab122cbb9a8e909bbefe7b",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 39.409,
+      "shots": [
+        "s-profit-scope-b",
+        "s-channels-existing"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/28d337165eb28e0d3e035112adf256366a566b5bdc726329384ab4b5b17ff8c3/result.mp4"
+    },
+    {
+      "id": "segment-021",
+      "first_frame": 7397,
+      "frames": 288,
+      "start": 246.56666666666666,
+      "end": 256.1666666666667,
+      "visual_key": "e185c424778d5a0185c648f990f2c8356b4e9f8d8f196ea4b011c6c8fc95eb37",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 42.129,
+      "shots": [
+        "s-channels-existing",
+        "s-channels-existing-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/029f7557d0fef74db183f8ff40e5cd3d0c715301097b058199db93f60341f8a6/result.mp4"
+    },
+    {
+      "id": "segment-022",
+      "first_frame": 7685,
+      "frames": 444,
+      "start": 256.1666666666667,
+      "end": 270.96666666666664,
+      "visual_key": "fb0977bc2e90b41f9bef48d3ce2f68e53f6a6ec8e33a641a174c7b5b3df773ad",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 46.279,
+      "shots": [
+        "s-channels-existing-b",
+        "s-channels-money"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/746c5ad1a7d8a3d49f047dc08e21e9dfa53bb0dfdf5431e769f23684c5409cce/result.mp4"
+    },
+    {
+      "id": "segment-023",
+      "first_frame": 8129,
+      "frames": 334,
+      "start": 270.96666666666664,
+      "end": 282.1,
+      "visual_key": "196e71af746457d5b6c3038e7ced622df496dcf147b766415b1c16e1764b6926",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 37.466,
+      "shots": [
+        "s-channels-money",
+        "s-channels-money-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/12d0d1d59a83cee5fbc67895c2abc0c3dfb8c2cdf310604eb393423964ad23c7/result.mp4"
+    },
+    {
+      "id": "segment-024",
+      "first_frame": 8463,
+      "frames": 321,
+      "start": 282.1,
+      "end": 292.8,
+      "visual_key": "8471e0d0d0895215ec412df825612e96a353e31992e11f1f1530e864a25c6db5",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 36.587,
+      "shots": [
+        "s-channels-money-b",
+        "s-quality"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/3c9329d8fcb7a7eb76714e74a32cce4ac21e3af2ff24c0f04a30ccf1951e2848/result.mp4"
+    },
+    {
+      "id": "segment-025",
+      "first_frame": 8784,
+      "frames": 344,
+      "start": 292.8,
+      "end": 304.26666666666665,
+      "visual_key": "4eae1ad9c89c8e30dce95b52bba001e9c37efdca649e9f10f188e7bd4ca4c152",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 38.131,
+      "shots": [
+        "s-quality",
+        "s-quality-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/6432475e1ed96a543888f920a5927146d15f799c403243c94eecbd6e3af01c41/result.mp4"
+    },
+    {
+      "id": "segment-026",
+      "first_frame": 9128,
+      "frames": 283,
+      "start": 304.26666666666665,
+      "end": 313.7,
+      "visual_key": "d3d92d4d06b6bd51fe8655ae0ca4d7ab83b77b1142d3efeae841f859d95ed9e9",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.726,
+      "shots": [
+        "s-quality-b",
+        "s-response"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/be6f1a5aace21617a37fb5f736bb34a137a4ef127b04c1dbf03ecd53d9bb4af8/result.mp4"
+    },
+    {
+      "id": "segment-027",
+      "first_frame": 9411,
+      "frames": 408,
+      "start": 313.7,
+      "end": 327.3,
+      "visual_key": "efce884431342c9aa287f728ba3ff20c002e62d68ff2b4d954ef97e9d7d3a26b",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.71,
+      "shots": [
+        "s-response",
+        "s-response-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/ccfb419fdda05956adb7d9214c9ed5499503581c933310cba36963a19ca74f14/result.mp4"
+    },
+    {
+      "id": "segment-028",
+      "first_frame": 9819,
+      "frames": 302,
+      "start": 327.3,
+      "end": 337.3666666666667,
+      "visual_key": "0b27c1ba3b1b541453f59d7b24613944a5f032af30b23e017881ff501be9a5d7",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.737,
+      "shots": [
+        "s-response-b",
+        "s-ecosystem-net"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/13819023963f667489720b37117a9ea39d694e6570a05af4ff69817f9dea95b8/result.mp4"
+    },
+    {
+      "id": "segment-029",
+      "first_frame": 10121,
+      "frames": 478,
+      "start": 337.3666666666667,
+      "end": 353.3,
+      "visual_key": "b9f05044c1a17d6b75d460326f9e836c4b26de1ac28ba4ab56746e9e3ab438b5",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.831,
+      "shots": [
+        "s-ecosystem-net",
+        "s-ecosystem-net-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/95956c3a185090190c51f53f9ab84633eb7d15cbf81c05a197a9e470685d8616/result.mp4"
+    },
+    {
+      "id": "segment-030",
+      "first_frame": 10599,
+      "frames": 293,
+      "start": 353.3,
+      "end": 363.06666666666666,
+      "visual_key": "0b7ffebe3d9c632ccb899cb92c27aee481f5d7cc2a098e09e5999f4424e9777f",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.647,
+      "shots": [
+        "s-ecosystem-net-b",
+        "s-defense-decision"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/a6db85f552ee9ed39ff7dfd11d8c423841bbdb3934e5272bce22a4578a1e32e6/result.mp4"
+    },
+    {
+      "id": "segment-031",
+      "first_frame": 10892,
+      "frames": 297,
+      "start": 363.06666666666666,
+      "end": 372.96666666666664,
+      "visual_key": "0d03e515b0fff5a5a7ed02c6695d34f0696184645cb3df4dfab5e5db214429f9",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.653,
+      "shots": [
+        "s-defense-decision",
+        "s-defense-decision-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/3a47a38cbe83c348e38ecd1c6f3ca0e4fec0ab9d88a6430eb7acee3cba4f7581/result.mp4"
+    },
+    {
+      "id": "segment-032",
+      "first_frame": 11189,
+      "frames": 334,
+      "start": 372.96666666666664,
+      "end": 384.1,
+      "visual_key": "631a01e199b46c0366b4eaec38ff1696cef07495b278ebba962cd8aece9334c2",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.669,
+      "shots": [
+        "s-defense-decision-b",
+        "s-game-demand"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/1f906e9c700d9f20e74c4bd2066a1db884404652bc0450302840faab9ff83b44/result.mp4"
+    },
+    {
+      "id": "segment-033",
+      "first_frame": 11523,
+      "frames": 367,
+      "start": 384.1,
+      "end": 396.3333333333333,
+      "visual_key": "e919e4b805994ac39733abc0166a402362995c43a8935152798c1a75e5e2e94d",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.662,
+      "shots": [
+        "s-game-demand",
+        "s-game-demand-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/8786ed1269be087b85f62d9502b550298d7249f23bb8c7fd3f9f669be459be92/result.mp4"
+    },
+    {
+      "id": "segment-034",
+      "first_frame": 11890,
+      "frames": 283,
+      "start": 396.3333333333333,
+      "end": 405.76666666666665,
+      "visual_key": "e3c7c6345625a7afec50ca0beb590fdbc9f46ebb673d9688da383f9f4d552602",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.63,
+      "shots": [
+        "s-game-demand-b",
+        "s-game-profit"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/cbe0f798a1218179e8f862f24b26074b472ae6301408178f90b2b3a517437e31/result.mp4"
+    },
+    {
+      "id": "segment-035",
+      "first_frame": 12173,
+      "frames": 540,
+      "start": 405.76666666666665,
+      "end": 423.76666666666665,
+      "visual_key": "ee69a1ce4b12c8a725eebe04f17c3250b4b3a554d2ea6766a4f49824de2ce222",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.665,
+      "shots": [
+        "s-game-profit",
+        "s-game-profit-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/a32b3f31899b68786bc9ef9cff93ace980a82b53d16916b2a7f7db4cd80db202/result.mp4"
+    },
+    {
+      "id": "segment-036",
+      "first_frame": 12713,
+      "frames": 370,
+      "start": 423.76666666666665,
+      "end": 436.1,
+      "visual_key": "3d1cd204c7c90b1e31e97fbaf27a264d432acef842ff2b1a0fa824e502d4e2ac",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.746,
+      "shots": [
+        "s-game-profit-b",
+        "s-game-counter"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/5436c7c7331a65f52c65a450f7267a316a146d3dbd006d85150f3babe16c3a80/result.mp4"
+    },
+    {
+      "id": "segment-037",
+      "first_frame": 13083,
+      "frames": 216,
+      "start": 436.1,
+      "end": 443.3,
+      "visual_key": "768a2baa9298fa6d8059dce815874517a1a18e28b8fbdaf26190138c03a2db0a",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.772,
+      "shots": [
+        "s-game-counter",
+        "s-game-counter-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/3840d20bef5660f5c06af358e65bc65830c6618ffd0c4dcc3a80248afdef6b6e/result.mp4"
+    },
+    {
+      "id": "segment-038",
+      "first_frame": 13299,
+      "frames": 393,
+      "start": 443.3,
+      "end": 456.4,
+      "visual_key": "bb0ba879c40553a2d32b9f2a3d7755a8cf9a7f282deb321edd06594e813c6d21",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 1.259,
+      "shots": [
+        "s-game-counter-b",
+        "s-game-geography"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/37d575222569a94a6bc2dd94380deac8973bcb4d8d69358aa444a37df5fb3280/result.mp4"
+    },
+    {
+      "id": "segment-039",
+      "first_frame": 13692,
+      "frames": 312,
+      "start": 456.4,
+      "end": 466.8,
+      "visual_key": "2a6beeb52c457c2603a0833c18ddebbb1d8b93e95ff7dc434d06bf26e757cdfe",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.899,
+      "shots": [
+        "s-game-geography",
+        "s-game-geography-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/b1195d7a0b09fb06bd7dbad921497ba115cd1aa290300c6efb08c8f3ef3b0bf2/result.mp4"
+    },
+    {
+      "id": "segment-040",
+      "first_frame": 14004,
+      "frames": 396,
+      "start": 466.8,
+      "end": 480.0,
+      "visual_key": "4fe7c35ed8bb77d789324b09a3633bfec9382fe65d8eadece119f37e441fffa7",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.921,
+      "shots": [
+        "s-game-geography-b",
+        "s-wechat-layers"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/5967c52a10ac10fb13e5316b8117004b318ec8b4d1a4b8ad13f9e7ed0e5a1875/result.mp4"
+    },
+    {
+      "id": "segment-041",
+      "first_frame": 14400,
+      "frames": 310,
+      "start": 480.0,
+      "end": 490.3333333333333,
+      "visual_key": "5349643b6f9ab7dcf7f56095d76c1f3db5b0a4fcc9868f76b0b6a2ced945cf52",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.847,
+      "shots": [
+        "s-wechat-layers",
+        "s-wechat-layers-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/aad1688a01621c5c91b9ca84306a67027d773c42cb7acb1d8b007037c33f9bb4/result.mp4"
+    },
+    {
+      "id": "segment-042",
+      "first_frame": 14710,
+      "frames": 492,
+      "start": 490.3333333333333,
+      "end": 506.73333333333335,
+      "visual_key": "aec76fec9707cca022037d76e3532cde7fd06cdcaabf65dc78923431505516f2",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.844,
+      "shots": [
+        "s-wechat-layers-b",
+        "s-commerce"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/31f9709174cb056acc19ed0356c09181ec988da3aa8454041dec6fbe1c027d39/result.mp4"
+    },
+    {
+      "id": "segment-043",
+      "first_frame": 15202,
+      "frames": 314,
+      "start": 506.73333333333335,
+      "end": 517.2,
+      "visual_key": "e16a5d68db91264eb7824180e31b9c37c57ae313bc71a7e2393b585596c37513",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.874,
+      "shots": [
+        "s-commerce",
+        "s-commerce-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/c3d142a677e9d59021abf9c0bceaf2533c999a4374178a4ece714aecdd5c8968/result.mp4"
+    },
+    {
+      "id": "segment-044",
+      "first_frame": 15516,
+      "frames": 315,
+      "start": 517.2,
+      "end": 527.7,
+      "visual_key": "8f5b1befe4e46f6514fee01804c88e51e28a71df16a4b19c8ea0e9fec02fa1b1",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.811,
+      "shots": [
+        "s-commerce-b",
+        "s-paid-drama"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/ef668d6359ae62c36536dbc27ab8b52405082224b4b3fa0d38d80c9b7f3be663/result.mp4"
+    },
+    {
+      "id": "segment-045",
+      "first_frame": 15831,
+      "frames": 425,
+      "start": 527.7,
+      "end": 541.8666666666667,
+      "visual_key": "ce3201ec5a1fc40a80d34cf94bb6c2681a25bafcb92272abde0b1d6f0bc550c5",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.742,
+      "shots": [
+        "s-paid-drama",
+        "s-paid-drama-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/495a7361b2ad103b08abf71028e42dcf642376303b898093a53f5d5131bc911d/result.mp4"
+    },
+    {
+      "id": "segment-046",
+      "first_frame": 16256,
+      "frames": 225,
+      "start": 541.8666666666667,
+      "end": 549.3666666666667,
+      "visual_key": "fd0bae232bf46c2c21e3c114fb928e8c31ca298f6a59f18f7932c9bf766fbe67",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.83,
+      "shots": [
+        "s-paid-drama-b",
+        "s-valuation"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/fd79c92c619861610d971492bec49e72b31a24fe6b92b4c37aa4d20bae29f028/result.mp4"
+    },
+    {
+      "id": "segment-047",
+      "first_frame": 16481,
+      "frames": 519,
+      "start": 549.3666666666667,
+      "end": 566.6666666666666,
+      "visual_key": "f675d705b566081c6b99767dcad3354ba580855c658195161246ed54d22078f0",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.857,
+      "shots": [
+        "s-valuation",
+        "s-valuation-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/90491f9ede140c108861bc71692ed49182aa139d74a7b3b83abe26fa4b5ca185/result.mp4"
+    },
+    {
+      "id": "segment-048",
+      "first_frame": 17000,
+      "frames": 393,
+      "start": 566.6666666666666,
+      "end": 579.7666666666667,
+      "visual_key": "9d5d6b5f587a0ff5cef20bb50681f2cdaa0593ccc439778f4c94ec67803baec5",
+      "cache_hit": true,
+      "changed": true,
+      "seconds": 0.872,
+      "shots": [
+        "s-valuation-b",
+        "s-falsify"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/b805f4f722fdc59926fe80416927ae02d745f951858e6f88d022b0cc8ff4afd1/result.mp4"
+    },
+    {
+      "id": "segment-049",
+      "first_frame": 17393,
+      "frames": 377,
+      "start": 579.7666666666667,
+      "end": 592.3333333333334,
+      "visual_key": "ddcb550320d0339d769000ae5a9bbc48651624ef9b24a4fc96ca7c08ce472b79",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 36.297,
+      "shots": [
+        "s-falsify",
+        "s-falsify-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/d853d0a88308300cc53e7264bf5ba83ccd17398cdf6dfa2735314f0ea3b1c768/result.mp4"
+    },
+    {
+      "id": "segment-050",
+      "first_frame": 17770,
+      "frames": 523,
+      "start": 592.3333333333334,
+      "end": 609.7666666666667,
+      "visual_key": "2c9436d3af333df705c1e7463a2379f0ed4a088bd69381127d218025b9fdd736",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 50.12,
+      "shots": [
+        "s-falsify-b",
+        "s-ending"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/7608abef1b87e4496aea0240e599b670d99bdef919680a847f99f09db7e4c8df/result.mp4"
+    },
+    {
+      "id": "segment-051",
+      "first_frame": 18293,
+      "frames": 459,
+      "start": 609.7666666666667,
+      "end": 625.0666666666667,
+      "visual_key": "8ed9843a7498cc6c27406b41111ded1913578ffdc396a7c42fe4c5a5777356bf",
+      "cache_hit": false,
+      "changed": true,
+      "seconds": 42.114,
+      "shots": [
+        "s-ending",
+        "s-ending-b"
+      ],
+      "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-segment/b6f1792cd8376140da9999f97ae66f6cd1eae696c1ee0ef48211f5b8aa238cfc/result.mp4"
+    }
+  ],
+  "rendered": 28,
+  "reused": 24,
+  "mux_seconds": 18.839,
+  "visual_master": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/visual-join/90d868fa7d790d0df847f61d726f00bda5b03acbb7cd0154555959764586439a/result.mp4",
+  "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/.cache/av-mux/18b89afb85f8f00a815102f1d25a1112343abe706163cf2c4e7a191c0439b7a9/result.mp4",
+  "movie_sha256": "1b529fd21815e331379c93ea7a22620d581b7fa002bfa1c678eb505b294975b9"
+}

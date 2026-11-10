@@ -1,0 +1,39 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "与v9比较仅替换封面，其他脚本完全相同；引文核对trade原文，照片标明情境重构。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "上一轮两行封面实现已通过74项单元测试；本轮未改生产代码，完整渲染及自动verify通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "复用已有生成照片及配音，未发起新图片或TTS请求；因上一轮封面排版程序更新，本轮重渲染7个片段。",
+        "youtube-visuals同步用户已认可的同类主题封面偏好，明确按每期脚本选择材料、动作和构图；格式与链接检查通过。"
+      ]
+    }
+  },
+  "warnings": [],
+  "review_bound": true,
+  "movie_sha256": "5479c8dfebb336bc7c98c8cc52805b591faf2e39bdc9882123433e2957ada305",
+  "input_signature": "0d2d564e5d358f898378ed6beeb446f4b8ff07865e2703a249b13271db226c82",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

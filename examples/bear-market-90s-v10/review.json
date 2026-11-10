@@ -1,0 +1,39 @@
+{
+  "movie_sha256": "5479c8dfebb336bc7c98c8cc52805b591faf2e39bdc9882123433e2957ada305",
+  "input_signature": "0d2d564e5d358f898378ed6beeb446f4b8ff07865e2703a249b13271db226c82",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "与v9比较仅替换封面，其他脚本完全相同；引文核对trade原文，照片标明情境重构。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": [
+        "原始配音母带与v9逐字节一致，音轨、音乐区间与参数未改。",
+        "混音重新计算后有微小PCM数值差异：RMS 0.397、最大41（16位整数量程），详见build/audio-v9-comparison.json；不宣称混音文件逐字节相同，未新增主观听审。"
+      ]
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": [
+        "用户认可复盘材料＋圈注封面；实际视频4.3秒抽帧核对通过，见deliverables/cover-in-video.png。",
+        "沿用v9其他分镜与布局；整体连续观看审美评价保留待审。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "上一轮两行封面实现已通过74项单元测试；本轮未改生产代码，完整渲染及自动verify通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "复用已有生成照片及配音，未发起新图片或TTS请求；因上一轮封面排版程序更新，本轮重渲染7个片段。",
+        "youtube-visuals同步用户已认可的同类主题封面偏好，明确按每期脚本选择材料、动作和构图；格式与链接检查通过。"
+      ]
+    }
+  }
+}

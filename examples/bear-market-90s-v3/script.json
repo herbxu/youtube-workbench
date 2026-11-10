@@ -1,0 +1,470 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "你应该在熊市中买入股票｜90秒样片",
+  "editorial": {
+    "question": "为什么长期投资者应该在熊市买入，而不必等市场重新乐观？",
+    "thesis": "长期投资者应该主动利用熊市买入研究过且价格足够便宜的好企业：未来同样的经营收入，以更低买价取得；不要只为等待安心而放弃已成立的买入理由。",
+    "takeaway": "研究过的好生意到了足够便宜的价格，就用预留的长期资金分批开始买，不要求买在最低点。"
+  },
+  "sources": [
+    {
+      "id": "s-philosophy",
+      "title": "投资哲学",
+      "url": "/Users/herbxu/Desktop/github/trade/投资哲学.md",
+      "date": "2026-10-27",
+      "excerpt": "正式原则：低于价值买进、适度分散、现金储备与分批；估值可能很慢或不回归。"
+    },
+    {
+      "id": "s-system",
+      "title": "交易系统",
+      "url": "/Users/herbxu/Desktop/github/trade/交易系统.md",
+      "date": "2026-10-27",
+      "excerpt": "正式约束：短期不用的资金，不借钱，适度分散，价格与更新后的内在价值比较。"
+    },
+    {
+      "id": "s-checklist",
+      "title": "检查清单",
+      "url": "/Users/herbxu/Desktop/github/trade/检查清单.md",
+      "date": "2026-10-27",
+      "excerpt": "正式约束：不用杠杆，不赌财报，不以大涨题材驱动买入。"
+    },
+    {
+      "id": "s-decisions",
+      "title": "决策记录与十月二十三日复盘",
+      "url": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-10-23",
+      "excerpt": "没有任何的股市认知，盲目的长期持有。错把长期持有当成价值投资，导致被套，完整穿过了牛熊市；2026-10-23：坚信的理念：一定要在恐慌的时候买入，在贪婪时卖出",
+      "history_period": "另含2024年之前的历史复盘",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "id": "s-june",
+      "title": "六月港股复盘",
+      "url": "/Users/herbxu/Desktop/github/trade/附录/2026.06-港股流动性危机下巨额抛售.md",
+      "date": "2026-06-26",
+      "excerpt": "虽然有点恐慌，但还是没有那么难受，今天做的好的是仅有的一些子弹还在保留着",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "id": "s-tencent",
+      "title": "腾讯当前判断",
+      "url": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/README.md",
+      "date": "2026-10-27",
+      "excerpt": "2026-10-25：研究候选，不足以证明现价有优势；AI回报与股东经济归属仍待验证。"
+    },
+    {
+      "id": "s-tencent-review",
+      "title": "腾讯方向校准反方复核",
+      "url": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/研究记录/2026-10-25-方向校准反方复核-v1/report.md",
+      "date": "2026-10-27",
+      "excerpt": "保留成熟业务机制支持；新资本回报未知，不以FCF下降直接证明价值毁损，也不自动加回投入。"
+    },
+    {
+      "id": "s-market",
+      "title": "Investing 恒指历史数据及52周范围（2026-10-30核对）",
+      "url": "https://www.investing.com/indices/hang-sen-40-historical-data",
+      "date": "2026-10-30",
+      "excerpt": "10月30日收盘23294.42，日涨1.46%；52周范围最高28056.10。"
+    },
+    {
+      "id": "s-market-tech",
+      "title": "Investing 恒生科技历史数据及52周范围（2026-10-30核对）",
+      "url": "https://hk.investing.com/indices/hang-seng-tech-historical-data",
+      "date": "2026-10-30",
+      "excerpt": "10月30日收盘3754.90，日涨0.29%；当前52周范围最高6025.53，不能沿用10月27日旧快照6198.68。"
+    },
+    {
+      "id": "s-market-cross",
+      "title": "每日经济新闻：10月行情收官（2026-10-30 17:10）",
+      "url": "https://www.nbd.com.cn/articles/2026-10-30/4631070.html",
+      "date": "2026-10-30",
+      "excerpt": "收盘恒指23294.42、涨1.46%；恒科3754.90、涨0.29%。与历史行情表交叉核对收盘点位及当日涨幅。"
+    }
+  ],
+  "units": [
+    {
+      "id": "u-sample-1",
+      "text": "我以前犯过一个错误：把长期持有当成价值投资。结果被套，完整经历了一轮牛熊。那为什么我现在还说，熊市应该买股票？因为买得便宜，和拿得够久，是两回事。",
+      "delivery": "回忆自己的错误，坦然直说；结果与前句接续。反问留出回应空间，回答简短落下；不在每个逗号停住。",
+      "argument": {
+        "role": "hook",
+        "point": "我以前犯过一个错误：把长期持有当成价值投资。结果被套，完整经历了一轮牛熊。那为什么我现在还说，熊市应该买股票？因为买得便宜，和拿得够久，是两回事。",
+        "basis": "trade决策记录的2024年之前小节；不使用具体账户损益。",
+        "boundary": "理解生意、价格足够便宜、长期资金；不保证价格回升或收益。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "作者在2024年之前的复盘中承认错把长期持有当成价值投资，导致被套，完整穿过牛熊市。",
+          "source_ids": [
+            "s-decisions"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": "以买得便宜与拿得够久的区别，承接本期熊市买入主张；这是本期整理的连接句，不声称原记录逐字这样写过。",
+          "source_ids": [
+            "s-decisions",
+            "s-philosophy"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sample-1",
+          "kind": "essay_scene",
+          "cue": "",
+          "purpose": "我也犯过这样的错误",
+          "variant": "record",
+          "headline": "我也犯过这样的错误",
+          "credit": "来源：本人决策记录 · 节选",
+          "note": "历史复盘；照片为情境配图",
+          "transition": "cut",
+          "record_date": "2024年之前 · 我的投资复盘",
+          "source_id": "s-decisions",
+          "quote": "错把长期持有当成价值投资，导致被套，完整穿过了牛熊市",
+          "events": [
+            {
+              "action": "mark",
+              "target": "marker",
+              "cue": "结果被套"
+            }
+          ],
+          "layout": "clean",
+          "quote_lines": [
+            "错把长期持有当成价值投资，",
+            "导致被套，完整穿过了牛熊市"
+          ]
+        },
+        {
+          "id": "s-opening-question",
+          "kind": "essay_scene",
+          "cue": "那为什么",
+          "purpose": "从过去的教训切回本期问题；声音保持连续，硬切改变观看任务。",
+          "variant": "question",
+          "headline": "为什么还说，熊市应该买股票？",
+          "credit": "",
+          "note": "历史复盘；照片为情境配图",
+          "transition": "cut",
+          "headline_lines": [
+            "为什么还说，",
+            "熊市应该买股票？"
+          ],
+          "layout": "clean",
+          "events": []
+        }
+      ]
+    },
+    {
+      "id": "u-sample-2",
+      "text": "十月二十三日，我在港股的复盘里写下：一定要在恐慌的时候买入。我的理由很简单：同一门好生意，如果未来收入没变，买价越低，买得越划算。",
+      "delivery": "先读出自己留下的判断，再自然解释它的条件；日期清楚，不用宣誓或训话口气。",
+      "argument": {
+        "role": "conclusion",
+        "point": "十月二十三日，我在港股的复盘里写下：一定要在恐慌的时候买入。我的理由很简单：同一门好生意，如果未来收入没变，买价越低，买得越划算。",
+        "basis": "10月23日原始复盘明确表达的立场，加上本期低价购买同一收入的解释；不声称已执行买入。",
+        "boundary": "理解生意、价格足够便宜、长期资金；不保证价格回升或收益。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "2026-10-23作者在港股持仓复盘中写下恐慌时买入的理念。",
+          "source_ids": [
+            "s-decisions"
+          ]
+        },
+        {
+          "kind": "opinion",
+          "text": "本期的买入理由：在好生意未来收入不变的假设下，较低买价意味着更好的购买条件。",
+          "source_ids": [
+            "s-philosophy"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sample-2",
+          "kind": "essay_scene",
+          "cue": "",
+          "purpose": "我留下的判断",
+          "variant": "record",
+          "headline": "我留下的判断",
+          "credit": "来源：本人决策记录 · 节选",
+          "note": "历史复盘；照片为情境配图",
+          "transition": "cut",
+          "record_date": "2026.10.23 · 港股复盘",
+          "source_id": "s-decisions",
+          "quote": "一定要在恐慌的时候买入",
+          "events": [
+            {
+              "action": "mark",
+              "target": "marker",
+              "cue": "一定要在恐慌的时候买入"
+            }
+          ],
+          "layout": "clean"
+        },
+        {
+          "id": "s-buying-reason",
+          "kind": "essay_scene",
+          "cue": "我的理由很简单",
+          "purpose": "从作者记录转入解释，短暂观点画面引出实际经营。",
+          "variant": "question",
+          "headline": "同一份未来收入，可以少花钱买到。",
+          "credit": "",
+          "note": "历史复盘；照片为情境配图",
+          "transition": "cut",
+          "headline_lines": [
+            "同一份未来收入，",
+            "可以少花钱买到。"
+          ],
+          "layout": "clean",
+          "events": []
+        }
+      ]
+    },
+    {
+      "id": "u-sample-3",
+      "text": "一家公司，你买下其中一份股权，每年可以分配十块钱。假设这笔收入能够持续，先不考虑增长和税费。这份股权卖两百块。你花两百，每年拿十块，相当于买价的百分之五。",
+      "delivery": "把公司当成正在看的具体生意。假设条件自然带过；两百与十块读清楚，最后百分之五落下，不在每个逗号机械停顿。",
+      "argument": {
+        "role": "example",
+        "point": "一家公司，你买下其中一份股权，每年可以分配十块钱。假设这笔收入能够持续，先不考虑增长和税费。这份股权卖两百块。你花两百，每年拿十块，相当于买价的百分之五。",
+        "basis": "正式投资原则与明确假设的同一公司现金收入例子。",
+        "boundary": "理解生意、价格足够便宜、长期资金；不保证价格回升或收益。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "一家公司，你买下其中一份股权，每年可以分配十块钱。假设这笔收入能够持续，先不考虑增长和税费。这份股权卖两百块。你花两百，每年拿十块，相当于买价的百分之五。"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sample-3",
+          "kind": "essay_scene",
+          "cue": "",
+          "purpose": "先看这门生意能给你什么",
+          "variant": "business",
+          "headline": "同一份股权",
+          "credit": "",
+          "note": "假设示例：收入持续；不计增长与税费",
+          "transition": "cut",
+          "hypothetical": true,
+          "price": 200,
+          "income": 10,
+          "comparison": "10 ÷ 200 = 5%",
+          "events": [
+            {
+              "action": "reveal",
+              "target": "income",
+              "cue": "每年可以"
+            },
+            {
+              "action": "reveal",
+              "target": "price",
+              "cue": "这份股权卖两百块"
+            },
+            {
+              "action": "reveal",
+              "target": "rate",
+              "cue": "相当于买价"
+            }
+          ],
+          "layout": "clean"
+        }
+      ]
+    },
+    {
+      "id": "u-sample-4",
+      "text": "后来市场下跌，这份股权只要一百块。公司还是那家公司，每年分给你的仍然是十块钱。你花一百，每年拿十块，相当于买价的百分之十。取得同一份收入，你付的钱少了一半。",
+      "delivery": "接着同一个例子往下讲，换成一百时轻微强调；同一份收入保持连贯，到少了一半再落下。",
+      "argument": {
+        "role": "mechanism",
+        "point": "后来市场下跌，这份股权只要一百块。公司还是那家公司，每年分给你的仍然是十块钱。你花一百，每年拿十块，相当于买价的百分之十。取得同一份收入，你付的钱少了一半。",
+        "basis": "正式投资原则与明确假设的同一公司现金收入例子。",
+        "boundary": "理解生意、价格足够便宜、长期资金；不保证价格回升或收益。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "后来市场下跌，这份股权只要一百块。公司还是那家公司，每年分给你的仍然是十块钱。你花一百，每年拿十块，相当于买价的百分之十。取得同一份收入，你付的钱少了一半。"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sample-4",
+          "kind": "essay_scene",
+          "cue": "",
+          "purpose": "生意没变，买价变了",
+          "variant": "valuation",
+          "headline": "同一份股权",
+          "credit": "",
+          "note": "假设示例：收入持续；不计增长与税费",
+          "transition": "cut",
+          "hypothetical": true,
+          "price": 100,
+          "previous_price": 200,
+          "income": 10,
+          "comparison": "10 ÷ 100 = 10%",
+          "events": [
+            {
+              "action": "reveal",
+              "target": "price",
+              "cue": "只要一百块"
+            },
+            {
+              "action": "reveal",
+              "target": "rate",
+              "cue": "相当于买价"
+            }
+          ],
+          "layout": "clean"
+        }
+      ]
+    },
+    {
+      "id": "u-sample-5",
+      "text": "当然，如果公司的生意变差，以后只能分五块钱，降价也未必划算。所以，我说的是研究过的好生意，到了足够便宜的价格，就应该开始买。",
+      "delivery": "像回应朋友的追问：如果生意变差呢？条件和结论连贯说清，不突然切换成严肃免责声明语气。",
+      "argument": {
+        "role": "objection",
+        "point": "当然，如果公司的生意变差，以后只能分五块钱，降价也未必划算。所以，我说的是研究过的好生意，到了足够便宜的价格，就应该开始买。",
+        "basis": "正式投资原则与明确假设的同一公司现金收入例子。",
+        "boundary": "理解生意、价格足够便宜、长期资金；不保证价格回升或收益。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "当然，如果公司的生意变差，以后只能分五块钱，降价也未必划算。所以，我说的是研究过的好生意，到了足够便宜的价格，就应该开始买。"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sample-5",
+          "kind": "essay_scene",
+          "cue": "",
+          "purpose": "但如果生意也变差了呢？",
+          "variant": "risk",
+          "headline": "同一份股权",
+          "credit": "",
+          "note": "假设示例：经营变差，收入可能下降",
+          "transition": "cut",
+          "hypothetical": true,
+          "price": 100,
+          "income": 5,
+          "comparison": "5 ÷ 100 = 5%：降价未必更划算",
+          "events": [
+            {
+              "action": "reveal",
+              "target": "income",
+              "cue": "以后只能分五块钱"
+            },
+            {
+              "action": "reveal",
+              "target": "rate",
+              "cue": "降价也未必划算"
+            }
+          ],
+          "layout": "clean",
+          "previous_income": 10
+        }
+      ]
+    },
+    {
+      "id": "u-sample-6",
+      "text": "六月那次下跌，我也记过：当天做得好的一件事，是手里还留着钱。所以我给自己的要求是，用预留的长期资金，分批买入研究过、价格合适的好生意。买入的理由，是价格合适，不必等所有人都放心。",
+      "delivery": "回到亲身复盘，接着说给自己的要求；现金为行动服务，不另开风险课。结尾平实坚定，避免拖长每个词。",
+      "argument": {
+        "role": "conclusion",
+        "point": "六月那次下跌，我也记过：当天做得好的一件事，是手里还留着钱。所以我给自己的要求是，用预留的长期资金，分批买入研究过、价格合适的好生意。买入的理由，是价格合适，不必等所有人都放心。",
+        "basis": "六月二十六日真实复盘与正式资金原则；省略账户金额和旧操作阈值。",
+        "boundary": "理解生意、价格足够便宜、长期资金；不保证价格回升或收益。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "2026-06-26作者认为当天做得较好的是仍保留了部分资金。",
+          "source_ids": [
+            "s-june"
+          ]
+        },
+        {
+          "kind": "opinion",
+          "text": "用预留长期资金分批买入研究过且价格合适的生意，是本期整理的行动要求，不声称已经执行成功。",
+          "source_ids": [
+            "s-philosophy",
+            "s-system"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-sample-6",
+          "kind": "essay_scene",
+          "cue": "",
+          "purpose": "回到我自己的复盘",
+          "variant": "closing",
+          "headline": "回到我自己的复盘",
+          "credit": "来源：本人六月港股复盘 · 节选",
+          "note": "历史复盘；照片为情境配图",
+          "transition": "cut",
+          "record_date": "2026.06.26 · 我的复盘",
+          "source_id": "s-june",
+          "quote": "今天做的好的是仅有的一些子弹还在保留着",
+          "events": [
+            {
+              "action": "mark",
+              "target": "marker",
+              "cue": "手里还留着钱"
+            }
+          ],
+          "layout": "clean",
+          "quote_lines": [
+            "今天做的好的是",
+            "仅有的一些子弹还在保留着"
+          ]
+        },
+        {
+          "id": "s-closing-action",
+          "kind": "essay_scene",
+          "cue": "所以我给自己的要求",
+          "purpose": "从个人复盘回到本期明确选择；短句承接口播，不新增知识点。",
+          "variant": "question",
+          "headline": "价格合适，就开始买。",
+          "credit": "",
+          "note": "历史复盘；照片为情境配图",
+          "transition": "cut",
+          "headline_lines": [
+            "价格合适，",
+            "就开始买。"
+          ],
+          "layout": "clean",
+          "events": [],
+          "subline": "研究过的好生意 · 预留的长期资金 · 分批买入"
+        }
+      ]
+    }
+  ],
+  "narrative": {
+    "audience_belief": "等市场安心再买",
+    "intended_shift": "理解同一收入低价取得的好处，研究支持时按计划买",
+    "author_position": "本人曾把长期持有当作价值投资并被套；10月23日重申恐慌时买入；6月26日记录保留资金做得较好。本片据此解释低价买入好生意的理由，不虚构已完成交易或收益。",
+    "chapters": [
+      {
+        "id": "c-sample",
+        "question": "熊市为何值得买",
+        "changes": "从等安心到理解低价",
+        "bridge": "以实际行动收束",
+        "units": [
+          "u-sample-1",
+          "u-sample-2",
+          "u-sample-3",
+          "u-sample-4",
+          "u-sample-5",
+          "u-sample-6"
+        ]
+      }
+    ]
+  }
+}

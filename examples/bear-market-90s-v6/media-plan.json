@@ -1,0 +1,14 @@
+{
+  "version": "v6",
+  "mood": "轻松、放松、温暖成长，所有段落保持同一情绪方向",
+  "arrangement": "同一作者、同一主题的基础钢琴与更丰富版本交替；风险段减密度但保留平和音乐",
+  "sources": "media/manifest.json",
+  "candidates": {
+    "Moil": "排除：暗色爵士与用户要求冲突",
+    "Empty Stretch": "排除：快节奏不作为本版推进感",
+    "Bright Eyes": "未用：口哨/笛子可能争夺口播注意力",
+    "Sunset Plains": "未用：宽广氛围更适合沉静背景，本版优先有旋律发展的钢琴主题",
+    "Happy moments": "选用：作者提供基础旋律与增加乐器的编配，适合同一基调内发展；实际情绪听审待完成"
+  },
+  "subjective_listening": "pending"
+}

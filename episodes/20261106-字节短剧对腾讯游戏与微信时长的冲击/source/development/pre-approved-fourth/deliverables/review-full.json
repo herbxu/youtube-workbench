@@ -1,0 +1,47 @@
+{
+  "movie_sha256": "93acb8d496ffbef19c2dcc0b28fcf5d5148ceef8659134d5d6a3f67cf9d9ef54",
+  "audio_lufs": -21.01,
+  "true_peak_dbtp": -2.5,
+  "duration_s": 625.5,
+  "global_duration_drift_s": 0.0,
+  "machine_checks": "passed",
+  "unit_joins_measured": 43,
+  "game_chapter_gap_before_after_s": [
+    1.82,
+    0.61
+  ],
+  "sample_reel_source_intervals_s": [
+    [
+      0,
+      16
+    ],
+    [
+      18.5,
+      27.8
+    ],
+    [
+      305.8,
+      321.9
+    ],
+    [
+      344,
+      351.5
+    ],
+    [
+      439.5,
+      446.5
+    ],
+    [
+      531.8,
+      536.1
+    ],
+    [
+      615.5,
+      625.5
+    ]
+  ],
+  "decoded_frame_contact_sheet": "av-review/frames.jpg",
+  "sound_evidence": "av-review/final-audio-transcript.json",
+  "short_caption_hold_s": 0.55,
+  "complete_subjective_listening": "pending"
+}

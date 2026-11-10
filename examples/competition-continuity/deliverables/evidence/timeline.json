@@ -1,0 +1,323 @@
+{
+  "schema": "opinion-timeline/v1",
+  "duration": 35.76,
+  "audio": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/build/audio.mixed.wav",
+  "units": [
+    {
+      "id": "u-entry",
+      "start": 0.0,
+      "end": 11.13,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "excerpt of existing recording-aligned words; time offset only",
+      "differences": []
+    },
+    {
+      "id": "u-profits",
+      "start": 11.13,
+      "end": 23.68,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "excerpt of existing recording-aligned words; time offset only",
+      "differences": []
+    },
+    {
+      "id": "u-copy",
+      "start": 23.68,
+      "end": 35.76,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "existing measured words, unchanged through 10.46s; removed final phrase in actual audio; no new ASR",
+      "differences": []
+    }
+  ],
+  "shots": [
+    {
+      "id": "s-cafe-video",
+      "kind": "footage",
+      "cue": "",
+      "purpose": "咖啡交到顾客手里，建立营业与服务的真实情境",
+      "asset": "media/footage/cafe-service.mp4",
+      "source_in": 0,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "headline": "别人能复制吗？",
+      "credit": "Thirdman / Pexels",
+      "note": "情境实拍；下文为假设街区",
+      "provenance": {
+        "kind": "stock-video",
+        "source": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+        "author": "Thirdman",
+        "license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "retrieved": "2026-10-24",
+        "usage": "情境实拍，视频中的个人与店铺不承担假设经营事实"
+      },
+      "start": 0.0,
+      "end": 6.616500000000009
+    },
+    {
+      "id": "s-street-entry",
+      "kind": "continuity",
+      "scene": "shop-competition/v1",
+      "cue": "别人能不能",
+      "hypothetical": true,
+      "note": "假设街区 · 从同一场景观察新店进入",
+      "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+      "events": [
+        {
+          "action": "establish",
+          "cue": "别人能不能",
+          "at": 6.616500000000009
+        },
+        {
+          "action": "rival",
+          "cue": "开一家",
+          "at": 8.0165
+        }
+      ],
+      "start": 6.616500000000009,
+      "end": 11.13
+    },
+    {
+      "id": "s-street-demand",
+      "kind": "continuity",
+      "scene": "shop-competition/v1",
+      "cue": "",
+      "hypothetical": true,
+      "note": "假设：总需求不变，单价和成本条件不变；顾客数量仅作示意",
+      "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+      "events": [
+        {
+          "action": "demand",
+          "cue": "",
+          "at": 11.13
+        },
+        {
+          "action": "profitable",
+          "cue": "特别赚钱",
+          "at": 13.030000000000006
+        },
+        {
+          "action": "entry",
+          "cue": "新玩家",
+          "at": 16.750000000000007
+        },
+        {
+          "action": "capacity",
+          "cue": "老对手",
+          "at": 19.229999999999997
+        },
+        {
+          "action": "pressure",
+          "cue": "利润很快",
+          "at": 21.449999999999996
+        }
+      ],
+      "start": 11.13,
+      "end": 23.68
+    },
+    {
+      "id": "s-street-copy",
+      "kind": "continuity",
+      "scene": "shop-competition/v1",
+      "cue": "",
+      "hypothetical": true,
+      "note": "假设：只讨论可模仿的优势，复制不代表所有行业的必然结果",
+      "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+      "events": [
+        {
+          "action": "focus",
+          "cue": "",
+          "at": 23.68
+        },
+        {
+          "action": "claim",
+          "cue": "我比别人做得好",
+          "at": 25.32
+        },
+        {
+          "action": "product",
+          "cue": "你能差异化",
+          "at": 28.1
+        },
+        {
+          "action": "imitate",
+          "cue": "对手也能",
+          "at": 29.18
+        },
+        {
+          "action": "systems",
+          "cue": "制度",
+          "at": 30.619999999999997
+        },
+        {
+          "action": "talent",
+          "cue": "人才",
+          "at": 30.96
+        },
+        {
+          "action": "management",
+          "cue": "管理",
+          "at": 31.54
+        },
+        {
+          "action": "copy",
+          "cue": "对手挖一挖",
+          "at": 32.71999999999999
+        },
+        {
+          "action": "question",
+          "cue": "学一学",
+          "at": 33.54
+        }
+      ],
+      "start": 23.68,
+      "end": 35.76
+    }
+  ],
+  "captions": [
+    {
+      "text": "在位企业能做到，",
+      "start": 0.17650000000001143,
+      "end": 2.136500000000005
+    },
+    {
+      "text": "而新进入者做不到的事情，",
+      "start": 2.556500000000007,
+      "end": 4.136500000000005
+    },
+    {
+      "text": "说人话就是，",
+      "start": 4.956499999999998,
+      "end": 5.836500000000008
+    },
+    {
+      "text": "别人能不能在你隔壁，",
+      "start": 6.616500000000009,
+      "end": 7.856500000000004
+    },
+    {
+      "text": "开一家一模一样的店，",
+      "start": 8.0165,
+      "end": 9.276500000000006
+    },
+    {
+      "text": "还活得比你滋润。",
+      "start": 9.856500000000004,
+      "end": 10.75650000000001
+    },
+    {
+      "text": "你想一个生意要是特别赚钱，",
+      "start": 11.209999999999999,
+      "end": 13.690000000000003
+    },
+    {
+      "text": "又没人拦着外人，",
+      "start": 14.170000000000007,
+      "end": 15.63
+    },
+    {
+      "text": "会怎么样，",
+      "start": 15.85,
+      "end": 16.250000000000007
+    },
+    {
+      "text": "新玩家闻着味就冲进来了，",
+      "start": 16.750000000000007,
+      "end": 18.53000000000001
+    },
+    {
+      "text": "老对手拼命扩产，",
+      "start": 19.229999999999997,
+      "end": 20.830000000000005
+    },
+    {
+      "text": "利润很快就会被摊薄。",
+      "start": 21.449999999999996,
+      "end": 23.35
+    },
+    {
+      "text": "换句话说，",
+      "start": 23.68,
+      "end": 24.82
+    },
+    {
+      "text": "我比别人做得好，",
+      "start": 25.32,
+      "end": 26.380000000000003
+    },
+    {
+      "text": "根本不够，",
+      "start": 26.800000000000004,
+      "end": 27.380000000000003
+    },
+    {
+      "text": "你能差异化，",
+      "start": 28.1,
+      "end": 28.82
+    },
+    {
+      "text": "对手也能，",
+      "start": 29.18,
+      "end": 29.839999999999996
+    },
+    {
+      "text": "你的制度人才管理，",
+      "start": 30.440000000000005,
+      "end": 32.1
+    },
+    {
+      "text": "对手挖一挖学一学。",
+      "start": 32.71999999999999,
+      "end": 34.14000000000001
+    }
+  ],
+  "audio_tracks": [
+    {
+      "id": "a-u-entry",
+      "type": "sfx",
+      "asset": "media/sfx/click-soft.mp3",
+      "cue": "开一家",
+      "duration": 0.37,
+      "gain_db": -24,
+      "fade": 0.025,
+      "duck": true,
+      "provenance": {
+        "kind": "bundled-sfx",
+        "provider": "media-use / bundled.sfx",
+        "source": "bundled click-soft, see media/sfx/CREDITS.md",
+        "upstream_library": "Pixabay",
+        "license": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "author": "not specified in bundled credits",
+        "usage": "two quiet object landing accents, no music"
+      },
+      "at": 8.0165
+    },
+    {
+      "id": "a-u-copy",
+      "type": "sfx",
+      "asset": "media/sfx/click-soft.mp3",
+      "cue": "对手挖一挖",
+      "duration": 0.37,
+      "gain_db": -24,
+      "fade": 0.025,
+      "duck": true,
+      "provenance": {
+        "kind": "bundled-sfx",
+        "provider": "media-use / bundled.sfx",
+        "source": "bundled click-soft, see media/sfx/CREDITS.md",
+        "upstream_library": "Pixabay",
+        "license": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "author": "not specified in bundled credits",
+        "usage": "two quiet object landing accents, no music"
+      },
+      "at": 32.71999999999999
+    }
+  ],
+  "overlays": []
+}

@@ -1,0 +1,23 @@
+{
+  "revision": "v2",
+  "previous_movie": "../bear-market-90s/deliverables/output.mp4",
+  "script_text_changed_this_production": false,
+  "shots": 11,
+  "assets": [
+    "原有Pexels财务桌面照片",
+    "原有Thirdman/Pexels咖啡服务片段及其提取帧"
+  ],
+  "voice": "同一用户授权B音色；新语气指令已实际传递",
+  "visual": "个人原文节选排版、经营实拍、买价与收入变化；按话语切换画面",
+  "bgm": "无；本轮先验证旁白表达与视觉配合",
+  "runtime": {
+    "used": "HyperFrames 0.8.171",
+    "latest_reported": "0.8.221",
+    "upgrade_attempt": "已执行官方upgrade；工具对没有scripts版本钉住的根项目报告已是最新，未改变依赖。实际保留0.8.171，check已通过。"
+  },
+  "official_voice_documentation": "https://help.aliyun.com/zh/model-studio/non-realtime-tts-user-guide",
+  "tests": "66 passed",
+  "review": "实际MP4抽帧与机器QA完成；作者风格和主观听审待用户观看",
+  "verification_fix": "摄影满幅的question镜头按照片场景检查，不再误用纸色边缘标准；纸色场景仍检查实际导出边缘。标题按完整词组分行，避免熊市等词被拆开。",
+  "movie_sha256": "dc67f2ba94ca8b204154f5b2e71a60c1929f283bb615c63a987859d7b6f5d393"
+}

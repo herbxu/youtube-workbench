@@ -1,0 +1,33 @@
+{
+  "method": "24 kHz mono; 40 ms Hann, 10 ms step; speech-active frames within 20 dB of maximum RMS; percent of 150–6000 Hz energy, descriptive only",
+  "actual_opening_question_raw": {
+    "duration_s": 4.11,
+    "150_500_pct": 71.45,
+    "500_2000_pct": 27.95,
+    "2000_6000_pct": 0.6
+  },
+  "actual_opening_question_export": {
+    "duration_s": 4.66,
+    "150_500_pct": 71.59,
+    "500_2000_pct": 27.86,
+    "2000_6000_pct": 0.54
+  },
+  "0-本人原录音": {
+    "duration_s": 5.96,
+    "150_500_pct": 70.71,
+    "500_2000_pct": 27.92,
+    "2000_6000_pct": 1.38
+  },
+  "1-本期表达设置": {
+    "duration_s": 5.04,
+    "150_500_pct": 72.86,
+    "500_2000_pct": 25.62,
+    "2000_6000_pct": 1.52
+  },
+  "2-关闭表达指令": {
+    "duration_s": 4.64,
+    "150_500_pct": 72.12,
+    "500_2000_pct": 26.33,
+    "2000_6000_pct": 1.55
+  }
+}

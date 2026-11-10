@@ -1,0 +1,24 @@
+{
+  "script_sha256": "ad67df7858bd1d42918e1ed556b3091768ce01d914d8933b08c6372eb6da71d7",
+  "reviewed_at": "2026-11-06",
+  "scope": "全文文字审读；PDF第4及6物理页；来源链接与本地来源哈希；未做音频/视频验收",
+  "checks": {
+    "schema": "passed",
+    "editorial_warnings": [],
+    "reading_copy_exact": "passed",
+    "source_paths_and_hashes": "passed",
+    "research_links": "passed"
+  },
+  "spoken_character_count": 2670,
+  "estimated_minutes": [
+    9.4,
+    10.0
+  ],
+  "estimate_basis": "每分钟280—300字，另计约30秒停顿；非录音实测",
+  "pending": [
+    "作者审稿",
+    "录音和实测时长",
+    "正式素材与分镜编排",
+    "完整听审与连续画面验收"
+  ]
+}

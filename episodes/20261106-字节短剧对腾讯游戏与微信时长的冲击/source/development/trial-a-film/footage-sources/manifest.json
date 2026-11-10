@@ -1,0 +1,57 @@
+{
+  "phone": {
+    "author": "Gunjee Nyam",
+    "source": "https://www.pexels.com/video/a-person-using-a-smartphone-5226462/",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://videos.pexels.com/video-files/5226462/5226462-hd_1920_1080_30fps.mp4",
+    "description": "手指操作手机",
+    "sha256": "06b882fa1860ab798ccbc6e49f51b24b949013228bc1e4fb2f90505050ee327c",
+    "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+  },
+  "journal": {
+    "author": "Tima Miroshnichenko",
+    "source": "https://www.pexels.com/video/a-person-writing-on-a-notebook-6860424/",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://videos.pexels.com/video-files/6860424/6860424-hd_1920_1080_25fps.mp4",
+    "description": "翻页及书写",
+    "sha256": "a543865e84b12a475b80671d8872178b2b752774883ee89c5b3eb0eaf1186253",
+    "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+  },
+  "set": {
+    "author": "Ron Lach",
+    "source": "https://www.pexels.com/video/a-filming-crew-clapping-a-clapperboard-9810791/",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://videos.pexels.com/video-files/9810791/9810791-hd_2048_1080_25fps.mp4",
+    "description": "咖啡厅拍摄现场及打板",
+    "sha256": "0fd2d09e0b12fc65c3fc627400abfbddcba7429b7f0b77785df1fabe1d00598b",
+    "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+  },
+  "sign": {
+    "author": "Thirdman",
+    "source": "https://www.pexels.com/video/close-up-video-of-a-person-signing-a-document-8471105/",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://videos.pexels.com/video-files/8471105/8471105-hd_1920_1080_25fps.mp4",
+    "description": "笔落在真实纸张并签名",
+    "sha256": "3996b6f4f7721c18004365214dc9f5f12e803deef58421d4fff676075c0b0035",
+    "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+  },
+  "plan": {
+    "author": "Ron Lach",
+    "source": "https://www.pexels.com/video/a-director-explaining-the-movie-scene-9810149/",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://videos.pexels.com/video-files/9810149/9810149-hd_2048_1080_25fps.mp4",
+    "description": "同一组片场人员讨论拍摄计划",
+    "sha256": "8ffeca3ea2126150895f7c2281e4e0173bc399a737845d563953fd395d4b4bb2",
+    "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+  },
+  "pair": {
+    "author": "Thirdman / Ron Lach",
+    "inputs": [
+      "sign",
+      "plan"
+    ],
+    "license": "https://www.pexels.com/license/",
+    "usage": "已签与待立项两个假设场景的同步对照",
+    "sha256": "6c381fc7aa4865e2f60cff807f7a18e86f8c2c9db22678bb7d5eb797ffb497e9"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "feedback": "预留的长期资金卡片框有点长",
+  "change": {
+    "width_before": 1060,
+    "width_after": 760,
+    "reduction_percent": 28.3,
+    "font_size": 82,
+    "center_x": 960,
+    "height": 230
+  },
+  "scope": "只改截图指向的资金卡片宽度，保留v6内容、声音、音乐和时序",
+  "skill": "skills/youtube-visuals/references/visuals.md：框宽按内容与留白决定，居中和框宽分别验收"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "opinion-voice-profile/v1",
+  "reference": "media/voice-reference/author.mp3",
+  "sha256": "62f402e2548aac5f2fc30760801c110d2a3942e4b829621eb00c89a2d0ee6ed2",
+  "authorization": "用户称为自己的音色文件并要求用于本期 TTS",
+  "duration_s": 525.21795,
+  "service": "aliyun-bailian",
+  "voice_id": "qwen-audio-3.0-tts-plus-naturalv2-1f7ec7f819964c1f815606a0d47fe1bc",
+  "status": "current_sample_rejected",
+  "reference_listening": "pending",
+  "voice_verified": false,
+  "sample_plan": [
+    "自然提问",
+    "股份与比例数字",
+    "但是/不等于转折",
+    "结尾收束"
+  ],
+  "note": "本人参考录音已存在；需对照原声、原始合成与最终处理声，未确定失真原因。历史 config 中 voice_verified 不代表本版主观相似度通过。",
+  "reference_measurement": {
+    "method": "ffmpeg loudnorm input measurement; original unchanged",
+    "integrated_lufs": -23.06,
+    "true_peak_dbtp": -3.63,
+    "loudness_range_lu": 5.3
+  },
+  "model": "qwen-audio-3.0-tts-plus",
+  "user_feedback": "2026-10-31：音色太差，不像本人。此前 B 更合适的选择仅为历史候选偏好。",
+  "candidates": [
+    "../../episodes/20260913-企业再融资-增发和发债/source/voice-candidates/cosy-natural-v2.json",
+    "../../episodes/20260913-企业再融资-增发和发债/source/voice-candidates/qwen-natural-v1.json"
+  ],
+  "accepted_sample": {
+    "path": "../../episodes/20260913-企业再融资-增发和发债/media/voice-samples/qwen-natural-v1-listen.wav",
+    "sha256": "9b8d7e31edb51ab6d781e94201cf2e60e396fe8065391fadf7fb01ebe77a6159",
+    "duration_s": 18.16,
+    "gain_db": 1.63,
+    "target_lufs": -22,
+    "operation": "仅固定增益，保留原始音频；不改语速、音高或动态范围"
+  },
+  "reuse_basis": "同一用户自有音色；已记录反馈B更合适，可以继续；本次请求生成样片，沿用项目偏好。",
+  "current_sample_listening": "failed_by_user",
+  "historical_selection": {
+    "status": "voice_approved_video_exported_listening_pending",
+    "voice_verified": true,
+    "user_feedback": "B 更合适，可以继续",
+    "note": "B音色、0.9倍语速，增加4处局部强调；93.09秒带导航版本已导出，机器与抽帧检查完成，完整听感待确认。"
+  }
+}

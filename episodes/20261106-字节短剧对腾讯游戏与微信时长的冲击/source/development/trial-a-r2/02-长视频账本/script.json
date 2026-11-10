@@ -1,0 +1,614 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "02-长视频账本",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "units": [
+    {
+      "id": "ledger-0",
+      "text": "假设腾讯视频一期收入一百，成本一百一十，原本亏十。现在观众少了，下期收入只有八十。得看哪些钱还要付。",
+      "shots": [
+        {
+          "id": "s-ledger-start",
+          "kind": "essay_scene",
+          "layout": "motion",
+          "variant": "business",
+          "purpose": "在口播锚点展示笔记或账目变化",
+          "note": "假设算例",
+          "headline": "长视频的利润",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "hint",
+              "type": "text",
+              "text": "假设算例　／　非腾讯实绩",
+              "x": 210,
+              "y": 128,
+              "w": 1100,
+              "h": 64,
+              "font": 34,
+              "color": "#806749",
+              "initial": true
+            },
+            {
+              "id": "label0",
+              "type": "text",
+              "text": "收入",
+              "x": 210,
+              "y": 300,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label1",
+              "type": "text",
+              "text": "成本",
+              "x": 210,
+              "y": 476,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label2",
+              "type": "text",
+              "text": "经营利润",
+              "x": 210,
+              "y": 675,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "r",
+              "type": "text",
+              "text": "100",
+              "x": 1150,
+              "y": 290,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "c",
+              "type": "text",
+              "text": "110",
+              "x": 1150,
+              "y": 466,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "p",
+              "type": "text",
+              "text": "−10",
+              "x": 1150,
+              "y": 665,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#a64733",
+              "initial": false,
+              "align": "right"
+            }
+          ],
+          "events": [
+            {
+              "target": "r",
+              "cue": "收入一百",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "c",
+              "cue": "成本一百一十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "p",
+              "cue": "原本亏十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            }
+          ],
+          "surface": "accountbook",
+          "hypothetical": true
+        },
+        {
+          "kind": "essay_scene",
+          "layout": "motion",
+          "surface": "plain",
+          "id": "s-shared",
+          "variant": "business",
+          "hypothetical": true,
+          "purpose": "以同一收入比较可避免和已承诺的成本",
+          "note": "假设算例",
+          "headline": "观看流失之后",
+          "transition": "cut",
+          "cue": "下期收入",
+          "motion_objects": [
+            {
+              "id": "original",
+              "type": "text",
+              "text": "假设算例   /   原来收入 100，成本 110，亏 10",
+              "x": 210,
+              "y": 95,
+              "w": 1520,
+              "h": 72,
+              "font": 41,
+              "color": "#576556",
+              "initial": true
+            },
+            {
+              "id": "shared",
+              "type": "text",
+              "text": "两种情况的收入",
+              "x": 280,
+              "y": 212,
+              "w": 700,
+              "h": 100,
+              "font": 73,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "eighty",
+              "type": "text",
+              "text": "80",
+              "x": 990,
+              "y": 185,
+              "w": 620,
+              "h": 140,
+              "font": 126,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "rule",
+              "type": "bar",
+              "x": 185,
+              "y": 362,
+              "w": 1550,
+              "h": 5,
+              "font": 24,
+              "color": "#87968a",
+              "initial": true
+            },
+            {
+              "id": "question",
+              "type": "text",
+              "text": "哪些钱还要付？",
+              "x": 260,
+              "y": 515,
+              "w": 1280,
+              "h": 145,
+              "font": 81,
+              "color": "#253e38",
+              "initial": false
+            }
+          ],
+          "events": [
+            {
+              "target": "question",
+              "cue": "得看哪些钱",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            }
+          ]
+        }
+      ],
+      "audio": "media/ledger-0-edit.wav"
+    },
+    {
+      "id": "ledger-1",
+      "text": "先看已经签好的版权合同。就算少了人看，这笔钱也得照付。假设成本只能降到一百，就是亏二十。",
+      "shots": [
+        {
+          "kind": "essay_scene",
+          "layout": "motion",
+          "surface": "plain",
+          "id": "s-signed",
+          "variant": "business",
+          "hypothetical": true,
+          "purpose": "以同一收入比较可避免和已承诺的成本",
+          "note": "假设算例",
+          "headline": "观看流失之后",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "original",
+              "type": "text",
+              "text": "假设算例   /   原来收入 100，成本 110，亏 10",
+              "x": 210,
+              "y": 95,
+              "w": 1520,
+              "h": 72,
+              "font": 41,
+              "color": "#576556",
+              "initial": true
+            },
+            {
+              "id": "shared",
+              "type": "text",
+              "text": "两种情况的收入",
+              "x": 280,
+              "y": 212,
+              "w": 700,
+              "h": 100,
+              "font": 73,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "eighty",
+              "type": "text",
+              "text": "80",
+              "x": 990,
+              "y": 185,
+              "w": 620,
+              "h": 140,
+              "font": 126,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "rule",
+              "type": "bar",
+              "x": 185,
+              "y": 362,
+              "w": 1550,
+              "h": 5,
+              "font": 24,
+              "color": "#87968a",
+              "initial": true
+            },
+            {
+              "id": "signed",
+              "type": "ticket",
+              "text": "版权合同  ·  已签约",
+              "x": 220,
+              "y": 398,
+              "w": 660,
+              "h": 88,
+              "font": 47,
+              "color": "#253e38",
+              "initial": false
+            },
+            {
+              "id": "owed",
+              "type": "text",
+              "text": "仍须付款",
+              "x": 240,
+              "y": 508,
+              "w": 615,
+              "h": 68,
+              "font": 42,
+              "color": "#705d4c",
+              "initial": false
+            },
+            {
+              "id": "costa",
+              "type": "text",
+              "text": "成本   100",
+              "x": 240,
+              "y": 609,
+              "w": 615,
+              "h": 74,
+              "font": 61,
+              "color": "#253e38",
+              "initial": false
+            },
+            {
+              "id": "lossa",
+              "type": "text",
+              "text": "亏 20",
+              "x": 240,
+              "y": 720,
+              "w": 615,
+              "h": 100,
+              "font": 90,
+              "color": "#9f422f",
+              "initial": false
+            }
+          ],
+          "events": [
+            {
+              "target": "signed",
+              "cue": "已经签好",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "owed",
+              "cue": "照付",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "costa",
+              "cue": "降到一百",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "lossa",
+              "cue": "亏二十",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            }
+          ]
+        }
+      ],
+      "audio": "media/ledger-1-edit.wav"
+    },
+    {
+      "id": "ledger-2",
+      "text": "再看另一种情况，同样收八十。明年几部回报差的剧还没签，可以取消。假设成本能降到七十，这样就能赚十。今年签过的合同还要付多少？明年少拍一部剧，究竟能省多少？",
+      "shots": [
+        {
+          "kind": "essay_scene",
+          "layout": "motion",
+          "surface": "plain",
+          "id": "s-two-choices",
+          "variant": "business",
+          "hypothetical": true,
+          "purpose": "以同一收入比较可避免和已承诺的成本",
+          "note": "假设算例",
+          "headline": "观看流失之后",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "original",
+              "type": "text",
+              "text": "假设算例   /   原来收入 100，成本 110，亏 10",
+              "x": 210,
+              "y": 95,
+              "w": 1520,
+              "h": 72,
+              "font": 41,
+              "color": "#576556",
+              "initial": true
+            },
+            {
+              "id": "shared",
+              "type": "text",
+              "text": "两种情况的收入",
+              "x": 280,
+              "y": 212,
+              "w": 700,
+              "h": 100,
+              "font": 73,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "eighty",
+              "type": "text",
+              "text": "80",
+              "x": 990,
+              "y": 185,
+              "w": 620,
+              "h": 140,
+              "font": 126,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "rule",
+              "type": "bar",
+              "x": 185,
+              "y": 362,
+              "w": 1550,
+              "h": 5,
+              "font": 24,
+              "color": "#87968a",
+              "initial": true
+            },
+            {
+              "id": "signed",
+              "type": "ticket",
+              "text": "版权合同  ·  已签约",
+              "x": 220,
+              "y": 398,
+              "w": 660,
+              "h": 88,
+              "font": 47,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "owed",
+              "type": "text",
+              "text": "仍须付款",
+              "x": 240,
+              "y": 508,
+              "w": 615,
+              "h": 68,
+              "font": 42,
+              "color": "#705d4c",
+              "initial": true
+            },
+            {
+              "id": "costa",
+              "type": "text",
+              "text": "成本   100",
+              "x": 240,
+              "y": 609,
+              "w": 615,
+              "h": 74,
+              "font": 61,
+              "color": "#253e38",
+              "initial": true
+            },
+            {
+              "id": "lossa",
+              "type": "text",
+              "text": "亏 20",
+              "x": 240,
+              "y": 720,
+              "w": 615,
+              "h": 100,
+              "font": 90,
+              "color": "#9f422f",
+              "initial": true
+            },
+            {
+              "id": "planned",
+              "type": "ticket",
+              "text": "未来片单  ·  未签约",
+              "x": 1030,
+              "y": 398,
+              "w": 660,
+              "h": 88,
+              "font": 47,
+              "color": "#253e38",
+              "initial": false
+            },
+            {
+              "id": "cancel",
+              "type": "text",
+              "text": "可以取消",
+              "x": 1050,
+              "y": 508,
+              "w": 615,
+              "h": 68,
+              "font": 42,
+              "color": "#4c6958",
+              "initial": false
+            },
+            {
+              "id": "costb",
+              "type": "text",
+              "text": "成本   70",
+              "x": 1050,
+              "y": 609,
+              "w": 615,
+              "h": 74,
+              "font": 61,
+              "color": "#253e38",
+              "initial": false
+            },
+            {
+              "id": "gain",
+              "type": "text",
+              "text": "赚 10",
+              "x": 1050,
+              "y": 720,
+              "w": 615,
+              "h": 100,
+              "font": 90,
+              "color": "#20634b",
+              "initial": false
+            }
+          ],
+          "events": [
+            {
+              "target": "planned",
+              "cue": "还没签",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "cancel",
+              "cue": "可以取消",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "costb",
+              "cue": "降到七十",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "gain",
+              "cue": "赚十",
+              "action": "reveal",
+              "duration": 0.34,
+              "y": 6
+            },
+            {
+              "target": "signed",
+              "cue": "今年签过",
+              "action": "focus",
+              "duration": 0.48
+            },
+            {
+              "target": "planned",
+              "cue": "明年少拍",
+              "action": "focus",
+              "duration": 0.48
+            }
+          ]
+        }
+      ],
+      "audio": "media/ledger-2-edit.wav"
+    }
+  ]
+}

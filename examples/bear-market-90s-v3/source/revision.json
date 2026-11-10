@@ -1,0 +1,9 @@
+{
+  "from": "../bear-market-90s-v2",
+  "request": "生成约90秒返工样片",
+  "voice_change": "恢复既有B候选实际设置：无附加表达指令，无逐段指令，无变速；新成片相似度待用户试听",
+  "voice_verification_scope": "config.voice_verified沿用历史B候选试听记录，不代表本版听审通过",
+  "visual_change": "clean布局无库存照片、无金币；保留复盘节选和收入/价格变化",
+  "audio_review": "pending",
+  "timing": "以自然旁白实测时长为准，不提速卡90秒"
+}

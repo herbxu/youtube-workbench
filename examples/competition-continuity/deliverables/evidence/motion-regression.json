@@ -1,0 +1,897 @@
+{
+  "passed": true,
+  "measured_flow_reveals": [
+    {
+      "scene": "street",
+      "action": "customer-diversion",
+      "before": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "product": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "after": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          }
+        ],
+        "product": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "reversed": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "product": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    },
+    {
+      "scene": "street",
+      "action": "copy",
+      "early": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          }
+        ],
+        "product": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "moving": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          }
+        ],
+        "product": {
+          "opacity": 0.4169,
+          "x": -314.8992,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "late": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          }
+        ],
+        "product": {
+          "opacity": 1,
+          "x": 0,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "back": {
+        "shops": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "customers": [
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 324,
+            "y": 30
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 648,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          },
+          {
+            "opacity": 1,
+            "x": 972,
+            "y": -55
+          }
+        ],
+        "product": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0
+        },
+        "features": [
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "opacity": 0,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    },
+    {
+      "footage": {
+        "muted": true,
+        "start": 0,
+        "duration": 6.616500000000009,
+        "nestedTimed": false
+      }
+    }
+  ],
+  "caption_boxes": [
+    {
+      "id": "caption-0",
+      "left": 767,
+      "right": 1153,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-1",
+      "left": 683,
+      "right": 1237,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-2",
+      "left": 809,
+      "right": 1111,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-3",
+      "left": 725,
+      "right": 1195,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-4",
+      "left": 725,
+      "right": 1195,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-5",
+      "left": 767,
+      "right": 1153,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-6",
+      "left": 662,
+      "right": 1258,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-7",
+      "left": 767,
+      "right": 1153,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-8",
+      "left": 830,
+      "right": 1090,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-9",
+      "left": 683,
+      "right": 1237,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-10",
+      "left": 767,
+      "right": 1153,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-11",
+      "left": 725,
+      "right": 1195,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-12",
+      "left": 830,
+      "right": 1090,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-13",
+      "left": 767,
+      "right": 1153,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-14",
+      "left": 830,
+      "right": 1090,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-15",
+      "left": 809,
+      "right": 1111,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-16",
+      "left": 830,
+      "right": 1090,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-17",
+      "left": 746,
+      "right": 1174,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    },
+    {
+      "id": "caption-18",
+      "left": 746,
+      "right": 1174,
+      "top": 923.203125,
+      "bottom": 1001.796875,
+      "inside": true
+    }
+  ],
+  "note": "Browser geometry and reverse-seek checks only; inspect actual exported frames separately."
+}

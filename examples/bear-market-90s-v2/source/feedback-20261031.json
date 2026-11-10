@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-31",
+  "movie_sha256": "dc67f2ba94ca8b204154f5b2e71a60c1929f283bb615c63a987859d7b6f5d393",
+  "user_feedback": [
+    "音色太差，不像本人",
+    "画面里很多无关的东西，不够清晰"
+  ],
+  "scope": "当前反馈核查、技能修订及验收更正；尚未修改 script.json、重新合成声音或重渲染视频",
+  "voice": {
+    "known": [
+      "本人录音可用；注册音色来自既有候选",
+      "本版新增逐单元表达指令",
+      "后期统一变速系数 1.07644444"
+    ],
+    "unknown": [
+      "声线偏差主要来自注册参考、合成表达还是后期处理，未完成对照试听，不能归因"
+    ],
+    "next": "使用已有本人录音和历史候选核查；同文短段控制变量比较原始合成与处理版本，再获得相似度反馈"
+  },
+  "visual": {
+    "inspection": "build/final-contact-sheet.jpg 实际 MP4 抽帧；非全片连续观看",
+    "changes": [
+      {
+        "shots": [
+          "s-sample-1",
+          "s-sample-2",
+          "s-sample-6"
+        ],
+        "observed": "财务桌面情境照片不能证实本人经历，与复盘节选争夺注意力",
+        "revision": "去掉桌面照片和重复副标题，仅保留必要的真实节选、日期和当前强调"
+      },
+      {
+        "shots": [
+          "s-opening-question",
+          "s-buying-reason",
+          "s-closing-action"
+        ],
+        "observed": "重复计算器背景没有提供额外解释",
+        "revision": "去掉计算器背景，问题与结论短暂呈现；衔接同一股权对象的变化"
+      },
+      {
+        "shots": [
+          "s-business-footage"
+        ],
+        "observed": "咖啡店陌生人物与旁白中的假设公司没有明确对应",
+        "revision": "删除该无关情境镜头，在原口播位置直接建立一份股权与每年分配收入的关系"
+      },
+      {
+        "shots": [
+          "s-sample-3",
+          "s-sample-4",
+          "s-same-income",
+          "s-sample-5"
+        ],
+        "observed": "照片、金币、数字、算式及标题重复表意",
+        "revision": "去掉咖啡照片与金币；稳定显示同一份股权，价格200到100时每年收入10保持不变；经营恶化时再将10改5，算式按讲解出现"
+      }
+    ]
+  },
+  "skills_updated": [
+    "youtube-voice",
+    "youtube-visuals",
+    "youtube-produce"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "沿用v8口播、数值和来源；仅将屏幕口语连接词“的时候”压缩为“时”，判断与条件不变。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "脚本校验、doctor、编排及最终MP4自动验证通过；未改生产程序。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "4个片段命中画面缓存、3个重新渲染；无新配音或图片请求。",
+        "youtube-visuals新增语义分组、共同基线、旧对象退场检查；youtube-produce同步布局返工验收。两项skill格式及所改文档链接检查通过。"
+      ]
+    }
+  },
+  "warnings": [],
+  "review_bound": true,
+  "movie_sha256": "6573ead72eb8f730bd4c886a03a778cf5cdf3f578cf1171489dc0f8d245d74d1",
+  "input_signature": "086df3edd98b50b409ddf1c292c8db4520054a259ff50d606af9d15849d84eff",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

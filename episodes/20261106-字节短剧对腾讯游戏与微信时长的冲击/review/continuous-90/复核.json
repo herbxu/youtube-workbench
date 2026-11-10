@@ -1,0 +1,38 @@
+{
+  "movie_sha256": "c914a9bb5329ce578af8f851026bcf23e0b3f01cc297587d093b817f64fabf3b",
+  "cover_sha256": "1961dd2ee89df7a4e3353a536533e320557e4820565143929db0c38b5edad258",
+  "seconds": 90.80000000000001,
+  "machine_checks": "passed",
+  "audio_lufs": -21.01,
+  "continuous_take": true,
+  "same_samples_across_7_working_sections": true,
+  "whole_movie_listening": "pending",
+  "actual_frame_intervals_s": [
+    [
+      0,
+      4
+    ],
+    [
+      7.2,
+      25.2
+    ],
+    [
+      60,
+      74
+    ],
+    [
+      77.8,
+      81.8
+    ],
+    [
+      82,
+      90.5
+    ]
+  ],
+  "fixed_income_bar_verified_s": [
+    50.742,
+    78.256
+  ],
+  "source_logo_sha256": "147d07ddada9176d749ec53859148acbb43257a29e3c9350820353b8b8ce3c60",
+  "whole_episode_unchanged": true
+}

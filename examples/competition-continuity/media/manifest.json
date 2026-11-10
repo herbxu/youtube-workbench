@@ -1,0 +1,58 @@
+{
+  "schema": "opinion-media-manifest/v1",
+  "assets": [
+    {
+      "id": "cafe-service",
+      "type": "video",
+      "path": "media/footage/cafe-service.mp4",
+      "sha256": "ab04c5e22db369ec76c0c533230aed344526597afd6534b8b0fc41f66e7b7232",
+      "source_url": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+      "download_url": "https://videos.pexels.com/video-files/8935798/8935798-uhd_3840_2160_25fps.mp4",
+      "author": "Thirdman",
+      "license_name": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "retrieved_at": "2026-10-24",
+      "usage": "illustrative",
+      "attribution": "Thirdman / Pexels",
+      "duration_s": 7.2,
+      "width": 1920,
+      "height": 1080,
+      "source_in_s": 1,
+      "source_out_s": 8.2,
+      "original_path": "media/footage/cafe-original.mp4",
+      "original_sha256": "a750dc2294e89ecf8c56c193fdc7f2aa824d09b1d70fd67d996fc775bcf08bff",
+      "inspection": {
+        "frames_reviewed": "passed: final footage at 0.5, 3.2, 6.4s",
+        "continuous_playback": "pending",
+        "listened": "not applicable: source audio stripped",
+        "technical_probe": "passed"
+      },
+      "bindings": [
+        "s-cafe-video"
+      ]
+    },
+    {
+      "id": "click-soft",
+      "type": "sfx",
+      "path": "media/sfx/click-soft.mp3",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "source_url": "bundled media-use/audio/assets/sfx/click-soft.mp3",
+      "author": null,
+      "license_name": "Pixabay Content License (bundled CREDITS.md)",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "retrieved_at": "2026-10-24",
+      "usage": "illustrative",
+      "attribution": "media-use bundled SFX / Pixabay; individual author not specified by bundle",
+      "duration_s": 0.365688,
+      "inspection": {
+        "listened": "pending",
+        "technical_probe": "passed",
+        "original_asset_page": "not provided by bundle"
+      },
+      "bindings": [
+        "a-u-entry",
+        "a-u-copy"
+      ]
+    }
+  ]
+}

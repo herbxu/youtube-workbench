@@ -1,0 +1,265 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "02-长视频账本",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "units": [
+    {
+      "id": "ledger-0",
+      "text": "假设腾讯视频一期收入一百，成本一百一十，原本亏十。现在观众少了，下期收入只有八十。得看哪些钱还要付。",
+      "shots": [
+        {
+          "id": "lg-set",
+          "kind": "footage",
+          "layout": "film",
+          "asset": "media/set.mp4",
+          "source_in": 6.3,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "cue": "",
+          "purpose": "咖啡厅拍摄现场及打板",
+          "note": "假设算例",
+          "credit": "Ron Lach",
+          "provenance": {
+            "author": "Ron Lach",
+            "source": "https://www.pexels.com/video/a-filming-crew-clapping-a-clapperboard-9810791/",
+            "license": "https://www.pexels.com/license/",
+            "download": "https://videos.pexels.com/video-files/9810791/9810791-hd_2048_1080_25fps.mp4",
+            "description": "咖啡厅拍摄现场及打板",
+            "sha256": "0fd2d09e0b12fc65c3fc627400abfbddcba7429b7f0b77785df1fabe1d00598b",
+            "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+          },
+          "transition": "cut",
+          "labels": [
+            "收入 100",
+            "100 − 110",
+            "100 − 110 = −10"
+          ],
+          "label_cues": [
+            "收入一百",
+            "成本一百一十",
+            "原本亏十"
+          ]
+        },
+        {
+          "id": "lg-viewer",
+          "kind": "footage",
+          "layout": "film",
+          "asset": "media/phone.mp4",
+          "source_in": 0.8,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "cue": "现在观众少了",
+          "purpose": "手指操作手机",
+          "note": "假设算例",
+          "credit": "Gunjee Nyam",
+          "provenance": {
+            "author": "Gunjee Nyam",
+            "source": "https://www.pexels.com/video/a-person-using-a-smartphone-5226462/",
+            "license": "https://www.pexels.com/license/",
+            "download": "https://videos.pexels.com/video-files/5226462/5226462-hd_1920_1080_30fps.mp4",
+            "description": "手指操作手机",
+            "sha256": "06b882fa1860ab798ccbc6e49f51b24b949013228bc1e4fb2f90505050ee327c",
+            "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+          },
+          "transition": "cut",
+          "labels": [
+            "下期收入  80"
+          ],
+          "label_cues": [
+            "下期收入"
+          ]
+        },
+        {
+          "id": "lg-contract",
+          "kind": "footage",
+          "layout": "film",
+          "asset": "media/sign.mp4",
+          "source_in": 4.95,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "cue": "得看哪些钱",
+          "purpose": "笔落在真实纸张并签名",
+          "note": "假设算例",
+          "credit": "Thirdman",
+          "provenance": {
+            "author": "Thirdman",
+            "source": "https://www.pexels.com/video/close-up-video-of-a-person-signing-a-document-8471105/",
+            "license": "https://www.pexels.com/license/",
+            "download": "https://videos.pexels.com/video-files/8471105/8471105-hd_1920_1080_25fps.mp4",
+            "description": "笔落在真实纸张并签名",
+            "sha256": "3996b6f4f7721c18004365214dc9f5f12e803deef58421d4fff676075c0b0035",
+            "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+          },
+          "transition": "cut",
+          "labels": [],
+          "label_cues": []
+        }
+      ],
+      "audio": "media/ledger-0-edit.wav"
+    },
+    {
+      "id": "ledger-1",
+      "text": "先看已经签好的版权合同。就算少了人看，这笔钱也得照付。假设成本只能降到一百，就是亏二十。",
+      "shots": [
+        {
+          "id": "lg-sign",
+          "kind": "footage",
+          "layout": "film",
+          "asset": "media/sign.mp4",
+          "source_in": 6.995,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "cue": "",
+          "purpose": "笔落在真实纸张并签名",
+          "note": "假设算例",
+          "credit": "Thirdman",
+          "provenance": {
+            "author": "Thirdman",
+            "source": "https://www.pexels.com/video/close-up-video-of-a-person-signing-a-document-8471105/",
+            "license": "https://www.pexels.com/license/",
+            "download": "https://videos.pexels.com/video-files/8471105/8471105-hd_1920_1080_25fps.mp4",
+            "description": "笔落在真实纸张并签名",
+            "sha256": "3996b6f4f7721c18004365214dc9f5f12e803deef58421d4fff676075c0b0035",
+            "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+          },
+          "transition": "cut",
+          "labels": [
+            "已签版权合同",
+            "合同款仍须支付",
+            "收入 80  /  成本 100",
+            "80 − 100 = −20"
+          ],
+          "label_cues": [
+            "已经签好",
+            "这笔钱",
+            "降到一百",
+            "亏二十"
+          ]
+        }
+      ],
+      "audio": "media/ledger-1-edit.wav"
+    },
+    {
+      "id": "ledger-2",
+      "text": "再看另一种情况，同样收八十。明年几部回报差的剧还没签，可以取消。假设成本能降到七十，这样就能赚十。今年签过的合同还要付多少？明年少拍一部剧，究竟能省多少？",
+      "shots": [
+        {
+          "id": "lg-planning",
+          "kind": "footage",
+          "layout": "film",
+          "asset": "media/plan.mp4",
+          "source_in": 0.3,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "cue": "",
+          "purpose": "同一组片场人员讨论拍摄计划",
+          "note": "假设算例",
+          "credit": "Ron Lach",
+          "provenance": {
+            "author": "Ron Lach",
+            "source": "https://www.pexels.com/video/a-director-explaining-the-movie-scene-9810149/",
+            "license": "https://www.pexels.com/license/",
+            "download": "https://videos.pexels.com/video-files/9810149/9810149-hd_2048_1080_25fps.mp4",
+            "description": "同一组片场人员讨论拍摄计划",
+            "sha256": "8ffeca3ea2126150895f7c2281e4e0173bc399a737845d563953fd395d4b4bb2",
+            "usage": "商业图库情境素材；人物、文件、片场不作腾讯或作者现场记录"
+          },
+          "transition": "cut",
+          "labels": [
+            "同样收入  80",
+            "下一季片单  /  尚未签约",
+            "收入 80  /  成本 70",
+            "80 − 70 = +10"
+          ],
+          "label_cues": [
+            "同样收八十",
+            "还没签",
+            "降到七十",
+            "赚十"
+          ]
+        },
+        {
+          "id": "lg-comparison",
+          "kind": "footage",
+          "layout": "film",
+          "asset": "media/pair.mp4",
+          "source_in": 0.2,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "cue": "今年签过",
+          "purpose": "已签与待立项两个假设场景的同步对照",
+          "note": "同收入 80 · 假设",
+          "credit": "Thirdman / Ron Lach",
+          "provenance": {
+            "author": "Thirdman / Ron Lach",
+            "inputs": [
+              "sign",
+              "plan"
+            ],
+            "license": "https://www.pexels.com/license/",
+            "usage": "已签与待立项两个假设场景的同步对照",
+            "sha256": "6c381fc7aa4865e2f60cff807f7a18e86f8c2c9db22678bb7d5eb797ffb497e9"
+          },
+          "transition": "cut",
+          "labels": [
+            "已签合同  −20\t可撤项目  +10"
+          ],
+          "label_cues": [
+            "今年签过"
+          ]
+        }
+      ],
+      "audio": "media/ledger-2-edit.wav"
+    }
+  ]
+}

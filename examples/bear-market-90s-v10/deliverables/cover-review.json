@@ -1,0 +1,15 @@
+{
+  "cover": "/Users/herbxu/Desktop/github/youtube/examples/bear-market-90s-v10/deliverables/cover.png",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "source_quote_verified": true,
+  "original_logo_verified": true,
+  "visual_review": "用户已认可封面。已抽取实际MP4的4.3秒画面复核日期、引文、两行标题、主体裁切与原版logo。",
+  "video_status": "rendered",
+  "production_tests": "74 passed",
+  "user_feedback": "可以，按照这个方式",
+  "approved_cover_sha256": "6a0eba78255ff6c7fb8bf2c69d95f3c07e958c109f0953890a41ae96d5e50202",
+  "movie_sha256": "5479c8dfebb336bc7c98c8cc52805b591faf2e39bdc9882123433e2957ada305"
+}

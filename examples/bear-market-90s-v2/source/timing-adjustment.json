@@ -1,0 +1,10 @@
+{
+  "revision": "v2",
+  "raw_synthesized_seconds": 96.88,
+  "voice_speed": 1.07644444,
+  "measured_final_voice_seconds": 89.882875,
+  "method": "实际按段重新合成后轻微统一提速；复用同批原始音频并重新对齐，不截句，不补尾部静音",
+  "delivery": "settings.use_unit_delivery已启用；每个receipt记录实际instruction",
+  "new_billable_synthesis_requests": 6,
+  "limitation": "信号与独立ASR检查不能代替主观自然度听审"
+}

@@ -1,0 +1,23 @@
+{
+  "movie_sha256": "08c7e3fed0f7a494e4888511a9450c572c9ade24445e1bf476c68297148c9aa1",
+  "passed": true,
+  "scope": "最终MP4与混音母带一致性，不代替主观听审",
+  "checks": [
+    {
+      "section": "opening",
+      "mixed_master_correlation": 0.9999726
+    },
+    {
+      "section": "progress",
+      "mixed_master_correlation": 0.9999668
+    },
+    {
+      "section": "calm_risk",
+      "mixed_master_correlation": 0.9999803
+    },
+    {
+      "section": "growth",
+      "mixed_master_correlation": 0.9999549
+    }
+  ]
+}

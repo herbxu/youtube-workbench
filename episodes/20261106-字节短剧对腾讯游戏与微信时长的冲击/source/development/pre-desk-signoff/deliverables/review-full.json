@@ -1,0 +1,49 @@
+{
+  "movie_sha256": "822864bbceafae5ea1a119c74926da566a024c57fed16e6704caae154c9154c3",
+  "duration_s": 625.5,
+  "machine_checks": "passed",
+  "captions": 290,
+  "logo_iou": 0.9950422863808691,
+  "matches_spoken_and_display_terms": true,
+  "asr_reference": "source/channel-template",
+  "closing_spoken_end_approx_seconds": 6.92,
+  "closing_hold_approx_seconds": 1.88,
+  "complete_subjective_listening": "pending",
+  "observed_motion_samples_seconds": {
+    "opening": [
+      0,
+      4
+    ],
+    "tencent_video_to_ledger": [
+      34.96,
+      46.96
+    ],
+    "game_industry_to_single_title": [
+      436.858,
+      454.858
+    ],
+    "water_purchase_paths": [
+      506.06,
+      523.56
+    ],
+    "end_card": [
+      616.5,
+      625.5
+    ]
+  },
+  "sampling_note": "Inspected sequential image strips decoded from the exported MP4; also checked a representative frame in each of the 44 shots.",
+  "independent_poster_checked": true,
+  "cover_visible_date": "2026.11.08",
+  "disclaimer_plateau_relative_ink": 0.995,
+  "disclaimer_after_fade_relative_ink": 0.092,
+  "caption_corner_min_gap_px": 268,
+  "corner_width_px": 228,
+  "navigable_chapters_checked": 6,
+  "actual_signoff_audio_envelope_correlation": 0.9999993,
+  "adopted_signoff_independent_asr_files": [
+    "source/channel-template/signoff-approved-base.json",
+    "source/channel-template/signoff-approved-small.json"
+  ],
+  "audio_lufs": -21.01,
+  "true_peak_dbfs": -2.51
+}

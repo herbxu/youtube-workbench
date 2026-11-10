@@ -1,0 +1,266 @@
+{
+  "title": "红果冲击腾讯：不靠估值回归，回报从哪里来？",
+  "thesis": "以作者真实的无估值回归自问贯穿分析：先核实已有盈利，区分局部护城河，再算竞争及防守后的现金回报，最后判断价格是否给足余地。红果高时长本身不足以统一下修腾讯价值；旧游戏安全判断和对估值回归的期待必须接受检验。",
+  "audience": "普通投资者",
+  "created_at": "2026-11-06",
+  "status": "v5作者感悟与独立研究融合稿，待作者审阅",
+  "original_request": "创建新的主题，主题内容是 字节短剧会打击腾讯的游戏，微信的时长",
+  "question": "如果三年没有估值提升，红果竞争下腾讯的经营与现金回报能否支持原有投资判断？",
+  "argument_outline": [
+    {
+      "section": "三年没有估值提升，回报靠什么？",
+      "point": "作者真实期待接受红果竞争检验"
+    },
+    {
+      "section": "腾讯原本赚的是哪些钱？",
+      "point": "分部毛利与产品净利润分开"
+    },
+    {
+      "section": "长视频收缩会减亏吗？",
+      "point": "收入下滑与可撤成本共同决定结果"
+    },
+    {
+      "section": "视频号已有盈利怎样受影响？",
+      "point": "高回报收入与低回报防守可能互换"
+    },
+    {
+      "section": "游戏为什么仍是利润重点？",
+      "point": "直接替代较弱不等于财务权重小"
+    },
+    {
+      "section": "微信哪些价值能保留？",
+      "point": "关系与交易入口支持盈利，娱乐需求更可替代"
+    },
+    {
+      "section": "不靠估值回归，原判断还能成立吗？",
+      "point": "现金回报与价格检验替代单纯等待反弹"
+    }
+  ],
+  "research_questions": [
+    "具体研究哪些字节短剧产品或分发渠道？核实红果、抖音短剧等候选对象的当前归属、模式与统计边界。",
+    "短剧观众与腾讯游戏玩家、微信内容用户的重合程度如何？是否有跨期、同口径的替代证据？",
+    "新增观看时间来自游戏、微信、长视频、其他娱乐还是新增屏幕时间？相关性是否足以支持因果归因？",
+    "腾讯哪些游戏品类受影响更大？如何排除新品上线、版本周期、季节性与行业变化？",
+    "微信哪些场景时长受到影响？是否有可信的功能级数据，还是只能用替代指标？",
+    "时长变化是否已传导到付费、广告或利润？若没有可识别证据，应明确止步于机制假设。"
+  ],
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-distribution",
+      "title": "绿泡泡VS红果果：腾讯的短剧反攻",
+      "date": "2026-10-23",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34311018",
+      "type": "镜象娱乐发表于澎湃号的行业报道，非澎湃记者独立调查或公司原公告",
+      "observation_period": "2026年10月政策与产品报道",
+      "excerpt": "短剧发行载体包括绿泡泡短剧小程序、视频号端原生短剧。",
+      "limitations": "仅采用双端分发路径；未采用其未核验的视频号日活、早期小程序用户数、最高激励比例及未校正季度时长。不是净新增时长或盈利证据。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-fy2025",
+      "title": "腾讯2025年度业绩公告：分部毛利与高毛利收入来源",
+      "url": "https://static.www.tencent.com/uploads/2026/03/18/ea02037a5691a52cf6c908e985953963.pdf",
+      "date": "2026-03-18",
+      "observation_period": "2025-01-01至2025-12-31，历史完整年度结构基准",
+      "type": "发行人原始PDF；经raw当前manifest定位，重新核对原PDF第7—9、32—33页",
+      "path": "source/planning/evidence/tencent-fy2025-announcement.pdf",
+      "sha256": "12c41f47639cf2981d4b009ad468dc639ee342a8c0bf6d262660d1a353114a95",
+      "excerpt": "分部披露毛利，非产品净利；自研游戏、视频号及微信搜一搜为公司指明的高毛利率收入来源。",
+      "limitations": "不证明2026年竞争后仍同等增长；不单列腾讯视频或视频号净利润，不推定未披露为零；分部平均毛利率不等于边际利润率。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "video-profit-history",
+      "title": "孙忠怀在2023年6月发布会披露腾讯视频连续四季度盈利",
+      "url": "https://www.nbd.com.cn/rss/toutiao/articles/2879762.html",
+      "date": "2023-06-19",
+      "observation_period": "2023年6月管理层回顾连续四季度",
+      "type": "每日经济新闻对管理层现场发言的报道",
+      "excerpt": "腾讯视频负责人称连续四个季度盈利。",
+      "limitations": "历史管理层表述，无独立财务表或统一利润口径；不能证明2026年盈利，只用于检验长期一直亏损的前提。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-calendar",
+      "title": "腾讯投资者日历与业绩发布页",
+      "url": "https://www.tencent.com/investors/investor-kit-calendar/",
+      "date": null,
+      "observation_period": "截至2026-11-06",
+      "type": "公司官方当前披露日历",
+      "excerpt": "2026年第三季度业绩列为即将公布；不能取得尚未披露的新季度财务结果。",
+      "limitations": "只核对披露时序；本稿不以Q2增长推断当前竞争结论。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "personal-philosophy",
+      "title": "作者投资哲学：价格与价值、独立思考和逆向检验",
+      "type": "作者原则与研究方法",
+      "path": "/Users/herbxu/Desktop/github/trade/投资哲学.md",
+      "date": null,
+      "locator": "策略核心、收益逻辑、思维框架/逆向思维与第二层思维",
+      "sha256": "49694114f8fc36feaa2434ccb6c57ad8faef953d5c8a8aa43b0200c42c4c3952",
+      "excerpt": "以低于价值的价格买进，适当分散；判断非共识及价格反映的预期。",
+      "limitations": "正式个人原则不等于本期具体买卖授权，不采用未经核验的目标收益或单一风险断言。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "personal-moat",
+      "title": "作者竞争优势框架：现金流能力圈与局部护城河",
+      "type": "作者原则与研究方法",
+      "path": "/Users/herbxu/Desktop/github/trade/00-思维框架/01-竞争优势.md",
+      "date": null,
+      "locator": "能力圈、护城河",
+      "sha256": "d1062e99ef005192b1eb768d0962c8e14dd19780ed7f33ccaa1169e252cad811",
+      "excerpt": "理解公司涉及自由现金流估算；护城河需经检验，是局部的、相对的。",
+      "limitations": "研究方法，不直接证明腾讯当前竞争地位；未使用其中旧市盈率判断或未经核实公司数字。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "personal-valuation",
+      "title": "作者估值框架：机会成本与已有价值/成长价值",
+      "type": "作者原则与研究方法",
+      "path": "/Users/herbxu/Desktop/github/trade/00-思维框架/02-估值.md",
+      "date": null,
+      "locator": "估值方法、公司估值",
+      "sha256": "25489e8a1f413edb93749edb2103d49dd614157c1b170281160e687115954065",
+      "excerpt": "估值本质上比较机会成本；现有业务价值与未来成长共同构成价值。",
+      "limitations": "研究方法；不采用旧倍数、收益目标和腾讯假设现金流作为当前估值。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "trade-tencent-business",
+      "title": "腾讯生意研究：通讯、广告及股东现金的不同确定性",
+      "type": "trade既有研究",
+      "path": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/01-生意分析.md",
+      "date": "2026-10-25研究；2026-11-01阅读整理",
+      "locator": "当前判断、增长需要投入什么、现金怎样成为股东收益",
+      "sha256": "5bc8a1f2c4c8bbcd0f7b69fa7fa1dc0f5fc5866e6ce58dfbded55a0de692b16d",
+      "excerpt": "通讯稳定性高于广告定价权的确定性；成熟业务需再投资，回购要看价格与净股数。",
+      "limitations": "既有研究判断，不归为作者亲历，也不作为原始财务证据。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "trade-tencent-valuation",
+      "title": "腾讯估值研究：无倍数提升时的经营与分配检验",
+      "type": "trade既有研究",
+      "path": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/02-估值分析.md",
+      "date": "2026-10-25复核；2026-11-01整理",
+      "locator": "当前结论、怎样判断市场价格隐含什么",
+      "sha256": "c8f1c7e1e629fe19e4b555d050a462a93481ada18260b99ea24a8eda73c53945",
+      "excerpt": "不依赖估值倍数提高，检验经营和分配能否支持回报。",
+      "limitations": "不采用历史模型数值或Q3预测作为当前事实，不宣称已重新估值。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "constraints": [
+    "不使用Q2增长反驳当前高时长竞争；7—9月经营信号与2025完整年度盈利结构分列。",
+    "不把历史管理层盈利表述当当前独立审计结果；不默认腾讯视频当前亏损。",
+    "不把毛利当净利，不以分部财务给单产品分配未经披露的利润。",
+    "10分钟左右为文本估计，未录音实测；不进行交易或完整目标价估值。",
+    "作者记录仅取与本期有关的动机和原则，不公开账户数量/金额/仓位，不推断当前持仓。",
+    "事实研究保持2026-11-06截止；本轮仅核对2026-11-07个人材料并融合表达，不冒充新一轮财报或报价核验。"
+  ],
+  "target_seconds": 600,
+  "canonical": "script.json",
+  "reading_copy": "build/script.md",
+  "research_handoff": "source/planning/research-handoff.md",
+  "research_as_of": "2026-11-06",
+  "original_thesis": "字节短剧会打击腾讯的游戏，微信的时长",
+  "revision_reason": "用户要求融合trade的投资感悟；以真实的无估值提升自问贯穿，保留独立证据和历史判断分歧。",
+  "author_sources_as_of": "2026-11-07"
+}

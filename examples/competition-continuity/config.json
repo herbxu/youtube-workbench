@@ -1,0 +1,38 @@
+{
+  "schema": "opinion-config/v1",
+  "text": {
+    "provider": "openai",
+    "model": "gpt-4.1",
+    "key_env": "OPENAI_API_KEY"
+  },
+  "voice": {
+    "provider": null,
+    "note": "用户选择导入本期录音。收到后为每个 unit 设置 audio，不调用 TTS。"
+  },
+  "alignment": {
+    "provider": "faster-whisper",
+    "model": "small",
+    "allow_download": false,
+    "min_coverage": 0.94,
+    "threads": 4
+  },
+  "image": {
+    "provider": "openai",
+    "model": "gpt-image-1",
+    "key_env": "OPENAI_API_KEY",
+    "size": "1536x1024",
+    "quality": "medium"
+  },
+  "style": {
+    "id": "continuous-explainer/v1",
+    "image_prompt": "原创叙事插画。浅米色纸感背景，克制的铅笔线条，低饱和灰绿、赭黄和暖棕配色。具体人物、物件和生活情境，画面重点清楚，保留呼吸空间。横向构图，主体在中心安全区域，适合裁切成16:9，底部15%留给字幕。不要生成文字、字母、数字、标志、水印或界面。不要模仿具体频道人物或声称场景是真实新闻照片。"
+  },
+  "audio": {
+    "lufs": -18
+  },
+  "render": {
+    "fps": 30,
+    "timeout": 3600,
+    "workers": 2
+  }
+}

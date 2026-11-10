@@ -1,0 +1,47 @@
+{
+  "revision": "v2",
+  "as_of": "2026-11-06",
+  "script_sha256": "bac407613cb9885fa198433c2c07391934295f527e864b93591d45a8e30e7af8",
+  "checks": {
+    "validate": {
+      "ok": true,
+      "units": 26
+    },
+    "review": {
+      "warnings": []
+    }
+  },
+  "content_review": [
+    "投资判断贯穿开头、经营机制、估值与结尾",
+    "不使用Q2与个人投资记录支撑本轮结论",
+    "151分钟7—8月脚注与9月游戏反证已查看原图",
+    "事实、假设算例与独立推理分离",
+    "未编造目标价、当前市盈率或交易行动"
+  ],
+  "source_images_and_internal_links": "passed",
+  "reading_copy_exact": "passed",
+  "character_count": 2866,
+  "estimated_minutes": [
+    10.1,
+    10.7
+  ],
+  "hypothetical_math": {
+    "high": 259.3742460100002,
+    "low": 162.8894626777442,
+    "gap_ratio": 0.3719906074581363
+  },
+  "skill_validation": {
+    "files": [
+      "skills/youtube-write/SKILL.md",
+      "skills/youtube-write/references/trade-context.md",
+      "skills/youtube-write/references/thesis-and-reference.md",
+      "skills/youtube-write/references/investment-thesis.md"
+    ],
+    "review": "已读回变更，核对独立研究、数据时点、图注口径、投资落点与作者记录保护；新增链接均存在"
+  },
+  "not_done": [
+    "录音实测和听审",
+    "正式素材与视频编排验收",
+    "当前价格下的完整估值"
+  ]
+}

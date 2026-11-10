@@ -1,0 +1,8 @@
+{
+  "initial_speed": 0.9,
+  "initial_measured_seconds": 95.937165,
+  "final_speed": 0.96,
+  "final_measured_seconds": 89.947124,
+  "operation": "复用原始TTS，以ffmpeg atempo调整，重新执行实际音频对齐；未新增计费请求",
+  "listening": "pending"
+}

@@ -1,0 +1,82 @@
+{
+  "01-八月笔记": {
+    "duration": 21.195792,
+    "sha256": "06352824e1d7fba37a80fee1ac11787748c7b1bcf47491197ca085a13cf48525",
+    "reuse_r2_audio": true,
+    "black_intervals": [],
+    "loudness": -20.02,
+    "checks": [
+      "0—4秒逐帧复核声明区域，完全可见段和退场与设计一致。独立封面单独生成。"
+    ],
+    "visual_review_points": [
+      0.1,
+      1.5,
+      3.65,
+      5.4,
+      7.5,
+      9.25,
+      9.75,
+      10.5,
+      13.9,
+      17.5,
+      20.2
+    ]
+  },
+  "02-长视频账本": {
+    "duration": 39.81075,
+    "sha256": "059c09a57bc7399d3bd9910b2ee9227b9da06529c3197134c15c6747b274406a",
+    "reuse_r2_audio": true,
+    "black_intervals": [],
+    "loudness": -20.01,
+    "checks": [
+      {
+        "at": 5.8,
+        "income_bar_pixels": 999,
+        "cost_bar_pixels": 1100,
+        "scale_pixels_per_unit": 10
+      },
+      {
+        "at": 10.8,
+        "income_bar_pixels": 799,
+        "cost_bar_pixels": 1100,
+        "scale_pixels_per_unit": 10
+      },
+      {
+        "at": 22,
+        "income_bar_pixels": 799,
+        "cost_bar_pixels": 1000,
+        "scale_pixels_per_unit": 10
+      },
+      {
+        "at": 34,
+        "income_bar_pixels": 799,
+        "cost_bar_pixels": 697,
+        "scale_pixels_per_unit": 10
+      },
+      {
+        "at": 38,
+        "income_bar_pixels": 799,
+        "cost_bar_pixels": 697,
+        "scale_pixels_per_unit": 10
+      },
+      "9.00—39.45秒每帧核对收入带保持在80。亏10、亏20、赚10均用同一比例。"
+    ],
+    "visual_review_points": [
+      1.8,
+      3.4,
+      5.7,
+      8.3,
+      11,
+      14.4,
+      18.1,
+      21.7,
+      27.9,
+      29.05,
+      30.75,
+      31.35,
+      32.95,
+      35,
+      38.25
+    ]
+  }
+}

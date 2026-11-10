@@ -1,0 +1,1937 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "红果抢走腾讯的时长，未必抢走同样多的利润",
+  "editorial": {
+    "question": "红果冲击的是腾讯哪些已有盈利，哪些低回报投入，以及防守后的集团净回报？",
+    "thesis": "高时长本身不足以判定腾讯利润基础恶化。长视频直接替代较强但当前单独盈亏未核实，净影响取决于可撤成本与投入纪律；视频号及自研游戏已有高毛利贡献，须重审现有盈利及增量回报。核心风险是高回报收入受压且防守投入增加，不机械给集团统一折价。",
+    "takeaway": "先核实已有盈利，再算流失贡献、可省支出和新增防守成本，区分现金与会计利润。"
+  },
+  "narrative": {
+    "audience_belief": "抢走最多时长的业务，必然造成最大的集团利润损失；亏损业务受冲击就会减亏。",
+    "intended_shift": "现有利润、边际贡献与调整成本决定集团影响；视频号也有现存盈利而非只有未来价值。",
+    "author_position": "这是应用户要求形成的本次独立研究建议，供作者审稿，不冒充用户既有投资记录或已执行交易。",
+    "chapters": [
+      {
+        "id": "c-question",
+        "question": "抢走时长，等于抢走利润吗？",
+        "changes": "从流量转到已有经济贡献",
+        "bridge": "先查腾讯原本怎样赚钱。",
+        "units": [
+          "u-investment-open",
+          "u-scale",
+          "u-recent-size"
+        ]
+      },
+      {
+        "id": "c-profit",
+        "question": "腾讯原本赚的是哪些钱？",
+        "changes": "分部毛利与产品净利润分开",
+        "bridge": "再看长视频冲击后的不同结果。",
+        "units": [
+          "u-profit-map",
+          "u-profit-scope",
+          "u-video-profit-fact"
+        ]
+      },
+      {
+        "id": "c-longvideo",
+        "question": "长视频收缩会减亏吗？",
+        "changes": "收入下滑与可撤成本共同决定结果",
+        "bridge": "高毛利业务受到冲击意味着什么？",
+        "units": [
+          "u-longvideo",
+          "u-loss-example",
+          "u-longvideo-money",
+          "u-longvideo-judgment"
+        ]
+      },
+      {
+        "id": "c-channels",
+        "question": "视频号已有盈利怎样受影响？",
+        "changes": "高回报收入与低回报防守可能互换",
+        "bridge": "游戏也必须结合利润基础判断。",
+        "units": [
+          "u-channels-existing",
+          "u-channels-money",
+          "u-quality",
+          "u-response",
+          "u-ecosystem-net",
+          "u-defense-decision"
+        ]
+      },
+      {
+        "id": "c-game",
+        "question": "游戏为什么仍是利润重点？",
+        "changes": "直接替代较弱不等于财务权重小",
+        "bridge": "微信还有其他盈利基础。",
+        "units": [
+          "u-game-demand",
+          "u-game-profit",
+          "u-game-counter",
+          "u-game-geography"
+        ]
+      },
+      {
+        "id": "c-wechat",
+        "question": "微信哪些价值能保留？",
+        "changes": "关系与交易入口支持盈利，娱乐需求更可替代",
+        "bridge": "归结到集团利润变化。",
+        "units": [
+          "u-wechat-layers",
+          "u-commerce",
+          "u-paid-drama"
+        ]
+      },
+      {
+        "id": "c-investment",
+        "question": "竞争后股东究竟多赚还是少赚？",
+        "changes": "综合已有利润流失、可省成本与防守投入",
+        "bridge": "以资源分配纪律收束。",
+        "units": [
+          "u-valuation",
+          "u-falsify",
+          "u-ending"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-distribution",
+      "title": "绿泡泡VS红果果：腾讯的短剧反攻",
+      "date": "2026-10-23",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34311018",
+      "type": "镜象娱乐发表于澎湃号的行业报道，非澎湃记者独立调查或公司原公告",
+      "observation_period": "2026年10月政策与产品报道",
+      "excerpt": "短剧发行载体包括绿泡泡短剧小程序、视频号端原生短剧。",
+      "limitations": "仅采用双端分发路径；未采用其未核验的视频号日活、早期小程序用户数、最高激励比例及未校正季度时长。不是净新增时长或盈利证据。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-fy2025",
+      "title": "腾讯2025年度业绩公告：分部毛利与高毛利收入来源",
+      "url": "https://static.www.tencent.com/uploads/2026/03/18/ea02037a5691a52cf6c908e985953963.pdf",
+      "date": "2026-03-18",
+      "observation_period": "2025-01-01至2025-12-31，历史完整年度结构基准",
+      "type": "发行人原始PDF；经raw当前manifest定位，重新核对原PDF第7—9、32—33页",
+      "path": "source/planning/evidence/tencent-fy2025-announcement.pdf",
+      "sha256": "12c41f47639cf2981d4b009ad468dc639ee342a8c0bf6d262660d1a353114a95",
+      "excerpt": "分部披露毛利，非产品净利；自研游戏、视频号及微信搜一搜为公司指明的高毛利率收入来源。",
+      "limitations": "不证明2026年竞争后仍同等增长；不单列腾讯视频或视频号净利润，不推定未披露为零；分部平均毛利率不等于边际利润率。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "video-profit-history",
+      "title": "孙忠怀在2023年6月发布会披露腾讯视频连续四季度盈利",
+      "url": "https://www.nbd.com.cn/rss/toutiao/articles/2879762.html",
+      "date": "2023-06-19",
+      "observation_period": "2023年6月管理层回顾连续四季度",
+      "type": "每日经济新闻对管理层现场发言的报道",
+      "excerpt": "腾讯视频负责人称连续四个季度盈利。",
+      "limitations": "历史管理层表述，无独立财务表或统一利润口径；不能证明2026年盈利，只用于检验长期一直亏损的前提。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-calendar",
+      "title": "腾讯投资者日历与业绩发布页",
+      "url": "https://www.tencent.com/investors/investor-kit-calendar/",
+      "date": null,
+      "observation_period": "截至2026-11-06",
+      "type": "公司官方当前披露日历",
+      "excerpt": "2026年第三季度业绩列为即将公布；不能取得尚未披露的新季度财务结果。",
+      "limitations": "只核对披露时序；本稿不以Q2增长推断当前竞争结论。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "units": [
+    {
+      "id": "u-investment-open",
+      "text": "红果抢走腾讯的娱乐时间，就一定同样伤害腾讯的利润吗？我认为，不能这样判断。一项业务流量很大，却未必给股东留下很多钱；另一项业务受到的直接替代没那么强，却可能承载了更重要的利润。研究这场竞争，必须先问：被冲击的生意原本赚多少钱，收入变化以后，哪些成本能减少，腾讯又要投入多少去防守？",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "hook",
+        "point": "看现有利润和增量回报而非只按流量排序",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "看现有利润和增量回报而非只按流量排序"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-investment-open",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "看现有利润和增量回报而非只按流量排序；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "抢走时长，等于抢走利润吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "现有利润",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "调整成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-scale",
+      "text": "先看规模。《财经》十月二十日引用QuestMobile数据，红果月人均单日使用时长约一百五十一分钟。原图脚注明确，这是七月和八月的平均值，不是完整三季度，更不是所有人每天都看这么久。这个使用深度，已经值得重视。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "用近期原图确认使用深度",
+        "basis": "caijing-oct",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "用近期原图确认使用深度",
+          "source_ids": [
+            "caijing-oct"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-scale",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "用近期原图确认使用深度；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "抢走时长，等于抢走利润吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "现有利润",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "调整成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "一百五十一分钟",
+        "七月和八月",
+        "不是完整三季度"
+      ]
+    },
+    {
+      "id": "u-recent-size",
+      "text": "十一月发布的QuestMobile秋季报告显示，红果九月月活接近四亿三千万。但规模和深度，不能告诉我们每一分钟具体从谁那里抢来。下面的强弱排序，是根据需求和赚钱方式作出的判断，不是已经测出的腾讯收入损失。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "规模与深度支持研究竞争但不证明因果损失",
+        "basis": "qm-autumn",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "规模与深度支持研究竞争但不证明因果损失",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-recent-size",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "规模与深度支持研究竞争但不证明因果损失；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "抢走时长，等于抢走利润吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "近期竞争",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "现有利润",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "调整成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "四亿三千万"
+      ]
+    },
+    {
+      "id": "u-profit-map",
+      "text": "先把腾讯已有的盈利结构摆出来。根据二零二五年全年业绩公告，游戏及社交网络所在的增值服务，贡献集团一半以上的毛利；营销服务约占两成；金融科技及企业服务接近三成。我用这份完整年度数据说明利润从哪里来，不拿去年的增长证明今年竞争没有影响，也不拿二季度业绩回应红果现在的高时长。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "历史完整年度明确已有毛利结构",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "历史完整年度明确已有毛利结构",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-profit-map",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "历史完整年度明确已有毛利结构；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "腾讯原本赚的是哪些钱？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-profit",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "分部毛利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "产品盈亏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "披露边界",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "二零二五年",
+        "毛利"
+      ]
+    },
+    {
+      "id": "u-profit-scope",
+      "text": "毛利还没有扣完研发、营销等费用，不是股东净利润。这些分部也不等于一个个产品：不能把增值服务全算成游戏，把营销服务全算成视频号。因此，腾讯视频究竟贡献多少净利润，不能从这张表直接读出来。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "产品与分部毛利和净利不可混淆",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "产品与分部毛利和净利不可混淆",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-profit-scope",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "产品与分部毛利和净利不可混淆；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "腾讯原本赚的是哪些钱？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-profit",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "分部毛利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "产品盈亏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "披露边界",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-video-profit-fact",
+      "text": "说长视频一直拖累腾讯利润，也需要核实时点。二零二三年，腾讯视频负责人曾公开表示已经连续四个季度盈利。但这不是今天的独立审计利润表，也不能证明目前仍然盈利。准确的说法是：我没有查到足以确认当前腾讯视频单独盈亏的披露，既不能把它默认成持续亏损的包袱，也不能默认它是腾讯的主要利润来源。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "核实亏盈前提不沿用长期亏损标签",
+        "basis": "video-profit-history",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "核实亏盈前提不沿用长期亏损标签",
+          "source_ids": [
+            "video-profit-history"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-video-profit-fact",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "核实亏盈前提不沿用长期亏损标签；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "腾讯原本赚的是哪些钱？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-profit",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "分部毛利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "产品盈亏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "披露边界",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "二零二三年",
+        "不能证明目前仍然盈利"
+      ]
+    },
+    {
+      "id": "u-longvideo",
+      "text": "普通追剧容易被免费短剧替代，会员和广告都会承压。但“拖累”必须说清：利润率低，会拉低集团平均利润率，却未必减少利润总额；实际亏损、资本回报不足，又是另外两回事。对低回报内容，不能只算收入少了多少，还要看能否停止不划算的投入。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "观看替代强不直接等于集团利润损失大",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "观看替代强不直接等于集团利润损失大"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-longvideo",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "观看替代强不直接等于集团利润损失大；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "长视频收缩会减亏吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "收入变化",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "可撤成本",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "合同投入",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "净回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-loss-example",
+      "text": "举个纯假设的例子：一门生意收入一百，成本一百一，亏十。竞争来了，收入降到八十，成本只降到一百，亏损反而扩大到二十。只有成本也能有效降下来，例如降到七十，才变成赚十。这些不是腾讯的数据，只是说明：业务原本亏损，不代表收入流失是好事；关键在于真正能撤掉多少成本。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "example",
+        "point": "亏损业务被动萎缩与主动降本结果相反",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "亏损业务被动萎缩与主动降本结果相反"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-loss-example",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "亏损业务被动萎缩与主动降本结果相反；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "长视频收缩会减亏吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "收入变化",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "可撤成本",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "合同投入",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "净回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "纯假设",
+        "不是腾讯的数据"
+      ]
+    },
+    {
+      "id": "u-longvideo-money",
+      "text": "长视频难就难在这里。已经签下的制作和版权合同，不会因为观众少了就自动取消。停止新的低回报项目，可以减少未来付款，但已经投入的内容仍可能继续摊销，甚至减值。因此，短期利润承压和未来现金支出减少，可以同时发生。不能把过去花出去的钱，当成现在随时能够省下来的钱。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "内容承诺现金支出和会计摊销区分",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "内容承诺现金支出和会计摊销区分"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-longvideo-money",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "内容承诺现金支出和会计摊销区分；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "长视频收缩会减亏吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "收入变化",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "可撤成本",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "合同投入",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "净回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-longvideo-judgment",
+      "text": "所以，我对长视频的投资判断要改成：竞争风险高，集团净影响却取决于调整能力。若能收缩低回报项目、保住精品内容的付费需求，少做一些生意可能改善回报；若收入先掉、承诺成本又降不下来，甚至为排名继续加码，集团利润就可能受损。这两种路径不能只用一条观看时长曲线来区分。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "长视频净影响取决于退出成本与再投资纪律",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "长视频净影响取决于退出成本与再投资纪律"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-longvideo-judgment",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "长视频净影响取决于退出成本与再投资纪律；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "长视频收缩会减亏吗？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "收入变化",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "可撤成本",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "合同投入",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "净回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-channels-existing",
+      "text": "再看视频号，它和长视频最大的财务区别，是腾讯已在二零二五年业绩公告中，把视频号广告与自研游戏、微信搜一搜列为高毛利率收入来源。它已经参与贡献毛利，不只是未来的增长故事。当然，公司没有在这份公告里单独给出视频号净利润，也不能拿整个广告业务的利润率套在它身上。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "视频号已有高毛利收入而非仅未来选项",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "视频号已有高毛利收入而非仅未来选项",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-channels-existing",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "视频号已有高毛利收入而非仅未来选项；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "视频号已有盈利怎样受影响？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "已有广告",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "边际贡献",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容分账",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "防守回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-channels-money",
+      "text": "如果红果分走的是这类广告预算，意义就不同了。一个广告位少卖出去，平台的技术、研发和运营支出，并不会立即同比减少，所以收入减少可能较明显地传到利润。具体幅度要看分成等可变成本。我更关心的是被分走收入原本能留下多少钱，而不是简单比较两个产品谁少了更多分钟。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "高贡献收入流失与平均净利率不同",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "高贡献收入流失与平均净利率不同"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-channels-money",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "高贡献收入流失与平均净利率不同；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "视频号已有盈利怎样受影响？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "已有广告",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "边际贡献",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容分账",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "防守回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-quality",
+      "text": "但这也不是说红果多一个广告位，视频号就必然少卖一个。广告主买的是有效触达和成交，不同平台的人群、交易场景并不相同。腾讯若能用更好的推荐、转化和客户复购保住投放回报，就可能抵消部分时间竞争。需要重审的是现有广告盈利和增量回报，不能仅凭红果增长就宣布它们已经恶化。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "广告变现改善可能抵消注意力竞争",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "广告变现改善可能抵消注意力竞争"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-quality",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "广告变现改善可能抵消注意力竞争；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "视频号已有盈利怎样受影响？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "已有广告",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "边际贡献",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容分账",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "防守回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-response",
+      "text": "腾讯正在通过绿泡泡联合发行、视频号短剧分发和收入、流量激励争取内容。这给它提供了防守的机会。但股东要核算两件事：有没有把微信外的用户时间带回来，以及这些时间在扣除分账和运营后，究竟留下多少回报。产品做起来，不代表这两笔账已经算得过来。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "短剧防守是经营投入而非自动获利",
+        "basis": "wechat-q4；wechat-distribution",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "短剧防守是经营投入而非自动获利",
+          "source_ids": [
+            "wechat-q4",
+            "wechat-distribution"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-response",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "短剧防守是经营投入而非自动获利；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "视频号已有盈利怎样受影响？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "已有广告",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "边际贡献",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容分账",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "防守回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ecosystem-net",
+      "text": "这里还有一种更隐蔽的风险。假如用户从视频号原来的内容，转去看微信里的免费短剧，总时长可能没有流失，广告收入也可能增加。但如果新增分账和激励更高，净回报反而可能下降。反过来，若用更低成本的分发模式替代原来低回报的内容投入，回报也可能改善。迁移前后赚得怎样，比流量留在谁家更重要。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "内部转移即便守住时长仍可能稀释利润结构",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "内部转移即便守住时长仍可能稀释利润结构"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ecosystem-net",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "内部转移即便守住时长仍可能稀释利润结构；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "视频号已有盈利怎样受影响？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "已有广告",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "边际贡献",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容分账",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "防守回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-defense-decision",
+      "text": "腾讯的风险也来自自己的资源分配。为了守住时间，要把多少原本能用于其他经营投入或者股东回报的资金，转向内容补贴？只有经营回报足以覆盖投入，防守才值得持续。不能因为微信有入口，就把新内容业务当作免费得到的增长。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "防守预算必须由增量现金回报约束",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "防守预算必须由增量现金回报约束"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-defense-decision",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "防守预算必须由增量现金回报约束；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "视频号已有盈利怎样受影响？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "已有广告",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "边际贡献",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容分账",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "防守回报",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-demand",
+      "text": "游戏这边，我反而不赞成一刀切看空。我会先区分两类需求：一种是随手消遣，尤其是靠广告变现的轻度游戏；另一种是围绕技术、进度、竞技和朋友关系形成的长期投入。前者既要和短剧争时间，也可能和短剧争广告预算；后者有额外的留存理由，替代难度更高。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "游戏按变现和需求分层",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "游戏按变现和需求分层"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-demand",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "游戏按变现和需求分层；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "游戏为什么仍是利润重点？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-game",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "核心盈利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "付费留存",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "本土海外",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "实际收入",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-profit",
+      "text": "游戏则提醒我们，替代强弱和财务重要性甚至可能反过来。自研游戏是腾讯已经披露的高毛利收入来源。成熟竞技和社交游戏不容易被短剧直接替代，但如果它们的付费或获客回报真的恶化，集团影响可能比一项薄利内容业务流失大量观看更大。所以核心游戏不能因为直接替代较弱，就从利润分析里靠后处理。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "核心游戏较弱替代不代表低集团重要性",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "核心游戏较弱替代不代表低集团重要性",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-profit",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "核心游戏较弱替代不代表低集团重要性；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "游戏为什么仍是利润重点？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-game",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "核心盈利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "付费留存",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "本土海外",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "实际收入",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-counter",
+      "text": "同期数据也不支持游戏时间全面衰退。QuestMobile九月图表里，手机游戏月人均使用时长同比仍增长百分之三点五，品类明显分化。这不能证明腾讯每款游戏都安全，却说明红果高时长与部分游戏保持吸引力，可以同时存在。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "objection",
+        "point": "同期行业反证约束全面衰退判断",
+        "basis": "qm-autumn",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "同期行业反证约束全面衰退判断",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-counter",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "同期行业反证约束全面衰退判断；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "游戏为什么仍是利润重点？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-game",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "核心盈利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "付费留存",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "本土海外",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "实际收入",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "百分之三点五"
+      ]
+    },
+    {
+      "id": "u-game-geography",
+      "text": "还要拆开本土和海外。腾讯分别披露两者，红果的中国用户数据，不能推导全球游戏都同样受影响。对本土成熟游戏，看付费、留存与召回；对新游戏，看获客投入能否收回；对小游戏平台，看腾讯实际获得的收入，不能把开发者全部流水算成腾讯利润。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "本土与海外敞口分开不能推及全球游戏",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "本土与海外敞口分开不能推及全球游戏",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-geography",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "本土与海外敞口分开不能推及全球游戏；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "游戏为什么仍是利润重点？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-game",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "核心盈利",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "付费留存",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "本土海外",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "实际收入",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-wechat-layers",
+      "text": "微信聊天也不能简单说成“不赚钱，所以不重要”。它的价值在于让联系、客户服务和交易持续发生，支持其他地方变现。用户回复消息后回到红果，通讯基础可能还在，内容广告机会却可能减少。要分别判断：关系入口是否稳固，依托入口赚钱的方式是否变化。不能只用微信总月活回答这两个问题。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "通讯低直接变现但维系其他盈利入口",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "通讯低直接变现但维系其他盈利入口"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-wechat-layers",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "通讯低直接变现但维系其他盈利入口；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "微信哪些价值能保留？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "关系入口",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "交易需求",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告客户",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-commerce",
+      "text": "金融科技及企业服务，原本就贡献腾讯相当一部分毛利。这不能全部算作微信支付，也不能都视为依赖刷视频。转账、已有购买意图的付款、理财与企业服务，受到红果的直接替代较弱；直播和小店靠内容发现带来的新增交易，则更容易间接受影响。稳住这些已有生意，能缓冲内容竞争，但不保证所有新增交易都安全。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "交易相关已有利润底座与内容获客风险分开",
+        "basis": "tencent-fy2025",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "交易相关已有利润底座与内容获客风险分开",
+          "source_ids": [
+            "tencent-fy2025"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-commerce",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "交易相关已有利润底座与内容获客风险分开；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "微信哪些价值能保留？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "关系入口",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "交易需求",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告客户",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-paid-drama",
+      "text": "微信短剧还有两面性。原来付费剧方能赚到钱，就可能愿意买广告；免费平台改变回收方式后，这部分预算可能受压。腾讯自己聚合免费短剧，则可能获得新的广告和分成机会。两边要放在一起算，扣掉内部替代和激励。剧方少赚的钱、腾讯少收的广告费和新平台的收益，不是同一个数字。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "免费迁移导致广告客户和平台收入结构改变",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "免费迁移导致广告客户和平台收入结构改变"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-paid-drama",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "免费迁移导致广告客户和平台收入结构改变；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "微信哪些价值能保留？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "关系入口",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "交易需求",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告客户",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-valuation",
+      "text": "因此，我会收回“红果时长很高，就应该笼统下调腾讯娱乐业务价值”这个过宽的判断。真正要调整的是三笔账：现有高回报业务可能少赚多少，低回报投入能够减少多少，为防守又需要新增多少支出。然后再评估未来增长。这比只给腾讯的视频、游戏、微信排一个受冲击榜，更接近股东真正拥有的生意。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "mechanism",
+        "point": "从笼统下调娱乐增长改为分利润路径评估",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "从笼统下调娱乐增长改为分利润路径评估"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-valuation",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "从笼统下调娱乐增长改为分利润路径评估；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "竞争后股东究竟多赚还是少赚？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "利润流失",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "节省投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "新增成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-falsify",
+      "text": "什么会让我更担心？视频号广告效果变差，核心游戏付费或获客回报下降，同时腾讯为了守时间继续扩大低回报补贴。什么会让我更乐观？已有赚钱业务保持健康，长视频投入更有纪律，短剧带来体系外的有效需求，并且扣除全部投入后仍有合理回报。两种结果都可能伴随红果继续增长。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "objection",
+        "point": "高毛利收入健康与防守纪律共同检验",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "高毛利收入健康与防守纪律共同检验"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-falsify",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "高毛利收入健康与防守纪律共同检验；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "竞争后股东究竟多赚还是少赚？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "利润流失",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "节省投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "新增成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ending",
+      "text": "我的结论是：红果的高时长，证明腾讯必须认真应对竞争，却不能独自证明腾讯的利润基础正在被掏空。长视频的调整可能释放资金，也可能扩大亏损；视频号和核心游戏则需要关注已有盈利的质量。最后决定投资价值的，是腾讯能否守住高回报生意，并且拒绝为低回报的时长付出过高代价。",
+      "delivery": "解释利润变化，数字和条件处停顿；不将假设读成公司实绩。",
+      "argument": {
+        "role": "conclusion",
+        "point": "竞争影响由利润结构和资本配置决定",
+        "basis": "本次独立分析：现有盈利、边际贡献、可避免成本、现金投入与防守机会成本。",
+        "boundary": "区分历史盈利结构与当前竞争；缺产品利润不填数，情景不是财务预测。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "竞争影响由利润结构和资本配置决定"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ending",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "竞争影响由利润结构和资本配置决定；仅语义草案，制作时结合原始财报局部与机制图解。",
+          "headline": "竞争后股东究竟多赚还是少赚？",
+          "note": "经营分析；假设不代表腾讯预测",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "利润流失",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "节省投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "新增成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "unit": "u-investment-open",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "duration": 5,
+      "fade_in": 2,
+      "hold": 1,
+      "fade_out": 2,
+      "clear_before_cut": 0.2
+    }
+  ],
+  "production_status": {
+    "voice": "未录制；约10分钟为字数估算",
+    "visuals": "仅语义草案；未制作或验收视频",
+    "research_as_of": "2026-11-06",
+    "revision": "v4，核验已有盈利，重写边际利润、减亏条件、现金与资本配置分析；保留v3"
+  }
+}

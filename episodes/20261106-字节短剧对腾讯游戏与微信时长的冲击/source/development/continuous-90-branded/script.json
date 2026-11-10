@@ -1,0 +1,3218 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "红果动了腾讯哪块利润？",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-distribution",
+      "title": "绿泡泡VS红果果：腾讯的短剧反攻",
+      "date": "2026-10-23",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34311018",
+      "type": "镜象娱乐发表于澎湃号的行业报道，非澎湃记者独立调查或公司原公告",
+      "observation_period": "2026年10月政策与产品报道",
+      "excerpt": "短剧发行载体包括绿泡泡短剧小程序、视频号端原生短剧。",
+      "limitations": "仅采用双端分发路径；未采用其未核验的视频号日活、早期小程序用户数、最高激励比例及未校正季度时长。不是净新增时长或盈利证据。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-fy2025",
+      "title": "腾讯2025年度业绩公告：分部毛利与高毛利收入来源",
+      "url": "https://static.www.tencent.com/uploads/2026/03/18/ea02037a5691a52cf6c908e985953963.pdf",
+      "date": "2026-03-18",
+      "observation_period": "2025-01-01至2025-12-31，历史完整年度结构基准",
+      "type": "发行人原始PDF；经raw当前manifest定位，重新核对原PDF第7—9、32—33页",
+      "path": "source/planning/evidence/tencent-fy2025-announcement.pdf",
+      "sha256": "12c41f47639cf2981d4b009ad468dc639ee342a8c0bf6d262660d1a353114a95",
+      "excerpt": "分部披露毛利，非产品净利；自研游戏、视频号及微信搜一搜为公司指明的高毛利率收入来源。",
+      "limitations": "不证明2026年竞争后仍同等增长；不单列腾讯视频或视频号净利润，不推定未披露为零；分部平均毛利率不等于边际利润率。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "video-profit-history",
+      "title": "孙忠怀在2023年6月发布会披露腾讯视频连续四季度盈利",
+      "url": "https://www.nbd.com.cn/rss/toutiao/articles/2879762.html",
+      "date": "2023-06-19",
+      "observation_period": "2023年6月管理层回顾连续四季度",
+      "type": "每日经济新闻对管理层现场发言的报道",
+      "excerpt": "腾讯视频负责人称连续四个季度盈利。",
+      "limitations": "历史管理层表述，无独立财务表或统一利润口径；不能证明2026年盈利，只用于检验长期一直亏损的前提。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "tencent-calendar",
+      "title": "腾讯投资者日历与业绩发布页",
+      "url": "https://www.tencent.com/investors/investor-kit-calendar/",
+      "date": null,
+      "observation_period": "截至2026-11-06",
+      "type": "公司官方当前披露日历",
+      "excerpt": "2026年第三季度业绩列为即将公布；不能取得尚未披露的新季度财务结果。",
+      "limitations": "只核对披露时序；本稿不以Q2增长推断当前竞争结论。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "personal-philosophy",
+      "title": "作者投资哲学：价格与价值、独立思考和逆向检验",
+      "type": "作者原则与研究方法",
+      "path": "/Users/herbxu/Desktop/github/trade/投资哲学.md",
+      "date": null,
+      "locator": "策略核心、收益逻辑、思维框架/逆向思维与第二层思维",
+      "sha256": "49694114f8fc36feaa2434ccb6c57ad8faef953d5c8a8aa43b0200c42c4c3952",
+      "excerpt": "以低于价值的价格买进，适当分散；判断非共识及价格反映的预期。",
+      "limitations": "正式个人原则不等于本期具体买卖授权，不采用未经核验的目标收益或单一风险断言。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "personal-moat",
+      "title": "作者竞争优势框架：现金流能力圈与局部护城河",
+      "type": "作者原则与研究方法",
+      "path": "/Users/herbxu/Desktop/github/trade/00-思维框架/01-竞争优势.md",
+      "date": null,
+      "locator": "能力圈、护城河",
+      "sha256": "d1062e99ef005192b1eb768d0962c8e14dd19780ed7f33ccaa1169e252cad811",
+      "excerpt": "理解公司涉及自由现金流估算；护城河需经检验，是局部的、相对的。",
+      "limitations": "研究方法，不直接证明腾讯当前竞争地位；未使用其中旧市盈率判断或未经核实公司数字。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "personal-valuation",
+      "title": "作者估值框架：机会成本与已有价值/成长价值",
+      "type": "作者原则与研究方法",
+      "path": "/Users/herbxu/Desktop/github/trade/00-思维框架/02-估值.md",
+      "date": null,
+      "locator": "估值方法、公司估值",
+      "sha256": "25489e8a1f413edb93749edb2103d49dd614157c1b170281160e687115954065",
+      "excerpt": "估值本质上比较机会成本；现有业务价值与未来成长共同构成价值。",
+      "limitations": "研究方法；不采用旧倍数、收益目标和腾讯假设现金流作为当前估值。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "trade-tencent-business",
+      "title": "腾讯生意研究：通讯、广告及股东现金的不同确定性",
+      "type": "trade既有研究",
+      "path": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/01-生意分析.md",
+      "date": "2026-10-25研究；2026-11-01阅读整理",
+      "locator": "当前判断、增长需要投入什么、现金怎样成为股东收益",
+      "sha256": "5bc8a1f2c4c8bbcd0f7b69fa7fa1dc0f5fc5866e6ce58dfbded55a0de692b16d",
+      "excerpt": "通讯稳定性高于广告定价权的确定性；成熟业务需再投资，回购要看价格与净股数。",
+      "limitations": "既有研究判断，不归为作者亲历，也不作为原始财务证据。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "trade-tencent-valuation",
+      "title": "腾讯估值研究：无倍数提升时的经营与分配检验",
+      "type": "trade既有研究",
+      "path": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/02-估值分析.md",
+      "date": "2026-10-25复核；2026-11-01整理",
+      "locator": "当前结论、怎样判断市场价格隐含什么",
+      "sha256": "c8f1c7e1e629fe19e4b555d050a462a93481ada18260b99ea24a8eda73c53945",
+      "excerpt": "不依赖估值倍数提高，检验经营和分配能否支持回报。",
+      "limitations": "不采用历史模型数值或Q3预测作为当前事实，不宣称已重新估值。",
+      "accessed_at": "2026-11-07"
+    },
+    {
+      "id": "july-dau",
+      "title": "澎湃新闻 2026-11-03 转引第三方数据，7月红果日活1.68亿",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34395703"
+    }
+  ],
+  "units": [
+    {
+      "id": "hook",
+      "text": "八月买腾讯的时候，我给自己留了个问题：三年不涨估值，光靠经营和分红，回报够吗？",
+      "audio": "media/hook.wav",
+      "shots": [
+        {
+          "id": "photo-cover",
+          "kind": "cover",
+          "cue": "",
+          "transition": "cut",
+          "headline": "红果动了腾讯\n哪块利润？",
+          "title_style": "photo-left",
+          "asset": "media/cover-photo.png",
+          "provenance": {
+            "kind": "generated-photographic-reconstruction",
+            "material": "作者 2026-08-24 决策记录节选",
+            "quotation": "三年不发生估值提升",
+            "source": "02-复盘/02-决策系统及记录.md",
+            "photo": "根据真实原文重构的摄影场景",
+            "logo": "原版 SVG 独立叠加"
+          },
+          "show_note": false,
+          "purpose": "从作者八月笔记的真实自问引出腾讯的现金回报"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "text": "现在，红果让我重新算这笔账。七月，红果日活已经到了一亿六千八百万。到了九月，一个月里用过它的人，接近四亿三千万。再看时长，七八月，红果用户的月人均单日使用时长达到一百五十一分钟。",
+      "audio": "media/scale.wav",
+      "shots": [
+        {
+          "id": "calendar-count",
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "paper_tone": "neutral",
+          "variant": "analysis",
+          "surface": "accountbook",
+          "headline": "calendar-count",
+          "note": "",
+          "source_id": "qm-autumn",
+          "hypothetical": false,
+          "purpose": "口播驱动同一纸面上的对象变化",
+          "transition": "cut",
+          "cue": "",
+          "drawing": [
+            {
+              "id": "shadow",
+              "shape": "rect",
+              "attrs": {
+                "x": 252,
+                "y": 230,
+                "width": 1425,
+                "height": 547,
+                "rx": 13,
+                "fill": "#dbded7"
+              }
+            },
+            {
+              "id": "calendar",
+              "shape": "rect",
+              "attrs": {
+                "x": 240,
+                "y": 216,
+                "width": 1425,
+                "height": 547,
+                "rx": 13,
+                "fill": "#fcfbf3"
+              }
+            },
+            {
+              "id": "tab",
+              "shape": "rect",
+              "attrs": {
+                "x": 240,
+                "y": 216,
+                "width": 15,
+                "height": 547,
+                "rx": 3,
+                "fill": "#506970"
+              }
+            },
+            {
+              "id": "poster-print",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "poster-shadow",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 287,
+                    "y": 250,
+                    "width": 355,
+                    "height": 474,
+                    "fill": "#d1d2ca",
+                    "rx": 6
+                  }
+                },
+                {
+                  "id": "poster-image",
+                  "shape": "image",
+                  "clipping": "fruitposters",
+                  "attrs": {
+                    "x": 276,
+                    "y": 238,
+                    "width": 351,
+                    "height": 472,
+                    "preserveAspectRatio": "xMidYMid meet"
+                  }
+                },
+                {
+                  "id": "product-credit",
+                  "shape": "text",
+                  "text": "红果官方商店展示图",
+                  "attrs": {
+                    "x": 279,
+                    "y": 741,
+                    "font-size": 25,
+                    "fill": "#59625d"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fruit-app-icon",
+              "shape": "image",
+              "clipping": "fruitmark",
+              "attrs": {
+                "x": 744,
+                "y": 245,
+                "width": 78,
+                "height": 78,
+                "preserveAspectRatio": "xMidYMid meet"
+              }
+            },
+            {
+              "id": "brand",
+              "shape": "text",
+              "attrs": {
+                "x": 840,
+                "y": 308,
+                "font-size": 40,
+                "fill": "#59625d",
+                "text-anchor": "start"
+              },
+              "text": "红果短剧"
+            },
+            {
+              "id": "hair",
+              "shape": "path",
+              "attrs": {
+                "d": "M744 337 H1565",
+                "stroke": "#b8c0b8",
+                "stroke-width": 2,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": false
+            },
+            {
+              "id": "pin",
+              "shape": "circle",
+              "attrs": {
+                "cx": 1592,
+                "cy": 272,
+                "r": 12,
+                "fill": "#d8dbd1"
+              }
+            },
+            {
+              "id": "dau",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "dau-date",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1577,
+                    "y": 308,
+                    "font-size": 38,
+                    "fill": "#59625d",
+                    "text-anchor": "end"
+                  },
+                  "text": "2026 年 7 月"
+                },
+                {
+                  "id": "dau-number",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1110,
+                    "y": 545,
+                    "font-size": 167,
+                    "fill": "#9d4734",
+                    "text-anchor": "end",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "1.68"
+                },
+                {
+                  "id": "dau-unit",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1133,
+                    "y": 538,
+                    "font-size": 66,
+                    "fill": "#9d4734",
+                    "text-anchor": "start"
+                  },
+                  "text": "亿"
+                },
+                {
+                  "id": "dau-name",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 900,
+                    "y": 641,
+                    "font-size": 52,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "日活跃用户"
+                },
+                {
+                  "id": "dau-source",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1576,
+                    "y": 721,
+                    "font-size": 26,
+                    "fill": "#59625d",
+                    "text-anchor": "end"
+                  },
+                  "text": "第三方监测 · 澎湃新闻转引"
+                }
+              ]
+            },
+            {
+              "id": "mau",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "mau-date",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1577,
+                    "y": 308,
+                    "font-size": 38,
+                    "fill": "#59625d",
+                    "text-anchor": "end"
+                  },
+                  "text": "2026 年 9 月"
+                },
+                {
+                  "id": "mau-number",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1110,
+                    "y": 545,
+                    "font-size": 167,
+                    "fill": "#9d4734",
+                    "text-anchor": "end",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "4.30"
+                },
+                {
+                  "id": "mau-unit",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1133,
+                    "y": 538,
+                    "font-size": 66,
+                    "fill": "#9d4734",
+                    "text-anchor": "start"
+                  },
+                  "text": "亿"
+                },
+                {
+                  "id": "mau-name",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 900,
+                    "y": 641,
+                    "font-size": 52,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "月活跃用户"
+                },
+                {
+                  "id": "mau-source",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1576,
+                    "y": 721,
+                    "font-size": 26,
+                    "fill": "#59625d",
+                    "text-anchor": "end"
+                  },
+                  "text": "QuestMobile 秋季报告"
+                }
+              ]
+            },
+            {
+              "id": "time",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "time-date",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1577,
+                    "y": 308,
+                    "font-size": 38,
+                    "fill": "#59625d",
+                    "text-anchor": "end"
+                  },
+                  "text": "2026 年 7—8 月"
+                },
+                {
+                  "id": "time-number",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1110,
+                    "y": 545,
+                    "font-size": 167,
+                    "fill": "#9d4734",
+                    "text-anchor": "end",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "151"
+                },
+                {
+                  "id": "time-unit",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1133,
+                    "y": 538,
+                    "font-size": 66,
+                    "fill": "#9d4734",
+                    "text-anchor": "start"
+                  },
+                  "text": "分钟"
+                },
+                {
+                  "id": "time-name",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 900,
+                    "y": 641,
+                    "font-size": 52,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "月人均单日使用时长"
+                },
+                {
+                  "id": "time-source",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1576,
+                    "y": 721,
+                    "font-size": 26,
+                    "fill": "#59625d",
+                    "text-anchor": "end"
+                  },
+                  "text": "《财经》引 QuestMobile 数据"
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "target": "poster-print",
+              "cue": "红果让我",
+              "action": "animate",
+              "from": {
+                "opacity": 0,
+                "x": -40
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              },
+              "duration": 0.7
+            },
+            {
+              "target": "dau",
+              "cue": "七月红果日活",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "opacity": 0,
+                "x": 148
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              }
+            },
+            {
+              "target": "dau",
+              "cue": "到了九月",
+              "action": "animate",
+              "duration": 0.55,
+              "from": {
+                "opacity": 1,
+                "x": 0
+              },
+              "to": {
+                "opacity": 0,
+                "x": -120
+              }
+            },
+            {
+              "target": "mau",
+              "cue": "到了九月",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "opacity": 0,
+                "x": 148
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              }
+            },
+            {
+              "target": "mau",
+              "cue": "再看时长",
+              "action": "animate",
+              "duration": 0.55,
+              "from": {
+                "opacity": 1,
+                "x": 0
+              },
+              "to": {
+                "opacity": 0,
+                "x": -120
+              }
+            },
+            {
+              "target": "time",
+              "cue": "七八月",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "opacity": 0,
+                "x": 148
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "fruitmark",
+              "asset": "media/clippings/fruitmark.png",
+              "role": "logo",
+              "source_sha256": "ec78c0532f693fbe193ef8a75088c185fb80b93abd830fe74d4019e94c78a814",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+                "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+                "operation": "开发者提供的 App 图标",
+                "original_sha256": "35020a949404edeb6124e6c37c38c76587a53bcc2bf35a9765806ace0fe10e49"
+              }
+            },
+            {
+              "id": "fruitposters",
+              "asset": "media/clippings/fruitposters.png",
+              "role": "source",
+              "source_sha256": "75c7974b92b112a2ea9d29c1aa41946b57f006693956f8990e1dd54849674e5e",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+                "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+                "operation": "官方商店展示图局部，保留剧目拼贴",
+                "original_sha256": "02974000e3510b934686ee707621befa864f8c3a77a1458801b49a7d9071fc62"
+              }
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "7月日活1.68亿、9月月活约4.30亿、7—8月月人均单日使用时长151分钟",
+          "source_ids": [
+            "july-dau",
+            "qm-autumn",
+            "caijing-oct"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "text": "这么多人，一天能看两个半小时。可站在腾讯股东这边，我最想知道的是：他们多看一集红果，腾讯究竟少赚哪笔钱？",
+      "audio": "media/question.wav",
+      "shots": [
+        {
+          "id": "time-to-money",
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "paper_tone": "neutral",
+          "variant": "analysis",
+          "surface": "accountbook",
+          "headline": "time-to-money",
+          "note": "",
+          "source_id": "caijing-oct",
+          "hypothetical": false,
+          "purpose": "口播驱动同一纸面上的对象变化",
+          "transition": "cut",
+          "cue": "",
+          "drawing": [
+            {
+              "id": "sheet",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "shadow",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 252,
+                    "y": 230,
+                    "width": 1425,
+                    "height": 547,
+                    "rx": 13,
+                    "fill": "#dbded7"
+                  }
+                },
+                {
+                  "id": "calendar",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 240,
+                    "y": 216,
+                    "width": 1425,
+                    "height": 547,
+                    "rx": 13,
+                    "fill": "#fcfbf3"
+                  }
+                },
+                {
+                  "id": "tab",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 240,
+                    "y": 216,
+                    "width": 15,
+                    "height": 547,
+                    "rx": 3,
+                    "fill": "#506970"
+                  }
+                },
+                {
+                  "id": "poster-print",
+                  "shape": "g",
+                  "attrs": {
+                    "opacity": 1
+                  },
+                  "children": [
+                    {
+                      "id": "poster-shadow",
+                      "shape": "rect",
+                      "attrs": {
+                        "x": 287,
+                        "y": 250,
+                        "width": 355,
+                        "height": 474,
+                        "fill": "#d1d2ca",
+                        "rx": 6
+                      }
+                    },
+                    {
+                      "id": "poster-image",
+                      "shape": "image",
+                      "clipping": "fruitposters",
+                      "attrs": {
+                        "x": 276,
+                        "y": 238,
+                        "width": 351,
+                        "height": 472,
+                        "preserveAspectRatio": "xMidYMid meet"
+                      }
+                    },
+                    {
+                      "id": "product-credit",
+                      "shape": "text",
+                      "text": "红果官方商店展示图",
+                      "attrs": {
+                        "x": 279,
+                        "y": 741,
+                        "font-size": 25,
+                        "fill": "#59625d"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "fruit-app-icon",
+                  "shape": "image",
+                  "clipping": "fruitmark",
+                  "attrs": {
+                    "x": 744,
+                    "y": 245,
+                    "width": 78,
+                    "height": 78,
+                    "preserveAspectRatio": "xMidYMid meet"
+                  }
+                },
+                {
+                  "id": "brand",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 840,
+                    "y": 308,
+                    "font-size": 40,
+                    "fill": "#59625d",
+                    "text-anchor": "start"
+                  },
+                  "text": "红果短剧"
+                },
+                {
+                  "id": "hair",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M744 337 H1565",
+                    "stroke": "#b8c0b8",
+                    "stroke-width": 2,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "pin",
+                  "shape": "circle",
+                  "attrs": {
+                    "cx": 1592,
+                    "cy": 272,
+                    "r": 12,
+                    "fill": "#d8dbd1"
+                  }
+                },
+                {
+                  "id": "dau",
+                  "shape": "g",
+                  "attrs": {
+                    "opacity": 0
+                  },
+                  "children": [
+                    {
+                      "id": "dau-date",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1577,
+                        "y": 308,
+                        "font-size": 38,
+                        "fill": "#59625d",
+                        "text-anchor": "end"
+                      },
+                      "text": "2026 年 7 月"
+                    },
+                    {
+                      "id": "dau-number",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1110,
+                        "y": 545,
+                        "font-size": 167,
+                        "fill": "#9d4734",
+                        "text-anchor": "end",
+                        "font-family": "StudioNoteSerif,StudioMotion,serif"
+                      },
+                      "text": "1.68"
+                    },
+                    {
+                      "id": "dau-unit",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1133,
+                        "y": 538,
+                        "font-size": 66,
+                        "fill": "#9d4734",
+                        "text-anchor": "start"
+                      },
+                      "text": "亿"
+                    },
+                    {
+                      "id": "dau-name",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 900,
+                        "y": 641,
+                        "font-size": 52,
+                        "fill": "#293635",
+                        "text-anchor": "start"
+                      },
+                      "text": "日活跃用户"
+                    },
+                    {
+                      "id": "dau-source",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1576,
+                        "y": 721,
+                        "font-size": 26,
+                        "fill": "#59625d",
+                        "text-anchor": "end"
+                      },
+                      "text": "第三方监测 · 澎湃新闻转引"
+                    }
+                  ]
+                },
+                {
+                  "id": "mau",
+                  "shape": "g",
+                  "attrs": {
+                    "opacity": 0
+                  },
+                  "children": [
+                    {
+                      "id": "mau-date",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1577,
+                        "y": 308,
+                        "font-size": 38,
+                        "fill": "#59625d",
+                        "text-anchor": "end"
+                      },
+                      "text": "2026 年 9 月"
+                    },
+                    {
+                      "id": "mau-number",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1110,
+                        "y": 545,
+                        "font-size": 167,
+                        "fill": "#9d4734",
+                        "text-anchor": "end",
+                        "font-family": "StudioNoteSerif,StudioMotion,serif"
+                      },
+                      "text": "4.30"
+                    },
+                    {
+                      "id": "mau-unit",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1133,
+                        "y": 538,
+                        "font-size": 66,
+                        "fill": "#9d4734",
+                        "text-anchor": "start"
+                      },
+                      "text": "亿"
+                    },
+                    {
+                      "id": "mau-name",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 900,
+                        "y": 641,
+                        "font-size": 52,
+                        "fill": "#293635",
+                        "text-anchor": "start"
+                      },
+                      "text": "月活跃用户"
+                    },
+                    {
+                      "id": "mau-source",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1576,
+                        "y": 721,
+                        "font-size": 26,
+                        "fill": "#59625d",
+                        "text-anchor": "end"
+                      },
+                      "text": "QuestMobile 秋季报告"
+                    }
+                  ]
+                },
+                {
+                  "id": "time",
+                  "shape": "g",
+                  "attrs": {
+                    "opacity": 1
+                  },
+                  "children": [
+                    {
+                      "id": "time-date",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1577,
+                        "y": 308,
+                        "font-size": 38,
+                        "fill": "#59625d",
+                        "text-anchor": "end"
+                      },
+                      "text": "2026 年 7—8 月"
+                    },
+                    {
+                      "id": "time-number",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1110,
+                        "y": 545,
+                        "font-size": 167,
+                        "fill": "#9d4734",
+                        "text-anchor": "end",
+                        "font-family": "StudioNoteSerif,StudioMotion,serif"
+                      },
+                      "text": "151"
+                    },
+                    {
+                      "id": "time-unit",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1133,
+                        "y": 538,
+                        "font-size": 66,
+                        "fill": "#9d4734",
+                        "text-anchor": "start"
+                      },
+                      "text": "分钟"
+                    },
+                    {
+                      "id": "time-name",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 900,
+                        "y": 641,
+                        "font-size": 52,
+                        "fill": "#293635",
+                        "text-anchor": "start"
+                      },
+                      "text": "月人均单日使用时长"
+                    },
+                    {
+                      "id": "time-source",
+                      "shape": "text",
+                      "attrs": {
+                        "x": 1576,
+                        "y": 721,
+                        "font-size": 26,
+                        "fill": "#59625d",
+                        "text-anchor": "end"
+                      },
+                      "text": "《财经》引 QuestMobile 数据"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ticket",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "slip-shadow",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 536,
+                    "y": 325,
+                    "width": 858,
+                    "height": 329,
+                    "rx": 10,
+                    "fill": "#dbded7"
+                  }
+                },
+                {
+                  "id": "slip",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 522,
+                    "y": 309,
+                    "width": 858,
+                    "height": 329,
+                    "rx": 10,
+                    "fill": "#fcfbf3"
+                  }
+                },
+                {
+                  "id": "perforate",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M1116 330 V616",
+                    "stroke": "#b8c0b8",
+                    "stroke-width": 3,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "what",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 609,
+                    "y": 454,
+                    "font-size": 70,
+                    "fill": "#293635",
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "多看一集"
+                },
+                {
+                  "id": "result",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 608,
+                    "y": 564,
+                    "font-size": 61,
+                    "fill": "#9d4734",
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "腾讯少赚多少？"
+                },
+                {
+                  "id": "side",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1155,
+                    "y": 487,
+                    "font-size": 48,
+                    "fill": "#59625d",
+                    "text-anchor": "start"
+                  },
+                  "text": "待核算"
+                }
+              ]
+            },
+            {
+              "id": "redline",
+              "shape": "path",
+              "attrs": {
+                "d": "M602 587 q223 -8 439 -2",
+                "stroke": "#9d4734",
+                "stroke-width": 5,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": true
+            }
+          ],
+          "events": [
+            {
+              "target": "sheet",
+              "cue": "腾讯股东",
+              "action": "animate",
+              "duration": 0.55,
+              "from": {
+                "opacity": 1,
+                "x": 0
+              },
+              "to": {
+                "opacity": 0,
+                "x": -120
+              }
+            },
+            {
+              "target": "ticket",
+              "cue": "腾讯股东",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "opacity": 0,
+                "x": 148
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              }
+            },
+            {
+              "target": "redline",
+              "cue": "腾讯究竟",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "fruitmark",
+              "asset": "media/clippings/fruitmark.png",
+              "role": "logo",
+              "source_sha256": "ec78c0532f693fbe193ef8a75088c185fb80b93abd830fe74d4019e94c78a814",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+                "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+                "operation": "开发者提供的 App 图标",
+                "original_sha256": "35020a949404edeb6124e6c37c38c76587a53bcc2bf35a9765806ace0fe10e49"
+              }
+            },
+            {
+              "id": "fruitposters",
+              "asset": "media/clippings/fruitposters.png",
+              "role": "source",
+              "source_sha256": "75c7974b92b112a2ea9d29c1aa41946b57f006693956f8990e1dd54849674e5e",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+                "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+                "operation": "官方商店展示图局部，保留剧目拼贴",
+                "original_sha256": "02974000e3510b934686ee707621befa864f8c3a77a1458801b49a7d9071fc62"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "text": "先看腾讯视频。今天它单独赚多少，公开披露还算不出来。我们拿一笔假设的账试一试。原来一季收入一百，拍剧和买版权花一百一十，亏十。现在观众少了，收入只剩八十。",
+      "audio": "media/book.wav",
+      "shots": [
+        {
+          "id": "book-start",
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "paper_tone": "neutral",
+          "variant": "business",
+          "surface": "accountbook",
+          "headline": "book-start",
+          "note": "假设算例",
+          "source_id": "tencent-fy2025",
+          "hypothetical": true,
+          "purpose": "口播驱动同一纸面上的对象变化",
+          "transition": "cut",
+          "cue": "",
+          "drawing": [
+            {
+              "id": "service-mark",
+              "shape": "image",
+              "clipping": "videomark",
+              "attrs": {
+                "x": 221,
+                "y": 146,
+                "width": 107,
+                "height": 98,
+                "preserveAspectRatio": "xMidYMid meet"
+              }
+            },
+            {
+              "id": "title",
+              "shape": "text",
+              "attrs": {
+                "x": 354,
+                "y": 221,
+                "font-size": 69,
+                "fill": "#293635",
+                "text-anchor": "start",
+                "font-family": "StudioNoteSerif,StudioMotion,serif"
+              },
+              "text": "腾讯视频"
+            },
+            {
+              "id": "example",
+              "shape": "text",
+              "attrs": {
+                "x": 1680,
+                "y": 213,
+                "font-size": 35,
+                "fill": "#59625d",
+                "text-anchor": "end"
+              },
+              "text": "假设算例"
+            },
+            {
+              "id": "line",
+              "shape": "path",
+              "attrs": {
+                "d": "M230 251 H1685",
+                "stroke": "#b8c0b8",
+                "stroke-width": 2,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": false
+            },
+            {
+              "id": "axes",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "inc-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 268,
+                    "y": 459,
+                    "font-size": 57,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "收入"
+                },
+                {
+                  "id": "cost-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 268,
+                    "y": 610,
+                    "font-size": 57,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "成本"
+                },
+                {
+                  "id": "bg1",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 405,
+                    "width": 960,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e0e3dc"
+                  }
+                },
+                {
+                  "id": "bg2",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 556,
+                    "width": 960,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e0e3dc"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "income",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "ifill",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 405,
+                    "width": 800,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#506970"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cost",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "cfill",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 556,
+                    "width": 880,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#9c8c76"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "unknown",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "uncertain",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 760,
+                    "y": 515,
+                    "font-size": 77,
+                    "fill": "#293635",
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "单独盈亏尚不明确"
+                }
+              ]
+            },
+            {
+              "id": "i100",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "i100-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 461,
+                    "font-size": 67,
+                    "fill": "#506970",
+                    "text-anchor": "start"
+                  },
+                  "text": "100"
+                }
+              ]
+            },
+            {
+              "id": "i80",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "i80-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 461,
+                    "font-size": 67,
+                    "fill": "#506970",
+                    "text-anchor": "start"
+                  },
+                  "text": "80"
+                }
+              ]
+            },
+            {
+              "id": "c110",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "c110-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 610,
+                    "font-size": 67,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "110"
+                }
+              ]
+            },
+            {
+              "id": "loss10",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "loss10-brace",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M1290 647 v18 l8 8 H1362 l8 -8 v-18",
+                    "stroke": "#9d4734",
+                    "stroke-width": 4,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "loss10-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1330.0,
+                    "y": 753,
+                    "font-size": 64,
+                    "fill": "#9d4734",
+                    "text-anchor": "middle",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "亏 10"
+                }
+              ]
+            },
+            {
+              "id": "watch-entry",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "watch-frame",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 282,
+                    "y": 298,
+                    "width": 379,
+                    "height": 469,
+                    "fill": "#dadfd9",
+                    "rx": 10
+                  }
+                },
+                {
+                  "id": "watch-screen",
+                  "shape": "image",
+                  "clipping": "watchpage",
+                  "attrs": {
+                    "x": 296,
+                    "y": 309,
+                    "width": 350,
+                    "height": 418,
+                    "preserveAspectRatio": "xMidYMid meet"
+                  }
+                },
+                {
+                  "id": "watch-credit",
+                  "shape": "text",
+                  "text": "腾讯视频官方商店展示图",
+                  "attrs": {
+                    "x": 296,
+                    "y": 754,
+                    "font-size": 24,
+                    "fill": "#59625d"
+                  }
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "target": "unknown",
+              "cue": "今天它单独赚多少",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "unknown",
+              "cue": "拿一笔假设",
+              "action": "animate",
+              "duration": 0.55,
+              "from": {
+                "opacity": 1,
+                "x": 0
+              },
+              "to": {
+                "opacity": 0,
+                "x": -120
+              }
+            },
+            {
+              "target": "axes",
+              "cue": "拿一笔假设",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "watch-entry",
+              "cue": "拿一笔假设",
+              "action": "animate",
+              "from": {
+                "x": 0,
+                "opacity": 1
+              },
+              "to": {
+                "x": -90,
+                "opacity": 0
+              },
+              "duration": 0.5
+            },
+            {
+              "target": "income",
+              "cue": "收入一百",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "ifill",
+              "cue": "收入一百",
+              "action": "animate",
+              "duration": 0.88,
+              "from": {
+                "scaleX": 0
+              },
+              "to": {
+                "scaleX": 1
+              }
+            },
+            {
+              "target": "i100",
+              "cue": "收入一百",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "cost",
+              "cue": "买版权",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "cfill",
+              "cue": "买版权",
+              "action": "animate",
+              "duration": 0.88,
+              "from": {
+                "scaleX": 0
+              },
+              "to": {
+                "scaleX": 1
+              }
+            },
+            {
+              "target": "c110",
+              "cue": "花一百一十",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "loss10",
+              "cue": "亏十",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "loss10",
+              "cue": "现在观众少了",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "ifill",
+              "cue": "收入只剩八十",
+              "action": "animate",
+              "duration": 0.666,
+              "from": {
+                "scaleX": 1
+              },
+              "to": {
+                "scaleX": 0.8
+              }
+            },
+            {
+              "target": "i100",
+              "cue": "收入只剩八十",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "i80",
+              "cue": "收入只剩八十",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "videomark",
+              "asset": "media/clippings/videomark.png",
+              "role": "logo",
+              "source_sha256": "c38e2a2fe2abc20137fb1ea9bcf6966dec596e14a0439ced0ade193883414b5c",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91-%E5%B0%9A%E5%85%AC%E4%B8%BB-%E4%B8%8A%E5%A4%B4%E7%88%BD%E5%97%91/id458318329?uo=4",
+                "credit": "Tencent Technology (Shenzhen) Company Limited",
+                "operation": "从开发者活动图标截取完整三色播放标识",
+                "original_sha256": "8ade8a54faf033c8f7d827d6e622ec456cc1550ee4f66b6feb36b10deb9b5555"
+              }
+            },
+            {
+              "id": "watchpage",
+              "asset": "media/clippings/watchpage.png",
+              "role": "source",
+              "source_sha256": "37c5123fa22fabbe93efff9a2201a5dbc1189a812fb885a399d22b07cefa4247",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91-%E5%B0%9A%E5%85%AC%E4%B8%BB-%E4%B8%8A%E5%A4%B4%E7%88%BD%E5%97%91/id458318329?uo=4",
+                "credit": "Tencent Technology (Shenzhen) Company Limited",
+                "operation": "商店展示图，裁切顶部剧集入口和海报",
+                "original_sha256": "982426e6277d6daf9e79755c5efda6888d3fc7bb4aaad1daa231e9d9449c85b4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fixed",
+      "text": "看这份已经签好的合同。观众可以随时换剧，腾讯答应付的钱，还得照付。如果成本只能从一百一十降到一百，那就从亏十变成亏二十。",
+      "audio": "media/fixed.wav",
+      "shots": [
+        {
+          "id": "contract-stays",
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "paper_tone": "neutral",
+          "variant": "business",
+          "surface": "accountbook",
+          "headline": "contract-stays",
+          "note": "假设算例",
+          "source_id": "tencent-fy2025",
+          "hypothetical": true,
+          "purpose": "口播驱动同一纸面上的对象变化",
+          "transition": "cut",
+          "cue": "",
+          "drawing": [
+            {
+              "id": "service-mark",
+              "shape": "image",
+              "clipping": "videomark",
+              "attrs": {
+                "x": 221,
+                "y": 146,
+                "width": 107,
+                "height": 98,
+                "preserveAspectRatio": "xMidYMid meet"
+              }
+            },
+            {
+              "id": "title",
+              "shape": "text",
+              "attrs": {
+                "x": 354,
+                "y": 221,
+                "font-size": 69,
+                "fill": "#293635",
+                "text-anchor": "start",
+                "font-family": "StudioNoteSerif,StudioMotion,serif"
+              },
+              "text": "腾讯视频"
+            },
+            {
+              "id": "example",
+              "shape": "text",
+              "attrs": {
+                "x": 1680,
+                "y": 213,
+                "font-size": 35,
+                "fill": "#59625d",
+                "text-anchor": "end"
+              },
+              "text": "假设算例"
+            },
+            {
+              "id": "line",
+              "shape": "path",
+              "attrs": {
+                "d": "M230 251 H1685",
+                "stroke": "#b8c0b8",
+                "stroke-width": 2,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": false
+            },
+            {
+              "id": "axes",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "inc-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 268,
+                    "y": 459,
+                    "font-size": 57,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "收入"
+                },
+                {
+                  "id": "cost-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 268,
+                    "y": 610,
+                    "font-size": 57,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "成本"
+                },
+                {
+                  "id": "bg1",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 405,
+                    "width": 960,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e0e3dc"
+                  }
+                },
+                {
+                  "id": "bg2",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 556,
+                    "width": 960,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e0e3dc"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "income",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "ifill",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 405,
+                    "width": 640,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#506970"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cost",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "cfill",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 556,
+                    "width": 880,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#9c8c76"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "i80",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "i80-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 461,
+                    "font-size": 67,
+                    "fill": "#506970",
+                    "text-anchor": "start"
+                  },
+                  "text": "80"
+                }
+              ]
+            },
+            {
+              "id": "c110",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "c110-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 610,
+                    "font-size": 67,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "110"
+                }
+              ]
+            },
+            {
+              "id": "c100",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "c100-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 610,
+                    "font-size": 67,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "100"
+                }
+              ]
+            },
+            {
+              "id": "locked",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "sealpaper",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 828,
+                    "y": 530,
+                    "width": 168,
+                    "height": 68,
+                    "rx": 2,
+                    "fill": "#e9dfce"
+                  }
+                },
+                {
+                  "id": "stamp",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 848,
+                    "y": 581,
+                    "font-size": 44,
+                    "fill": "#9d4734",
+                    "text-anchor": "start"
+                  },
+                  "text": "已签约"
+                }
+              ]
+            },
+            {
+              "id": "loss20",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "loss20-brace",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M1130 647 v18 l8 8 H1282 l8 -8 v-18",
+                    "stroke": "#9d4734",
+                    "stroke-width": 4,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "loss20-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1210.0,
+                    "y": 753,
+                    "font-size": 64,
+                    "fill": "#9d4734",
+                    "text-anchor": "middle",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "亏 20"
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "target": "locked",
+              "cue": "签好的合同",
+              "action": "animate",
+              "duration": 0.51,
+              "from": {
+                "opacity": 0,
+                "y": -48,
+                "scaleX": 1.15,
+                "scaleY": 1.15
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0,
+                "scaleX": 1,
+                "scaleY": 1
+              }
+            },
+            {
+              "target": "cfill",
+              "cue": "降到一百",
+              "action": "animate",
+              "duration": 0.88,
+              "from": {
+                "scaleX": 1
+              },
+              "to": {
+                "scaleX": 0.9090909090909091
+              }
+            },
+            {
+              "target": "c110",
+              "cue": "降到一百",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "c100",
+              "cue": "降到一百",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "loss20",
+              "cue": "变成亏二十",
+              "action": "animate",
+              "duration": 0.416,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "videomark",
+              "asset": "media/clippings/videomark.png",
+              "role": "logo",
+              "source_sha256": "c38e2a2fe2abc20137fb1ea9bcf6966dec596e14a0439ced0ade193883414b5c",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91-%E5%B0%9A%E5%85%AC%E4%B8%BB-%E4%B8%8A%E5%A4%B4%E7%88%BD%E5%97%91/id458318329?uo=4",
+                "credit": "Tencent Technology (Shenzhen) Company Limited",
+                "operation": "从开发者活动图标截取完整三色播放标识",
+                "original_sha256": "8ade8a54faf033c8f7d827d6e622ec456cc1550ee4f66b6feb36b10deb9b5555"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "option",
+      "text": "可要是明年那几部回报差的剧还没签呢？把它们划掉，假设成本能降到七十。同样收八十，这回反而赚十。长视频最容易被分走时间，股东受多少影响，要看有多少支出真能省下来。",
+      "audio": "media/option.wav",
+      "shots": [
+        {
+          "id": "project-tears",
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "paper_tone": "neutral",
+          "variant": "business",
+          "surface": "accountbook",
+          "headline": "project-tears",
+          "note": "假设算例",
+          "source_id": "tencent-fy2025",
+          "hypothetical": true,
+          "purpose": "口播驱动同一纸面上的对象变化",
+          "transition": "cut",
+          "cue": "",
+          "drawing": [
+            {
+              "id": "service-mark",
+              "shape": "image",
+              "clipping": "videomark",
+              "attrs": {
+                "x": 221,
+                "y": 146,
+                "width": 107,
+                "height": 98,
+                "preserveAspectRatio": "xMidYMid meet"
+              }
+            },
+            {
+              "id": "title",
+              "shape": "text",
+              "attrs": {
+                "x": 354,
+                "y": 221,
+                "font-size": 69,
+                "fill": "#293635",
+                "text-anchor": "start",
+                "font-family": "StudioNoteSerif,StudioMotion,serif"
+              },
+              "text": "腾讯视频"
+            },
+            {
+              "id": "example",
+              "shape": "text",
+              "attrs": {
+                "x": 1680,
+                "y": 213,
+                "font-size": 35,
+                "fill": "#59625d",
+                "text-anchor": "end"
+              },
+              "text": "假设算例"
+            },
+            {
+              "id": "line",
+              "shape": "path",
+              "attrs": {
+                "d": "M230 251 H1685",
+                "stroke": "#b8c0b8",
+                "stroke-width": 2,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": false
+            },
+            {
+              "id": "axes",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "inc-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 268,
+                    "y": 459,
+                    "font-size": 57,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "收入"
+                },
+                {
+                  "id": "cost-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 268,
+                    "y": 610,
+                    "font-size": 57,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "成本"
+                },
+                {
+                  "id": "bg1",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 405,
+                    "width": 960,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e0e3dc"
+                  }
+                },
+                {
+                  "id": "bg2",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 556,
+                    "width": 960,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e0e3dc"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "income",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "ifill",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 405,
+                    "width": 640,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#506970"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cost",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "cfill",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 490,
+                    "y": 556,
+                    "width": 800,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#9c8c76"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "i80",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "i80-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 461,
+                    "font-size": 67,
+                    "fill": "#506970",
+                    "text-anchor": "start"
+                  },
+                  "text": "80"
+                }
+              ]
+            },
+            {
+              "id": "c100",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "c100-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 610,
+                    "font-size": 67,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "100"
+                }
+              ]
+            },
+            {
+              "id": "c70",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "c70-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1517,
+                    "y": 610,
+                    "font-size": 67,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "70"
+                }
+              ]
+            },
+            {
+              "id": "locked",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "sealpaper",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 828,
+                    "y": 530,
+                    "width": 168,
+                    "height": 68,
+                    "rx": 2,
+                    "fill": "#e9dfce"
+                  }
+                },
+                {
+                  "id": "stamp",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 848,
+                    "y": 581,
+                    "font-size": 44,
+                    "fill": "#9d4734",
+                    "text-anchor": "start"
+                  },
+                  "text": "已签约"
+                }
+              ]
+            },
+            {
+              "id": "loss20",
+              "shape": "g",
+              "attrs": {
+                "opacity": 1
+              },
+              "children": [
+                {
+                  "id": "loss20-brace",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M1130 647 v18 l8 8 H1282 l8 -8 v-18",
+                    "stroke": "#9d4734",
+                    "stroke-width": 4,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "loss20-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1210.0,
+                    "y": 753,
+                    "font-size": 64,
+                    "fill": "#9d4734",
+                    "text-anchor": "middle",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "亏 20"
+                }
+              ]
+            },
+            {
+              "id": "win10",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "win10-brace",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M1050 647 v18 l8 8 H1122 l8 -8 v-18",
+                    "stroke": "#316653",
+                    "stroke-width": 4,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "win10-text",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1090.0,
+                    "y": 753,
+                    "font-size": 64,
+                    "fill": "#316653",
+                    "text-anchor": "middle",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "赚 10"
+                }
+              ]
+            },
+            {
+              "id": "tear",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "rem",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 1050,
+                    "y": 556,
+                    "width": 240,
+                    "height": 54,
+                    "rx": 0,
+                    "fill": "#e6cd94"
+                  }
+                },
+                {
+                  "id": "rem-l",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1077,
+                    "y": 595,
+                    "font-size": 32,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "未签项目"
+                }
+              ]
+            },
+            {
+              "id": "scribble",
+              "shape": "path",
+              "attrs": {
+                "d": "M1068 588 l191 -10",
+                "stroke": "#9d4734",
+                "stroke-width": 5,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": true
+            }
+          ],
+          "events": [
+            {
+              "target": "locked",
+              "cue": "明年那几部",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "loss20",
+              "cue": "明年那几部",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "tear",
+              "cue": "还没签呢",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "scribble",
+              "cue": "把它们划掉",
+              "action": "animate",
+              "duration": 0.45,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "target": "cfill",
+              "cue": "假设成本能降",
+              "action": "animate",
+              "duration": 0.88,
+              "from": {
+                "scaleX": 1
+              },
+              "to": {
+                "scaleX": 0.7
+              }
+            },
+            {
+              "target": "tear",
+              "cue": "假设成本能降",
+              "action": "animate",
+              "duration": 0.93,
+              "from": {
+                "x": 0,
+                "y": 0,
+                "rotation": 0
+              },
+              "to": {
+                "x": 98,
+                "y": 114,
+                "rotation": 8
+              }
+            },
+            {
+              "target": "scribble",
+              "cue": "假设成本能降",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "c100",
+              "cue": "假设成本能降",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "c70",
+              "cue": "降到七十",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "tear",
+              "cue": "同样收八十",
+              "action": "animate",
+              "duration": 0.4,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              }
+            },
+            {
+              "target": "win10",
+              "cue": "这回反而赚十",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "videomark",
+              "asset": "media/clippings/videomark.png",
+              "role": "logo",
+              "source_sha256": "c38e2a2fe2abc20137fb1ea9bcf6966dec596e14a0439ced0ade193883414b5c",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91-%E5%B0%9A%E5%85%AC%E4%B8%BB-%E4%B8%8A%E5%A4%B4%E7%88%BD%E5%97%91/id458318329?uo=4",
+                "credit": "Tencent Technology (Shenzhen) Company Limited",
+                "operation": "从开发者活动图标截取完整三色播放标识",
+                "original_sha256": "8ade8a54faf033c8f7d827d6e622ec456cc1550ee4f66b6feb36b10deb9b5555"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "text": "再看视频号。它的广告，腾讯已经列为高毛利收入。广告主把下一笔预算投给红果，腾讯少卖一个广告位，这笔原本能留下的利润，又有多少？",
+      "audio": "media/channels.wav",
+      "shots": [
+        {
+          "id": "ad-budget",
+          "kind": "essay_scene",
+          "layout": "paper-animation",
+          "paper_tone": "neutral",
+          "variant": "analysis",
+          "surface": "accountbook",
+          "headline": "ad-budget",
+          "note": "",
+          "source_id": "tencent-fy2025",
+          "hypothetical": false,
+          "purpose": "口播驱动同一纸面上的对象变化",
+          "transition": "cut",
+          "cue": "",
+          "drawing": [
+            {
+              "id": "adslip",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "adshadow",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 345,
+                    "y": 325,
+                    "width": 948,
+                    "height": 352,
+                    "rx": 8,
+                    "fill": "#dce1d9"
+                  }
+                },
+                {
+                  "id": "adpaper",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 332,
+                    "y": 312,
+                    "width": 948,
+                    "height": 352,
+                    "rx": 8,
+                    "fill": "#fcfbf3"
+                  }
+                },
+                {
+                  "id": "channel-source",
+                  "shape": "image",
+                  "clipping": "channelmark",
+                  "attrs": {
+                    "x": 403,
+                    "y": 353,
+                    "width": 73,
+                    "height": 73,
+                    "preserveAspectRatio": "xMidYMid meet"
+                  }
+                },
+                {
+                  "id": "product",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 498,
+                    "y": 407,
+                    "font-size": 58,
+                    "fill": "#293635",
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "视频号"
+                },
+                {
+                  "id": "ad-rule",
+                  "shape": "path",
+                  "attrs": {
+                    "d": "M417 441 H1190",
+                    "stroke": "#b8c0b8",
+                    "stroke-width": 2,
+                    "fill": "none",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  },
+                  "trace": false
+                },
+                {
+                  "id": "adtype",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 421,
+                    "y": 570,
+                    "font-size": 95,
+                    "fill": "#506970",
+                    "text-anchor": "start",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "广告位"
+                }
+              ]
+            },
+            {
+              "id": "high",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "margin",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 891,
+                    "y": 565,
+                    "font-size": 57,
+                    "fill": "#9d4734",
+                    "text-anchor": "middle",
+                    "font-family": "StudioNoteSerif,StudioMotion,serif"
+                  },
+                  "text": "高毛利收入"
+                }
+              ]
+            },
+            {
+              "id": "budget",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "budgetpaper",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 1315,
+                    "y": 418,
+                    "width": 353,
+                    "height": 110,
+                    "rx": 4,
+                    "fill": "#e6cd94"
+                  }
+                },
+                {
+                  "id": "budgetlabel",
+                  "shape": "text",
+                  "attrs": {
+                    "x": 1364,
+                    "y": 491,
+                    "font-size": 53,
+                    "fill": "#293635",
+                    "text-anchor": "start"
+                  },
+                  "text": "广告预算"
+                }
+              ]
+            },
+            {
+              "id": "out",
+              "shape": "path",
+              "attrs": {
+                "d": "M1274 510 Q1370 517 1444 415 m-21 5 21 -5 -2 22",
+                "stroke": "#9d4734",
+                "stroke-width": 5,
+                "fill": "none",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              },
+              "trace": true
+            },
+            {
+              "id": "destination",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "target-text",
+                  "shape": "text",
+                  "text": "转投红果",
+                  "attrs": {
+                    "x": 1460,
+                    "y": 601,
+                    "font-size": 48,
+                    "fill": "#9d4734"
+                  }
+                },
+                {
+                  "id": "destination-icon",
+                  "shape": "image",
+                  "clipping": "fruitmark",
+                  "attrs": {
+                    "x": 1380,
+                    "y": 548,
+                    "width": 64,
+                    "height": 64,
+                    "preserveAspectRatio": "xMidYMid meet"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "report",
+              "shape": "g",
+              "attrs": {
+                "opacity": 0
+              },
+              "children": [
+                {
+                  "id": "report-paper",
+                  "shape": "rect",
+                  "attrs": {
+                    "x": 289,
+                    "y": 691,
+                    "width": 1160,
+                    "height": 144,
+                    "fill": "#ffffff",
+                    "rx": 4
+                  }
+                },
+                {
+                  "id": "source-lines",
+                  "shape": "image",
+                  "clipping": "filing",
+                  "attrs": {
+                    "x": 308,
+                    "y": 695,
+                    "width": 1124,
+                    "height": 109,
+                    "preserveAspectRatio": "xMidYMid meet"
+                  }
+                },
+                {
+                  "id": "report-source",
+                  "shape": "text",
+                  "text": "腾讯 2025 年全年业绩公告 · 第 8 页",
+                  "attrs": {
+                    "x": 312,
+                    "y": 856,
+                    "font-size": 29,
+                    "fill": "#59625d"
+                  }
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "target": "adslip",
+              "cue": "再看视频号",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "opacity": 0,
+                "x": 148
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              }
+            },
+            {
+              "target": "report",
+              "cue": "腾讯已经列为",
+              "action": "animate",
+              "from": {
+                "opacity": 0,
+                "y": 24
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              },
+              "duration": 0.6
+            },
+            {
+              "target": "high",
+              "cue": "高毛利收入",
+              "action": "animate",
+              "duration": 0.65,
+              "from": {
+                "opacity": 0,
+                "y": 28
+              },
+              "to": {
+                "opacity": 1,
+                "y": 0
+              }
+            },
+            {
+              "target": "budget",
+              "cue": "下一笔预算",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "opacity": 0,
+                "x": 148
+              },
+              "to": {
+                "opacity": 1,
+                "x": 0
+              }
+            },
+            {
+              "target": "report",
+              "cue": "下一笔预算",
+              "action": "animate",
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0
+              },
+              "duration": 0.5
+            },
+            {
+              "target": "out",
+              "cue": "投给红果",
+              "action": "animate",
+              "duration": 0.85,
+              "from": {
+                "strokeDashoffset": 1
+              },
+              "to": {
+                "strokeDashoffset": 0
+              }
+            },
+            {
+              "target": "budget",
+              "cue": "投给红果",
+              "action": "animate",
+              "duration": 0.95,
+              "from": {
+                "x": 0,
+                "y": 0
+              },
+              "to": {
+                "x": 126,
+                "y": -81
+              }
+            },
+            {
+              "action": "animate",
+              "target": "destination",
+              "cue": "投给红果",
+              "duration": 0.7,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "channelmark",
+              "asset": "media/clippings/channelmark.png",
+              "role": "logo",
+              "source_sha256": "29641dadeb24d270515fe7d4410fe0338296f0074e660ffb4704d851f6ba25b0",
+              "provenance": {
+                "source": "https://channels.weixin.qq.com/login",
+                "credit": "微信视频号助手",
+                "operation": "直接解码官网 favicon，保留透明度",
+                "original_sha256": "f27ed8a51c12055714e2867bc346e6c8fe5e31719ef7d8675e9f23422ca0b92d"
+              }
+            },
+            {
+              "id": "fruitmark",
+              "asset": "media/clippings/fruitmark.png",
+              "role": "logo",
+              "source_sha256": "ec78c0532f693fbe193ef8a75088c185fb80b93abd830fe74d4019e94c78a814",
+              "provenance": {
+                "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+                "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+                "operation": "开发者提供的 App 图标",
+                "original_sha256": "35020a949404edeb6124e6c37c38c76587a53bcc2bf35a9765806ace0fe10e49"
+              }
+            },
+            {
+              "id": "filing",
+              "asset": "media/clippings/filing.png",
+              "role": "source",
+              "source_sha256": "975d2254f63728c47346f937bb45e3a098ee492e62eb424ae3e74ed931a9bbfb",
+              "provenance": {
+                "source": "https://static.www.tencent.com/uploads/2026/03/18/ea02037a5691a52cf6c908e985953963.pdf",
+                "credit": "腾讯 2025 年全年业绩公告 · 第 8 页",
+                "operation": "截取业绩公告原句“高毛利率收入強勁增長，尤其是視頻號及微信搜一搜。”，保留原字形",
+                "original_sha256": "11a86a615c5a9b496f38c1cc32fc2a30bdcd2871c44899c2f7066ff965161e43",
+                "crop_260dpi": [
+                  520,
+                  2230,
+                  1100,
+                  59
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "narrative": {
+    "audience_belief": "腾讯是熟悉的好公司，耐心等估值回归即可；或红果高时长意味着必须看空。",
+    "intended_shift": "将对估值回归的期待转换为不依赖倍数提高的经营与现金检验，护城河分业务、竞争分净回报、价值与价格分开。",
+    "author_position": "开头买入动机与三年自问、九月游戏判断来自作者原文；其他本期分析为结合独立研究的拟议口播，不声称用户已经采取新行动。",
+    "chapters": [
+      {
+        "id": "c-question",
+        "question": "红果时长能说明什么？",
+        "changes": "作者真实期待接受红果竞争检验",
+        "bridge": "先核实腾讯原本的盈利与现金来源。",
+        "units": [
+          "hook",
+          "scale",
+          "question"
+        ],
+        "nav_label": "红果规模"
+      },
+      {
+        "id": "c-longvideo",
+        "question": "长视频收缩会减亏吗？",
+        "changes": "收入下滑与可撤成本共同决定结果",
+        "bridge": "高毛利业务受到冲击意味着什么？",
+        "units": [
+          "book",
+          "fixed",
+          "option"
+        ],
+        "nav_label": "长视频"
+      },
+      {
+        "id": "c-channels",
+        "question": "视频号已有盈利怎样受影响？",
+        "changes": "高回报收入与低回报防守可能互换",
+        "bridge": "游戏也必须结合利润基础判断。",
+        "units": [
+          "channels"
+        ],
+        "nav_label": "视频号"
+      }
+    ],
+    "upcoming_chapters": [
+      "游戏与微信",
+      "投资判断"
+    ]
+  },
+  "overlays": [
+    {
+      "unit": "hook",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "offset": 0.15,
+      "duration": 3.2,
+      "fade_in": 1.2,
+      "hold": 1,
+      "fade_out": 1,
+      "clear_before_cut": 0.2
+    }
+  ]
+}

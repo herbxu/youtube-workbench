@@ -1,0 +1,51 @@
+{
+  "movie_sha256": "0b79247da081d045ac09a4d91ba573c3db9fe7535088d0a2944e1e798e622dcf",
+  "cover_sha256": "f6402fea3f6f28285b3bf17c8112c467f67be8ed09e5237221ca6dd61bfe37ef",
+  "duration_s": 642.8140000000001,
+  "audio_lufs": -21.01,
+  "logo_ink_match": [
+    0.9962,
+    0.9956,
+    0.9956,
+    0.9948,
+    0.9965
+  ],
+  "captions": 297,
+  "shots": 44,
+  "machine_checks": "passed",
+  "complete_subjective_listening": "pending",
+  "visual_review": {
+    "actual_movie_samples": 44,
+    "checked_intervals_s": [
+      [
+        0,
+        4
+      ],
+      [
+        13.46,
+        17.46
+      ],
+      [
+        229.25,
+        233.25
+      ],
+      [
+        298.73400000000004,
+        302.73400000000004
+      ],
+      [
+        638.8140000000001,
+        642.8140000000001
+      ]
+    ],
+    "independent_cover": "亮色封面，照片含2026.11.08复盘，八月仍是历史决策日期"
+  },
+  "chapter_jump_tests": [
+    0,
+    41.806000000000004,
+    85.406,
+    229.854,
+    352.8140000000001,
+    583.4540000000001
+  ]
+}

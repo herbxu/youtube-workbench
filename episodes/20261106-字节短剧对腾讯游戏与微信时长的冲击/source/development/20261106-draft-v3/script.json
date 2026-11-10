@@ -1,0 +1,1849 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "红果冲击腾讯：长视频最直接，视频号最值得重估",
+  "editorial": {
+    "question": "红果对腾讯各业务影响有多强，哪些变化最值得调整投资判断？",
+    "thesis": "普通长视频与付费短剧直接替代较强，视频号娱乐浏览中高，轻度游戏较强于成熟核心游戏，通讯支付较弱；直接冲击不等于集团价值影响。优先审查视频号未来增长与微信防守净回报，按业务调整盈利假设，不给腾讯整体机械折价。",
+    "takeaway": "把直接替代、集团价值权重和生态防守净增量分开，重算未来增长的代价。"
+  },
+  "narrative": {
+    "audience_belief": "红果高时长要么全面打击腾讯，要么因微信关系稳固而无关紧要。",
+    "intended_shift": "业务需求和变现不同，长视频直接受压更强，但视频号增长价值可能更敏感；微信防守要看净增回报。",
+    "author_position": "这是应用户要求形成的本次独立研究建议，供作者审稿，不冒充用户既有投资记录或已执行交易。",
+    "chapters": [
+      {
+        "id": "c-investment",
+        "question": "红果改变了哪项投资判断？",
+        "changes": "区分直接替代与增长价值",
+        "bridge": "先看替代最直接的生意。",
+        "units": [
+          "u-investment-open",
+          "u-scale",
+          "u-recent-size"
+        ]
+      },
+      {
+        "id": "c-longvideo",
+        "question": "长视频为什么更直接受压？",
+        "changes": "需求替代通过续费与成本回收传导",
+        "bridge": "替代更强，不等于估值影响最大。",
+        "units": [
+          "u-longvideo",
+          "u-longvideo-money",
+          "u-longvideo-boundary"
+        ]
+      },
+      {
+        "id": "c-channels",
+        "question": "为什么重点重审视频号？",
+        "changes": "娱乐时间与未来商业化增长分开判断",
+        "bridge": "微信还要拆开看。",
+        "units": [
+          "u-channels",
+          "u-channels-money",
+          "u-valuation-focus",
+          "u-commerce",
+          "u-quality"
+        ]
+      },
+      {
+        "id": "c-defense",
+        "question": "微信短剧能否带来净增量？",
+        "changes": "付费受压与免费防守并存，扣除内部转移和激励",
+        "bridge": "通讯基础与内容价值分开。",
+        "units": [
+          "u-paid-drama",
+          "u-response",
+          "u-ecosystem-net"
+        ]
+      },
+      {
+        "id": "c-wechat",
+        "question": "微信哪部分更难被替代？",
+        "changes": "工具关系更稳，内容商业价值需要争取",
+        "bridge": "游戏也存在同样的需求分层。",
+        "units": [
+          "u-wechat",
+          "u-wechat-layers",
+          "u-ecosystem-judgment"
+        ]
+      },
+      {
+        "id": "c-games",
+        "question": "哪些游戏更容易受到影响？",
+        "changes": "轻度广告型与成熟竞技社交型分开",
+        "bridge": "按业务重新评估增长价值。",
+        "units": [
+          "u-game-demand",
+          "u-pay",
+          "u-game-counter",
+          "u-game-judgment"
+        ]
+      },
+      {
+        "id": "c-value",
+        "question": "投资上究竟要调整什么？",
+        "changes": "分业务调整增长与回报，以经营结果检验",
+        "bridge": "回到增长究竟值多少钱。",
+        "units": [
+          "u-valuation",
+          "u-price",
+          "u-coins",
+          "u-falsify",
+          "u-ending"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-distribution",
+      "title": "绿泡泡VS红果果：腾讯的短剧反攻",
+      "date": "2026-10-23",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34311018",
+      "type": "镜象娱乐发表于澎湃号的行业报道，非澎湃记者独立调查或公司原公告",
+      "observation_period": "2026年10月政策与产品报道",
+      "excerpt": "短剧发行载体包括绿泡泡短剧小程序、视频号端原生短剧。",
+      "limitations": "仅采用双端分发路径；未采用其未核验的视频号日活、早期小程序用户数、最高激励比例及未校正季度时长。不是净新增时长或盈利证据。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "units": [
+    {
+      "id": "u-investment-open",
+      "text": "红果对腾讯的威胁，我现在最关心的是两个不同的问题：哪门生意最容易被抢走，哪门生意的增长放缓，最值得投资者警惕。我的判断是，普通长视频和付费短剧受到的直接替代更强；但研究腾讯的未来价值，我会优先重审视频号的增长预期。至于微信聊天和支付，受到的直接冲击要小得多。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "hook",
+        "point": "直接替代强弱与估值影响分开",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "直接替代强弱与估值影响分开"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-investment-open",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "直接替代强弱与估值影响分开；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "当前规模",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "替代强弱",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长价值",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-scale",
+      "text": "先看规模。《财经》十月二十日引用QuestMobile数据，红果月人均单日使用时长约一百五十一分钟。原图脚注明确，这是七月和八月的平均值，不是完整三季度，更不是所有人每天都看这么久。这个使用深度，已经值得重视。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "用近期原图确认使用深度",
+        "basis": "caijing-oct",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "用近期原图确认使用深度",
+          "source_ids": [
+            "caijing-oct"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-scale",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "用近期原图确认使用深度；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "当前规模",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "替代强弱",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长价值",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "一百五十一分钟",
+        "七月和八月",
+        "不是完整三季度"
+      ]
+    },
+    {
+      "id": "u-recent-size",
+      "text": "十一月发布的QuestMobile秋季报告显示，红果九月月活接近四亿三千万。但规模和深度，不能告诉我们每一分钟具体从谁那里抢来。下面的强弱排序，是根据需求和赚钱方式作出的判断，不是已经测出的腾讯收入损失。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "规模与深度支持研究竞争但不证明因果损失",
+        "basis": "qm-autumn",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "规模与深度支持研究竞争但不证明因果损失",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-recent-size",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "规模与深度支持研究竞争但不证明因果损失；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "红果改变了哪项投资判断？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-investment",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "当前规模",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "替代强弱",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长价值",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "九月",
+        "四亿三千万",
+        "不是已经测出的腾讯收入损失"
+      ]
+    },
+    {
+      "id": "u-longvideo",
+      "text": "先看腾讯视频。我把普通长剧放在直接冲击较强的一档。原因很简单：用户原本打开一部电视剧，可能只是想在晚饭后放松。短剧也能满足这个需求，而且情节推进快，选择和观看的门槛低。对没有非追不可的作品的观众来说，换个平台消磨这个晚上，并不需要搬走社交关系，也不需要放弃游戏里长期积累的进度。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "普通长剧的被动娱乐需求替代较强",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "普通长剧的被动娱乐需求替代较强"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-longvideo",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "普通长剧的被动娱乐需求替代较强；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "长视频为什么更直接受压？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "休闲追剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "会员广告",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容回收",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-longvideo-money",
+      "text": "这会影响两笔钱：会员续费和广告。假如用户连续几周都在看免费短剧，下个月是否续费，就可能重新考虑。而长剧已经发生的制作和版权投入，不会随着这个用户少看几小时立即减少。所以观看需求变弱，有可能通过收入端和成本回收，同时压低利润。这里说的是传导机制，不能直接断言腾讯视频已经因此少赚了多少。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "续费和广告减少可能放大内容成本压力",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "续费和广告减少可能放大内容成本压力"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-longvideo-money",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "续费和广告减少可能放大内容成本压力；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "长视频为什么更直接受压？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "休闲追剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "会员广告",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容回收",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-longvideo-boundary",
+      "text": "但专门为一部独家大剧、某场赛事而来的用户，和随便找点东西看的用户，替代难度不同。腾讯也可以调整采购、增加短剧。因此，我更担心普通内容维持会员的能力，不会把整个长视频需求都判成衰退。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "独家内容及成本调整限制长视频替代",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "独家内容及成本调整限制长视频替代"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-longvideo-boundary",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "独家内容及成本调整限制长视频替代；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "长视频为什么更直接受压？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-longvideo",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "休闲追剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "会员广告",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容回收",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-channels",
+      "text": "再看视频号。我把它的泛娱乐浏览放在中高冲击这一档。用户没有明确目的，只想刷一点有意思的东西，这段时间就容易被连续追剧占用。但视频号里还有朋友推荐、关注的创作者、直播和商品发现，它们的使用动机并不完全相同。所以红果的高时长，足以让我调低对视频号轻松获取新增时间的预期，却不足以证明视频号的绝对时长已经下降。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "视频号娱乐浏览中高冲击而非整个产品同质",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "视频号娱乐浏览中高冲击而非整个产品同质"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-channels",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "视频号娱乐浏览中高冲击而非整个产品同质；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "为什么重点重审视频号？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "泛娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "交易意图",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "却不足以证明视频号的绝对时长已经下降"
+      ]
+    },
+    {
+      "id": "u-channels-money",
+      "text": "视频号更值得担心的，是商业化的竞争。即使自己的使用时长没有下降，红果提供更多广告位置，也会给商家增加选择。只要同一类客户在另一边更容易、更便宜地触达，一部分预算就可能调整。腾讯要保住收入，可能需要改善推荐、转化和内容供给。这意味着，增长依然可以发生，但实现同样增长的难度提高了。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "广告竞争不仅通过自身时长下降传导",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "广告竞争不仅通过自身时长下降传导"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-channels-money",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "广告竞争不仅通过自身时长下降传导；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "为什么重点重审视频号？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "泛娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "交易意图",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-valuation-focus",
+      "text": "为什么我把视频号放在投资分析的重点？因为如果你的腾讯估值里，视频号承担了未来多年新增广告利润的想象，那么即便它只是增长放慢，也会影响你愿意付的价格。长视频被替代更直接，不代表它一定造成更大的集团价值损失。这还取决于各业务原本的盈利和你给未来增长的权重。我这里没有足够数据，去量化谁会拖累腾讯多少利润。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "视频号增长价值可能比长视频直接损失更值得重估",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "视频号增长价值可能比长视频直接损失更值得重估"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-valuation-focus",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "视频号增长价值可能比长视频直接损失更值得重估；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "为什么重点重审视频号？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "泛娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "交易意图",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-commerce",
+      "text": "视频号连着的直播和微信小店，还要再拆一层。少刷一会儿内容，可能意味着少发现一家店、少进入一次直播间，所以发现商品、产生兴趣这一段，会受到间接影响。但你已经决定找熟悉的商家复购，或者已经要付款，那是另一种需求。红果能抢走娱乐时间，不等于它已经替代了微信的客户联系和交易能力。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "内容发现和交易基础设施承受不同影响",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "内容发现和交易基础设施承受不同影响"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-commerce",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "内容发现和交易基础设施承受不同影响；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "为什么重点重审视频号？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "泛娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "交易意图",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-quality",
+      "text": "广告主最终买的是效果。微信里的交易、客户联系和复购，如果能让商家获得更好回报，就有理由保住预算。但我不会再把流量增长、单价提高和利润率提升，同时当作顺理成章。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "效果与交易能力是有效抵抗路径",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "效果与交易能力是有效抵抗路径"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-quality",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "效果与交易能力是有效抵抗路径；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "为什么重点重审视频号？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-channels",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "泛娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "增长预期",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "交易意图",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-paid-drama",
+      "text": "微信体系里，直接压力较大的还有付费短剧小程序。同样是追剧情，免费平台会让用户重新衡量是否值得付费。假如内容方的付费回收变差，它们购买腾讯广告的意愿也可能减弱。但要注意，剧方少赚一块钱，不等于腾讯少赚一块钱。对腾讯要看广告需求、平台分成，以及用户后来是否转向微信里的免费内容。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "微信付费短剧受免费替代但商户损失非腾讯等额损失",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "微信付费短剧受免费替代但商户损失非腾讯等额损失"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-paid-drama",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "微信付费短剧受免费替代但商户损失非腾讯等额损失；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "微信短剧能否带来净增量？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-defense",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "付费短剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "免费分发",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "净增回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-response",
+      "text": "腾讯并非没有应对。十月的微信短剧激励材料，已经涉及绿泡泡联合发行和流量、收入扶持；同期报道也提到绿泡泡与视频号端的短剧分发。这给腾讯提供了一条防守路径：把分散的看剧需求聚合起来，争取让用户在微信里面继续追下一部，而不只是看完广告导入的一部就离开。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "腾讯用微信内聚合和双端分发防守",
+        "basis": "wechat-q4；wechat-distribution",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "腾讯用微信内聚合和双端分发防守",
+          "source_ids": [
+            "wechat-q4",
+            "wechat-distribution"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-response",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "腾讯用微信内聚合和双端分发防守；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "微信短剧能否带来净增量？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-defense",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "付费短剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "免费分发",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "净增回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ecosystem-net",
+      "text": "但这里最容易高估的，就是把新产品增长全算成腾讯的新增收益。一个用户从红果回到微信看剧，和从视频号换到绿泡泡看剧，对集团的意义并不一样。前者可能带回外部时间，后者可能只是内部转移。还要扣掉给内容方的激励和运营投入。所以绿泡泡用户增长，并不能单独证明微信体系的利润增长。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "绿泡泡增长需扣除内部转移和激励投入",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "绿泡泡增长需扣除内部转移和激励投入"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ecosystem-net",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "绿泡泡增长需扣除内部转移和激励投入；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "微信短剧能否带来净增量？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-defense",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "付费短剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "免费分发",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "净增回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "内部转移"
+      ]
+    },
+    {
+      "id": "u-wechat",
+      "text": "这正好触及微信的一个边界。假设你在红果看剧，家人发来消息，你切回微信回复，然后继续追剧。你的社交关系仍然在微信，微信的活跃用户也没有少，但那段可以展示内容、建立消费兴趣的时间，发生在另一边。所以通讯入口稳固，不能单独成为看好内容广告增长的理由。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "通讯稳定不能保护全部内容价值",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "通讯稳定不能保护全部内容价值"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-wechat",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "通讯稳定不能保护全部内容价值；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "微信哪部分更难被替代？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "聊天关系",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容消费",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "防守成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-wechat-layers",
+      "text": "这也是我不愿把“微信时长”当成一整块来讨论的原因。聊天、群关系、转账和办事，有明确目的，红果的直接替代能力弱；视频号、娱乐公众号以及部分朋友圈浏览，更依赖可支配时间，竞争就更强。同一个微信用户，可以继续每天回复消息，却把更多休闲时间交给别的平台。活跃用户还在，新增商业价值却未必按原来的路径增长。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "社交交易工具低直接冲击内容消费更强",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "社交交易工具低直接冲击内容消费更强"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-wechat-layers",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "社交交易工具低直接冲击内容消费更强；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "微信哪部分更难被替代？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "聊天关系",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容消费",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "防守成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ecosystem-judgment",
+      "text": "微信的优势，是可以借助现有联系和入口，把新的内容送到用户面前，尝试留住这部分需求。这种防守能力值得认可。但我会把“有机会把人留下来”，和“能以同样成本把钱赚到”分开。如果需要更多分账、更大流量倾斜才能守住时间，微信仍然强大，股东得到的增长回报却可能低于原来的预期。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "微信防守门槛较低不等于股东回报无成本",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "微信防守门槛较低不等于股东回报无成本"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ecosystem-judgment",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "微信防守门槛较低不等于股东回报无成本；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "微信哪部分更难被替代？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "聊天关系",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容消费",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "防守成本",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-demand",
+      "text": "游戏这边，我反而不赞成一刀切看空。我会先区分两类需求：一种是随手消遣，尤其是靠广告变现的轻度游戏；另一种是围绕技术、进度、竞技和朋友关系形成的长期投入。前者既要和短剧争时间，也可能和短剧争广告预算；后者有额外的留存理由，替代难度更高。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "游戏按变现和需求分层",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "游戏按变现和需求分层"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-demand",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "游戏按变现和需求分层；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "哪些游戏更容易受到影响？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "经营反证",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "获客成本",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-pay",
+      "text": "一个和朋友玩了多年的用户，少玩半小时，不一定马上少买一件道具。但新用户每次空下来都先点开短剧，可能根本没有建立玩游戏的习惯。所以我更担心新游戏留住用户的成本，以及老游戏召回用户的难度。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "新习惯形成比成熟付费更易受影响",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "新习惯形成比成熟付费更易受影响"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-pay",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "新习惯形成比成熟付费更易受影响；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "哪些游戏更容易受到影响？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "经营反证",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "获客成本",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-counter",
+      "text": "同期数据也不支持游戏时间全面衰退。QuestMobile九月图表里，手机游戏月人均使用时长同比仍增长百分之三点五，品类明显分化。这不能证明腾讯每款游戏都安全，却说明红果高时长与部分游戏保持吸引力，可以同时存在。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "同期行业反证约束全面衰退判断",
+        "basis": "qm-autumn",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "同期行业反证约束全面衰退判断",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-counter",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "同期行业反证约束全面衰退判断；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "哪些游戏更容易受到影响？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "经营反证",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "获客成本",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "百分之三点五"
+      ]
+    },
+    {
+      "id": "u-game-judgment",
+      "text": "因此，在这次排序里，轻度广告游戏承受的压力更靠前；有竞技、进度和朋友关系的成熟核心游戏，直接替代压力相对较低，但新用户获取和召回成本仍要审查。这里说的是不同游戏类型的风险，不是说腾讯所有小游戏收入都会同步下降。支付、企业服务等其他业务，也不能因为红果增长就一起套上同样的折价。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "成熟核心游戏较低直接冲击轻度游戏中高",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "成熟核心游戏较低直接冲击轻度游戏中高"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-judgment",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "成熟核心游戏较低直接冲击轻度游戏中高；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "哪些游戏更容易受到影响？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "轻度游戏",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "长期投入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "经营反证",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "获客成本",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-valuation",
+      "text": "落到投资判断，我会作三项调整：对普通长视频和付费短剧相关生意，更保守地看待需求和成本回收；对视频号，更保守地看待新增时间、广告变现和竞争投入能否同时改善；对成熟核心游戏、通讯和交易入口，保留它们各自的现金创造逻辑。不能把一个内容竞争问题，直接变成腾讯所有业务统一下调估值。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "mechanism",
+        "point": "按业务调整增长和回报而非集团统一折价",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "按业务调整增长和回报而非集团统一折价"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-valuation",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "按业务调整增长和回报而非集团统一折价；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "投资上究竟要调整什么？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "业务回报",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "价格预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "失效条件",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-price",
+      "text": "竞争加剧不必等到利润下降，才值得调整估值。但如果股价已经充分反映增长放缓，而现金回报仍有吸引力，竞争也不自动意味着必须回避。这次研究提出的是盈利假设应该怎样调整，还没有完成当前价格下的完整估值。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "conclusion",
+        "point": "价格隐含预期决定投资含义",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "价格隐含预期决定投资含义"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-price",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "价格隐含预期决定投资含义；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "投资上究竟要调整什么？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "业务回报",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "价格预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "失效条件",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-coins",
+      "text": "近期还有一个检验。红果十月二十一日公告，计划从十一月起停止向新用户提供金币功能，年底前全面下线。去掉奖励后，用户是否仍主动回来，广告是否有效，更值得看。时长下降也未必全是坏事：若离开的是冲奖励来的用户，经营质量可能改善。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "去奖励后的主动留存检验竞争持续性",
+        "basis": "coin-notice",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "去奖励后的主动留存检验竞争持续性",
+          "source_ids": [
+            "coin-notice"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-coins",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "去奖励后的主动留存检验竞争持续性；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "投资上究竟要调整什么？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "业务回报",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "价格预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "失效条件",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "计划",
+        "年底前全面下线"
+      ]
+    },
+    {
+      "id": "u-falsify",
+      "text": "腾讯这边，我会看更具体的结果：长视频能否靠内容和成本调整稳住回报；视频号能否在竞争加剧时继续改善广告效果；微信短剧能否带来扣除内部转移和激励后的净增量；游戏能否用合理投入留住玩家。如果这些结果持续改善，我会提高对增长的信心。这些证据，比总月活稳定更能反驳我的担心。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "objection",
+        "point": "分别检验受压业务和生态防守净回报",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "分别检验受压业务和生态防守净回报"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-falsify",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "分别检验受压业务和生态防守净回报；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "投资上究竟要调整什么？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "业务回报",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "价格预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "失效条件",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ending",
+      "text": "所以，红果对腾讯的影响，有强有弱。直接替代，我更担心普通长视频和付费短剧；未来价值，我更重视视频号增长预期的变化；微信通讯和交易的基础，则不能和娱乐流量混为一谈。腾讯完全可能依然是一家很强的公司，同时需要付出更高代价才能实现下一轮增长。投资上真正要重算的，就是这部分增长，究竟还值多少钱。",
+      "delivery": "自然解释，有比较、有停顿；强弱是分析判断，数据口径读清，不快读赶时长。",
+      "argument": {
+        "role": "conclusion",
+        "point": "最强替代与最大估值敏感点不同",
+        "basis": "本次独立经营推理，比较需求替代、用户关系、收入模式及防守成本。",
+        "boundary": "定性风险排序，不是已测因果损失；业务直接冲击不等于集团估值权重。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "最强替代与最大估值敏感点不同"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ending",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "最强替代与最大估值敏感点不同；语义草案，后续制作应以证据和局部图解承接。",
+          "headline": "投资上究竟要调整什么？",
+          "note": "强弱为分析判断，非实测损失",
+          "scene_id": "c-value",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "业务回报",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "价格预期",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "失效条件",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "unit": "u-investment-open",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "duration": 5,
+      "fade_in": 2,
+      "hold": 1,
+      "fade_out": 2,
+      "clear_before_cut": 0.2
+    }
+  ],
+  "production_status": {
+    "voice": "未录制；约10分钟为字数估算",
+    "visuals": "仅语义草案；未制作或验收视频",
+    "research_as_of": "2026-11-06",
+    "revision": "v3，加入各业务冲击排序、视频号投资权重、微信体系净增量；保留v2"
+  }
+}

@@ -1,0 +1,1886 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "字节短剧会怎样冲击腾讯游戏和微信时长",
+  "editorial": {
+    "question": "字节短剧为什么会冲击腾讯游戏和微信时长，影响会有多深？",
+    "thesis": "字节短剧会给腾讯的可替代娱乐时间带来竞争压力；游戏收入影响取决于留存与付费，微信须拆分通讯与内容消费，已有增长和生态受益构成重要反证。",
+    "takeaway": "关注同一用户的时间迁移及其经营后果，不用产品热度直接推算腾讯损失。"
+  },
+  "narrative": {
+    "audience_belief": "只要腾讯游戏领先、微信关系稳固，其他娱乐产品就难以影响它。",
+    "intended_shift": "跨品类娱乐可以争夺下一次选择，但必须逐层验证时间、经营和净收益。",
+    "author_position": "保留用户对字节短剧冲击的判断，明确强弱与可证伪条件；不回写投资笔记。",
+    "chapters": [
+      {
+        "id": "c-question",
+        "question": "为什么重新审视腾讯的竞争？",
+        "changes": "从同品类竞争转向用户选择",
+        "bridge": "接着解释短剧的商业模式。",
+        "units": [
+          "u-old-view",
+          "u-thesis",
+          "u-evening",
+          "u-entry",
+          "u-scale"
+        ]
+      },
+      {
+        "id": "c-model",
+        "question": "免费短剧为什么有竞争力？",
+        "changes": "看到参与门槛与广告支持",
+        "bridge": "再问什么游戏需求更容易被替代。",
+        "units": [
+          "u-free",
+          "u-loop"
+        ]
+      },
+      {
+        "id": "c-games",
+        "question": "短剧怎样影响游戏？",
+        "changes": "区分时长、留存和付费",
+        "bridge": "随后把同一判断放到微信。",
+        "units": [
+          "u-game-demand",
+          "u-game-social",
+          "u-migration",
+          "u-causality",
+          "u-pay",
+          "u-nonpayer",
+          "u-game-counter",
+          "u-counter-test"
+        ]
+      },
+      {
+        "id": "c-wechat",
+        "question": "微信关系还在，时间会走吗？",
+        "changes": "拆开通讯、内容消费与广告收入",
+        "bridge": "再看腾讯是否也能受益。",
+        "units": [
+          "u-wechat",
+          "u-wechat-boundary",
+          "u-ads",
+          "u-video-counter"
+        ]
+      },
+      {
+        "id": "c-response",
+        "question": "腾讯能否参与短剧增长？",
+        "changes": "区分行业增长、平台收益与竞争成本",
+        "bridge": "最后明确怎样验证判断。",
+        "units": [
+          "u-inside",
+          "u-both-sides",
+          "u-tradeoff"
+        ]
+      },
+      {
+        "id": "c-check",
+        "question": "什么会让判断改变？",
+        "changes": "用可证伪观察约束强观点",
+        "bridge": "回到玩家的下一次选择。",
+        "units": [
+          "u-monitor",
+          "u-falsify",
+          "u-conclusion",
+          "u-ending"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "old-note",
+      "title": "作者2026-09-24公司基本面复盘",
+      "date": "2026-09-24",
+      "path": "../../../trade/02-复盘/02-决策系统及记录.md",
+      "excerpt": "历史记录认为游戏当时未受影响；仅证明作者旧判断。",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f"
+    },
+    {
+      "id": "app",
+      "title": "红果短剧 App Store 开发者产品介绍",
+      "date": null,
+      "accessed_at": "2026-11-06",
+      "url": "https://apps.apple.com/cn/app/id6451407032",
+      "excerpt": "开发者将产品归于抖音集团，介绍免费短剧及个性化推荐。",
+      "type": "产品自述"
+    },
+    {
+      "id": "qm",
+      "title": "QuestMobile 2026短剧行业洞察报告（作者澎湃号）",
+      "date": "2026-04-13",
+      "period": "2026-02",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32923779",
+      "excerpt": "报告估计红果App月活3.04亿、微信短剧小程序渠道月活4.27亿。两者口径不同且有重合，不能相加。",
+      "type": "第三方测量"
+    },
+    {
+      "id": "business-model",
+      "title": "中国经济周刊：免费微短剧，猛攻长视频",
+      "date": "2024-12-15",
+      "url": "https://paper.people.com.cn/zgjjzk/pc/content/202412/15/content_30051899.html",
+      "excerpt": "采访红果相关负责人介绍广告变现及向内容创作者分账；用于历史商业模式说明，不采用旧预算和用户目标。",
+      "type": "采访中的公司说法"
+    },
+    {
+      "id": "migration",
+      "title": "高梦帆：2025年红果新增视听时长溯源（流媒体网转载收视中国）",
+      "date": "2026-03-20",
+      "url": "https://vv.lmtw.com/mzw/content/detail/id/252297",
+      "excerpt": "基于CSM NewTAM比较2024与2025；减少游戏使用的用户群体中红果时长增加。无原始样本及识别模型，不证明腾讯游戏因果损失。",
+      "type": "数据分析转载，有限采用"
+    },
+    {
+      "id": "tencent-q2",
+      "title": "腾讯截至2026-06-30止三个月及六个月业绩公告",
+      "date": "2026-08-12",
+      "period": "2026Q2",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/C700_IRA.pdf",
+      "path": "../../../raw/公司资料/01-腾讯控股/财报/2026/2026-Q2.pdf",
+      "sha256": "892cfe981b31e2c945b7b11d237ec2d98c97f4253867bb4fd11f6587c8896353",
+      "excerpt": "第6页披露本土游戏收入同比增长17%；第4页称视频号总时长同比增长超过20%，并介绍短剧广告主投放能力。",
+      "locators": [
+        {
+          "physical_page": 6,
+          "row": "管理层讨论及分析／增值服务／本土市场游戏收入",
+          "metric": "收入同比增长",
+          "value": 17,
+          "unit": "%",
+          "scope": "本土市场游戏",
+          "period": "2026-04-01/2026-06-30",
+          "currency": "CNY（增长率无币种）",
+          "status": "原PDF逐页核对"
+        },
+        {
+          "physical_page": 4,
+          "row": "业务回顾及展望／视频号",
+          "metric": "总用户使用时长同比增长",
+          "value": 20,
+          "operator": ">",
+          "unit": "%",
+          "scope": "视频号，不是微信整体人均时长",
+          "period": "2026Q2",
+          "status": "公司披露，原PDF逐页核对"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "u-old-view",
+      "text": "九月份复盘腾讯的时候，我写过一句话：腾讯的游戏没有被影响。当时我已经担心抖音争夺微信的时间，但对游戏，我觉得它还有自己的壁垒。现在看字节的短剧，我想把这个判断重新拿出来问一遍：竞争对手一定要做出一款更好的游戏，才能让你少玩一局吗？",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "hook",
+        "point": "从作者旧判断提出新问题",
+        "basis": "old-note",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "从作者旧判断提出新问题",
+          "source_ids": [
+            "old-note"
+          ]
+        },
+        {
+          "kind": "quote",
+          "text": "腾讯的游戏没有被影响",
+          "source_ids": [
+            "old-note"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-old-view",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "从作者旧判断提出新问题；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "为什么重新审视腾讯的竞争？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "游戏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "微信内容",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "短剧",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-thesis",
+      "text": "我的判断是，字节短剧会给腾讯的游戏和微信时长带来压力。它最值得警惕的地方，是让用户多了一个很容易开始、又不容易结束的娱乐选择。不过，受到竞争，不等于收入已经下降。我们需要顺着一个人的晚上，看看这件事到底怎么发生。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "hook",
+        "point": "明确竞争压力与已实现损失的区别",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "明确竞争压力与已实现损失的区别"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-thesis",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "明确竞争压力与已实现损失的区别；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "为什么重新审视腾讯的竞争？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "游戏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "微信内容",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "短剧",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-evening",
+      "text": "假设你下班回家，洗完澡，终于有一段属于自己的时间。你可以打游戏，可以在微信里看看朋友，也可以刷视频。这个时候，一段短剧跳出来，你原本只想看主角怎么翻身。结果这一集解决一个问题，下一集又留下一个问题。原定要开的那一局，就一直没有开始。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "example",
+        "point": "建立同一个人的娱乐选择",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "建立同一个人的娱乐选择"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-evening",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "建立同一个人的娱乐选择；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "为什么重新审视腾讯的竞争？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "游戏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "微信内容",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "短剧",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-entry",
+      "text": "这只是一个假设场景，却说明了竞争的入口：有时候，你要的就是放松一下。玩游戏可能要集中注意力，接受输赢，还要等朋友上线。看短剧不要求你操作，不要求你练习，也不要求你对队友负责。它争取的，是你疲惫的时候，最容易做出的那个选择。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "解释低参与门槛",
+        "basis": "app",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "解释低参与门槛",
+          "source_ids": [
+            "app"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-entry",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "解释低参与门槛；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "为什么重新审视腾讯的竞争？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "游戏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "微信内容",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "短剧",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-scale",
+      "text": "这个选择，已经有相当大的规模。QuestMobile发布的报告显示，二〇二六年二月，红果短剧的月活跃用户超过三亿。这不是每天都有三亿人在看，也不能据此说这些人原本都在玩腾讯游戏。但它说明，研究腾讯的娱乐竞争，已经不能绕开短剧。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "用有日期的规模证据说明议题重要性",
+        "basis": "qm",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "2026年2月红果App月活3.04亿，口播取超过三亿",
+          "source_ids": [
+            "qm"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-scale",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "用有日期的规模证据说明议题重要性；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "为什么重新审视腾讯的竞争？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-question",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "娱乐时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "游戏",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "微信内容",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "短剧",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-free",
+      "text": "红果的产品介绍把免费作为卖点。《中国经济周刊》采访其负责人时，也解释过广告收入与创作者分账的模式。我的理解是，这让平台可以先服务那些不愿意为一部剧掏钱的人。用户交出注意力，广告主付钱，创作者获得继续生产内容的收入。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "解释广告支持的免费模式",
+        "basis": "app；business-model",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "解释广告支持的免费模式",
+          "source_ids": [
+            "app",
+            "business-model"
+          ]
+        },
+        {
+          "kind": "fact",
+          "text": "开发者介绍免费产品；2024年采访介绍广告收入和创作者分账",
+          "source_ids": [
+            "app",
+            "business-model"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-free",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "解释广告支持的免费模式；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "免费短剧为什么有竞争力？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-model",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "用户注意力",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告收入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容供给",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-loop",
+      "text": "所以，字节不需要靠一部短剧长期留住所有人。如果推荐能不断找到你愿意看的下一部，内容供应也跟得上，它就有机会形成持续的观看习惯。但这个循环有成本：内容要花钱，拉新要花钱，广告多了还可能赶走观众。用户规模大，并不自动等于赚得多。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "从单剧竞争推导供给分发机制",
+        "basis": "app；business-model",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "从单剧竞争推导供给分发机制",
+          "source_ids": [
+            "app",
+            "business-model"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-loop",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "从单剧竞争推导供给分发机制；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "免费短剧为什么有竞争力？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-model",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "用户注意力",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告收入",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "内容供给",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-demand",
+      "text": "再回到游戏。短剧能替代多少，要看一个人为什么玩。如果他主要想消磨时间，找一点即时的情绪反馈，替代就比较容易。如果他想练技术、打比赛，或者和几个老朋友固定组队，短剧提供不了同样的体验。因此，我更担心可玩可不玩的那些时段。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "区分游戏需求而非只分产品名称",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "区分游戏需求而非只分产品名称"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-demand",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "区分游戏需求而非只分产品名称；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-social",
+      "text": "你可以想象两种晚上。一个晚上，朋友已经在群里喊你，队伍就差一个人；另一个晚上，谁都没约，你只是习惯性地点开游戏。短剧在后一个晚上，更有机会。腾讯游戏里的关系和长期积累，是抵抗替代的理由，但不能保证每一次打开游戏的习惯都不会改变。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "objection",
+        "point": "解释社交壁垒及其边界",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "解释社交壁垒及其边界"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-social",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "解释社交壁垒及其边界；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-migration",
+      "text": "有没有观察支持这种担心？流媒体网转载的一篇分析，使用CSM全媒体数据，比较了二〇二四年和二〇二五年。文章发现，在减少或停止使用游戏应用的那批用户中，红果的使用时长增加了。至少，这提示我们，玩游戏和看短剧的人，并不是完全分开的两群人。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "有限观测支持跨品类竞争",
+        "basis": "migration",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "有限观测支持跨品类竞争",
+          "source_ids": [
+            "migration"
+          ]
+        },
+        {
+          "kind": "fact",
+          "text": "转载分析观察到减少游戏使用群体的红果时长增加",
+          "source_ids": [
+            "migration"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-migration",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "有限观测支持跨品类竞争；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-causality",
+      "text": "但这里要停一下。文章研究的是一批人的行为变化，不是一个能证明因果的实验。我们不知道他们为什么先减少游戏，也不能把所有游戏都算成腾讯，更不能把少玩的每一分钟都记到红果头上。这条材料能支持竞争有可能发生，还不足以算出腾讯损失了多少钱。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "objection",
+        "point": "防止把相关性写成腾讯损失",
+        "basis": "migration",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "防止把相关性写成腾讯损失",
+          "source_ids": [
+            "migration"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-causality",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "防止把相关性写成腾讯损失；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-pay",
+      "text": "收入还隔着一层。假设一个玩家以前每晚玩两小时，现在只玩一小时，可他仍然和朋友组队，喜欢的皮肤也照买，游戏收入未必立刻减少。另一个玩家玩得越来越少，和朋友脱节，最后连新活动都懒得看，付费才可能跟着下降。少玩和少付钱，中间隔着留存和购买意愿。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "拆解游戏收入的传导条件",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "拆解游戏收入的传导条件"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-pay",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "拆解游戏收入的传导条件；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-nonpayer",
+      "text": "也不能因此说，不花钱的玩家流失就无所谓。在需要多人参与的游戏里，他们可能是队友、对手，也参与讨论和传播。如果这部分人持续减少，其他玩家的体验也可能变差。我担心的是这种逐步传导，而不是拿短剧多出来的时长，直接乘一个数就算成腾讯的损失。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "解释非付费用户的间接价值",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "解释非付费用户的间接价值"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-nonpayer",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "解释非付费用户的间接价值；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-game-counter",
+      "text": "而且，现实里有一个必须承认的反证。腾讯二〇二六年第二季度的本土游戏收入，同比增长百分之十七。也就是说，短剧扩张的同时，腾讯游戏仍然在增长。我不能一边看到这个结果，一边又说游戏生意已经被短剧打垮了。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "objection",
+        "point": "正面呈现腾讯财报反证",
+        "basis": "tencent-q2",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "腾讯2026Q2本土市场游戏收入同比增长17%",
+          "source_ids": [
+            "tencent-q2"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-game-counter",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "正面呈现腾讯财报反证；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "百分之十七"
+      ]
+    },
+    {
+      "id": "u-counter-test",
+      "text": "增长当然不证明完全没有竞争，新游戏和老游戏的变化也可能互相抵消。但我同样不能说，要是没有短剧，腾讯本来应该增长得更多，然后随手编一个差额。真正该验证的是：相近人群的老游戏留存、回流和付费，是否持续变弱；这些变化，能不能和短剧使用联系起来。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "避免无法证伪的隐性损失说法",
+        "basis": "tencent-q2",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "避免无法证伪的隐性损失说法",
+          "source_ids": [
+            "tencent-q2"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-counter-test",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "避免无法证伪的隐性损失说法；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "短剧怎样影响游戏？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-games",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "游戏时间",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "社交关系",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "留存",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            },
+            {
+              "id": "o3",
+              "label": "付费",
+              "shape": "card",
+              "x": 1400,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o3",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-wechat",
+      "text": "微信这边，问题又不一样。还用刚才那个晚上的例子：你追短剧追了很久，家人发来消息，你会切回微信回复。朋友要约饭，也还是在微信里联系。通讯关系没有搬走，但你回复完就离开了。打开过微信，和愿意在微信里待上半小时，是两件不同的事。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "拆开微信通讯与内容消费",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "拆开微信通讯与内容消费"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-wechat",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "拆开微信通讯与内容消费；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "微信关系还在，时间会走吗？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "通讯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容时间",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-wechat-boundary",
+      "text": "所以，我对微信时长的担心，主要落在可以自由选择的内容消费上，比如看视频、逛朋友圈。联系一个特定的人，替代起来比较难；无聊时看点什么，选择就多得多。微信的关系网络很有价值，但这份价值，不能直接证明它也能留住用户所有的娱乐时间。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "区分关系稳定与内容时间的竞争",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "区分关系稳定与内容时间的竞争"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-wechat-boundary",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "区分关系稳定与内容时间的竞争；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "微信关系还在，时间会走吗？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "通讯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容时间",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ads",
+      "text": "这为什么会影响生意？对于依靠内容展示广告的场景，如果其他条件不变，观看减少，展示广告的机会也可能减少。不过广告收入还取决于投放效果、价格，以及用户能接受多少广告。时间少一点，广告匹配得更准，收入仍然可能增长。我们要看这几件事怎么一起变化。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "解释时长到广告的条件链",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "解释时长到广告的条件链"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ads",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "解释时长到广告的条件链；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "微信关系还在，时间会走吗？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "通讯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容时间",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-video-counter",
+      "text": "腾讯披露，二〇二六年第二季度，视频号总用户使用时长同比增长超过百分之二十。注意，这是视频号的总时长，不是微信整体的人均时长。这条信息至少告诉我们：不能因为红果发展得快，就直接断言腾讯所有内容场景的时间都在下降。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "objection",
+        "point": "保留视频号时长增长的反证及指标边界",
+        "basis": "tencent-q2",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "公司披露视频号2026Q2总用户使用时长同比增长超过20%",
+          "source_ids": [
+            "tencent-q2"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-video-counter",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "保留视频号时长增长的反证及指标边界；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "微信关系还在，时间会走吗？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-wechat",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "通讯",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "内容时间",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "广告效果",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ],
+      "critical_terms": [
+        "总用户使用时长",
+        "超过百分之二十"
+      ]
+    },
+    {
+      "id": "u-inside",
+      "text": "还有一个经常被忽略的事实：短剧也可以在微信里看。QuestMobile同一份报告里，二〇二六年二月，微信短剧小程序渠道的月活跃用户超过四亿。这是整个渠道的规模，有很多不同的经营者，不能与红果简单相加，但足以说明，短剧并不是字节独占的生意。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "objection",
+        "point": "区分短剧行业与字节收益",
+        "basis": "qm",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "QuestMobile估计2026年2月微信短剧小程序渠道月活4.27亿",
+          "source_ids": [
+            "qm"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-inside",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "区分短剧行业与字节收益；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "腾讯能否参与短剧增长？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-response",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "微信短剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告客户",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "平台回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-both-sides",
+      "text": "腾讯的季度公告还提到，为短剧广告主升级投放能力。换句话说，短剧可以是腾讯争夺时间的对手，也可以是它的广告客户。如果用户在微信内看短剧，内容方在腾讯投广告，腾讯就有参与这门生意的机会。最终要看用户在哪里消费，以及广告和内容收入分别由谁获得。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "腾讯可能同时受竞争并获益",
+        "basis": "tencent-q2；qm",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "腾讯可能同时受竞争并获益",
+          "source_ids": [
+            "tencent-q2",
+            "qm"
+          ]
+        },
+        {
+          "kind": "fact",
+          "text": "腾讯2026Q2公告介绍短剧广告主投放能力升级",
+          "source_ids": [
+            "tencent-q2"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-both-sides",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "腾讯可能同时受竞争并获益；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "腾讯能否参与短剧增长？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-response",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "微信短剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告客户",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "平台回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-tradeoff",
+      "text": "但能参与，也不代表可以轻松守住利润。假如为了留住观众，平台要增加内容投入，改善推荐，或者给创作者更好的条件，那么即使用户留下了，竞争的代价也可能增加。反过来，如果投入提高了效率，带来更多收入，竞争也可能推动业务做得更好。这两种结果，都需要看实际经营。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "mechanism",
+        "point": "区分守住用户与守住利润",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "区分守住用户与守住利润"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-tradeoff",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "区分守住用户与守住利润；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "腾讯能否参与短剧增长？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-response",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "微信短剧",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "广告客户",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "平台回报",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-monitor",
+      "text": "所以接下来，我会看三件事。第一，看同一批人的时间是否真的从游戏和微信内容转向短剧。第二，看这种变化有没有影响游戏留存、付费和广告效果。第三，看腾讯自己的内容与短剧生态，能不能把人留住，并且获得合理回报。单看红果排名上升，回答不了这些问题。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "conclusion",
+        "point": "给出能验证主张的三项观察",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "给出能验证主张的三项观察"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-monitor",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "给出能验证主张的三项观察；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "什么会让判断改变？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "时间迁移",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "经营影响",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "腾讯应对",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o0",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-falsify",
+      "text": "如果新增的短剧时间，主要来自长视频、其他娱乐，甚至来自人们晚睡了一会儿，而腾讯相关业务的留存和付费依然稳健，那我就应该降低对游戏受冲击程度的判断。如果腾讯生态内的短剧也发展得很好，那微信受到的净影响，也可能比我原先担心的小。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "objection",
+        "point": "明确哪些结果会削弱作者判断",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "明确哪些结果会削弱作者判断"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-falsify",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "明确哪些结果会削弱作者判断；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "什么会让判断改变？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "时间迁移",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "经营影响",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "腾讯应对",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o1",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-conclusion",
+      "text": "回到最开始的问题，我仍然认为，字节短剧会打击腾讯的一部分娱乐时间。对游戏，它更容易争夺随手玩一会儿的需求；对微信，它更容易争夺通讯之外的内容消费。至于这些竞争最后会损失多少收入，现在不能靠想象填答案，也不能忽略腾讯已经拿出来的增长。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "conclusion",
+        "point": "回收作者主张与判断尺度",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "回收作者主张与判断尺度"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-conclusion",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "回收作者主张与判断尺度；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "什么会让判断改变？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "时间迁移",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "经营影响",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "腾讯应对",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "reveal",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-ending",
+      "text": "我会把九月份那个判断改得更具体：腾讯游戏有壁垒，但也要和别的娱乐方式争夺玩家的下一次选择。以后研究腾讯，除了问下一款爆款游戏在哪里，我还会问：今天晚上，那个原本打算上线的人，为什么打开了另一款应用？这个变化，是否已经持续到值得我们重新判断。",
+      "delivery": "自然聊天语气；完整句群间留呼吸，反问与条件处略停，不连续快读。",
+      "argument": {
+        "role": "conclusion",
+        "point": "用开篇同一选择收束",
+        "basis": "明确标为作者推理或假设，不使用虚构统计。",
+        "boundary": "竞争机制不等于已实现损失；人群、指标及时间口径不混用。"
+      },
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "用开篇同一选择收束"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-ending",
+          "kind": "object_scene",
+          "cue": "",
+          "purpose": "用开篇同一选择收束；沿用本章对象，后续制作配合实拍与证据局部。",
+          "headline": "什么会让判断改变？",
+          "note": "机制示意；非实测时长分配",
+          "scene_id": "c-check",
+          "variant": "context",
+          "objects": [
+            {
+              "id": "o0",
+              "label": "时间迁移",
+              "shape": "card",
+              "x": 200,
+              "y": 420
+            },
+            {
+              "id": "o1",
+              "label": "经营影响",
+              "shape": "card",
+              "x": 600,
+              "y": 420
+            },
+            {
+              "id": "o2",
+              "label": "腾讯应对",
+              "shape": "card",
+              "x": 1000,
+              "y": 420
+            }
+          ],
+          "events": [
+            {
+              "action": "emphasize",
+              "target": "o2",
+              "cue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "unit": "u-old-view",
+      "text": "仅代表个人观点，\n不构成任何投资建议",
+      "duration": 5,
+      "fade_in": 2,
+      "hold": 1,
+      "fade_out": 2,
+      "clear_before_cut": 0.2
+    }
+  ],
+  "production_status": {
+    "voice": "未录制，时长为估算",
+    "visuals": "语义分镜草案，未做成片编排或观看验收；制作时补摄影与原文局部，不能直接将图解占满全片",
+    "disclaimer": "独立叠层，慢淡入后完全可见1秒再退场；下一镜头前留至少0.2秒；不入口播、不进封面。实际时序待实测。"
+  }
+}

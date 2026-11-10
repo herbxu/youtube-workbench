@@ -1,0 +1,64 @@
+{
+  "take_sha256": "fda54b3eeda415d5c45c89dc8bbe62fd7b721dd09c61ebefd84d536b88c1e146",
+  "units": [
+    {
+      "unit": "ledger-0",
+      "kept_seconds": [
+        [
+          0,
+          9.96
+        ],
+        [
+          11.94,
+          14.020917
+        ]
+      ],
+      "audio": "media/ledger-0-edit.wav"
+    },
+    {
+      "unit": "ledger-1",
+      "kept_seconds": [
+        [
+          14.020917,
+          20.46
+        ],
+        [
+          21.01,
+          23.24
+        ],
+        [
+          24.89,
+          26.55
+        ]
+      ],
+      "audio": "media/ledger-1-edit.wav"
+    },
+    {
+      "unit": "ledger-2",
+      "kept_seconds": [
+        [
+          28.225709,
+          31.2
+        ],
+        [
+          32.13,
+          36.12
+        ],
+        [
+          36.93,
+          40.85
+        ],
+        [
+          45.0,
+          48.17
+        ],
+        [
+          48.72,
+          52.106459
+        ]
+      ],
+      "audio": "media/ledger-2-edit.wav"
+    }
+  ],
+  "cut_basis": "段落口播词边界与实测低于−46 dB的间隔，4ms端点包络，裁剪后重新对齐"
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "7a5792be699151ce1dd7a2831a3f85cc93340d3226ddb7de8a4beec7d81668a6",
+  "duration_s": 620.6199999999999,
+  "machine_checks": "passed",
+  "audio_lufs": -21.01,
+  "true_peak_dbtp": -2.53,
+  "frame_audio_duration_drift_s": 0.013333000000102402,
+  "author_voice_selection": "24秒对照中的第四段",
+  "bit_exact_pcm_rejoin": true,
+  "waveform_envelope_correlations": [
+    0.9999992728176971,
+    0.9999992023772437,
+    0.9999986169865508
+  ],
+  "number_independent_asr_final": "再看时长,7、8月,红果用户的越人均单日使用时长达到151分钟",
+  "opening_cut": 9.08,
+  "body_join": 23.12,
+  "sampled_intervals_s": [
+    [
+      0,
+      32
+    ],
+    [
+      610.6199999999999,
+      620.6199999999999
+    ]
+  ],
+  "full_subjective_listen": "pending"
+}

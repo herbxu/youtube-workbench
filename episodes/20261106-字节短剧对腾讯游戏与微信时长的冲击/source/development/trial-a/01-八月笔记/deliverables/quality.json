@@ -1,0 +1,36 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "pending",
+      "evidence": []
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "qa.json"
+      ]
+    },
+    "efficiency": {
+      "status": "pending",
+      "evidence": []
+    }
+  },
+  "warnings": [
+    "缺少整片认知递进规划"
+  ],
+  "review_bound": false,
+  "movie_sha256": "923d5067621410615afd41e1e299af30df6080a3a2d8d42541306c4e56258ee9",
+  "input_signature": "94b9489a7033f14a3a4e9748ae6d6046dbc75ea4bb9a1f3731da515a7c6a8b87",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

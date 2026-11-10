@@ -1,0 +1,25 @@
+{
+  "movie_sha256": "d29e18304a2205a26457c8654fb062893c2be3381124eee0da684fa364d153af",
+  "duration_s": 625.5,
+  "machine_checks": "passed",
+  "audio_lufs": -21.01,
+  "intro_duration": 11.52,
+  "opening_spoken_chars_before_after": [
+    54,
+    40
+  ],
+  "silent_interval_after_question_s": 0.785,
+  "source_asr": "source/channel-template/settled-opening-free-asr.json",
+  "closing_hold_s": 1.88,
+  "sampled_intervals_s": [
+    [
+      0,
+      16
+    ],
+    [
+      615.5,
+      625.5
+    ]
+  ],
+  "complete_subjective_listening": "pending"
+}

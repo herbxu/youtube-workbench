@@ -1,0 +1,39 @@
+{
+  "scope": "混音WAV减去同一人声母带，只验证音乐的存在/退出，不等同主观听审",
+  "checks": [
+    {
+      "section": "intro_music",
+      "range": [
+        5,
+        12
+      ],
+      "music_difference_rms_dbfs": -41.55
+    },
+    {
+      "section": "math_music",
+      "range": [
+        40,
+        46
+      ],
+      "music_difference_rms_dbfs": -42.59
+    },
+    {
+      "section": "risk_no_music",
+      "range": [
+        65,
+        70
+      ],
+      "music_difference_rms_dbfs": -240.0
+    },
+    {
+      "section": "resolve_music",
+      "range": [
+        80,
+        87
+      ],
+      "music_difference_rms_dbfs": -41.81
+    }
+  ],
+  "passed": true,
+  "regression": "按采样数截取延后音轨，保留入点前静音；之前按时间戳裁切会丢掉开头静音"
+}

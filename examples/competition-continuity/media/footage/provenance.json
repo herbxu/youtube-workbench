@@ -1,0 +1,20 @@
+{
+  "kind": "stock-video",
+  "source": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+  "author": "Thirdman",
+  "license": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "retrieved": "2026-10-24",
+  "usage": "情境实拍，视频中的个人与店铺不承担假设经营事实",
+  "source_file": "cafe-original.mp4",
+  "prepared_file": "cafe-service.mp4",
+  "source_interval_s": [
+    1,
+    8.2
+  ],
+  "operations": [
+    "1920x1080",
+    "30fps",
+    "remove source audio"
+  ]
+}

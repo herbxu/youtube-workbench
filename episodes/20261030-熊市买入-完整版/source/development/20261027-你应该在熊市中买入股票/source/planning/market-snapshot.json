@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-10-30T20:39:49+08:00",
+  "as_of": "2026-10-30 Hong Kong close",
+  "sources": [
+    {
+      "id": "s-market",
+      "title": "Investing 恒指历史数据及52周范围（2026-10-30核对）",
+      "url": "https://www.investing.com/indices/hang-sen-40-historical-data",
+      "date": "2026-10-30",
+      "excerpt": "10月30日收盘23294.42，日涨1.46%；52周范围最高28056.10。"
+    },
+    {
+      "id": "s-market-tech",
+      "title": "Investing 恒生科技历史数据及52周范围（2026-10-30核对）",
+      "url": "https://hk.investing.com/indices/hang-seng-tech-historical-data",
+      "date": "2026-10-30",
+      "excerpt": "10月30日收盘3754.90，日涨0.29%；当前52周范围最高6025.53，不能沿用10月27日旧快照6198.68。"
+    },
+    {
+      "id": "s-market-cross",
+      "title": "每日经济新闻：10月行情收官（2026-10-30 17:10）",
+      "url": "https://www.nbd.com.cn/articles/2026-10-30/4631070.html",
+      "date": "2026-10-30",
+      "excerpt": "收盘恒指23294.42、涨1.46%；恒科3754.90、涨0.29%。与历史行情表交叉核对收盘点位及当日涨幅。"
+    }
+  ],
+  "values": {
+    "hsi_close": 23294.42,
+    "hsi_52week_high": 28056.1,
+    "hstech_close": 3754.9,
+    "hstech_52week_high": 6025.53,
+    "hsi_day_change_percent": 1.46,
+    "hstech_day_change_percent": 0.29
+  },
+  "calculation": "(1-close/high)*100",
+  "hsi_drawdown_percent": 16.971995394940855,
+  "hstech_drawdown_percent": 37.68349008303004,
+  "limits": [
+    "52周范围最高值，不是同日收盘高点；不是年内涨跌幅。",
+    "滚动窗口及来源更新会改变高点，不能沿用旧快照；本次使用当前Investing页面范围。",
+    "两指数收盘及日涨幅与每日经济新闻正文交叉核对；52周高点取Investing页面，未取得官方日序列独立重算。",
+    "旧凯基页仍为10月27日；信报页为10月30日09:00盘前；FT与部分搜索结果为盘中，均不作为本次收盘依据。",
+    "这里只更新行情，个人历史复盘日期及公司研究截止日期保持真实原日期。"
+  ]
+}

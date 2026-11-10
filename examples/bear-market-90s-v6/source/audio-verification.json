@@ -1,0 +1,41 @@
+{
+  "voice_identical_to_v5": true,
+  "voice_sha256": "07421a9b391425034e8f20508f73d7246c08a2e9fd3a65067b5249bbcbcba4fa",
+  "new_tts_requests": 0,
+  "music_presence": [
+    {
+      "section": "opening",
+      "range": [
+        5,
+        12
+      ],
+      "music_rms_dbfs": -43.88
+    },
+    {
+      "section": "progress",
+      "range": [
+        40,
+        46
+      ],
+      "music_rms_dbfs": -43.08
+    },
+    {
+      "section": "calm_risk",
+      "range": [
+        65,
+        70
+      ],
+      "music_rms_dbfs": -47.43
+    },
+    {
+      "section": "growth",
+      "range": [
+        80,
+        87
+      ],
+      "music_rms_dbfs": -42.54
+    }
+  ],
+  "subjective_listening": "pending",
+  "scope": "音乐存在和母带一致性，不等同情绪听审"
+}

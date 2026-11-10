@@ -1,0 +1,39 @@
+{
+  "movie_sha256": "8b05f17f8a6cd82030e84884aaaf54cb2e19e9bfd5eeb8a7997084703c784af3",
+  "input_signature": "bb723d2291ab6edd994d3ccf0fca3ac730ab17d9e23b946ecb078d8f62839ba8",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "仅修改资金卡片x/w，其余口播、对象、时序保留v6。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": [
+        "混音母带与v6逐字节一致，没有新配音或音乐改动；沿用v6尚未完成的主观听审状态。"
+      ]
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": [
+        "资金卡片框宽1060→760，收窄28.3%；字号82、中心x960、高度230保持不变。",
+        "10个浏览器字形对齐状态通过；已检查80.8秒和87秒预览及实际MP4截图deliverables/narrow-card.png。",
+        "当前改动抽帧核对，整体观感仍待用户验收。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "未修改生产程序；脚本校验、编排、最后一镜渲染检查与最终MP4机器verify通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "复用5个画面片段，仅重渲染最后1个镜头；复用人声缓存，新TTS请求0。",
+        "youtube-visuals技能新增内容决定框宽、字号保持、居中与紧凑程度分别验收；技能校验通过。"
+      ]
+    }
+  }
+}

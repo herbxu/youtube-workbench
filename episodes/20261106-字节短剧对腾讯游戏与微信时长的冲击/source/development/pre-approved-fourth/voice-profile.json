@@ -1,0 +1,40 @@
+{
+  "latest_feedback": "现在音色不太像",
+  "rejected_candidate": "deliverables/av-review/tone-trial.mp3",
+  "rejected_voice_identity": "failed",
+  "preferred_history": "source/development/trial-a-voice-identity/voice-profile.json",
+  "new_candidate": "media/channel-template/hook-scale-voice3.wav",
+  "new_candidate_hash": "fd6b8eb3672d3321a708cc7234d6c308cb53319a9ba834574966f0505c35e6e4",
+  "settings_match_voice3": [
+    "model",
+    "voice_id",
+    "empty instruction",
+    "no unit delivery"
+  ],
+  "synthesis_text": "欢迎来到面朝北北。今天聊聊红果短剧。腾讯哪块利润最受影响？我看字节领跑，视频号能守住一席。先看红果的规模。七月，红果日活达到一点六八亿。到了九月，一个月里用过它的人，约四点三亿。再看时长，七八月，红果用户的月人均单日使用时长，达到一百五十一分钟。",
+  "playback_speed": 1,
+  "new_candidate_voice_identity": "pending_author_listening",
+  "comparison_seconds": [
+    [
+      "本人原声",
+      0,
+      6.0
+    ],
+    [
+      "上次选的第三段",
+      6.4,
+      11.1
+    ],
+    [
+      "刚才的试录",
+      11.6,
+      17.6
+    ],
+    [
+      "这次的试录",
+      18.1,
+      24.1
+    ]
+  ],
+  "full_movie_unchanged": true
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "path-relocation-only",
+  "date": "2026-10-24",
+  "previous_project_root": "episodes/20261024-竞争优势-连续场景样片/production",
+  "current_project_root": "examples/competition-continuity",
+  "movie": "output.mp4",
+  "qa": "qa.json",
+  "qa_is_historical": true,
+  "rerendered": false,
+  "note": "QA、人工 review 与素材 provenance 中旧路径保留为历史证据；本文件及仓库迁移审计解析这些位置，未增加观看或听审结论。",
+  "paths": {
+    "build/output.mp4": "deliverables/output.mp4",
+    "build/captions.srt": "deliverables/captions.srt",
+    "build/qa.json": "deliverables/qa.json",
+    "build/frames": "deliverables/evidence/frames",
+    "build/review-frames": "deliverables/evidence/review-frames",
+    "build/recording-import": "media/recordings"
+  }
+}

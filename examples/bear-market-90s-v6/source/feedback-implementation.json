@@ -1,0 +1,63 @@
+{
+  "version": "v6",
+  "feedback": [
+    "配乐整体轻松放松、有成长感，不要紧张感",
+    "部分文字与长方形不对齐"
+  ],
+  "voice": "完全复用v5母带、时间戳与停顿",
+  "music": {
+    "tracks": [
+      {
+        "id": "bgm-warm-opening",
+        "at": 0.0,
+        "duration": 30.958083,
+        "asset": "media/bgm/happy-moments-1.3.ogg",
+        "source_in": 0,
+        "gain_db": -9.6,
+        "fade": 2
+      },
+      {
+        "id": "bgm-gentle-progress",
+        "at": 28.958083000000002,
+        "duration": 33.01925,
+        "asset": "media/bgm/happy-moments-1.4.ogg",
+        "source_in": 25.6,
+        "gain_db": -8.3,
+        "fade": 2
+      },
+      {
+        "id": "bgm-calm-boundary",
+        "at": 59.977332999999994,
+        "duration": 20.055875,
+        "asset": "media/bgm/happy-moments-1.3.ogg",
+        "source_in": 25.6,
+        "gain_db": -12.8,
+        "fade": 2
+      },
+      {
+        "id": "bgm-warm-growth",
+        "at": 78.03320799999999,
+        "duration": 11.453167,
+        "asset": "media/bgm/happy-moments-1.4.ogg",
+        "source_in": 51.2,
+        "gain_db": -7.1,
+        "fade": 2
+      }
+    ],
+    "selection": "同一主题的基础钢琴与更多乐器编配；风险段保持轻柔底乐",
+    "subjective_listening": "pending"
+  },
+  "alignment": {
+    "before": "长期持有卡片实际截图字形中心向下约4.5px；框内文字不能只按行框居中。",
+    "fix": "按冻结字体与字重的可见字形边界校正内部文字，去掉印章末尾字距，文字与框继承同一父对象变换。",
+    "browser_evidence": "build/box-alignment-check.json",
+    "preview_comparison": "build/box-before-after.jpg",
+    "actual_movie_review": "导出完成后写review.json"
+  },
+  "skills": [
+    "youtube-media",
+    "youtube-voice",
+    "youtube-visuals",
+    "youtube-produce"
+  ]
+}

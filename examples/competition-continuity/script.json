@@ -1,0 +1,248 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "竞争优势：什么难以复制？ · 连续场景样片",
+  "editorial": {
+    "question": "公司做得好，为什么还不足以证明有竞争优势？",
+    "thesis": "考察优势是否难以复制，并结合竞争者追赶和具体条件判断。",
+    "takeaway": "这家公司的护城河到底在哪里，竞争者为什么难以复制？"
+  },
+  "sources": [
+    {
+      "id": "author-recording",
+      "title": "作者提供的竞争优势原稿与录音",
+      "local_source": "20260829-竞争优势/production",
+      "date": "2026-08-29",
+      "excerpt": "本样片重新组织作者真实录音；去掉未核实的具体公司案例、名人引语与收益保证，不据此认证原片全部事实。"
+    }
+  ],
+  "units": [
+    {
+      "id": "u-entry",
+      "text": "在位企业能做到，而新进入者做不到的事情，说人话就是，别人能不能在你隔壁，开一家一模一样的店，还活得比你滋润。",
+      "delivery": "原作者录音，保留自然句群和语气",
+      "audio": "media/recordings/u-entry.wav",
+      "words": "media/recordings/u-entry.words.json",
+      "argument": {
+        "role": "example",
+        "point": "把进入壁垒翻译成隔壁开店的情境",
+        "basis": "用新进入者能否复制并存活作为理解入口",
+        "boundary": "这是判断问题，具体行业仍需实证。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "把进入壁垒翻译成隔壁开店的情境"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-cafe-video",
+          "kind": "footage",
+          "cue": "",
+          "purpose": "咖啡交到顾客手里，建立营业与服务的真实情境",
+          "asset": "media/footage/cafe-service.mp4",
+          "source_in": 0,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "headline": "别人能复制吗？",
+          "credit": "Thirdman / Pexels",
+          "note": "情境实拍；下文为假设街区",
+          "provenance": {
+            "kind": "stock-video",
+            "source": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+            "author": "Thirdman",
+            "license": "Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "retrieved": "2026-10-24",
+            "usage": "情境实拍，视频中的个人与店铺不承担假设经营事实"
+          }
+        },
+        {
+          "id": "s-street-entry",
+          "kind": "continuity",
+          "scene": "shop-competition/v1",
+          "cue": "别人能不能",
+          "hypothetical": true,
+          "note": "假设街区 · 从同一场景观察新店进入",
+          "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+          "events": [
+            {
+              "action": "establish",
+              "cue": "别人能不能"
+            },
+            {
+              "action": "rival",
+              "cue": "开一家"
+            }
+          ]
+        }
+      ],
+      "audio_tracks": [
+        {
+          "id": "a-u-entry",
+          "type": "sfx",
+          "asset": "media/sfx/click-soft.mp3",
+          "cue": "开一家",
+          "duration": 0.37,
+          "gain_db": -24,
+          "fade": 0.025,
+          "duck": true,
+          "provenance": {
+            "kind": "bundled-sfx",
+            "provider": "media-use / bundled.sfx",
+            "source": "bundled click-soft, see media/sfx/CREDITS.md",
+            "upstream_library": "Pixabay",
+            "license": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "author": "not specified in bundled credits",
+            "usage": "two quiet object landing accents, no music"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u-profits",
+      "text": "你想一个生意要是特别赚钱，又没人拦着外人，会怎么样，新玩家闻着味就冲进来了，老对手拼命扩产，利润很快就会被摊薄。",
+      "delivery": "原作者录音，保留自然句群和语气",
+      "audio": "media/recordings/u-profits.wav",
+      "words": "media/recordings/u-profits.words.json",
+      "argument": {
+        "role": "mechanism",
+        "point": "没有进入限制时，竞争可能压缩利润",
+        "basis": "沿着进入、扩产、利润压力解释竞争机制",
+        "boundary": "需求、成本和扩产周期也会影响结果，不是所有市场立即发生。"
+      },
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "赚钱且没有进入限制的市场情境"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-street-demand",
+          "kind": "continuity",
+          "scene": "shop-competition/v1",
+          "cue": "",
+          "hypothetical": true,
+          "note": "假设：总需求不变，单价和成本条件不变；顾客数量仅作示意",
+          "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+          "events": [
+            {
+              "action": "demand",
+              "cue": ""
+            },
+            {
+              "action": "profitable",
+              "cue": "特别赚钱"
+            },
+            {
+              "action": "entry",
+              "cue": "新玩家"
+            },
+            {
+              "action": "capacity",
+              "cue": "老对手"
+            },
+            {
+              "action": "pressure",
+              "cue": "利润很快"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u-copy",
+      "text": "换句话说，我比别人做得好，根本不够，你能差异化，对手也能，你的制度人才管理，对手挖一挖学一学。",
+      "delivery": "作者录音；剪掉绝对化结尾，保留原始录音与剪辑记录",
+      "audio": "media/recordings/u-copy-edited.wav",
+      "words": "media/recordings/u-copy-edited.words.json",
+      "argument": {
+        "role": "objection",
+        "point": "当前领先还需要检验是否容易被复制",
+        "basis": "把作者的做得更好与对手可能模仿并置",
+        "boundary": "这里讨论可模仿的优势，不证明所有差异化最终都会失效。"
+      },
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "当前领先还需要检验是否容易被复制"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-street-copy",
+          "kind": "continuity",
+          "scene": "shop-competition/v1",
+          "cue": "",
+          "hypothetical": true,
+          "note": "假设：只讨论可模仿的优势，复制不代表所有行业的必然结果",
+          "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+          "events": [
+            {
+              "action": "focus",
+              "cue": ""
+            },
+            {
+              "action": "claim",
+              "cue": "我比别人做得好"
+            },
+            {
+              "action": "product",
+              "cue": "你能差异化"
+            },
+            {
+              "action": "imitate",
+              "cue": "对手也能"
+            },
+            {
+              "action": "systems",
+              "cue": "制度"
+            },
+            {
+              "action": "talent",
+              "cue": "人才"
+            },
+            {
+              "action": "management",
+              "cue": "管理"
+            },
+            {
+              "action": "copy",
+              "cue": "对手挖一挖"
+            },
+            {
+              "action": "question",
+              "cue": "学一学"
+            }
+          ]
+        }
+      ],
+      "audio_tracks": [
+        {
+          "id": "a-u-copy",
+          "type": "sfx",
+          "asset": "media/sfx/click-soft.mp3",
+          "cue": "对手挖一挖",
+          "duration": 0.37,
+          "gain_db": -24,
+          "fade": 0.025,
+          "duck": true,
+          "provenance": {
+            "kind": "bundled-sfx",
+            "provider": "media-use / bundled.sfx",
+            "source": "bundled click-soft, see media/sfx/CREDITS.md",
+            "upstream_library": "Pixabay",
+            "license": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "author": "not specified in bundled credits",
+            "usage": "two quiet object landing accents, no music"
+          }
+        }
+      ]
+    }
+  ]
+}

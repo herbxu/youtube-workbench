@@ -1,0 +1,80 @@
+{
+  "method": "相同时钟PCM母带，取0.2秒人声低能量窗口，检查最终混音中是否仍有非静音底乐",
+  "samples_equal": true,
+  "quiet_voice_windows_with_music": 155,
+  "examples": [
+    {
+      "start": 1.5,
+      "end": 1.7,
+      "voice_rms_dbfs": -102.27,
+      "mix_rms_dbfs": -45.61
+    },
+    {
+      "start": 8.4,
+      "end": 8.6,
+      "voice_rms_dbfs": -79.9,
+      "mix_rms_dbfs": -42.91
+    },
+    {
+      "start": 11.4,
+      "end": 11.6,
+      "voice_rms_dbfs": -200.0,
+      "mix_rms_dbfs": -36.0
+    },
+    {
+      "start": 16.8,
+      "end": 17.0,
+      "voice_rms_dbfs": -71.02,
+      "mix_rms_dbfs": -46.55
+    },
+    {
+      "start": 28.3,
+      "end": 28.5,
+      "voice_rms_dbfs": -108.49,
+      "mix_rms_dbfs": -46.91
+    },
+    {
+      "start": 33.2,
+      "end": 33.4,
+      "voice_rms_dbfs": -96.91,
+      "mix_rms_dbfs": -41.02
+    },
+    {
+      "start": 46.9,
+      "end": 47.1,
+      "voice_rms_dbfs": -110.4,
+      "mix_rms_dbfs": -44.63
+    },
+    {
+      "start": 52.9,
+      "end": 53.1,
+      "voice_rms_dbfs": -200.0,
+      "mix_rms_dbfs": -43.93
+    },
+    {
+      "start": 57.0,
+      "end": 57.2,
+      "voice_rms_dbfs": -200.0,
+      "mix_rms_dbfs": -35.52
+    },
+    {
+      "start": 63.0,
+      "end": 63.2,
+      "voice_rms_dbfs": -200.0,
+      "mix_rms_dbfs": -37.17
+    },
+    {
+      "start": 70.8,
+      "end": 71.0,
+      "voice_rms_dbfs": -114.45,
+      "mix_rms_dbfs": -43.19
+    },
+    {
+      "start": 75.8,
+      "end": 76.0,
+      "voice_rms_dbfs": -90.55,
+      "mix_rms_dbfs": -35.65
+    }
+  ],
+  "limitations": "信号检查只确认停顿中存在配乐，不证明选曲、抽吸感或最终主观听感。"
+}

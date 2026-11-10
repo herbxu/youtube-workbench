@@ -1,0 +1,117 @@
+{
+  "sha256": "fde6dfa25c83e1bdd60dca9a52b9f83e60256e41f93eb5b2c1f994b2f8825956",
+  "seconds": 90.80000000000001,
+  "audio_payload_equals_previous": true,
+  "subtitle_equals_previous": true,
+  "content_logo_px": [
+    142,
+    228
+  ],
+  "cover_logo_px": [
+    220,
+    353
+  ],
+  "source_files_matched": true,
+  "visual_review_window_s": [
+    [
+      0,
+      4
+    ],
+    [
+      7.2,
+      25.2
+    ],
+    [
+      34.9,
+      46.9
+    ],
+    [
+      60,
+      74
+    ],
+    [
+      78.5,
+      90.5
+    ]
+  ],
+  "sources": {
+    "fruitmark": {
+      "id": "fruitmark",
+      "asset": "media/clippings/fruitmark.png",
+      "role": "logo",
+      "source_sha256": "ec78c0532f693fbe193ef8a75088c185fb80b93abd830fe74d4019e94c78a814",
+      "provenance": {
+        "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+        "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+        "operation": "开发者提供的 App 图标",
+        "original_sha256": "35020a949404edeb6124e6c37c38c76587a53bcc2bf35a9765806ace0fe10e49"
+      }
+    },
+    "fruitposters": {
+      "id": "fruitposters",
+      "asset": "media/clippings/fruitposters.png",
+      "role": "source",
+      "source_sha256": "75c7974b92b112a2ea9d29c1aa41946b57f006693956f8990e1dd54849674e5e",
+      "provenance": {
+        "source": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032?uo=4",
+        "credit": "Beijing Bimo Liuxiang Technology Co., Ltd.",
+        "operation": "官方商店展示图局部，保留剧目拼贴",
+        "original_sha256": "02974000e3510b934686ee707621befa864f8c3a77a1458801b49a7d9071fc62"
+      }
+    },
+    "videomark": {
+      "id": "videomark",
+      "asset": "media/clippings/videomark.png",
+      "role": "logo",
+      "source_sha256": "c38e2a2fe2abc20137fb1ea9bcf6966dec596e14a0439ced0ade193883414b5c",
+      "provenance": {
+        "source": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91-%E5%B0%9A%E5%85%AC%E4%B8%BB-%E4%B8%8A%E5%A4%B4%E7%88%BD%E5%97%91/id458318329?uo=4",
+        "credit": "Tencent Technology (Shenzhen) Company Limited",
+        "operation": "从开发者活动图标截取完整三色播放标识",
+        "original_sha256": "8ade8a54faf033c8f7d827d6e622ec456cc1550ee4f66b6feb36b10deb9b5555"
+      }
+    },
+    "watchpage": {
+      "id": "watchpage",
+      "asset": "media/clippings/watchpage.png",
+      "role": "source",
+      "source_sha256": "37c5123fa22fabbe93efff9a2201a5dbc1189a812fb885a399d22b07cefa4247",
+      "provenance": {
+        "source": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91-%E5%B0%9A%E5%85%AC%E4%B8%BB-%E4%B8%8A%E5%A4%B4%E7%88%BD%E5%97%91/id458318329?uo=4",
+        "credit": "Tencent Technology (Shenzhen) Company Limited",
+        "operation": "商店展示图，裁切顶部剧集入口和海报",
+        "original_sha256": "982426e6277d6daf9e79755c5efda6888d3fc7bb4aaad1daa231e9d9449c85b4"
+      }
+    },
+    "channelmark": {
+      "id": "channelmark",
+      "asset": "media/clippings/channelmark.png",
+      "role": "logo",
+      "source_sha256": "29641dadeb24d270515fe7d4410fe0338296f0074e660ffb4704d851f6ba25b0",
+      "provenance": {
+        "source": "https://channels.weixin.qq.com/login",
+        "credit": "微信视频号助手",
+        "operation": "直接解码官网 favicon，保留透明度",
+        "original_sha256": "f27ed8a51c12055714e2867bc346e6c8fe5e31719ef7d8675e9f23422ca0b92d"
+      }
+    },
+    "filing": {
+      "id": "filing",
+      "asset": "media/clippings/filing.png",
+      "role": "source",
+      "source_sha256": "975d2254f63728c47346f937bb45e3a098ee492e62eb424ae3e74ed931a9bbfb",
+      "provenance": {
+        "source": "https://static.www.tencent.com/uploads/2026/03/18/ea02037a5691a52cf6c908e985953963.pdf",
+        "credit": "腾讯 2025 年全年业绩公告 · 第 8 页",
+        "operation": "截取业绩公告原句“高毛利率收入強勁增長，尤其是視頻號及微信搜一搜。”，保留原字形",
+        "original_sha256": "11a86a615c5a9b496f38c1cc32fc2a30bdcd2871c44899c2f7066ff965161e43",
+        "crop_260dpi": [
+          520,
+          2230,
+          1100,
+          59
+        ]
+      }
+    }
+  }
+}

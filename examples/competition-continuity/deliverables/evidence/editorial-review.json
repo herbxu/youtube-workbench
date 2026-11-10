@@ -1,0 +1,102 @@
+{
+  "schema": "opinion-review/v1",
+  "title": "竞争优势：什么难以复制？ · 连续场景样片",
+  "editorial": {
+    "question": "公司做得好，为什么还不足以证明有竞争优势？",
+    "thesis": "考察优势是否难以复制，并结合竞争者追赶和具体条件判断。",
+    "takeaway": "这家公司的护城河到底在哪里，竞争者为什么难以复制？"
+  },
+  "units": [
+    {
+      "id": "u-entry",
+      "argument": {
+        "role": "example",
+        "point": "把进入壁垒翻译成隔壁开店的情境",
+        "basis": "用新进入者能否复制并存活作为理解入口",
+        "boundary": "这是判断问题，具体行业仍需实证。"
+      },
+      "voice": "recording",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "把进入壁垒翻译成隔壁开店的情境"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-cafe-video",
+          "kind": "footage",
+          "purpose": "咖啡交到顾客手里，建立营业与服务的真实情境",
+          "asset": "media/footage/cafe-service.mp4"
+        },
+        {
+          "id": "s-street-entry",
+          "kind": "continuity",
+          "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+          "asset": null
+        }
+      ]
+    },
+    {
+      "id": "u-profits",
+      "argument": {
+        "role": "mechanism",
+        "point": "没有进入限制时，竞争可能压缩利润",
+        "basis": "沿着进入、扩产、利润压力解释竞争机制",
+        "boundary": "需求、成本和扩产周期也会影响结果，不是所有市场立即发生。"
+      },
+      "voice": "recording",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "赚钱且没有进入限制的市场情境"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-street-demand",
+          "kind": "continuity",
+          "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+          "asset": null
+        }
+      ]
+    },
+    {
+      "id": "u-copy",
+      "argument": {
+        "role": "objection",
+        "point": "当前领先还需要检验是否容易被复制",
+        "basis": "把作者的做得更好与对手可能模仿并置",
+        "boundary": "这里讨论可模仿的优势，不证明所有差异化最终都会失效。"
+      },
+      "voice": "recording",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "当前领先还需要检验是否容易被复制"
+        }
+      ],
+      "shots": [
+        {
+          "id": "s-street-copy",
+          "kind": "continuity",
+          "purpose": "保持原店与顾客对象连续，按口播演示进入、分流及模仿",
+          "asset": null
+        }
+      ]
+    }
+  ],
+  "shot_types": {
+    "footage": 1,
+    "continuity": 3
+  },
+  "unique_local_images": 1,
+  "warnings": [],
+  "human_review": {
+    "argument_and_sources": "pending",
+    "audio_only_comprehension": "pending",
+    "visual_contribution": "pending",
+    "exported_caption_readability": "pending"
+  },
+  "note": "结构完整不代表论证正确；不设动画占比或固定换镜频率。"
+}

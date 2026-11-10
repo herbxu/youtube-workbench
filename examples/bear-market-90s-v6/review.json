@@ -1,0 +1,44 @@
+{
+  "movie_sha256": "08c7e3fed0f7a494e4888511a9450c572c9ade24445e1bf476c68297148c9aa1",
+  "input_signature": "66e430bba0f388d27e337702655a96e8f5999ab7d87ec21ef837d328818cbf32",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "完全保留v5口播和事实/假设边界，未新增行情数据、个人经历或回报承诺。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": [
+        "完全复用v5人声与停顿，新TTS请求0；见source/audio-verification.json。",
+        "改用Happy moments同一主题的基础旋律与较丰富编配，风险段保持轻柔音乐；素材来源与CC0许可在media/manifest.json。",
+        "四个音乐区间在混音和最终MP4中均已核对，详见source/export-audio-check.json。",
+        "成片-20.03LUFS，真峰-2.61dBFS；轻松成长感、音乐转换自然度与全片听审未完成。"
+      ]
+    },
+    "visual": {
+      "status": "failed",
+      "evidence": [
+        "修正框内字形中心与末尾字距，文字和边框继承同一父级旋转缩放；10个真实浏览器状态的中心误差不超过0.25px。",
+        "实际MP4抽查长期持有、股权、资金卡与印章，字形中心误差在2.5px以内；见build/final-box-alignment.jpg和json。",
+        "35个动作正向/倒序检查通过。整体连续观看与用户观感验收尚未完成。",
+        "用户指出资金卡片横向过长；光学居中未解决左右留白过多。"
+      ]
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "74项单元测试通过；validate、doctor与HyperFrames运行时/布局/对比度检查通过。保留既有结构提示，CLI motion扫描未启用，动作由单独浏览器检查。",
+        "实际1920×1080，30fps，89.5秒；音画差0.013625秒，无持续黑场。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "人声、停顿与对齐缓存复用；重新混音并渲染6个受字体/布局修正影响的镜头。",
+        "youtube-media、youtube-voice、youtube-visuals、youtube-produce技能同步，4个技能校验与相对链接检查通过。"
+      ]
+    }
+  }
+}

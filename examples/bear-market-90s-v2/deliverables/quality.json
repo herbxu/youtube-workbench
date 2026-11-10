@@ -1,0 +1,51 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "正文与用户看到的390汉字样稿一致；三组trade原文节选和源文件哈希核对一致；200/100与10/5均明确假设。"
+      ]
+    },
+    "audio": {
+      "status": "failed",
+      "evidence": [
+        "六段均以用户已认可的B音色重新合成；receipt确认逐段表达指令进入请求。独立ASR differences为空，覆盖1.0。实际成片-18.07LUFS、真峰-1.5dBFS；没有完成完整主观自然度听审。",
+        "2026-10-31 用户对当前样片的反馈：音色太差，不像本人。本轮仅完成问题核查及技能更新，尚无通过返工验收的新成片。"
+      ],
+      "reviewer": "user",
+      "feedback_date": "2026-10-31"
+    },
+    "visual": {
+      "status": "failed",
+      "evidence": [
+        "实际MP4已抽查开场、提问、经营实拍、5%算式、200到100切换前后、收入降5和收束。单位无遮挡、价格按口播替换、标题按词组分行。全片机器无持续黑场；作者风格与连续观感待用户观看反馈。",
+        "build/final-contact-sheet.jpg；build/frames/index.json；build/seek-check.json",
+        "2026-10-31 用户对当前样片的反馈：画面里很多无关的东西，不够清晰。本轮仅完成问题核查及技能更新，尚无通过返工验收的新成片。"
+      ],
+      "reviewer": "user",
+      "feedback_date": "2026-10-31"
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "66项测试通过；HyperFrames布局/运行时检查通过；正式MP4 verify通过；1920×1080、30fps、约89.9秒、音画末端漂移0.017秒。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "仅合成6次新旁白；时长调整、画面与QA修正均复用语音。最后一轮只重渲染5段，复用6段。旧版样片保留在bear-market-90s。"
+      ]
+    }
+  },
+  "warnings": [
+    "s-same-income：动作后停留较短，检查可读性"
+  ],
+  "review_bound": true,
+  "movie_sha256": "dc67f2ba94ca8b204154f5b2e71a60c1929f283bb615c63a987859d7b6f5d393",
+  "input_signature": "67d3720e5ced9674daa6734410730d3ac018c4026d5b933399c6f19f4f650080",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

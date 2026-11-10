@@ -1,0 +1,39 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "与v10比较仅删除封面副标题，叙事、口播、数值及来源均未变。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "74项单元测试、脚本校验、编排和最终MP4自动验证通过。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "复用已有图片及人声，无新图片/TTS请求。",
+        "youtube-visuals沉淀封面不默认加“我的复盘”等说明性标题；youtube-produce运行契约同步可省略副标题。技能格式与文档链接检查通过。"
+      ]
+    }
+  },
+  "warnings": [],
+  "review_bound": true,
+  "movie_sha256": "9ed0d997b28bfd355bc522308dfe77bd8a4512c386c69e5c29fc102083e90d22",
+  "input_signature": "e12b3cb06b5d79d53766b20a6aaf0b1b4d85808cc06618489d1efba0e3510cd1",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

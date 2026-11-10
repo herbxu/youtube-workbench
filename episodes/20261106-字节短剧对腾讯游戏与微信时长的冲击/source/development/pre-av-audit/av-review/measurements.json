@@ -1,0 +1,502 @@
+{
+  "movie_sha256": "d29e18304a2205a26457c8654fb062893c2be3381124eee0da684fa364d153af",
+  "units": {
+    "hook": {
+      "active_median_db": -21.4,
+      "first_voice": 0.24,
+      "last_voice": 10.92
+    },
+    "scale": {
+      "active_median_db": -21.3,
+      "first_voice": 11.95,
+      "last_voice": 27.82
+    },
+    "question": {
+      "active_median_db": -22.0,
+      "first_voice": 28.29,
+      "last_voice": 34.73
+    },
+    "book": {
+      "active_median_db": -21.1,
+      "first_voice": 35.44,
+      "last_voice": 50.7
+    },
+    "fixed": {
+      "active_median_db": -22.0,
+      "first_voice": 50.71,
+      "last_voice": 62.31
+    },
+    "option": {
+      "active_median_db": -21.5,
+      "first_voice": 62.32,
+      "last_voice": 78.53
+    },
+    "channels": {
+      "active_median_db": -20.6,
+      "first_voice": 79.26,
+      "last_voice": 90.7
+    },
+    "ad-earned": {
+      "active_median_db": -21.6,
+      "first_voice": 91.35,
+      "last_voice": 106.26
+    },
+    "ad-switch": {
+      "active_median_db": -21.4,
+      "first_voice": 107.1,
+      "last_voice": 123.35
+    },
+    "u-channels-money": {
+      "active_median_db": -21.3,
+      "first_voice": 123.67,
+      "last_voice": 135.58
+    },
+    "u-channels-money-b": {
+      "active_median_db": -21.9,
+      "first_voice": 136.34,
+      "last_voice": 146.35
+    },
+    "u-profit-map": {
+      "active_median_db": -21.4,
+      "first_voice": 147.14,
+      "last_voice": 156.38
+    },
+    "u-profit-map-b": {
+      "active_median_db": -21.3,
+      "first_voice": 157.01,
+      "last_voice": 170.4
+    },
+    "u-response": {
+      "active_median_db": -21.2,
+      "first_voice": 170.68,
+      "last_voice": 179.89
+    },
+    "u-response-b": {
+      "active_median_db": -21.5,
+      "first_voice": 180.52,
+      "last_voice": 194.29
+    },
+    "u-ecosystem-net": {
+      "active_median_db": -21.3,
+      "first_voice": 194.87,
+      "last_voice": 206.17
+    },
+    "u-ecosystem-net-b": {
+      "active_median_db": -21.1,
+      "first_voice": 206.79,
+      "last_voice": 222.8
+    },
+    "nov-shape": {
+      "active_median_db": -20.3,
+      "first_voice": 223.17,
+      "last_voice": 242.85
+    },
+    "nov-byte": {
+      "active_median_db": -21.3,
+      "first_voice": 243.43,
+      "last_voice": 262.96
+    },
+    "nov-wx": {
+      "active_median_db": -21.3,
+      "first_voice": 263.39,
+      "last_voice": 283.67
+    },
+    "nov-cannibal": {
+      "active_median_db": -20.5,
+      "first_voice": 284.0,
+      "last_voice": 305.59
+    },
+    "nov-qq": {
+      "active_median_db": -21.4,
+      "first_voice": 306.03,
+      "last_voice": 326.47
+    },
+    "nov-limit": {
+      "active_median_db": -21.6,
+      "first_voice": 327.2,
+      "last_voice": 346.55
+    },
+    "u-game-demand": {
+      "active_median_db": -21.0,
+      "first_voice": 348.37,
+      "last_voice": 358.39
+    },
+    "u-game-demand-b": {
+      "active_median_db": -21.1,
+      "first_voice": 359.04,
+      "last_voice": 372.1
+    },
+    "game-night": {
+      "active_median_db": -21.7,
+      "first_voice": 372.62,
+      "last_voice": 390.63
+    },
+    "u-game-profit": {
+      "active_median_db": -22.1,
+      "first_voice": 391.2,
+      "last_voice": 399.94
+    },
+    "u-game-profit-b": {
+      "active_median_db": -21.2,
+      "first_voice": 400.44,
+      "last_voice": 416.57
+    },
+    "game-money": {
+      "active_median_db": -21.0,
+      "first_voice": 417.11,
+      "last_voice": 436.73
+    },
+    "u-game-counter": {
+      "active_median_db": -21.9,
+      "first_voice": 437.02,
+      "last_voice": 447.21
+    },
+    "u-game-counter-b": {
+      "active_median_db": -20.4,
+      "first_voice": 447.87,
+      "last_voice": 459.21
+    },
+    "u-game-geography": {
+      "active_median_db": -21.4,
+      "first_voice": 459.79,
+      "last_voice": 471.09
+    },
+    "u-game-geography-b": {
+      "active_median_db": -21.3,
+      "first_voice": 471.37,
+      "last_voice": 480.25
+    },
+    "u-wechat-layers": {
+      "active_median_db": -20.8,
+      "first_voice": 480.8,
+      "last_voice": 494.4
+    },
+    "u-wechat-layers-b": {
+      "active_median_db": -20.5,
+      "first_voice": 494.78,
+      "last_voice": 505.78
+    },
+    "wechat-demo": {
+      "active_median_db": -21.8,
+      "first_voice": 506.35,
+      "last_voice": 523.41
+    },
+    "u-commerce": {
+      "active_median_db": -22.1,
+      "first_voice": 524.04,
+      "last_voice": 539.06
+    },
+    "u-commerce-b": {
+      "active_median_db": -21.1,
+      "first_voice": 539.61,
+      "last_voice": 551.24
+    },
+    "u-paid-drama": {
+      "active_median_db": -20.8,
+      "first_voice": 551.85,
+      "last_voice": 563.16
+    },
+    "u-paid-drama-b": {
+      "active_median_db": -20.9,
+      "first_voice": 563.87,
+      "last_voice": 578.35
+    },
+    "u-valuation": {
+      "active_median_db": -21.9,
+      "first_voice": 578.76,
+      "last_voice": 587.14
+    },
+    "u-valuation-b": {
+      "active_median_db": -21.2,
+      "first_voice": 587.71,
+      "last_voice": 605.06
+    },
+    "nov-close": {
+      "active_median_db": -22.0,
+      "first_voice": 605.35,
+      "last_voice": 616.39
+    },
+    "signoff": {
+      "active_median_db": -21.5,
+      "first_voice": 616.88,
+      "last_voice": 623.8
+    }
+  },
+  "seams": [
+    [
+      "scale",
+      11.52,
+      1.03,
+      0.1
+    ],
+    [
+      "question",
+      28.0,
+      0.47,
+      -0.7
+    ],
+    [
+      "book",
+      34.96,
+      0.71,
+      0.9
+    ],
+    [
+      "fixed",
+      50.71,
+      0.01,
+      -0.9
+    ],
+    [
+      "option",
+      62.32,
+      0.01,
+      0.5
+    ],
+    [
+      "channels",
+      78.56,
+      0.73,
+      0.9
+    ],
+    [
+      "ad-earned",
+      90.92,
+      0.65,
+      -1.0
+    ],
+    [
+      "ad-switch",
+      106.55,
+      0.84,
+      0.2
+    ],
+    [
+      "u-channels-money",
+      123.37,
+      0.32,
+      0.1
+    ],
+    [
+      "u-channels-money-b",
+      135.84,
+      0.76,
+      -0.6
+    ],
+    [
+      "u-profit-map",
+      146.7,
+      0.79,
+      0.5
+    ],
+    [
+      "u-profit-map-b",
+      156.68,
+      0.63,
+      0.1
+    ],
+    [
+      "u-response",
+      170.42,
+      0.28,
+      0.1
+    ],
+    [
+      "u-response-b",
+      179.92,
+      0.63,
+      -0.3
+    ],
+    [
+      "u-ecosystem-net",
+      194.48,
+      0.58,
+      0.2
+    ],
+    [
+      "u-ecosystem-net-b",
+      206.44,
+      0.62,
+      0.2
+    ],
+    [
+      "nov-shape",
+      223.01,
+      0.37,
+      0.8
+    ],
+    [
+      "nov-byte",
+      242.87,
+      0.58,
+      -1.0
+    ],
+    [
+      "nov-wx",
+      262.97,
+      0.43,
+      0.0
+    ],
+    [
+      "nov-cannibal",
+      283.89,
+      0.33,
+      0.8
+    ],
+    [
+      "nov-qq",
+      305.82,
+      0.44,
+      -0.9
+    ],
+    [
+      "nov-limit",
+      326.62,
+      0.73,
+      -0.2
+    ],
+    [
+      "u-game-demand",
+      346.78,
+      1.82,
+      0.6
+    ],
+    [
+      "u-game-demand-b",
+      358.66,
+      0.65,
+      -0.1
+    ],
+    [
+      "game-night",
+      372.32,
+      0.52,
+      -0.6
+    ],
+    [
+      "u-game-profit",
+      390.87,
+      0.57,
+      -0.4
+    ],
+    [
+      "u-game-profit-b",
+      400.15,
+      0.5,
+      0.9
+    ],
+    [
+      "game-money",
+      416.83,
+      0.54,
+      0.2
+    ],
+    [
+      "u-game-counter",
+      436.86,
+      0.29,
+      -0.9
+    ],
+    [
+      "u-game-counter-b",
+      447.34,
+      0.66,
+      1.5
+    ],
+    [
+      "u-game-geography",
+      459.34,
+      0.58,
+      -1.0
+    ],
+    [
+      "u-game-geography-b",
+      471.11,
+      0.28,
+      0.1
+    ],
+    [
+      "u-wechat-layers",
+      480.28,
+      0.55,
+      0.5
+    ],
+    [
+      "u-wechat-layers-b",
+      494.41,
+      0.38,
+      0.3
+    ],
+    [
+      "wechat-demo",
+      506.06,
+      0.57,
+      -1.3
+    ],
+    [
+      "u-commerce",
+      523.57,
+      0.63,
+      -0.3
+    ],
+    [
+      "u-commerce-b",
+      539.08,
+      0.55,
+      1.0
+    ],
+    [
+      "u-paid-drama",
+      551.36,
+      0.61,
+      0.3
+    ],
+    [
+      "u-paid-drama-b",
+      563.36,
+      0.71,
+      -0.1
+    ],
+    [
+      "u-valuation",
+      578.54,
+      0.41,
+      -1.0
+    ],
+    [
+      "u-valuation-b",
+      587.16,
+      0.57,
+      0.7
+    ],
+    [
+      "nov-close",
+      605.1,
+      0.29,
+      -0.8
+    ],
+    [
+      "signoff",
+      616.7,
+      0.49,
+      0.5
+    ]
+  ],
+  "sampled_frames_seconds": [
+    0.2,
+    1.4,
+    6.8,
+    14.5,
+    20.2,
+    26.8,
+    36.8,
+    44.5,
+    312,
+    443.8,
+    451,
+    519,
+    617,
+    622.9,
+    625
+  ]
+}

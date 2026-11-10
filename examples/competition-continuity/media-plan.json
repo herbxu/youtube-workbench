@@ -1,0 +1,74 @@
+{
+  "schema": "opinion-media-plan/v1",
+  "requests": [
+    {
+      "id": "m-cafe",
+      "shot_id": "s-cafe-video",
+      "type": "video",
+      "purpose": "让服务和交易动作建立营业情境",
+      "subject": "咖啡店店员与顾客",
+      "action": "递咖啡",
+      "queries": [
+        "barista serving coffee customer cafe"
+      ],
+      "usage": "illustrative",
+      "cue": "",
+      "duration_s": 6.6165,
+      "status": "inspected",
+      "selected_asset_id": "cafe-service",
+      "render_status": "bound",
+      "candidates": [
+        {
+          "source_url": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+          "selected": true,
+          "reason": "横向16:9，服务与顾客互动明确，已经保存与抽帧核对"
+        },
+        {
+          "source_url": "https://www.pexels.com/video/man-ordering-at-a-cafe-8430969/",
+          "selected": false,
+          "reason": "网页下载访问失败；使用可公开取得的服务镜头"
+        },
+        {
+          "source_url": "https://www.pexels.com/video/a-barista-giving-a-cup-of-coffee-to-a-customer-9046259/",
+          "selected": false,
+          "reason": "检索信息为竖屏，横向构图不优先"
+        }
+      ]
+    },
+    {
+      "id": "m-copy-sound",
+      "type": "sfx",
+      "purpose": "两次对象入场的轻提示",
+      "subject": "落位对象",
+      "action": "新店进入/复制",
+      "queries": [
+        "click-soft"
+      ],
+      "usage": "illustrative",
+      "status": "acquired",
+      "selected_asset_id": "click-soft",
+      "render_status": "bound",
+      "placements": [
+        {
+          "unit_id": "u-entry",
+          "cue": "开一家"
+        },
+        {
+          "unit_id": "u-copy",
+          "cue": "对手挖一挖"
+        }
+      ],
+      "gain_db": -24,
+      "duck": true
+    }
+  ],
+  "music_decision": {
+    "selected": false,
+    "reason": "本轮用口播、对象动作和两个轻提示音验证解释效果；没有强行填充音乐",
+    "bpm": {
+      "value": null,
+      "method": "unknown"
+    },
+    "provider_status": "HeyGen CLI/auth unavailable; BGM local mix support exists but no online catalog access verified"
+  }
+}

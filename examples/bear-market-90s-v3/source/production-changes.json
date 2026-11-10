@@ -1,0 +1,20 @@
+{
+  "skills": [
+    "skills/youtube-voice/references/voice-profile.md",
+    "skills/youtube-visuals/references/explain-scenes.md"
+  ],
+  "implementation": [
+    "src/youtube_studio/essay.py"
+  ],
+  "validation": [
+    "tests/test_essay.py",
+    "tests/check_essay.cjs"
+  ],
+  "hyperframes": {
+    "used": "0.8.171",
+    "latest_probe": "0.8.222",
+    "upgrade_action": "官方upgrade --project . 无脚本pin可更新，package.json依赖未改变；保留实际测试与渲染版本，不声称已升级"
+  },
+  "movie_sha256": "2213dedad12e5c5e45a38322125acc047f0ba5e7342cd22e6ef8316b31e157cf",
+  "quality": "needs_review"
+}

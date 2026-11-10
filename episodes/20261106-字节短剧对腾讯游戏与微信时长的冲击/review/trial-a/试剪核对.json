@@ -1,0 +1,63 @@
+{
+  "scope": "A版两段局部试剪",
+  "exports": [
+    {
+      "file": "01-八月笔记.mp4",
+      "sha256": "923d5067621410615afd41e1e299af30df6080a3a2d8d42541306c4e56258ee9",
+      "duration": 22.033333,
+      "fps": "30/1",
+      "audio_lufs": -20.01,
+      "drift_seconds": 0.012415999999998206,
+      "black_intervals": [],
+      "shots": [
+        [
+          "s-note",
+          0.0,
+          17.08
+        ],
+        [
+          "s-time",
+          17.08,
+          22.020917
+        ]
+      ],
+      "source": "source/development/trial-a/01-八月笔记/script.json"
+    },
+    {
+      "file": "02-长视频账本.mp4",
+      "sha256": "96059323c742ade7caeb5b95603acbc81744ba73962933177da3ade1ea83c9fe",
+      "duration": 42.633333,
+      "fps": "30/1",
+      "audio_lufs": -20.01,
+      "drift_seconds": 0.012999999999998124,
+      "black_intervals": [],
+      "shots": [
+        [
+          "s-ledger-start",
+          0.0,
+          12.718708
+        ],
+        [
+          "s-ledger-loss",
+          12.718708,
+          24.692875
+        ],
+        [
+          "s-ledger-gain",
+          24.692875,
+          42.620333
+        ]
+      ],
+      "source": "source/development/trial-a/02-长视频账本/script.json"
+    }
+  ],
+  "continuous_pixel_checks": {
+    "opening_overlay": "0—4秒逐帧测声明区域；设计1.2秒入场、完全可见1秒、1秒退场，3.35秒结束，17.08秒切镜",
+    "opening_stable_hold_normalized_mean": 0.9999713897705078,
+    "opening_after_exit_normalized_max": 0.009937897324562073,
+    "ledger_revenue_26_to_41": "逐帧比较收入80所在格，成本及利润变化时保持在位",
+    "max_mean_absolute_pixel_change_8bit": 0.04140625149011612
+  },
+  "visual_review": "另以实际成片抽帧核对笔记、证据、成本和利润的入场与两个关键切换；独立导出两张预览封面并查看。",
+  "audio_review": "合成作者音色、实测词时、双路转写与音频信号；主观听感待作者试听。"
+}

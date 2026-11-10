@@ -1,0 +1,526 @@
+{
+  "schema": "opinion-script/v1",
+  "title": "02-长视频账本",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "personal-decision",
+      "title": "投资决策记录：2026年8月买入动机及9月竞争判断",
+      "type": "作者历史记录",
+      "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "date": "2026-08-24 / 2026-09-24",
+      "locator": "2026-08-24买入段落、三年无估值提升自问；2026-09-24公司基本面表",
+      "sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+      "excerpt": "当时对腾讯估值回归的期待及三年不提升估值的自问；游戏当时判断未受影响。",
+      "limitations": "历史个人决策/观点；不代表当前持仓、当前估值或经营事实。只节选必要动机，排除数量、金额、仓位及买入价。",
+      "accessed_at": "2026-11-07"
+    }
+  ],
+  "units": [
+    {
+      "id": "ledger-0",
+      "text": "拿长视频举个例子。假设原来收入一百，成本一百一十，每期亏十。你可能会想，既然一直亏，少做一点，亏损总该变小吧？",
+      "shots": [
+        {
+          "id": "s-ledger-start",
+          "kind": "essay_scene",
+          "layout": "motion",
+          "variant": "business",
+          "purpose": "在口播锚点展示笔记或账目变化",
+          "note": "假设算例",
+          "headline": "长视频的利润",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "hint",
+              "type": "text",
+              "text": "假设算例　／　非腾讯实绩",
+              "x": 210,
+              "y": 128,
+              "w": 1100,
+              "h": 64,
+              "font": 34,
+              "color": "#806749",
+              "initial": true
+            },
+            {
+              "id": "label0",
+              "type": "text",
+              "text": "收入",
+              "x": 210,
+              "y": 300,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label1",
+              "type": "text",
+              "text": "成本",
+              "x": 210,
+              "y": 476,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label2",
+              "type": "text",
+              "text": "经营利润",
+              "x": 210,
+              "y": 675,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "r",
+              "type": "text",
+              "text": "100",
+              "x": 1150,
+              "y": 290,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "c",
+              "type": "text",
+              "text": "110",
+              "x": 1150,
+              "y": 466,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "p",
+              "type": "text",
+              "text": "−10",
+              "x": 1150,
+              "y": 665,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#a64733",
+              "initial": false,
+              "align": "right"
+            }
+          ],
+          "events": [
+            {
+              "target": "r",
+              "cue": "收入一百",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "c",
+              "cue": "成本一百一十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "p",
+              "cue": "亏十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            }
+          ],
+          "surface": "accountbook",
+          "hypothetical": true
+        }
+      ]
+    },
+    {
+      "id": "ledger-1",
+      "text": "可要是观众走了，收入降到八十，已经签下的制作和版权合同，还得接着付。成本只降到一百，这笔生意就变成了亏二十。",
+      "shots": [
+        {
+          "id": "s-ledger-loss",
+          "kind": "essay_scene",
+          "layout": "motion",
+          "variant": "business",
+          "purpose": "在口播锚点展示笔记或账目变化",
+          "note": "假设算例",
+          "headline": "长视频的利润",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "hint",
+              "type": "text",
+              "text": "假设算例　／　非腾讯实绩",
+              "x": 210,
+              "y": 128,
+              "w": 1100,
+              "h": 64,
+              "font": 34,
+              "color": "#806749",
+              "initial": true
+            },
+            {
+              "id": "label0",
+              "type": "text",
+              "text": "收入",
+              "x": 210,
+              "y": 300,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label1",
+              "type": "text",
+              "text": "成本",
+              "x": 210,
+              "y": 476,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label2",
+              "type": "text",
+              "text": "经营利润",
+              "x": 210,
+              "y": 675,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "r",
+              "type": "text",
+              "text": "100",
+              "x": 1150,
+              "y": 290,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": true,
+              "align": "right"
+            },
+            {
+              "id": "c",
+              "type": "text",
+              "text": "110",
+              "x": 1150,
+              "y": 466,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": true,
+              "align": "right"
+            },
+            {
+              "id": "p",
+              "type": "text",
+              "text": "−10",
+              "x": 1150,
+              "y": 665,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#a64733",
+              "initial": true,
+              "align": "right"
+            },
+            {
+              "id": "r-now",
+              "type": "text",
+              "text": "80",
+              "x": 1150,
+              "y": 290,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "c-now",
+              "type": "text",
+              "text": "100",
+              "x": 1150,
+              "y": 466,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "p-now",
+              "type": "text",
+              "text": "−20",
+              "x": 1150,
+              "y": 665,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#a64733",
+              "initial": false,
+              "align": "right"
+            }
+          ],
+          "events": [
+            {
+              "target": "r",
+              "cue": "收入降到八十",
+              "action": "hide",
+              "duration": 0.13
+            },
+            {
+              "target": "p",
+              "cue": "收入降到八十",
+              "action": "hide",
+              "duration": 0.13
+            },
+            {
+              "target": "r-now",
+              "cue": "降到八十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "c",
+              "cue": "成本只降到一百",
+              "action": "hide",
+              "duration": 0.13
+            },
+            {
+              "target": "c-now",
+              "cue": "只降到一百",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "p-now",
+              "cue": "亏二十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            }
+          ],
+          "surface": "accountbook",
+          "hypothetical": true
+        }
+      ]
+    },
+    {
+      "id": "ledger-2",
+      "text": "再看同样的八十收入。如果把回报差的项目停掉，成本能降到七十，账就翻过来了。这一次，是赚十。所以我关心的是，观众少了以后，腾讯究竟能撤掉多少投入。",
+      "shots": [
+        {
+          "id": "s-ledger-gain",
+          "kind": "essay_scene",
+          "layout": "motion",
+          "variant": "business",
+          "purpose": "在口播锚点展示笔记或账目变化",
+          "note": "假设算例",
+          "headline": "长视频的利润",
+          "transition": "cut",
+          "cue": "",
+          "motion_objects": [
+            {
+              "id": "hint",
+              "type": "text",
+              "text": "假设算例　／　非腾讯实绩",
+              "x": 210,
+              "y": 128,
+              "w": 1100,
+              "h": 64,
+              "font": 34,
+              "color": "#806749",
+              "initial": true
+            },
+            {
+              "id": "label0",
+              "type": "text",
+              "text": "收入",
+              "x": 210,
+              "y": 300,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label1",
+              "type": "text",
+              "text": "成本",
+              "x": 210,
+              "y": 476,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "label2",
+              "type": "text",
+              "text": "经营利润",
+              "x": 210,
+              "y": 675,
+              "w": 600,
+              "h": 104,
+              "font": 64,
+              "color": "#364a42",
+              "initial": true
+            },
+            {
+              "id": "r",
+              "type": "text",
+              "text": "80",
+              "x": 1150,
+              "y": 290,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": true,
+              "align": "right"
+            },
+            {
+              "id": "c",
+              "type": "text",
+              "text": "100",
+              "x": 1150,
+              "y": 466,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": true,
+              "align": "right"
+            },
+            {
+              "id": "p",
+              "type": "text",
+              "text": "−20",
+              "x": 1150,
+              "y": 665,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#a64733",
+              "initial": true,
+              "align": "right"
+            },
+            {
+              "id": "c-now",
+              "type": "text",
+              "text": "70",
+              "x": 1150,
+              "y": 466,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#253e38",
+              "initial": false,
+              "align": "right"
+            },
+            {
+              "id": "p-now",
+              "type": "text",
+              "text": "+10",
+              "x": 1150,
+              "y": 665,
+              "w": 490,
+              "h": 122,
+              "font": 96,
+              "color": "#216351",
+              "initial": false,
+              "align": "right"
+            }
+          ],
+          "events": [
+            {
+              "target": "p",
+              "cue": "降到七十",
+              "action": "hide",
+              "duration": 0.13
+            },
+            {
+              "target": "c",
+              "cue": "降到七十",
+              "action": "hide",
+              "duration": 0.13
+            },
+            {
+              "target": "c-now",
+              "cue": "七十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            },
+            {
+              "target": "p-now",
+              "cue": "赚十",
+              "action": "reveal",
+              "duration": 0.42,
+              "y": 9
+            }
+          ],
+          "surface": "accountbook",
+          "hypothetical": true
+        }
+      ]
+    }
+  ]
+}

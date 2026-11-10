@@ -1,0 +1,12 @@
+{
+  "threshold_dbfs": -40,
+  "min_gap_s": 0.12,
+  "count": 53,
+  "median_gap_s": 0.355458,
+  "over_half_second": 17,
+  "method": "成品人声母带低能量间隔检测；不代表主观听审或语义停顿判定",
+  "original_duration_s": 96.88,
+  "speed": 1.07644444,
+  "tts_requests": 6,
+  "voice_unchanged": true
+}

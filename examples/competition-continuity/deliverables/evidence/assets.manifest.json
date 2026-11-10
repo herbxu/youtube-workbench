@@ -1,0 +1,21 @@
+[
+  {
+    "shot": "s-cafe-video",
+    "type": "video",
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20261024-竞争优势-连续场景样片/production/.cache/footage/53f82ca9fea99a7722720812ac4dc097b55bbee494aa09649ca2fa0ffb18dc09/result.mp4",
+    "sha256": "3fe075dd87151060f26b4aaf93433ca29c4da74a3aa49e8c70dea4a3fc645548",
+    "source_sha256": "ab04c5e22db369ec76c0c533230aed344526597afd6534b8b0fc41f66e7b7232",
+    "source_in": 0,
+    "duration": 6.616500000000009,
+    "muted": true,
+    "provenance": {
+      "kind": "stock-video",
+      "source": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+      "author": "Thirdman",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-24",
+      "usage": "情境实拍，视频中的个人与店铺不承担假设经营事实"
+    }
+  }
+]

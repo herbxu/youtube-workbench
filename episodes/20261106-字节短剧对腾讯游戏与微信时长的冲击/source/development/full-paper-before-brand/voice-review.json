@@ -1,0 +1,1422 @@
+{
+  "units": [
+    {
+      "id": "opening",
+      "start": 0.0,
+      "end": 20.16,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "红果火了我8月买腾讯的理由还占得住吗?如果3年不涨估值光靠经营和分红回报够吗?7、8月红果的越人均单日使用时长达到150亿分钟这些时间里哪一部分原本能替腾讯赚钱?先看长视频",
+        "match_ratio": 0.8727272727272727,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "八",
+            "recognized": "8"
+          },
+          {
+            "operation": "replace",
+            "expected": "站",
+            "recognized": "占"
+          },
+          {
+            "operation": "replace",
+            "expected": "三",
+            "recognized": "3"
+          },
+          {
+            "operation": "replace",
+            "expected": "七八",
+            "recognized": "78"
+          },
+          {
+            "operation": "replace",
+            "expected": "月",
+            "recognized": "越"
+          },
+          {
+            "operation": "replace",
+            "expected": "一百五十一",
+            "recognized": "150亿"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-video-profit-fact",
+      "start": 20.16,
+      "end": 31.84,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "腾讯视频是最容易被抢走观众的一门生意但它本来究竟给腾讯赚多少钱2023年,负责人曾披露腾讯视频已连续四个季度盈利",
+        "match_ratio": 0.9272727272727272,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "二零二三",
+            "recognized": "2023"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-video-profit-fact-b",
+      "start": 31.84,
+      "end": 40.56,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "到这次研究为止,我没有查到他最近的单独利润表光评追据的人少了,还算不出腾讯股东少赚多少钱",
+        "match_ratio": 0.9285714285714286,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "它",
+            "recognized": "他"
+          },
+          {
+            "operation": "replace",
+            "expected": "凭",
+            "recognized": "评"
+          },
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "据"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-longvideo",
+      "start": 40.56,
+      "end": 48.800000000000004,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "普通追劇跟免費短劇真的是同一個晚上如果我因此取消會員或者平台少賣了廣告收入就會掉",
+        "match_ratio": 0.975,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "争",
+            "recognized": "真"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-longvideo-b",
+      "start": 48.800000000000004,
+      "end": 60.0,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "但假如原来的项目回报就很低少头一不具可能反而留下更多现金这个判断最容易出错的地方是把明年可以省的钱当成今天已经省下的钱",
+        "match_ratio": 0.9491525423728814,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "投",
+            "recognized": "头"
+          },
+          {
+            "operation": "replace",
+            "expected": "部剧",
+            "recognized": "不具"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ledger-0",
+      "start": 60.0,
+      "end": 71.16,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "假设腾讯视频17收入100,成本110,原本亏10现在观众少了,下期收入只有80得看哪些钱还要付",
+        "match_ratio": 0.7415730337078652,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "一期",
+            "recognized": "17"
+          },
+          {
+            "operation": "replace",
+            "expected": "一百",
+            "recognized": "100"
+          },
+          {
+            "operation": "replace",
+            "expected": "一百一十",
+            "recognized": "110"
+          },
+          {
+            "operation": "replace",
+            "expected": "十",
+            "recognized": "10"
+          },
+          {
+            "operation": "replace",
+            "expected": "八十",
+            "recognized": "80"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ledger-1",
+      "start": 71.16,
+      "end": 79.53,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "先看已经签好的版权合同就算少了人看这笔钱也得照付假设成本只能降到100就是亏20",
+        "match_ratio": 0.8860759493670886,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "一百",
+            "recognized": "100"
+          },
+          {
+            "operation": "replace",
+            "expected": "二十",
+            "recognized": "20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ledger-2",
+      "start": 79.53,
+      "end": 97.04,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "再看另一种情况同样收80明年几部回报差的剧还没签可以取消假设成本能降到70这样就能赚10今年签过的合同还要付多少明年少拍一部剧究竟能省多少",
+        "match_ratio": 0.9197080291970803,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "八十",
+            "recognized": "80"
+          },
+          {
+            "operation": "replace",
+            "expected": "七十",
+            "recognized": "70"
+          },
+          {
+            "operation": "replace",
+            "expected": "十",
+            "recognized": "10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-longvideo-money",
+      "start": 97.04,
+      "end": 114.56,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "长视频难就难在这里,已经签下的制作和版权合同,不会因为观众少了就自动取消。停止新的低回报项目可以减少未来付款,但已经投入的内容仍可能继续摊销,甚至简直。",
+        "match_ratio": 0.9714285714285714,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "减值",
+            "recognized": "简直"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-longvideo-money-b",
+      "start": 114.56,
+      "end": 125.44,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "因此短期利润成压和未来现金支出减少可以同时发生不能把过去花出去的钱当成现在随时能省下来的钱",
+        "match_ratio": 0.967032967032967,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "承",
+            "recognized": "成"
+          },
+          {
+            "operation": "delete",
+            "expected": "够",
+            "recognized": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-longvideo-judgment",
+      "start": 125.44,
+      "end": 137.44,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "換個方向想,少做一些生意,會不會反而對股東更好?如果騰訊能退出低回報項目,保住精品內容的付費需求,答案可能是肯定的。",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-longvideo-judgment-b",
+      "start": 137.44,
+      "end": 150.24,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "但若收入先掉,承諾成本降不下來甚至為排名繼續加碼,利潤就可能受損我願意考慮這個非共識的方向卻不能把可能減虧當作已經發生",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-scale",
+      "start": 150.24,
+      "end": 162.0,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "算清长视频这笔账再回头看开场那151分钟财经10月公布的图表用的是7月和8月的平均数它反映红果活跃用户用的有多深",
+        "match_ratio": 0.8495575221238938,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "一百五十一",
+            "recognized": "151"
+          },
+          {
+            "operation": "replace",
+            "expected": "十",
+            "recognized": "10"
+          },
+          {
+            "operation": "replace",
+            "expected": "七",
+            "recognized": "7"
+          },
+          {
+            "operation": "replace",
+            "expected": "八",
+            "recognized": "8"
+          },
+          {
+            "operation": "replace",
+            "expected": "得",
+            "recognized": "的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-scale-b",
+      "start": 162.0,
+      "end": 171.28,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "分母是使用这个产品的人并不包括每个手机用户哪怕两个应用的使用时长同时增加这个数字也完全可能成立",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-recent-size",
+      "start": 171.28,
+      "end": 184.56,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "在看广度11月发布的移动互联网秋季报告里红国9月月活接近4亿3000万这里有个很诱人的算法把月活呈上刚才的分钟数再算腾讯丢了多少时间",
+        "match_ratio": 0.8461538461538461,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "再",
+            "recognized": "在"
+          },
+          {
+            "operation": "replace",
+            "expected": "十一",
+            "recognized": "11"
+          },
+          {
+            "operation": "replace",
+            "expected": "果九",
+            "recognized": "国9"
+          },
+          {
+            "operation": "replace",
+            "expected": "四",
+            "recognized": "4"
+          },
+          {
+            "operation": "replace",
+            "expected": "三千",
+            "recognized": "3000"
+          },
+          {
+            "operation": "replace",
+            "expected": "乘",
+            "recognized": "呈"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-recent-size-b",
+      "start": 184.56,
+      "end": 193.04,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "两个数的期间和分母都不同更没有用户从哪个应用签来的记录这笔惩罚不能拿来给腾讯估值",
+        "match_ratio": 0.925,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "迁",
+            "recognized": "签"
+          },
+          {
+            "operation": "replace",
+            "expected": "乘法",
+            "recognized": "惩罚"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-profit-map",
+      "start": 193.04,
+      "end": 202.07999999999998,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "接下来,为什么我会把视频号的广告看得更重?先翻腾讯《2025年全年业绩公告》,看看原本的利润从哪来?",
+        "match_ratio": 0.9090909090909091,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "二零二五",
+            "recognized": "2025"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-profit-map-b",
+      "start": 202.07999999999998,
+      "end": 216.23999999999998,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "争职服务贡献一半以上集团毛利营销服务约占两成金龙科技及企业服务接近三成这是看盈利结构的历史底数竞争发生后怎么变还要另外检验",
+        "match_ratio": 0.9508196721311475,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "增值",
+            "recognized": "争职"
+          },
+          {
+            "operation": "replace",
+            "expected": "融",
+            "recognized": "龙"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-profit-scope",
+      "start": 216.23999999999998,
+      "end": 225.99999999999997,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "我理解一家公司的一个标准是能不能估算它的自由现金流所以看到毛利还不够还要扣研发 营销和再投入",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-profit-scope-b",
+      "start": 225.99999999999997,
+      "end": 236.79999999999998,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "分布也不等于产品不能把真职服务传算成游戏把营销服务传算成视频号真正要弄清的是各门生意最后留下的现金",
+        "match_ratio": 0.8979591836734694,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "部",
+            "recognized": "布"
+          },
+          {
+            "operation": "replace",
+            "expected": "增值",
+            "recognized": "真职"
+          },
+          {
+            "operation": "replace",
+            "expected": "全",
+            "recognized": "传"
+          },
+          {
+            "operation": "replace",
+            "expected": "全",
+            "recognized": "传"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-channels-existing",
+      "start": 236.79999999999998,
+      "end": 246.55999999999997,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "视频号则不同腾讯在2025年公告中以把视频号广告、自言游戏和微信收一收列为高毛利率收入来源",
+        "match_ratio": 0.8181818181818182,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "二零二五",
+            "recognized": "2025"
+          },
+          {
+            "operation": "replace",
+            "expected": "已",
+            "recognized": "以"
+          },
+          {
+            "operation": "replace",
+            "expected": "研",
+            "recognized": "言"
+          },
+          {
+            "operation": "replace",
+            "expected": "搜",
+            "recognized": "收"
+          },
+          {
+            "operation": "replace",
+            "expected": "搜",
+            "recognized": "收"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-channels-existing-b",
+      "start": 246.55999999999997,
+      "end": 256.15999999999997,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "他不是只有未来的增长故事,也在参与贡献毛利但公告没有单独披露视频号进利润不能用整个广告分布的利润率替他估算",
+        "match_ratio": 0.9230769230769231,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "它",
+            "recognized": "他"
+          },
+          {
+            "operation": "replace",
+            "expected": "净",
+            "recognized": "进"
+          },
+          {
+            "operation": "replace",
+            "expected": "部",
+            "recognized": "布"
+          },
+          {
+            "operation": "replace",
+            "expected": "它",
+            "recognized": "他"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-channels-money",
+      "start": 256.15999999999997,
+      "end": 270.96,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "如果红果分走的是这类广告预算,意义就不同了。一个广告位少卖出去,平台的技术研发和运营支出,并不会立即同比减少。所以收入减少,可能较明显地传到利润。",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-channels-money-b",
+      "start": 270.96,
+      "end": 282.08,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "具体幅度要看分层等可变成本我更关心的是被分走收入原本能留下多少钱而不是简单比较两个产品水少了更多分钟",
+        "match_ratio": 0.96,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "成",
+            "recognized": "层"
+          },
+          {
+            "operation": "replace",
+            "expected": "谁",
+            "recognized": "水"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-quality",
+      "start": 282.08,
+      "end": 292.8,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "對我來說,護城河要經過競爭檢驗放到這裡,就要看商家為什麼繼續投錢紅果多一個廣告位,視頻號不必難少賣一個",
+        "match_ratio": 0.9791666666666666,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "然",
+            "recognized": "难"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-quality-b",
+      "start": 292.8,
+      "end": 304.24,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "如果腾讯的推荐、转化和复购能给商家更好回报就能抵抗一部分竞争广告预算是否留下比微信地位稳固更能检验广告业务",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-response",
+      "start": 304.24,
+      "end": 313.68,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "腾讯正在通过绿泡泡、联合发行、视频号短句分发和收入流量机力争取内容这给他提供了防守的机会",
+        "match_ratio": 0.9047619047619048,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "句"
+          },
+          {
+            "operation": "replace",
+            "expected": "激励",
+            "recognized": "机力"
+          },
+          {
+            "operation": "replace",
+            "expected": "它",
+            "recognized": "他"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-response-b",
+      "start": 313.68,
+      "end": 327.28000000000003,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "但股东要核算两件事有没有把微信外的用户时间带回来以及这些时间在扣除分账和运营后究竟留下多少回报产品做起来不代表这两笔账已经算得过来",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-ecosystem-net",
+      "start": 327.28000000000003,
+      "end": 337.36,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "这里还有一种更隐蔽的风险假如用户从视频号原来的内容转去看微信里的免费短剧总时长可能没有流失广告收入也可能增加",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-ecosystem-net-b",
+      "start": 337.36,
+      "end": 353.28000000000003,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "但如果新增分账和激励更高进回报反而可能下降反过来落用更低成本的分发模式替代原来低回报的内容投入回报也可能改善迁移前后赚的怎样比流量留在谁家更重要",
+        "match_ratio": 0.9583333333333334,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "净",
+            "recognized": "进"
+          },
+          {
+            "operation": "replace",
+            "expected": "若",
+            "recognized": "落"
+          },
+          {
+            "operation": "replace",
+            "expected": "得",
+            "recognized": "的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-defense-decision",
+      "start": 353.28000000000003,
+      "end": 363.04,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "我看這筆投入還會比較它的機會成本騰訊投向短距補貼的錢也可以用於其他研發經營、投入或股東回報",
+        "match_ratio": 0.9772727272727273,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "距"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-defense-decision-b",
+      "start": 363.04,
+      "end": 372.96000000000004,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "所以我不会只问绿泡泡做不做得起来还要问它值不值得这样投入当然风洪回购也不是天然更优但要看价格和替代用途",
+        "match_ratio": 0.9411764705882353,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "分红",
+            "recognized": "风洪"
+          },
+          {
+            "operation": "replace",
+            "expected": "仍",
+            "recognized": "但"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-demand",
+      "start": 372.96000000000004,
+      "end": 384.08000000000004,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "今年9月的笔记里,我已经注意到字节对腾讯内容业务的影响,但当时对游戏的判断是没有被影响。这只是当时的看法。",
+        "match_ratio": 0.9795918367346939,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "九",
+            "recognized": "9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-demand-b",
+      "start": 384.08000000000004,
+      "end": 396.32000000000005,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "这次我会把问题拆细随手消遣靠广告变现的轻度游戏更容易与短句竞争围绕禁忌朋友和长期进度形成的需求替代难度更高",
+        "match_ratio": 0.9433962264150944,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "句"
+          },
+          {
+            "operation": "replace",
+            "expected": "竞技",
+            "recognized": "禁忌"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-profit",
+      "start": 396.32000000000005,
+      "end": 405.76000000000005,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "游戏则提醒我们,替代强弱和财务重要性甚至可能反过来自言游戏是腾讯已经披露的高毛利收入来源",
+        "match_ratio": 0.9767441860465116,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "研",
+            "recognized": "言"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-profit-b",
+      "start": 405.76000000000005,
+      "end": 423.76000000000005,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "成熟禁忌和社交游戏不容易被短句直接替代但如果他们的付费或货客回报真的恶化集团影响可能比一项薄利内容业务流失大量观看更大所以核心游戏不能因为直接替代较落就从立论分析里靠后处理",
+        "match_ratio": 0.9069767441860465,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "竞技",
+            "recognized": "禁忌"
+          },
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "句"
+          },
+          {
+            "operation": "replace",
+            "expected": "它",
+            "recognized": "他"
+          },
+          {
+            "operation": "replace",
+            "expected": "获",
+            "recognized": "货"
+          },
+          {
+            "operation": "replace",
+            "expected": "弱",
+            "recognized": "落"
+          },
+          {
+            "operation": "replace",
+            "expected": "利润",
+            "recognized": "立论"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-counter",
+      "start": 423.76000000000005,
+      "end": 436.08000000000004,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "同期数据也不支持游戏时间全面衰退9月的移动互联网行业图表里手机游戏越人均使用时长同比能增长3.5%品类明显风化",
+        "match_ratio": 0.8545454545454545,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "九",
+            "recognized": "9"
+          },
+          {
+            "operation": "replace",
+            "expected": "月",
+            "recognized": "越"
+          },
+          {
+            "operation": "replace",
+            "expected": "仍",
+            "recognized": "能"
+          },
+          {
+            "operation": "replace",
+            "expected": "百分之三点五",
+            "recognized": "35"
+          },
+          {
+            "operation": "replace",
+            "expected": "分",
+            "recognized": "风"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-counter-b",
+      "start": 436.08000000000004,
+      "end": 443.28000000000003,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "这不能证明腾讯每款游戏都安全却说明红果高市场与部分游戏保持吸引力可以同时存在",
+        "match_ratio": 0.9473684210526315,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "时长",
+            "recognized": "市场"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-geography",
+      "start": 443.28000000000003,
+      "end": 456.40000000000003,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "还要拆开本土和海外腾讯分别披露两者红果的中国用户数据不能推到全球游戏都同样受影响对本土成熟游戏看付费、流存与召回",
+        "match_ratio": 0.9636363636363636,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "导",
+            "recognized": "到"
+          },
+          {
+            "operation": "replace",
+            "expected": "留",
+            "recognized": "流"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-game-geography-b",
+      "start": 456.40000000000003,
+      "end": 466.8,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "对新游戏看货客投入能否收回对小游戏平台看腾讯实际获得的收入不能把开发者全部流水算成腾讯利润",
+        "match_ratio": 0.9777777777777777,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "获",
+            "recognized": "货"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-wechat-layers",
+      "start": 466.8,
+      "end": 480.0,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "我在笔记里写过一句话护城河是局部的,相对的微信恰好是个例子朋友和工作联系还在那里能保护通讯路口但我回复完消息可以继续去红果追剧",
+        "match_ratio": 0.9838709677419355,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "入",
+            "recognized": "路"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-wechat-layers-b",
+      "start": 480.0,
+      "end": 490.32,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "关心链稳定不等于娱乐广告也同样稳固评价腾讯要把这两种确定性分开不能用自己熟悉微信的感受替代对赚钱机制的研究",
+        "match_ratio": 0.9811320754716981,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "系",
+            "recognized": "心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-commerce",
+      "start": 490.32,
+      "end": 506.71999999999997,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "金龙科技及企业服务原本就贡献腾讯相当一部分毛利这不能全部算作微信支付也不能都视为依赖刷视频、转账已有购买意图的付款、理财与企业服务受到红果的直接替代叫落",
+        "match_ratio": 0.9594594594594594,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "融",
+            "recognized": "龙"
+          },
+          {
+            "operation": "replace",
+            "expected": "较弱",
+            "recognized": "叫落"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-commerce-b",
+      "start": 506.71999999999997,
+      "end": 517.1999999999999,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "直播和小店靠内容发现带来的新增交易则更容易间接受影响稳住这些已有生意能缓冲内容竞争但不保证所有新增交易都安全",
+        "match_ratio": 1.0,
+        "differences": []
+      }
+    },
+    {
+      "id": "u-paid-drama",
+      "start": 517.1999999999999,
+      "end": 527.68,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "微信短距还有两面信原来付费距方能赚到钱就可能愿意买广告免费平台改变回收方式后这部分预算可能受压",
+        "match_ratio": 0.9361702127659575,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "距"
+          },
+          {
+            "operation": "replace",
+            "expected": "性",
+            "recognized": "信"
+          },
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "距"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-paid-drama-b",
+      "start": 527.68,
+      "end": 541.8399999999999,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "腾讯自己聚合免费短句则可能获得新的广告和分成机会两边要放在一起算扣掉内部替代和机力聚方少赚的钱腾讯少收的广告费和新平台的收益不是同一个数字",
+        "match_ratio": 0.9420289855072463,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "剧",
+            "recognized": "句"
+          },
+          {
+            "operation": "replace",
+            "expected": "激励剧",
+            "recognized": "机力聚"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-valuation",
+      "start": 541.8399999999999,
+      "end": 549.3599999999999,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "这也回到我的投资方法以低于价值的价格买入流出安全编辑但市场悲观不自动代表便宜",
+        "match_ratio": 0.9210526315789473,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "留",
+            "recognized": "流"
+          },
+          {
+            "operation": "replace",
+            "expected": "边际",
+            "recognized": "编辑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-valuation-b",
+      "start": 549.3599999999999,
+      "end": 566.6399999999999,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "需要先算现有业务少赚多少低回报投入能省多少防守又要多花多少再看价格反映了多少风险这次还没有完成当前价格下的完整估值所以不能从红果乐度直接跳到买路或者卖出",
+        "match_ratio": 0.9736842105263158,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "热",
+            "recognized": "乐"
+          },
+          {
+            "operation": "replace",
+            "expected": "入",
+            "recognized": "路"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-falsify",
+      "start": 566.6399999999999,
+      "end": 579.7599999999999,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "什么会让我更担心?视频号、广告效果变差核心游戏付费或货客回报下降同时,腾讯为了手时间继续扩大低回报补贴什么会让我更乐观?",
+        "match_ratio": 0.9642857142857143,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "获",
+            "recognized": "货"
+          },
+          {
+            "operation": "replace",
+            "expected": "守",
+            "recognized": "手"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-falsify-b",
+      "start": 579.7599999999999,
+      "end": 592.3199999999998,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "已有賺錢業務,保持健康長視頻投入更有紀律短劇帶來體系外的有效需求並且扣除全部投入後,能有合理回報兩種結果都可能伴隨紅果繼續增長",
+        "match_ratio": 0.9836065573770492,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "仍",
+            "recognized": "能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-ending",
+      "start": 592.3199999999998,
+      "end": 609.7599999999999,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "回到8月 写在笔记里的问题如果三年不发生固执提升腾讯靠经营增长和分红是否还值得我持有我的判断是长视频的观看最容易流失视频号要看广告组的钱核心游戏看付费和货客",
+        "match_ratio": 0.935064935064935,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "八",
+            "recognized": "8"
+          },
+          {
+            "operation": "replace",
+            "expected": "估值",
+            "recognized": "固执"
+          },
+          {
+            "operation": "replace",
+            "expected": "主",
+            "recognized": "组"
+          },
+          {
+            "operation": "replace",
+            "expected": "获",
+            "recognized": "货"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u-ending-b",
+      "start": 609.7599999999999,
+      "end": 625.0399999999998,
+      "coverage": 1.0,
+      "unmatched": [],
+      "method": "faster-whisper/small cross-attention DTW forced alignment",
+      "differences": [],
+      "reference_constrained": true,
+      "independent_asr": {
+        "model": "small",
+        "text": "微信支付和通訊的直接壓力較小下一次看財報我會先找高回報業務有沒有受傷再找低回報項目有沒有真正掃花錢這兩筆帳能給我的答案比股價會不會回到過去更重要",
+        "match_ratio": 0.9722222222222222,
+        "differences": [
+          {
+            "operation": "replace",
+            "expected": "少",
+            "recognized": "扫"
+          },
+          {
+            "operation": "replace",
+            "expected": "账",
+            "recognized": "帐"
+          }
+        ]
+      }
+    }
+  ],
+  "difference_times": "relative to each unit audio",
+  "listening_review": "pending",
+  "note": "识别差异用于人工核对，不反向覆盖原稿。"
+}

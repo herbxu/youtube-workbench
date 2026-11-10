@@ -1,0 +1,26 @@
+{
+  "voice_id": "qwen-audio-3.0-tts-plus-naturalv2-1f7ec7f819964c1f815606a0d47fe1bc",
+  "synthesis_requests": 6,
+  "instruction": "",
+  "use_unit_delivery": false,
+  "voice_speed": 1,
+  "local_emphasis": false,
+  "master_seconds": 86.32,
+  "master_sha256": "f6cfd81690e94e2a0d1d618a466954b1a2f85f880ef03ea353c932a2e873a213",
+  "identity_similarity": "pending user listening",
+  "basis": "恢复2026-10-24用户偏好B样音的实际请求设置；不同文本尚不能证明同等相似度",
+  "reference": "media/voice-reference/author.mp3",
+  "reference_sha256": "62f402e2548aac5f2fc30760801c110d2a3942e4b829621eb00c89a2d0ee6ed2",
+  "enrollment_reference": {
+    "path": "/Users/herbxu/Desktop/github/youtube/episodes/20260913-企业再融资-增发和发债/media/voice-reference/author-mid28.wav",
+    "sha256": "1ae6bba0c9dcea6b466ce6960dea48676fec7fb4840da965557be893b902f3b5",
+    "source_start_s": 111.05,
+    "source_end_s": 139.1
+  },
+  "historical_candidate": {
+    "record": "/Users/herbxu/Desktop/github/youtube/episodes/20260913-企业再融资-增发和发债/source/voice-candidates/qwen-natural-v1.json",
+    "user_feedback": "B 更合适，可以继续",
+    "actual_instruction": "",
+    "not_current_approval": true
+  }
+}

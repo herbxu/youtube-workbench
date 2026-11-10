@@ -1,0 +1,49 @@
+{
+  "feedback": "作者反馈本期试剪声音发空、发闷，或不像本人",
+  "current_voice_identity_status": "failed",
+  "new_candidate_listening": "preferred_in_comparison",
+  "spoken_text": "为什么有些公司品牌响、产品也好，你买了它的股票却不赚钱？",
+  "reference_source_sha256": "62f402e2548aac5f2fc30760801c110d2a3942e4b829621eb00c89a2d0ee6ed2",
+  "reference_span": [
+    6.78,
+    12.74
+  ],
+  "registered_reference_sha256": "1ae6bba0c9dcea6b466ce6960dea48676fec7fb4840da965557be893b902f3b5",
+  "samples": [
+    {
+      "name": "本人原录音",
+      "source": "原录音节选.wav",
+      "source_sha256": "62212dcdf2bc7f4df2562e0ff36c19eae6654b6f1e353ef0b5a211b8f806b18b",
+      "wav": "0-本人原录音.wav",
+      "gain_db": 8.46,
+      "LUFS": "-21.00",
+      "peak_dBTP": "-1.63"
+    },
+    {
+      "name": "本期表达设置",
+      "source": ".cache/voice-identity-test/14522aa641e0dfe91bfdf2ddca3033597b9d1e71d3a074825b055a5a4695bb18/result.wav",
+      "source_sha256": "a7275575fb14ee5115df10836c7bfa6444f886998137bde13cf07ed45cd079f9",
+      "wav": "1-本期表达设置.wav",
+      "gain_db": 4.87,
+      "LUFS": "-21.01",
+      "peak_dBTP": "-2.21"
+    },
+    {
+      "name": "关闭表达指令",
+      "source": ".cache/voice-identity-test/0db6fb1ad5d3d52111690c9f5b6b19ab956527789211807e20650e8a820da3a2/result.wav",
+      "source_sha256": "30bbbe0e52dbf2ad6e031fe693a9a6a36525fa3512b553d073bd4bbe3954c1ab",
+      "wav": "2-关闭表达指令.wav",
+      "gain_db": 3.74,
+      "LUFS": "-20.99",
+      "peak_dBTP": "-2.75"
+    }
+  ],
+  "user_choice": {
+    "sample": "2-关闭表达指令.wav",
+    "feedback": "第三段更像",
+    "scope": "本期两段试剪",
+    "voice_speed": 1.0,
+    "instruction": "",
+    "use_unit_delivery": false
+  }
+}

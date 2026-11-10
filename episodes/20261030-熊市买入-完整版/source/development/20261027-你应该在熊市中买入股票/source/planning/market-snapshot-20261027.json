@@ -1,0 +1,34 @@
+{
+  "retrieved_at": "2026-10-27",
+  "as_of": "2026-10-27 Hong Kong close",
+  "sources": [
+    {
+      "id": "s-market",
+      "title": "凯基报价页 2026-10-27 16:17 港股指数与52周范围",
+      "url": "https://webcontent.megahubhk.com/Web/KGIbmp/sc/Quote/HKIndicesDetails?code=9696",
+      "date": "2026-10-27",
+      "excerpt": "恒指23041.32、52周最高28056.10；恒科3800.43、52周最高6198.68。高点是该报价页52周范围上限，不是同一日期的收盘高点。"
+    },
+    {
+      "id": "s-market-cross",
+      "title": "信报港股360 2026-10-27 收市指数",
+      "url": "https://stock360.hkej.com/?lang=tc",
+      "date": "2026-10-27",
+      "excerpt": "指数更新10月27日16:08：恒生指数23041.32；恒生科技指数3800.43。用于交叉核对收市点位。"
+    }
+  ],
+  "values": {
+    "hsi_close": 23041.32,
+    "hsi_52week_high": 28056.1,
+    "hstech_close": 3800.43,
+    "hstech_52week_high": 6198.68
+  },
+  "calculation": "(1-close/high)*100",
+  "hsi_drawdown_percent": 17.874116502293614,
+  "hstech_drawdown_percent": 38.689688772448335,
+  "limits": [
+    "52周范围最高值，不是两个指数同日收盘高点；不是年内涨跌幅。",
+    "只用于市场背景，不能证明整体低估或个股买入条件。",
+    "凯基及信报实读交叉核对点位；恒指另与Investing历史表核对。未将搜索摘要作为最终取数依据。"
+  ]
+}

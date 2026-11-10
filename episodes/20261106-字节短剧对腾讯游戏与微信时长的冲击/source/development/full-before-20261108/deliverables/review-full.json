@@ -1,0 +1,58 @@
+{
+  "sha256": "080d143875d04954ab58866936d3bdaddee79a04595aaa7ebb921f3718a1b505",
+  "duration_s": 644.3999999999997,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frame_rate": 30,
+  "rendered_shots": 48,
+  "captions": 295,
+  "machine_checks": "passed",
+  "chapters": [
+    [
+      "红果规模",
+      0.0
+    ],
+    [
+      "长视频",
+      34.84
+    ],
+    [
+      "视频号",
+      78.44
+    ],
+    [
+      "游戏与微信",
+      301.52
+    ],
+    [
+      "投资判断",
+      532.16
+    ]
+  ],
+  "source_logo_rgb_box_xywh": [
+    1652,
+    952,
+    228,
+    112
+  ],
+  "matched_previous_body_logo_ink_iou": {
+    "standalone_cover": 0.9959,
+    "cover": 0.9968,
+    "continuous_cover_to_body": 0.9971,
+    "ledger": 0.9977,
+    "channels": 0.9988,
+    "investment": 0.9948
+  },
+  "cover_exit_checked_framewise_s": [
+    6.6,
+    7.9
+  ],
+  "disclaimer_checked_framewise_s": [
+    0,
+    4
+  ],
+  "approved_trial_audio_and_continuous_take_rejoins": "sample exact",
+  "subjective_full_listening": "pending"
+}

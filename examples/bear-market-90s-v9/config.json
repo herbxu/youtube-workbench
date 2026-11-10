@@ -1,0 +1,68 @@
+{
+  "schema": "opinion-config/v1",
+  "text": {
+    "provider": "openai",
+    "model": "gpt-4.1",
+    "key_env": "OPENAI_API_KEY"
+  },
+  "voice": {
+    "provider": "aliyun",
+    "timeout": 300,
+    "requires_custom_voice": true,
+    "reference_audio": "media/voice-reference/author.mp3",
+    "reference_sha256": "62f402e2548aac5f2fc30760801c110d2a3942e4b829621eb00c89a2d0ee6ed2",
+    "voice_verified": true,
+    "settings": {
+      "voice_id": "qwen-audio-3.0-tts-plus-naturalv2-1f7ec7f819964c1f815606a0d47fe1bc",
+      "service": "aliyun-bailian",
+      "model": "qwen-audio-3.0-tts-plus",
+      "instruction": "",
+      "max_prompt_audio_length": 28,
+      "use_unit_delivery": false
+    },
+    "key_env": "ALIYUN_TTS_API_KEY",
+    "base_url": "https://cn-beijing.maas.qianwenaiapi.com/api/v1"
+  },
+  "alignment": {
+    "provider": "whisper-forced",
+    "model": "small",
+    "allow_download": false,
+    "min_coverage": 0.94,
+    "threads": 4
+  },
+  "image": {
+    "provider": "openai",
+    "model": "gpt-image-1",
+    "key_env": "OPENAI_API_KEY",
+    "size": "1536x1024",
+    "quality": "medium"
+  },
+  "style": {
+    "id": "opinion-explainer/v1",
+    "image_prompt": "仅用于需要原创比喻的局部插画。画面简洁、主体明确、浅纸色与深墨砖红协调。无文字、数字、标志或水印。不生成伪新闻照片，不模仿具体频道人物。",
+    "chapter_navigation": false,
+    "branding": {
+      "asset": "media/branding/channel.svg",
+      "provenance": {
+        "name": "面朝北北",
+        "asset": "resources/branding/mianchao-beibei.svg",
+        "source": "用户2026-10-25提供面朝北北.svg",
+        "original_asset": "episodes/20260913-企业再融资-增发和发债/media/branding/channel.svg",
+        "source_record": "episodes/20260913-企业再融资-增发和发债/source/branding.json",
+        "sha256": "147d07ddada9176d749ec53859148acbb43257a29e3c9350820353b8b8ce3c60",
+        "usage": "封面右下角独立叠加原始SVG，保持比例与路径图形，不重新生成或用文字替代。"
+      }
+    }
+  },
+  "audio": {
+    "lufs": -20,
+    "voice_speed": 0.86
+  },
+  "render": {
+    "fps": 30,
+    "timeout": 3600
+  },
+  "captions": {
+    "punctuation": "none"
+  }
+}

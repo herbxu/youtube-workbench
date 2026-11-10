@@ -1,0 +1,42 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "口播与v4相同，保留真实个人经历、熊市买入主旨和假设限制；没有新增当前行情或真实收益承诺。",
+        "价格200→100、收入维持10，风险段收入10→5；原5%在价格改变时退场。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "74项测试通过，包括非零裁切起点、延后音乐入点、侧链开/关与实际静音区间。",
+        "HyperFrames运行时、布局与对比度错误0，保留6项既有结构提示；动作另以真实浏览器测试验证，CLI motion扫描未启用。",
+        "1920×1080，30fps，实际89.5秒；机器verify通过，音画差0.013625秒，无持续黑场。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "语音和停顿保持缓存复用；音乐入点修复后复用6个已渲染画面片段，只重新混音与封装。",
+        "配乐、视觉、配音、脚本与验收skills同步更新；技能相对文档链接检查通过。"
+      ]
+    }
+  },
+  "warnings": [],
+  "review_bound": true,
+  "movie_sha256": "2cfda3b0470d906f643fcd99c77f8863784cc3b8d355ffa5d0469465d8bdf794",
+  "input_signature": "09d2445c6d73ae314ca53479ec2a4810567cbde15eb473783af86259c744e314",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

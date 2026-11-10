@@ -1,0 +1,21 @@
+{
+  "version": "v5",
+  "feedback": [
+    "音乐单调，没有特点和转换",
+    "PPT感、冗余文字、整页突然出现、没有重点"
+  ],
+  "preserved": "v4人声、文本、停顿与词时间",
+  "changes": {
+    "music": "回忆慢速爵士→算账轻快爵士放克→风险留白→收尾钢琴；转换以口播cue触发",
+    "visuals": "删去模板栏目/大段引文，有限对象逐项进入；旧价计数降为新价，成本条同步减半，收入留在原位；风险段才变为5元",
+    "skills": [
+      "youtube-write",
+      "youtube-media",
+      "youtube-voice",
+      "youtube-visuals",
+      "youtube-produce"
+    ]
+  },
+  "new_tts_requests": 0,
+  "validation": "见本版build与绑定成片hash的review，未听审维度不写通过"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "pending",
+      "evidence": []
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "qa.json"
+      ]
+    },
+    "efficiency": {
+      "status": "pending",
+      "evidence": []
+    }
+  },
+  "warnings": [
+    "book-start：动作后停留较短，检查可读性",
+    "book-start：动作后停留较短，检查可读性",
+    "book-start：动作后停留较短，检查可读性",
+    "contract-stays：动作后停留较短，检查可读性"
+  ],
+  "review_bound": false,
+  "movie_sha256": "fde6dfa25c83e1bdd60dca9a52b9f83e60256e41f93eb5b2c1f994b2f8825956",
+  "input_signature": "a3712bd3d0148d9510075acd45269c899e55ebd63a80bd609db3ef10bfaf6854",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

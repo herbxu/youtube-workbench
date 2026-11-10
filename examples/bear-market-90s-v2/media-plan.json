@@ -1,0 +1,40 @@
+{
+  "schema": "opinion-media-plan/v1",
+  "requests": [
+    {
+      "id": "m-financial-report",
+      "status": "selected",
+      "planned_path": "media/photos/financial-report.jpg",
+      "bindings": [
+        "s-sample-1",
+        "s-opening-question",
+        "s-sample-2",
+        "s-buying-reason",
+        "s-sample-6",
+        "s-closing-action"
+      ],
+      "purpose": "个人记录的情境与持续经营示意，不充当事件证明"
+    },
+    {
+      "id": "m-cafe-service",
+      "status": "selected",
+      "planned_path": "media/footage/cafe-service.mp4",
+      "bindings": [
+        "s-business-footage"
+      ],
+      "purpose": "个人记录的情境与持续经营示意，不充当事件证明"
+    },
+    {
+      "id": "m-business",
+      "status": "selected",
+      "planned_path": "media/photos/business.jpg",
+      "bindings": [
+        "s-sample-3",
+        "s-sample-4",
+        "s-same-income",
+        "s-sample-5"
+      ],
+      "purpose": "个人记录的情境与持续经营示意，不充当事件证明"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "opinion-media-manifest/v1",
+  "assets": [
+    {
+      "id": "financial-report",
+      "type": "image",
+      "path": "media/photos/financial-report.jpg",
+      "author": "Pexels摄影作者（沿用原登记）",
+      "source_url": "https://www.pexels.com/photo/office-desk-with-calculator-and-financial-report-33175669/",
+      "license_name": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "ed402ba1af1e48e84d03a74eb2f98dc4c2c160a30084a77cda094206102619e8",
+      "usage": "illustrative",
+      "modification": "沿用已登记本地素材；画面裁切",
+      "bindings": [
+        "s-sample-1",
+        "s-opening-question",
+        "s-sample-2",
+        "s-buying-reason",
+        "s-sample-6",
+        "s-closing-action"
+      ]
+    },
+    {
+      "id": "cafe-service",
+      "type": "video",
+      "path": "media/footage/cafe-service.mp4",
+      "author": "Thirdman",
+      "source_url": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+      "license_name": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "ab04c5e22db369ec76c0c533230aed344526597afd6534b8b0fc41f66e7b7232",
+      "usage": "illustrative",
+      "modification": "视频静音与裁切；business.jpg提取视频2.5秒画面",
+      "bindings": [
+        "s-business-footage"
+      ]
+    },
+    {
+      "id": "business",
+      "type": "image",
+      "path": "media/photos/business.jpg",
+      "author": "Thirdman",
+      "source_url": "https://www.pexels.com/video/barista-serving-a-coffee-8935798/",
+      "license_name": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "bc6b0c4828fdd18f1ab44e033667e15868237edba5647be95b7fb9efb06637d0",
+      "usage": "illustrative",
+      "modification": "视频静音与裁切；business.jpg提取视频2.5秒画面",
+      "bindings": [
+        "s-sample-3",
+        "s-sample-4",
+        "s-same-income",
+        "s-sample-5"
+      ]
+    }
+  ]
+}

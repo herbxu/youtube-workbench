@@ -1,0 +1,98 @@
+{
+  "machine_checks": "passed",
+  "mode": "final",
+  "duration": 90.80000000000001,
+  "drift_seconds": 1.4210854715202004e-14,
+  "coverage_basis": "reference-constrained timings; independent ASR differences in build/voice-review.json",
+  "minimum_text_coverage": 1.0,
+  "editorial_review": "not_automatically_certified",
+  "visual_review": "inspect frames and movie",
+  "audio_lufs": -21.01,
+  "true_peak_dbfs": -4.01,
+  "black_intervals": [],
+  "visual_qa_reused": false,
+  "exported_paper_edges": [
+    {
+      "time": 16.176000000000002,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 29.999000000000002,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 42.709,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 56.389979,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 70.316979,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    },
+    {
+      "time": 84.61800000000001,
+      "rgb": [
+        243,
+        245,
+        237
+      ],
+      "expected_rgb": [
+        244,
+        244,
+        239
+      ]
+    }
+  ],
+  "frames": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/continuous-90/build/frames",
+  "movie": "/Users/herbxu/Desktop/github/youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/development/continuous-90/deliverables/output.mp4",
+  "movie_sha256": "c914a9bb5329ce578af8f851026bcf23e0b3f01cc297587d093b817f64fabf3b",
+  "input_signature": "bdfc4698c59f7e31c33396c21afcd74f20338b55cffc3a04992e5efa8bc8b353"
+}

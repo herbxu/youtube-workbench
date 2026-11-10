@@ -1,0 +1,524 @@
+{
+  "as_of": "2026-11-06",
+  "revision": "v2",
+  "sources": [
+    {
+      "id": "caijing-oct",
+      "title": "财经杂志：红果月均使用时长超8300亿分钟，短剧创作者赚钱更难了",
+      "date": "2026-10-20",
+      "url": "https://finance.ifeng.com/c/8xN79QUY80P",
+      "type": "财经直接向QuestMobile取得数据并制图",
+      "observation_period": "2026-07/2026-08平均，非完整Q3",
+      "excerpt": "图中红果月人均单日时长151.0分钟；Q3星号脚注注明仅7、8月均值。总量图并未显示微信绝对时长随红果增长同步下降。",
+      "limitations": "第三方监测；非公司审计经营数据，不用月活乘151推算月总时长。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/caijing-total-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/68B02FB90AF0755B379767108C4E9BA9343866AD_size189_w1080_h842.png",
+          "sha256": "bc7046dc59b4be792d51aab4f81388140c6185daae406e53b07f3e8c68a36a54",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/caijing-daily-time.png",
+          "url": "https://x0.ifengimg.com/ucms/2026_43/011EB51EA4AE0202982C14F2C4E2447DBD5DFB66_size190_w1080_h820.png",
+          "sha256": "a673a5a9716b53eee8fb13106080cbe9e29bdeaef1c0b4ef0117594d68cc789b",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "qm-autumn",
+      "title": "QuestMobile 2026中国移动互联网秋季大报告",
+      "date": "2026-11-03",
+      "url": "https://www.questmobile.cn/research/report/2117514373593399298/",
+      "mirror_url": "https://www.36kr.com/p/4053377095390343",
+      "type": "测量机构原报告及授权分发图表",
+      "observation_period": "月活和游戏2026-09；广告2026Q3",
+      "excerpt": "红果App月活42969.48万；手机游戏月人均时长同比行业值+3.5%；互联网广告市场同比+3.1%。",
+      "limitations": "行业平均不代表腾讯；月活不是日活；广告行业估计不是腾讯财报。",
+      "inspected_charts": [
+        {
+          "path": "source/planning/evidence/qm-games-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_4042f3e9be534f0dac0ded0c9406762a%40000000_oswg84424oswg960oswg654_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "65f145bcbef89c287d6f4fb45a107bdc21d43288d9ec2c7a38ad615a2094970a",
+          "usage": "研究核对，未声称已获成片素材许可"
+        },
+        {
+          "path": "source/planning/evidence/qm-growth-september.jpg",
+          "url": "https://img.36krcdn.com/hsossms/20261103/v2_8863d2864da949a88c926cc841e8c7bf%40000000_oswg283346oswg800oswg1904_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1",
+          "sha256": "3dd2a71683b35da8ae77187ff28dc35192565021a4ffc5986d80a369ae3520a3",
+          "usage": "研究核对，未声称已获成片素材许可"
+        }
+      ],
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "wechat-q4",
+      "title": "微短剧小程序激励活动上新",
+      "date": "2026-10-12",
+      "url": "https://lmtw.com/mzw/content/detail/id/258941/keyword_id/-1",
+      "type": "行业媒体转载的微信激励材料",
+      "observation_period": "2026-10-16至2026-12-31政策期",
+      "excerpt": "绿泡泡联合发行和小程序提供收入及流量激励。",
+      "limitations": "未取得微信后台原始规则，正文不引用最高比例、不估算腾讯成本或利润。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "coin-notice",
+      "title": "红果短剧关于计划下线金币功能的公告",
+      "date": "2026-10-21",
+      "url": "https://news.bjd.com.cn/2026/10/21/12003660.shtml",
+      "type": "北京日报完整刊载官方公告",
+      "observation_period": "11月1日新用户，12月底前全体用户，均为公告计划",
+      "excerpt": "计划分阶段取消金币，已有余额权益不受影响。",
+      "limitations": "公告不证明已经完成全面下线；不预设退出后的留存结果。",
+      "accessed_at": "2026-11-06"
+    },
+    {
+      "id": "revenue-denial",
+      "title": "红果否认收入传闻",
+      "date": "2026-10-27",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34344746",
+      "type": "媒体报道官方声明",
+      "excerpt": "官方否认网络收入估算；本稿不使用该收入数值。",
+      "limitations": "只采用声明，不采用该报道的时长数字或泛化的行业统治判断。",
+      "accessed_at": "2026-11-06"
+    }
+  ],
+  "claims": [
+    {
+      "unit": "u-investment-open",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "下调增长溢价而非以流量热度断言利润崩溃"
+        }
+      ],
+      "argument": {
+        "role": "hook",
+        "point": "下调增长溢价而非以流量热度断言利润崩溃",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-scale",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "用近期原图确认使用深度",
+          "source_ids": [
+            "caijing-oct"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "用近期原图确认使用深度",
+        "basis": "caijing-oct",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-recent-size",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "当前规模使竞争成为投资议题",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "当前规模使竞争成为投资议题",
+        "basis": "qm-autumn",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-thesis",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "注意力变化到投资判断的传导顺序"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "注意力变化到投资判断的传导顺序",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-entry",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "情绪消费替代的边际选择"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "情绪消费替代的边际选择",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-loop",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "平台级留存降低重复获客需求"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "平台级留存降低重复获客需求",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-wechat",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "通讯稳定不能保护全部内容价值"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "通讯稳定不能保护全部内容价值",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-ads",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "新增广告供给争夺有限增量预算",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        },
+        {
+          "kind": "fact",
+          "text": "QuestMobile估计2026Q3中国互联网广告市场同比增长3.1%，不是腾讯收入增速",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "新增广告供给争夺有限增量预算",
+        "basis": "qm-autumn",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-ad-pricing",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "时长未流失也可能面临价格与效果压力"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "时长未流失也可能面临价格与效果压力",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-both-sides",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "短剧从广告客户到平台竞争者的条件"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "短剧从广告客户到平台竞争者的条件",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-response",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "当前反击是投入信号而非胜利证明",
+          "source_ids": [
+            "wechat-q4"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "当前反击是投入信号而非胜利证明",
+        "basis": "wechat-q4",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-tradeoff",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "防守投入压低增量回报"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "防守投入压低增量回报",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-quality",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "效果与交易能力是有效抵抗路径"
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "效果与交易能力是有效抵抗路径",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-game-demand",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "游戏按变现和需求分层"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "游戏按变现和需求分层",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-pay",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "新习惯形成比成熟付费更易受影响"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "新习惯形成比成熟付费更易受影响",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-game-counter",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "同期行业反证约束全面衰退判断",
+          "source_ids": [
+            "qm-autumn"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "同期行业反证约束全面衰退判断",
+        "basis": "qm-autumn",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-game-judgment",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "保留现金基础下调新增利润确定性"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "保留现金基础下调新增利润确定性",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-valuation",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "经营变化转成估值依据变化"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "经营变化转成估值依据变化",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-sensitivity",
+      "claims": [
+        {
+          "kind": "hypothetical",
+          "text": "假设算例解释长期增长差异"
+        }
+      ],
+      "argument": {
+        "role": "example",
+        "point": "假设算例解释长期增长差异",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-price",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "价格隐含预期决定投资含义"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "价格隐含预期决定投资含义",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-coins",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "最新补贴退出构成持续性检验",
+          "source_ids": [
+            "coin-notice"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "最新补贴退出构成持续性检验",
+        "basis": "coin-notice",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-coins-quality",
+      "claims": [
+        {
+          "kind": "interpretation",
+          "text": "辨别时长质量而非只看总量"
+        }
+      ],
+      "argument": {
+        "role": "mechanism",
+        "point": "辨别时长质量而非只看总量",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-no-false-revenue",
+      "claims": [
+        {
+          "kind": "fact",
+          "text": "不以未核实财务填充强观点",
+          "source_ids": [
+            "revenue-denial"
+          ]
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "不以未核实财务填充强观点",
+        "basis": "revenue-denial",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-falsify",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "可改变独立结论的经营结果"
+        }
+      ],
+      "argument": {
+        "role": "objection",
+        "point": "可改变独立结论的经营结果",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-conclusion",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "明确投资分歧与结论"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "明确投资分歧与结论",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    },
+    {
+      "unit": "u-ending",
+      "claims": [
+        {
+          "kind": "opinion",
+          "text": "以股东回报收束"
+        }
+      ],
+      "argument": {
+        "role": "conclusion",
+        "point": "以股东回报收束",
+        "basis": "本次独立经营分析；从需求、成本及现金回报推导，不归为历史个人立场。",
+        "boundary": "研究建议；不同业务和变现模式分别判断，不推导当前买卖或目标价。"
+      }
+    }
+  ],
+  "sensitivity_example": {
+    "hypothetical": true,
+    "initial_profit": 100,
+    "years": 10,
+    "growth_rates": [
+      0.1,
+      0.05
+    ],
+    "results": [
+      259.3742460100002,
+      162.8894626777442
+    ],
+    "not": "腾讯预测、现值或目标价"
+  },
+  "character_count": 2866
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c-question",
+    "label": "红果规模",
+    "start": 0.0,
+    "end": 34.96
+  },
+  {
+    "id": "c-longvideo",
+    "label": "长视频",
+    "start": 34.96,
+    "end": 78.56
+  },
+  {
+    "id": "c-channels",
+    "label": "视频号",
+    "start": 78.56,
+    "end": 223.008
+  },
+  {
+    "id": "c-endgame",
+    "label": "短剧终局",
+    "start": 223.008,
+    "end": 346.7780000000001
+  },
+  {
+    "id": "c-game",
+    "label": "游戏与微信",
+    "start": 346.7780000000001,
+    "end": 578.5400000000001
+  },
+  {
+    "id": "c-investment",
+    "label": "投资判断",
+    "start": 578.5400000000001,
+    "end": 625.5
+  }
+]

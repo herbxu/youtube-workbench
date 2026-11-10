@@ -1,0 +1,51 @@
+{
+  "instrumental_only": true,
+  "raw_duration_s": 20.48,
+  "first_processed_duration_s": 23.785791666666668,
+  "opening": {
+    "A": {
+      "duration": 4.66,
+      "low_level_gaps_over_400ms": []
+    },
+    "B": {
+      "duration": 4.11,
+      "low_level_gaps_over_400ms": []
+    }
+  },
+  "full_edited": {
+    "duration": 21.21,
+    "low_level_gaps_over_400ms": [
+      [
+        0.89,
+        1.36
+      ],
+      [
+        4.06,
+        4.48
+      ],
+      [
+        14.7,
+        15.32
+      ]
+    ]
+  },
+  "source_rate_original": 1.0,
+  "source_rate_before_edit": 0.86,
+  "raw_excerpt_s": [
+    5.263166666666667,
+    9.374
+  ],
+  "export_excerpt_s": [
+    4.32,
+    8.98
+  ],
+  "matching": "same words / loudness matched, other processing (mastering/repair/codec) also differs",
+  "reference_original_sha256": "62f402e2548aac5f2fc30760801c110d2a3942e4b829621eb00c89a2d0ee6ed2",
+  "native_speed_preview": {
+    "duration": 18.252542,
+    "sha256": "7c374ff05bb5f45b282c7272afe49834c35ed4d25a5f65cc1f96e0e679caeff1",
+    "machine_checks": "passed",
+    "overlay_continuous_review": "0.00–4.00s",
+    "subjective_voice_review": "pending"
+  }
+}

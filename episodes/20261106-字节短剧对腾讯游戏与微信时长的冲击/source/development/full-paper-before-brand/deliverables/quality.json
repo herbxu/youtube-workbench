@@ -1,0 +1,52 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "pending",
+      "evidence": []
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "qa.json"
+      ]
+    },
+    "efficiency": {
+      "status": "pending",
+      "evidence": []
+    }
+  },
+  "warnings": [
+    "s-video-profit-fact：动作后停留较短，检查可读性",
+    "book-locked：动作后停留较短，检查可读性",
+    "s-profit-scope-b：动作后停留较短，检查可读性",
+    "s-profit-scope-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-defense-decision-b：动作后停留较短，检查可读性",
+    "s-game-profit：动作后停留较短，检查可读性",
+    "s-game-profit：动作后停留较短，检查可读性",
+    "s-game-counter-b：动作后停留较短，检查可读性",
+    "s-game-counter-b：动作后停留较短，检查可读性",
+    "s-wechat-layers：动作后停留较短，检查可读性",
+    "s-wechat-layers：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性",
+    "s-wechat-layers-b：动作后停留较短，检查可读性"
+  ],
+  "review_bound": false,
+  "movie_sha256": "1b529fd21815e331379c93ea7a22620d581b7fa002bfa1c678eb505b294975b9",
+  "input_signature": "ba3cb24116eb001eeda1cf3dc199730df18d703b058f681adcdbf8838d750311",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}

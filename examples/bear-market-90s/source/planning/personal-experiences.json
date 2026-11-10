@@ -1,0 +1,38 @@
+[
+  {
+    "id": "experience-holding",
+    "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+    "period": "2024年之前（原文小节，具体交易日期不补造）",
+    "quote": "没有任何的股市认知，盲目的长期持有。错把长期持有当成价值投资，导致被套，完整穿过了牛熊市",
+    "use": "u-sample-1",
+    "source_id": "s-decisions",
+    "source_sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+    "line": 56,
+    "checked_on": "2026-10-30",
+    "scope": "只选用这段个人记录；未采用相邻账户金额、旧行情、旧估值或仓位计划"
+  },
+  {
+    "id": "experience-oct23",
+    "path": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+    "period": "2026-10-23",
+    "quote": "坚信的理念：一定要在恐慌的时候买入，在贪婪时卖出",
+    "use": "u-sample-2",
+    "source_id": "s-decisions",
+    "source_sha256": "ad7758d0b9d54380f48e83c19b8875e0d183de74a2dd937246ac87328336088f",
+    "line": 42,
+    "checked_on": "2026-10-30",
+    "scope": "只选用这段个人记录；未采用相邻账户金额、旧行情、旧估值或仓位计划"
+  },
+  {
+    "id": "experience-june26",
+    "path": "/Users/herbxu/Desktop/github/trade/附录/2026.06-港股流动性危机下巨额抛售.md",
+    "period": "2026-06-26",
+    "quote": "虽然有点恐慌，但还是没有那么难受，今天做的好的是仅有的一些子弹还在保留着",
+    "use": "u-sample-6",
+    "source_id": "s-june",
+    "source_sha256": "263812b04c2901b0ad803b6e26ae6b5179020f8669a96cbcf97a8c8094290359",
+    "line": 22,
+    "checked_on": "2026-10-30",
+    "scope": "只选用这段个人记录；未采用相邻账户金额、旧行情、旧估值或仓位计划"
+  }
+]

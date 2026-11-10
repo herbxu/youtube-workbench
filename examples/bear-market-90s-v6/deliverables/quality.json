@@ -1,0 +1,40 @@
+{
+  "schema": "opinion-quality/v1",
+  "status": "needs_review",
+  "mode": "final",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "完全保留v5口播和事实/假设边界，未新增行情数据、个人经历或回报承诺。"
+      ]
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": []
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": []
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "74项单元测试通过；validate、doctor与HyperFrames运行时/布局/对比度检查通过。保留既有结构提示，CLI motion扫描未启用，动作由单独浏览器检查。",
+        "实际1920×1080，30fps，89.5秒；音画差0.013625秒，无持续黑场。"
+      ]
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "人声、停顿与对齐缓存复用；重新混音并渲染6个受字体/布局修正影响的镜头。",
+        "youtube-media、youtube-voice、youtube-visuals、youtube-produce技能同步，4个技能校验与相对链接检查通过。"
+      ]
+    }
+  },
+  "warnings": [],
+  "review_bound": true,
+  "movie_sha256": "08c7e3fed0f7a494e4888511a9450c572c9ade24445e1bf476c68297148c9aa1",
+  "input_signature": "66e430bba0f388d27e337702655a96e8f5999ab7d87ec21ef837d328818cbf32",
+  "note": "规则提示不是审美评分；未做听审/连续观看不能自动通过。"
+}
