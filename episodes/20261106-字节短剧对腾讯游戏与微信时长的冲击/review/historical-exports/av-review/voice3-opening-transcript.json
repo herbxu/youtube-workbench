@@ -1,0 +1,594 @@
+{
+  "words": [
+    {
+      "text": "欢",
+      "start": 0.0,
+      "end": 0.24,
+      "probability": 0.5225016474723816
+    },
+    {
+      "text": "迎",
+      "start": 0.24,
+      "end": 0.38,
+      "probability": 0.9997475743293762
+    },
+    {
+      "text": "来",
+      "start": 0.38,
+      "end": 0.46,
+      "probability": 0.9822816848754883
+    },
+    {
+      "text": "到",
+      "start": 0.46,
+      "end": 0.6,
+      "probability": 0.9935824275016785
+    },
+    {
+      "text": "面",
+      "start": 0.6,
+      "end": 0.78,
+      "probability": 0.9798973202705383
+    },
+    {
+      "text": "朝",
+      "start": 0.78,
+      "end": 0.92,
+      "probability": 0.679048478603363
+    },
+    {
+      "text": "北",
+      "start": 0.92,
+      "end": 1.06,
+      "probability": 0.9755170941352844
+    },
+    {
+      "text": "北",
+      "start": 1.06,
+      "end": 1.22,
+      "probability": 0.9220923781394958
+    },
+    {
+      "text": "今天",
+      "start": 1.22,
+      "end": 1.88,
+      "probability": 0.8364992141723633
+    },
+    {
+      "text": "聊",
+      "start": 1.88,
+      "end": 2.14,
+      "probability": 0.9645084738731384
+    },
+    {
+      "text": "聊",
+      "start": 2.14,
+      "end": 2.32,
+      "probability": 0.9692168831825256
+    },
+    {
+      "text": "红",
+      "start": 2.32,
+      "end": 2.52,
+      "probability": 0.6685225367546082
+    },
+    {
+      "text": "果",
+      "start": 2.52,
+      "end": 2.68,
+      "probability": 0.9404262900352478
+    },
+    {
+      "text": "短",
+      "start": 2.68,
+      "end": 2.96,
+      "probability": 0.9971143305301666
+    },
+    {
+      "text": "剧",
+      "start": 2.96,
+      "end": 3.16,
+      "probability": 0.6944233775138855
+    },
+    {
+      "text": "腾",
+      "start": 3.16,
+      "end": 3.82,
+      "probability": 0.7975043058395386
+    },
+    {
+      "text": "讯",
+      "start": 3.82,
+      "end": 4.02,
+      "probability": 0.964394211769104
+    },
+    {
+      "text": "哪",
+      "start": 4.02,
+      "end": 4.34,
+      "probability": 0.7051695585250854
+    },
+    {
+      "text": "块",
+      "start": 4.34,
+      "end": 4.56,
+      "probability": 0.7708765268325806
+    },
+    {
+      "text": "利",
+      "start": 4.56,
+      "end": 4.72,
+      "probability": 0.7411256432533264
+    },
+    {
+      "text": "润",
+      "start": 4.72,
+      "end": 4.88,
+      "probability": 0.9172222912311554
+    },
+    {
+      "text": "追",
+      "start": 4.88,
+      "end": 5.06,
+      "probability": 0.5749375820159912
+    },
+    {
+      "text": "兽",
+      "start": 5.06,
+      "end": 5.2,
+      "probability": 0.638227716088295
+    },
+    {
+      "text": "影",
+      "start": 5.2,
+      "end": 5.38,
+      "probability": 0.9979298114776611
+    },
+    {
+      "text": "响",
+      "start": 5.38,
+      "end": 5.9,
+      "probability": 0.9994935691356659
+    },
+    {
+      "text": "我",
+      "start": 5.9,
+      "end": 6.14,
+      "probability": 0.8604307770729065
+    },
+    {
+      "text": "看",
+      "start": 6.14,
+      "end": 6.32,
+      "probability": 0.9986183643341064
+    },
+    {
+      "text": "字",
+      "start": 6.32,
+      "end": 6.56,
+      "probability": 0.8581311702728271
+    },
+    {
+      "text": "节",
+      "start": 6.56,
+      "end": 6.7,
+      "probability": 0.9854952096939087
+    },
+    {
+      "text": "零",
+      "start": 6.7,
+      "end": 6.84,
+      "probability": 0.6500738710165024
+    },
+    {
+      "text": "跑",
+      "start": 6.84,
+      "end": 7.08,
+      "probability": 0.9762182235717773
+    },
+    {
+      "text": "视",
+      "start": 7.08,
+      "end": 7.5,
+      "probability": 0.8226491212844849
+    },
+    {
+      "text": "频",
+      "start": 7.5,
+      "end": 7.64,
+      "probability": 0.9994401335716248
+    },
+    {
+      "text": "号",
+      "start": 7.64,
+      "end": 7.8,
+      "probability": 0.9219977855682373
+    },
+    {
+      "text": "能",
+      "start": 7.8,
+      "end": 8.02,
+      "probability": 0.9821642637252808
+    },
+    {
+      "text": "守",
+      "start": 8.02,
+      "end": 8.22,
+      "probability": 0.947499692440033
+    },
+    {
+      "text": "住",
+      "start": 8.22,
+      "end": 8.4,
+      "probability": 0.9563452005386353
+    },
+    {
+      "text": "一",
+      "start": 8.4,
+      "end": 8.56,
+      "probability": 0.8275782465934753
+    },
+    {
+      "text": "席",
+      "start": 8.56,
+      "end": 8.78,
+      "probability": 0.9622466564178467
+    },
+    {
+      "text": "先",
+      "start": 8.78,
+      "end": 9.46,
+      "probability": 0.9661539793014526
+    },
+    {
+      "text": "看",
+      "start": 9.46,
+      "end": 9.64,
+      "probability": 0.9985670447349548
+    },
+    {
+      "text": "红",
+      "start": 9.64,
+      "end": 9.86,
+      "probability": 0.994184136390686
+    },
+    {
+      "text": "果",
+      "start": 9.86,
+      "end": 10.02,
+      "probability": 0.999054491519928
+    },
+    {
+      "text": "的",
+      "start": 10.02,
+      "end": 10.12,
+      "probability": 0.9958257675170898
+    },
+    {
+      "text": "规",
+      "start": 10.12,
+      "end": 10.22,
+      "probability": 0.9971741735935211
+    },
+    {
+      "text": "模",
+      "start": 10.22,
+      "end": 10.46,
+      "probability": 0.9956830739974976
+    },
+    {
+      "text": "7",
+      "start": 10.46,
+      "end": 11.02,
+      "probability": 0.8057447075843811
+    },
+    {
+      "text": "月",
+      "start": 11.02,
+      "end": 11.2,
+      "probability": 0.9894802570343018
+    },
+    {
+      "text": "红",
+      "start": 11.2,
+      "end": 11.5,
+      "probability": 0.988040566444397
+    },
+    {
+      "text": "果",
+      "start": 11.5,
+      "end": 11.7,
+      "probability": 0.9981229901313782
+    },
+    {
+      "text": "日",
+      "start": 11.7,
+      "end": 11.88,
+      "probability": 0.9926308393478394
+    },
+    {
+      "text": "活",
+      "start": 11.88,
+      "end": 12.1,
+      "probability": 0.4376697540283203
+    },
+    {
+      "text": "达",
+      "start": 12.1,
+      "end": 12.36,
+      "probability": 0.9941193759441376
+    },
+    {
+      "text": "到",
+      "start": 12.36,
+      "end": 12.54,
+      "probability": 0.9603964686393738
+    },
+    {
+      "text": "1.",
+      "start": 12.54,
+      "end": 12.72,
+      "probability": 0.9761645793914795
+    },
+    {
+      "text": "68",
+      "start": 12.84,
+      "end": 13.0,
+      "probability": 0.967968761920929
+    },
+    {
+      "text": "亿",
+      "start": 13.0,
+      "end": 13.38,
+      "probability": 0.9843041896820068
+    },
+    {
+      "text": "到了",
+      "start": 13.38,
+      "end": 13.74,
+      "probability": 0.9709889888763428
+    },
+    {
+      "text": "9",
+      "start": 13.74,
+      "end": 13.98,
+      "probability": 0.9221177101135254
+    },
+    {
+      "text": "月",
+      "start": 13.98,
+      "end": 14.22,
+      "probability": 0.9939344525337219
+    },
+    {
+      "text": "一个",
+      "start": 14.22,
+      "end": 14.64,
+      "probability": 0.6891202330589294
+    },
+    {
+      "text": "月",
+      "start": 14.64,
+      "end": 14.84,
+      "probability": 0.9984049201011658
+    },
+    {
+      "text": "里",
+      "start": 14.84,
+      "end": 14.98,
+      "probability": 0.9861272573471069
+    },
+    {
+      "text": "用",
+      "start": 14.98,
+      "end": 15.18,
+      "probability": 0.986747145652771
+    },
+    {
+      "text": "过",
+      "start": 15.18,
+      "end": 15.3,
+      "probability": 0.9930930137634277
+    },
+    {
+      "text": "她",
+      "start": 15.3,
+      "end": 15.44,
+      "probability": 0.3612871468067169
+    },
+    {
+      "text": "的人",
+      "start": 15.44,
+      "end": 15.68,
+      "probability": 0.9938427209854126
+    },
+    {
+      "text": "约",
+      "start": 15.68,
+      "end": 16.12,
+      "probability": 0.9566412270069122
+    },
+    {
+      "text": "4.",
+      "start": 16.12,
+      "end": 16.48,
+      "probability": 0.9449467658996582
+    },
+    {
+      "text": "3",
+      "start": 16.62,
+      "end": 16.8,
+      "probability": 0.9767565727233887
+    },
+    {
+      "text": "亿",
+      "start": 16.8,
+      "end": 17.22,
+      "probability": 0.9993678033351898
+    },
+    {
+      "text": "再",
+      "start": 17.22,
+      "end": 17.44,
+      "probability": 0.8357042074203491
+    },
+    {
+      "text": "看",
+      "start": 17.44,
+      "end": 17.6,
+      "probability": 0.9982853531837463
+    },
+    {
+      "text": "时",
+      "start": 17.6,
+      "end": 17.78,
+      "probability": 0.9889577627182007
+    },
+    {
+      "text": "长",
+      "start": 17.78,
+      "end": 17.98,
+      "probability": 0.9665487408638
+    },
+    {
+      "text": "7、",
+      "start": 17.98,
+      "end": 18.48,
+      "probability": 0.6729772090911865
+    },
+    {
+      "text": "8",
+      "start": 18.62,
+      "end": 18.62,
+      "probability": 0.9937587976455688
+    },
+    {
+      "text": "月",
+      "start": 18.62,
+      "end": 18.86,
+      "probability": 0.9867553114891052
+    },
+    {
+      "text": "红",
+      "start": 18.86,
+      "end": 19.28,
+      "probability": 0.9947831630706787
+    },
+    {
+      "text": "果",
+      "start": 19.28,
+      "end": 19.46,
+      "probability": 0.9986485838890076
+    },
+    {
+      "text": "用",
+      "start": 19.46,
+      "end": 19.6,
+      "probability": 0.9919547438621521
+    },
+    {
+      "text": "户",
+      "start": 19.6,
+      "end": 19.76,
+      "probability": 0.9995754957199097
+    },
+    {
+      "text": "的",
+      "start": 19.76,
+      "end": 19.88,
+      "probability": 0.9872698783874512
+    },
+    {
+      "text": "越",
+      "start": 19.88,
+      "end": 20.04,
+      "probability": 0.644985556602478
+    },
+    {
+      "text": "人",
+      "start": 20.04,
+      "end": 20.24,
+      "probability": 0.814116358757019
+    },
+    {
+      "text": "均",
+      "start": 20.24,
+      "end": 20.46,
+      "probability": 0.8530003130435944
+    },
+    {
+      "text": "单",
+      "start": 20.46,
+      "end": 20.64,
+      "probability": 0.9600114822387695
+    },
+    {
+      "text": "日",
+      "start": 20.64,
+      "end": 20.82,
+      "probability": 0.9982424974441528
+    },
+    {
+      "text": "使",
+      "start": 20.82,
+      "end": 20.98,
+      "probability": 0.9934870004653931
+    },
+    {
+      "text": "用",
+      "start": 20.98,
+      "end": 21.1,
+      "probability": 0.9997918009757996
+    },
+    {
+      "text": "时",
+      "start": 21.1,
+      "end": 21.26,
+      "probability": 0.9928433299064636
+    },
+    {
+      "text": "长",
+      "start": 21.26,
+      "end": 21.48,
+      "probability": 0.9897408485412598
+    },
+    {
+      "text": "达",
+      "start": 21.48,
+      "end": 21.74,
+      "probability": 0.9989431202411652
+    },
+    {
+      "text": "到",
+      "start": 21.74,
+      "end": 21.92,
+      "probability": 0.9833971858024597
+    },
+    {
+      "text": "150",
+      "start": 21.92,
+      "end": 22.36,
+      "probability": 0.8137529492378235
+    },
+    {
+      "text": "亿",
+      "start": 22.36,
+      "end": 22.64,
+      "probability": 0.9942491948604584
+    },
+    {
+      "text": "分",
+      "start": 22.64,
+      "end": 22.76,
+      "probability": 0.9866129755973816
+    },
+    {
+      "text": "钟",
+      "start": 22.76,
+      "end": 22.94,
+      "probability": 0.9918392300605774
+    }
+  ],
+  "method": "asr-word-timestamps",
+  "model": "small"
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "正式版采用作者录音。连续场景样片用于验证表现形式，未发现其整版替代正式版的记录。",
+  "evidence": [
+    {
+      "repository": "youtube-workbench",
+      "path": "examples/competition-continuity/brief.json",
+      "sha256": "1210f7bf2c30ff9435ecb6ed88ddbd25da2d72befdbfc2d0010ce70ed351e9e8",
+      "inventory_commit": "5f95241279d23f2ab4a974d0279736b623385b38"
+    }
+  ]
+}

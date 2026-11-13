@@ -1,0 +1,79 @@
+{
+  "movie_sha256": "27748e2d76e1f079ea6f848ba2514ea9d925b92cf04f3aef71b4c501b655c3ad",
+  "input_signature": "c5881997f9ae159195803341b3b115596c2d47d59dcd5588100834280f329f58",
+  "reviewer": "Codex",
+  "checks": {
+    "content": {
+      "status": "passed",
+      "evidence": [
+        "source/full-content-review.json",
+        "source/planning/full-source-verification.json"
+      ],
+      "scope": "核对完整稿主旨、实际trade节选、腾讯研究边界、10月30日市场数据与假设算术。"
+    },
+    "audio": {
+      "status": "pending",
+      "evidence": [
+        "deliverables/qa.json",
+        "build/voice-review.json",
+        "build/voice-performance.json",
+        "source/full-music-plan.json"
+      ],
+      "completed": "原混音母带SHA256保持一致；实际MP4响度-20.03 LUFS、真峰值-3.11 dBFS。免责声明未进入口播文本或配音。",
+      "remaining": "尚未进行完整主观听审，不能据机器结果认证音色、口语自然度或音乐听感。"
+    },
+    "visual": {
+      "status": "pending",
+      "evidence": [
+        "build/viewer-feedback/browser-review.json",
+        "build/viewer-feedback/encoded/segments.json",
+        "build/viewer-feedback/encoded-detail/index.json",
+        "build/viewer-feedback/final-detail-review.json",
+        "build/motion-seek-check.json",
+        "build/box-alignment-check.json",
+        "build/player-check.json"
+      ],
+      "frame_review": "passed",
+      "scope": "对修订镜头按每秒一帧为主检查连续导出画面，重点覆盖开场、问题退场、数值例子递进、两段复盘及结尾；另查动作中间帧、移动碰撞、导航时长比例与完整编号。检查记录区分浏览器截图和实际编码视频帧。",
+      "remaining": "未完成全片实时连续观看；连续抽帧不等于全程观感验收。"
+    },
+    "engineering": {
+      "status": "passed",
+      "evidence": [
+        "deliverables/qa.json",
+        "build/player-check.json"
+      ],
+      "scope": "1920×1080，30fps，622.788秒；无持续黑场，音画时长差0.011585秒；78项Python测试通过，浏览器动作和布局检查另见证据。"
+    },
+    "efficiency": {
+      "status": "passed",
+      "evidence": [
+        "state.json",
+        "build/render-plan.json"
+      ],
+      "scope": "导航修改首轮重渲染全片；二次只重渲染开场、两段复盘与结尾涉及的分段。复用全部原配音、对齐和混音，未新增付费合成。"
+    }
+  },
+  "skills_updated": {
+    "youtube-produce": "开场免责声明只上屏不读；按前后句和连续画面验收，明确机器、抽帧、连续播放和听审的不同范围。",
+    "youtube-voice": "29秒对齐上限；句间实测分割、保留原件、避免重复减速和片尾补静音。",
+    "youtube-media": "完整篇按实际章节安排配乐；循环衍生记录许可、来源及交叉淡化。",
+    "youtube-visuals": "时长导航保留全部编号；旧问题退场；重复例子改变解释任务；原文逐句进入、生产说明留在元数据；检查移动路径与转场中间帧，先让位再进入。"
+  },
+  "viewer_feedback_revision": {
+    "disclaimer": [
+      {
+        "text": "免责声明：仅代表个人观点，不构成任何投资建议。",
+        "start": 0.0,
+        "end": 6.0
+      }
+    ],
+    "voice_master_sha256": "1f9a8952fba760027b0ef9aae9c9fa3adf90cec86ebca876373054ad533d5f65",
+    "audio_mix_sha256": "a383c45f98b8de653e08343e5225530ff4d8a8af59c17df4dfaf25a2537eb268",
+    "playback_file": "output-viewer-v2.mp4",
+    "actual_encoded_frames": "build/viewer-feedback/encoded",
+    "targeted_revision_review": "passed",
+    "full_real_time_watch": false,
+    "full_subjective_listening": false
+  }
+}

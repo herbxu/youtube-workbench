@@ -1,0 +1,25 @@
+{
+  "scope": "v10 记录作者选定手持笔复盘封面方向；v11 延用并去除副标题。最终发布包的成片版本为 finishing-v3，不等于某个 90 秒试剪整版获批。",
+  "evidence": [
+    {
+      "repository": "youtube-workbench",
+      "path": "examples/bear-market-90s-v10/brief.json",
+      "sha256": "4ad473d62a294096cf7fca516c63303a0ff71605c1ce8f392547c07f79e98e98",
+      "inventory_commit": null,
+      "previous_sha256": "ba3d4a7b3dc2df85357a6de44b81b57a3eb9a3b3f2ee345b837a6444fc4cb35e"
+    },
+    {
+      "repository": "youtube-workbench",
+      "path": "examples/bear-market-90s-v11/brief.json",
+      "sha256": "24298663b632ccedd64be296ec5525a7f66c0407f580e44ed96f9e1c1b16ea63",
+      "inventory_commit": null,
+      "previous_sha256": "575cc61e2d911025368bc16e58732e7d8d6820c579a4cd7e7f360d86f3048bab"
+    },
+    {
+      "repository": "youtube",
+      "path": "episodes/20261030-熊市买入-完整版/deliverables/youtube-upload/manifest.json",
+      "sha256": "075ae49186aadace704d43d1dbac20bdd3d90f769d75f42be7ae639c1e9466d4",
+      "inventory_commit": "f6c33e60cd27af02833544f9111c39178fa52685"
+    }
+  ]
+}

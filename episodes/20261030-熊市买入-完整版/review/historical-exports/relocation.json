@@ -1,0 +1,12 @@
+{
+  "from": "youtube/episodes/20261030-熊市买入-完整版/deliverables",
+  "files_sha256_at_move": {
+    "output-finishing-v3.mp4": "08d346e5662869316278c9f3bad39bf68e60ebe16f9f14aa94b713d210b57a28",
+    "output-viewer-v2.mp4": "27748e2d76e1f079ea6f848ba2514ea9d925b92cf04f3aef71b4c501b655c3ad",
+    "navigation-finishing-v3.html": "d3fa3d5d5dab26eb103b9423b9e81b6f83a4d105ef4a2d66780fe5a1c87fe103",
+    "navigation-viewer-v2.html": "b9990cab33069e209fbbd4e8ee474bdf396aed49ec876abe152b46f3d8220724",
+    "7m22-before.wav": "c76dd861bad66377c3c91d2766ceba3f94b0b4e30d2e1b5e9280e86269fbbbe6",
+    "7m22-after.wav": "692da045f1c09b08f2d2e3cb5c873d8229032bb848104e00dcb3b0c79a4c9e46",
+    "review-viewer-v2.json": "cd26992204a46347bcc2b4704d9aa310499931777bd66c123e9f8f22894f5267"
+  }
+}

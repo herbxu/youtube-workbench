@@ -5,7 +5,7 @@
   "reference": "用户提供的一口新饭：为什么我不寻找下一个特斯拉",
   "visual": "有限对象按口播建立关系，价格与收入连续变化、成本条等比例缩短；无整页引文或无关摄影。",
   "audio": "保留v4自有B音色与89.486375秒人声母带；三段音乐与风险留白按叙事cue转换。",
-  "source_episode": "/Users/herbxu/Desktop/github/youtube/episodes/20261030-熊市买入-完整版/source/development/20261027-你应该在熊市中买入股票",
+  "source_episode": "repo:youtube-workbench/episodes/20261030-熊市买入-完整版/source/development/20261027-你应该在熊市中买入股票",
   "revision_status": "v5：回应音乐单调和PPT感，修复延后音乐入点；主观听审与连续观看待验收。",
   "experience_source": "source/planning/personal-experiences.json"
 }

@@ -1,0 +1,24 @@
+{
+  "from": "youtube/episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/deliverables",
+  "files_sha256_at_move": {
+    "approved-opening.mp4": "196ea525eda032df6f7cffbe511c546f292acc63e48786fccc9adcf0f7cd45ea",
+    "av-review/av-samples.mp4": "199f6bc3ea3a40a4da7d07f1e95388ddef922b56a9b5f1a8664424dc649f72dd",
+    "av-review/before-after.jpg": "1e616f1ffcfacbe61fc841afd027c1171781a76bd9d1cd7b1c12650f09eea7b6",
+    "av-review/final-audio-transcript.json": "b31727d0cca8b339caf1869019144b8a4a2ad222ce630be615146433c2ca77f9",
+    "av-review/frames.jpg": "e4daa79a7036324be99be65ca62b5b9764f673bd3612d0684f98a1dfd80a1b93",
+    "av-review/measurements.json": "5569e4da253a2db091d56c7e4653df647a590019eaf44c4c327bf348f2421eae",
+    "av-review/pace-current.mp3": "a44453f5cfaff5237e22feb9131b6993859bdb0e73bb41e3df9a15623ba5d446",
+    "av-review/pace-measurements.json": "c66f208ecb4dc4a775d8ae5864ec33fbea08d9deabd38874502e2cbef468cdae",
+    "av-review/pace-review.md": "4afa8540d4679c95ecd6788b9807a01a7c38c830fbf01e76c62d89fb3af1faed",
+    "av-review/pace-shots.jpg": "c33c3979b7ac796bf4b3de5062512e5613e70b42f8172c818ed649edb4dccc8c",
+    "av-review/pace-trial.mp3": "9f73baf4dc6d10f671be383acb0e66ec37756db1ba413bc1c285cf166726483e",
+    "av-review/tone-current.mp3": "fa771bb7d5be42f38033b089a52ed8062f2394b0488d314e6da146048c469cb4",
+    "av-review/tone-pitch.json": "f3c989a3f60397380448345cae31d8baccb5abd40f202d73ff087172c14cb254",
+    "av-review/tone-trial-transcript.json": "587cec38766864d960a4b3ed0b7329c89f6ea5ce5fa40632c871d8286dc54ccc",
+    "av-review/tone-trial.mp3": "2bb24667722e12ad5c1c974aa87e8d20c0d66e3925169faf84de094cc5187eb7",
+    "av-review/voice-identity-compare.mp3": "d2aae539f98908bea36748c464d4247232f8e188687953d1eb6b3c9a4c8704e7",
+    "av-review/voice3-opening-base.json": "469fdd3804dfccaea160f74cadde86b3903fc817d12cf74c13f2af09f914b240",
+    "av-review/voice3-opening-to-body.mp3": "83b20d0f68c01d80ea1f48fd1eba71261b330a8c471843357ac74a5929eefbf4",
+    "av-review/voice3-opening-transcript.json": "78725ebf4f5bd6e4e5c1a49db0e174a2330ed2263b916976b25defc986f1de63"
+  }
+}

@@ -10,28 +10,28 @@
     {
       "id": "s-philosophy",
       "title": "投资哲学",
-      "url": "/Users/herbxu/Desktop/github/trade/投资哲学.md",
+      "url": "repo:trade/投资哲学.md",
       "date": "2026-10-27",
       "excerpt": "正式原则：低于价值买进、适度分散、现金储备与分批；估值可能很慢或不回归。"
     },
     {
       "id": "s-system",
       "title": "交易系统",
-      "url": "/Users/herbxu/Desktop/github/trade/交易系统.md",
+      "url": "repo:trade/交易系统.md",
       "date": "2026-10-27",
       "excerpt": "正式约束：短期不用的资金，不借钱，适度分散，价格与更新后的内在价值比较。"
     },
     {
       "id": "s-checklist",
       "title": "检查清单",
-      "url": "/Users/herbxu/Desktop/github/trade/检查清单.md",
+      "url": "repo:trade/检查清单.md",
       "date": "2026-10-27",
       "excerpt": "正式约束：不用杠杆，不赌财报，不以大涨题材驱动买入。"
     },
     {
       "id": "s-decisions",
       "title": "决策记录与十月二十三日复盘",
-      "url": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+      "url": "repo:trade/02-复盘/02-决策系统及记录.md",
       "date": "2026-10-23",
       "excerpt": "没有任何的股市认知，盲目的长期持有。错把长期持有当成价值投资，导致被套，完整穿过了牛熊市；2026-10-23：坚信的理念：一定要在恐慌的时候买入，在贪婪时卖出",
       "history_period": "另含2024年之前的历史复盘",
@@ -40,7 +40,7 @@
     {
       "id": "s-june",
       "title": "六月港股复盘",
-      "url": "/Users/herbxu/Desktop/github/trade/附录/2026.06-港股流动性危机下巨额抛售.md",
+      "url": "repo:trade/附录/2026.06-港股流动性危机下巨额抛售.md",
       "date": "2026-06-26",
       "excerpt": "虽然有点恐慌，但还是没有那么难受，今天做的好的是仅有的一些子弹还在保留着",
       "accessed_date": "2026-10-30"
@@ -48,14 +48,14 @@
     {
       "id": "s-tencent",
       "title": "腾讯当前判断",
-      "url": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/README.md",
+      "url": "repo:trade/03-公司研究/01-腾讯控股/README.md",
       "date": "2026-10-27",
       "excerpt": "2026-10-25：研究候选，不足以证明现价有优势；AI回报与股东经济归属仍待验证。"
     },
     {
       "id": "s-tencent-review",
       "title": "腾讯方向校准反方复核",
-      "url": "/Users/herbxu/Desktop/github/trade/03-公司研究/01-腾讯控股/研究记录/2026-10-25-方向校准反方复核-v1/report.md",
+      "url": "repo:trade/03-公司研究/01-腾讯控股/研究记录/2026-10-25-方向校准反方复核-v1/report.md",
       "date": "2026-10-27",
       "excerpt": "保留成熟业务机制支持；新资本回报未知，不以FCF下降直接证明价值毁损，也不自动加回投入。"
     },
@@ -122,7 +122,7 @@
             "tool": "image_gen",
             "prompt_record": "source/journal-cover-generation.json",
             "quote_source_id": "s-decisions",
-            "source_file": "/Users/herbxu/Desktop/github/trade/02-复盘/02-决策系统及记录.md",
+            "source_file": "repo:trade/02-复盘/02-决策系统及记录.md",
             "source_lines": "40–42",
             "quote": "坚信的理念：一定要在恐慌的时候买入，在贪婪时卖出",
             "meaning": "原文节选为真实文字；照片中的手、纸和圈注为情境重构，并非原稿实拍。"

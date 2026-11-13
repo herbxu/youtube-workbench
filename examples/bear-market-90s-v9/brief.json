@@ -5,7 +5,7 @@
   "reference": "用户提供的一口新饭：为什么我不寻找下一个特斯拉",
   "visual": "沿用按口播推进的对象动画；修正卡片与印章内可见字形居中，文字与边框同步旋转缩放。",
   "audio": "整体轻松、放松、温暖成长；同一主题的基础钢琴与丰富编配切换，风险段也保留平和配乐。完全复用v5的人声和停顿。",
-  "source_episode": "/Users/herbxu/Desktop/github/youtube/episodes/20261030-熊市买入-完整版/source/development/20261027-你应该在熊市中买入股票",
+  "source_episode": "repo:youtube-workbench/episodes/20261030-熊市买入-完整版/source/development/20261027-你应该在熊市中买入股票",
   "revision_status": "v9：修复两处文字布局。旧持有卡退场，紧凑同基线关系式居中；恐慌时买入形成完整同基线语义组。沿用v8声音、音乐、封面、logo及其余图解。",
   "experience_source": "source/planning/personal-experiences.json"
 }

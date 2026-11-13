@@ -1,0 +1,18 @@
+{
+  "scope": "选择第四段：24 秒对照的第四段；同一原始录音用于本期开场。不据此判定整版试剪获批。",
+  "evidence": [
+    {
+      "repository": "youtube",
+      "path": "episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/source/channel-template/voice-profile.json",
+      "sha256": "3730c92db7e6d9ddd33f6f33c3f530a2872036ed0567aa7420cbe6215e2da199",
+      "inventory_commit": null,
+      "previous_sha256": "1d2cf1267f03d50bc593684f48f0dbc99058d17babd5b516c67c0db5e2d2be03"
+    },
+    {
+      "repository": "youtube",
+      "path": "episodes/20261106-字节短剧对腾讯游戏与微信时长的冲击/media/channel-template/hook-scale-voice3.wav",
+      "sha256": "fd6b8eb3672d3321a708cc7234d6c308cb53319a9ba834574966f0505c35e6e4",
+      "inventory_commit": "f6c33e60cd27af02833544f9111c39178fa52685"
+    }
+  ]
+}

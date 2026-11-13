@@ -1,0 +1,17 @@
+{
+  "scope": "已确认 B 版作者音色与 0.9 倍语速；早期手写 demo 是形式参考。",
+  "evidence": [
+    {
+      "repository": "youtube",
+      "path": "episodes/20260913-企业再融资-增发和发债/brief.json",
+      "sha256": "609331d34a8d242b1c38285c1003add07d4f745188c386ecf09477d5d6029e76",
+      "inventory_commit": "f6c33e60cd27af02833544f9111c39178fa52685"
+    },
+    {
+      "repository": "youtube",
+      "path": "episodes/20260913-企业再融资-增发和发债/source/planning/full-production-review.json",
+      "sha256": "d39a36bcf1b9cf38baae68b4d1d43be16f2e037f1d250cd446f12e68fcc5bb60",
+      "inventory_commit": "f6c33e60cd27af02833544f9111c39178fa52685"
+    }
+  ]
+}

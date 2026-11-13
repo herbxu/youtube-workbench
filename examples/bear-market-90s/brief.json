@@ -5,7 +5,7 @@
   "reference": "用户提供的一口新饭：为什么我不寻找下一个特斯拉",
   "visual": "新版目标为真实复盘材料与连续机制解释；旧版楼宇、主张卡尚未替换。叙事来源已具备，不把经验材料缺失列为阻塞。",
   "audio": "沿用用户已认可的自有B音色。下一轮先解决逐段表达指令传递并验证实际口播；不继承0.9倍或0.96倍作为新稿默认速度。",
-  "source_episode": "/Users/herbxu/Desktop/github/youtube/episodes/20261030-熊市买入-完整版/source/development/20261027-你应该在熊市中买入股票",
+  "source_episode": "repo:youtube-workbench/episodes/20261030-熊市买入-完整版/source/development/20261027-你应该在熊市中买入股票",
   "revision_status": "口播已补入trade真实经历；未重配音、未重渲染；当前素材与剪辑仍需按复盘改版。现有deliverables是用户拒绝的旧版。",
   "experience_source": "source/planning/personal-experiences.json"
 }
