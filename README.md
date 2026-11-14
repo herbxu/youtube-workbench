@@ -1,4 +1,6 @@
-# 面朝北北 · 制作工作台
+# 面朝北北 · 历史制作工作台
+
+2026-11-14 退役。此仓保留拆仓回退点、版本索引及历史请求状态。日常制作使用独立 youtube-studio 的 produce 命令，作品库按期保存 Markdown 和本机上传成品。以下为旧版目录说明。
 
 episodes/<剧集名>/ 放同一选题的草稿、版本和试听对照；examples/ 放可独立打开的样片。与同级作品库使用相同剧集 ID。制作命令由 [youtube-studio](../youtube-studio/README.md) 提供。
 
